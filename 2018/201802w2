@@ -1,0 +1,72 @@
+我在本周購入了作為自我獎賞的ACER S1003筆電,
+經過初始設定之後,這台機器的效能就它的價位而言確實沒什麼令人好抱怨的.
+我打算再買一個32G的sd卡作為系統備份與還原槽.
+
+不過,當我要開始使用LiveUSB開機的時候,問題就一一浮現了.
+雖然我已讀過不少網路上的教學與github list,我就是沒辦法讓這台筆電使用usb開機.
+
+看樣子每台筆電的BIOS/UEFI設定頁面都有些微但決定性的不同,
+在這些掙扎發生之前,我原本以為可以在4個小時左右搞定.
+但是到現在為止,我仍然在尋找安全的USB開機方法並且灌入Linux系統到這台機器上.
+
+這就是現實的殘酷:我計劃要做的和我實際做到的永遠不一樣.
+練習駕車也是一樣,我少不了要在那台二手舊車上畫出一道道新的刮痕.
+當我學到更好的開車技巧就會同時意會到我過去開得多糟.
+
+這些挫折感會讓我更容易分心,開始逃避原先設定的任務,
+  
+我記得Social Engineer Podcast (episode 58)的一位來賓曾經提到過:
+人的意志力在每一天是有限度的.必須靠睡眠和休息來回復.
+
+或許一些休息與小小獎勵可以讓我度過這一關?
+--------------------------
+I purchased a notebook/laptop (acer s1003) early this week.
+After initial setting process, its performance is quite satisfyingand do worth its price.
+I'm planning to buy a 32G sdcard for backup and rescue image for the win10 system.
+
+However, when I started trying to boot by USB drives,
+the errors showed up immediately.
+
+Though I've read through a lot of tutorials and even github lists, 
+I just cant let this laptop boot frome Linux live USB.
+
+It seems that every laptop's BIOS/UEFI system have small but decisive difference between each other.
+
+Before all the struggle, I thought I could finish it in 4 hours.
+But now I'm still trying safe ways to access to Linux system and hopefully installit in a new partition.
+
+This is the cruel reality: What I planned to do and what Ireally did will never be totally the same.
+
+My driving practice meets the same problem.
+I still made several new scratches to the old used car.
+Every time I learn how to drive better, I'll realize how bad I drove.
+
+The frustration made me vulnerable to the distractions and stop me from moving forward.
+
+I remember a guest of the Social Engineer Podcast (episode 58) mentioned that a person's willpower/concerntration is quite limited.
+
+Maybe some rest and small treat will help me get over all these obstacles.
+------------------------------
+私は今週で自分への褒美としてのパソコン（Acer s1003）を購入しました。
+初期設定を完成した後、その性能表現は確かに値段に相応しい。
+次は３２GBのmicroSDを入手し、バックアップためのファイルを保存する予定です。
+
+でも私がLiveUSBをつかてbootingをはじめとするとき、問題が次々と発生した。
+私は確かにネットで色々な教学文章を見たはずだが、
+このパソコンをUSB　bootingすることがどうにしても出来なかった。
+
+どうやらパソコンのBIOS/UEFI設定はみんな少しちいさくて、そして決定的な違いがある。
+この前には私は4時間で済むことができると思ったが、
+今まで私はまだ安全な方法を探している。
+
+これがげんじつだ：私が計画したものは何時も私が実際にできたことと違っている。
+自動車練習も同じです，私はまたあの旧車に新しいかすり傷を作った。
+以前より優れた技術を習得した突端、私はその前に自分の技術の悪さを知った。
+
+この挫折感は自分の心をよわめになる、そして前にすすむことが出来なくなる。
+
+私はSocial Engineer Podcast (episode 58)のゲストの話したことを思い出した：
+人間の意志力は無限ではない、一日中で休憩や遊びも必要がある。
+
+その休憩と小さな褒美は私に前に進む原動力を与えるでしょうかな。
+
