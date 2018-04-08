@@ -1,0 +1,61 @@
+如果只看各種網誌或官網上的軟體安裝教學,有的人可能會覺得沒什麼大不了的.
+只要按部就班照指示操作便能輕鬆安裝各種資料函式庫與開發環境.
+
+但是事實上不然.
+只有實際在自己的機器上安裝和設定時,才會知道中間有多少出錯的可能性.
+我在三年前完Tesseract + OpenCV的時候就已經深深領教過了.
+這次為了裝OpenPose,我已經碰上不少麻煩.
+作為Depandency的NVIDIA CUDA以及cudnn都牽涉到NVIDIA顯示驅動和lubuntu預設的Nouveau驅動程式衝突的問題.
+網路上從2016年開始就有人反映,但目前我還沒試出可行的方案.
+或許我該寫幾封Email問問看那些成功在Linux上安裝的人究竟是如何辦到的.
+
+在調整飲食之後,我的腰間肥肉確實出現了消退的跡象,不過肌肉並未被損耗掉,
+這個月就繼續這個步調吧.
+
+另外值得一提的是,我花錢的習慣和一般人比起來似乎相當極端.
+我不買飲料和零食,沒在上電影院和pub,衣服鞋子一年只採買個一兩次,
+從來沒出國玩過,這些活動對我而言的價值感都莫名其妙的低,
+這究竟是無欲則剛又或是不積極的象徵呢?
+------------------------
+If someone only read the installation guide from blog posts or officialsites,
+he may consider the job will be a piece of cake---
+Just follow the steps and he can easily install any kind of library and IDE.
+But the truth is not!
+
+Only when someone actually do the installation job will he discover that how many troubles and problems he is going to face.
+I'v learned this lesson three years ago when I played with openCV and Tesseract.
+
+This time, for the OpenPose Project I already got into plentiful of troubles.
+As the dependency of OpenPose, CUDA and cudNN both have problems when being installed on Linux System.
+There's old posts from 2016 that already described the issue.
+But currently I haven't find a solution to fully install the OpenPose.
+Maybe I should write a letter to people who succeeded and ask  them how they made it.
+
+After adjusting my diet, my body fat on the waist did show some signs of decline.
+And my muscle didn't shirk at all.
+I'll keep this pace for the whole April.
+
+I found out that my habit of spending money is quite different from ordinary people.
+I don't buy snake and drinks and never go to the movie theatre or pubs.
+I buy cloths and shoes only once or twice a year. And I never travel abroad. 
+I don't think these kind of consuming behaviors  bring much value.
+I wonder this is so called "No desire is just" or just a inactive way of life?
+----------------------
+ブログや紹介サイトでチュートリアルだけむるなら、色々なLibraryやIDEを簡単にインストールできると思うが。
+実際にしてみれば、”それはただの妄想”という現実を認識するだろ。
+私は三年前でOPENCVとtesseractを勉強した時でこの事実を知った。
+
+今回でOpenPoseを動かすため、私は沢山なBUGと困難を遭遇した。
+今ではもうClonzilaを三回使ってOSを回復した。
+でも私は未だ必要のLibrary：　CUDNNとCUDAを成功に配置していませでした。
+これならいっそインストールを成功した人達にメールを送って見ようか。
+これも一つの方法ですね。
+
+今週で飲食の内容を変えた結果、駄肉は減るの様子が見える。
+でも筋肉の部分は少しも減っていませんでした。
+今月はこの調子で進もう。
+
+私の消費パターンは一般人と比べれば、ちょぅと極端的の方です。
+ドリンクやお菓子を買わない、映画館と居酒屋、PUBなどの場所へ行くまい。
+服と靴は一年で二度ぐらい買う。
+これは”無欲恬淡”か、それども積極性のない生活の表現かな？
