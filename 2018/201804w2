@@ -1,0 +1,46 @@
+在一連串的失敗之後,我總算把CUDA8和cudnn給裝好了,
+只不過接下來的caffe又讓我碰上了許多BUG
+這些不斷變動的函式庫恐怕也是軟體開發者頭痛和陷入進度延宕的原因吧.
+
+但目前只有安裝並且實際測試OpenPose,
+才能驗證他在人體偵測上是否真的能夠達到我想要的品質.
+
+我的構想是利用OpenPose為基礎開發出可以讓3動畫創作者不須購入昂貴器材和套窗軟體便可以進行MotionCapture的服務,
+另一個提案是讓運動者可以在不看者鏡子的情況下校正自己的動作.
+我也有想過使用ARUco的AR Marker來進行人體姿勢捕捉.不過目前還是先專心測試OpenPose吧
+
+下周預定要展開這個月的溪州汽車行程,我事前已經用google街景探勘過三四次的路線.
+希望整趟路程可以順利完成.
+----------------
+After a series of failed attempts,
+I finally installed CUDA8 and cudnn5.1 on Lubuntu17.10.
+However, the following dependency, caffe, gave me  a lot of troubles.
+I never had thought one slight change of directory can cause such huge problem in a system.
+These frequently changing libraries must be a major cause of delay and error of many developing software and systems.
+
+But only by installing and testing OpenPose can I make sure that this system can really achieve the desired quality.
+My concept is to use OpenPose to create a service which allows 3D animators make their animations without purchasing expansive device to capture their motions.
+
+Another plan is to enable the participants  of sports to check their moves instantly without a coach or looking at a mirror.
+I did considered about using arUco's AR markers to track the human body movements, but for now, I'd better focus on OpenPose.
+
+This Sunday I will drive to Khe-Zheu as the next driving test. I already checked the route with google map for a couple times.
+I hope I can complete this trip successfully.
+-------------------------
+失敗を重ねて、私はついにCUDA8とCUDNNを成功にインストールしました。
+でも次の目標～CAFFEをインストールした時は又多いトラブルが発生しました。
+Libraryが何時も変動していることはプログラム開発の進度渋滞の一つ重大な原因だろう。
+
+でも今はOpenPoseをインストールして、そのパフォマンースを検証しなければならない。
+
+私の構想はOpenPoseをもとにして一つのサービスを作る。
+このサービスは３D動画創作者がMotionCapture機材を買わなくでも、動画を作れるようになるものです。
+
+もう一つの構想は運動員の動作と姿勢をスマホンのAPPで検査するサービスです。
+これでコーチを雇っていなくても、徒手トレーニングができるです。
+
+ARUCOを使う構想もあるですが、今わOpenPoseに専念していこう。
+
+来週の日曜日では渓洲への運転練習の予定がある。
+私はすでに三、四回GoogleMapで路線を確認した。
+何の意外もなくて無事に完成したいです。
