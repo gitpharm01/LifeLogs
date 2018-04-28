@@ -1,0 +1,116 @@
+原本看似艱難的目標,在達成以後在回頭看時,似乎就變得沒那麼高不可攀,
+好像是在爬山時,到了山頭向下看的那種心境一樣.
+
+我在一個周日的早上開車前往溪州公園,
+時段故意選在9點左右車還不多的時候,一路上非常順暢,
+雖然有個轉彎路段的路標有些難以辨認,但我還是順利的到達了溪州公園.
+公園內部的造景和花卉種類是一般般,不過規模夠大,花慧能展現數大即美的效果.
+園內的遊客十分稀疏,
+不過11點出頭我準備離開時,停車場已漸漸被停滿,在回程的時候也有不少次於窄巷內和其他人會車.
+
+就整體來看,我的開車技術已漸漸到位,
+這個月的學習目標算是達成了.
+但是在這個階段最容易出現因為分心而造成的失誤和車禍,我必須持續練習以養成安全的開車習慣,特別是要壓制超別人車的衝動.
+
+在開始接觸OPENPOSE時,沒學過CUDA,CUDNN,CAFFE的我感到非常陌生,
+但是在經歷過數次CLONZILA重灌之後,
+我在安裝這些資料庫的過程中也漸漸對他們的功能有了一些概念,到最後終於成功運行了這個資料庫.
+
+但艱難的還在後頭,這個LIBRARY需要C++還有機器學習的相關基礎,我在下個月必須一步步打通這些關節,另外也得找到能夠給予我指導和批評的人士,
+我這幾年獨來獨往慣了,要重新建立聯繫和維持關係變得不是那麼容易,
+只能用最笨的方法,一個門一個門開始敲了.
+
+維持運動習慣真的很重要,
+如果我在退伍後沒有養成這種每周運動的習慣的話,
+身心靈應該早就開始鬆弛退化了吧.
+我對現在的身型和體能感到滿意,接下來就是繼續持之以恆的執行了.
+
+知識管理和時間管理仍然是我重要的課題,或許這會是整個人生最費力但也最有價值的工作吧.
+在我這幾個月的大量閱讀和笨拙的實踐下,不知道有沒有一半以上的知識真的讓我融會貫通了呢?
+--------------------------------------------------
+The goals that seem to be hard to achieve become not so inaccessible when I achieve them.
+It feels like looking down from the summit of a mountain which you thought would be difficult to climb.
+
+I drove my way to Kei-Zheu Park on Sunday morning and depart at 9am, when the traffic was not heavy.
+The way to there was quite smooth.
+Although I almost missed an important waypoint for turning, I still successfully arrived my destination.
+
+The landscape and flowers of the park were quite ordinary, but the scale is large enough to create the beauty of big number and unity.
+There were not much passengers when I arrived.
+When I am about to leave the park, however, the parking lot started to be occupied by incoming cars.
+
+Looking at the whole picture, my driving technique is gradually ripening.
+I achieved the goals of learning of this month.
+But this point is where I may miss and cause accidents due to carelessness.
+I have to keep practicing to develop a safe driving habit.
+Most importantly, suppress the emerging desire to get pass other cars.
+
+I felt quite inexperienced when I start learning OpenPose.
+After reinstalling OS with clonzilla for several times, I started having better understanding of the dependacies like CUDA, cuDNN, and caffe.
+I finally installed the library and made it work on my computer.
+
+Yet there are more challenges to overcom in the following steps.
+Besides, I have to find people who can teach and correct me.
+I'v been solitary for a long time and it wont be easy to restart and maintain a net work.
+My only option would be the stupidest one: Just knock on the potential targets' door one by one.
+
+It's really important to maintain the habit of exercising.
+If I did not have it after I resigned from military service, my body and mind would start degrading many years ago.
+I'm quite satisfied with my current status, so I think I'll just keep this pace.
+
+Knowledge and time management remain my most important task.
+Maybe those will be the most energy-consuming but also most valuable thing in my life.
+During these months of active reading and clumsy practice, I wonder if I really obtained most of the essence of the knowledge I learned. 
+------------------------------------------------
+達成した後、難しいと見えた目標はそんなに難しくないとなる。
+何だが山の頂点にたどり着いた後、そこで見下ろすの時の気分です。
+
+わたしは日曜日の午前九時に出発し、車で渓州公園へ行った。
+その過程はとても順序でした。
+ある転向すべし場所の目印は少し外れところだったが、
+結果は無事に目的地へ到着しました。
+
+公園の造園と花の種類は普通だが、その規模は充分大きいなので、
+大きさの美しさを表現できる。
+
+公園内の観客は少ないでした。
+でも私が公園から離れた時、駐車場にある車はどんどん増えてきた。
+
+全体から見れば、私の運転技術はますます上手になる。
+今月の目標は達成しました。
+このこの段階こそが一番油断しやすいところです。
+練習を続けて安全な運転習慣をつくなければならない。
+
+OpenPoseを始めて接触した際、不案内のLibraryの構造はあんまり分からなかった。
+でも、数回のreinstallの間に、私はこのLibraryの機能を少しずつ分かり始めた。
+そしてついにこのLibraryを成功に稼働させた。
+
+だが、これからはもっと難しい問題が訪れるだろ。
+このLibraryはｃ＋＋及びmachine　learningの関連知識が必要です。
+来月私はそれを入手するべきです。
+そして私に指導と評判をくれる人を探すべしです。
+この数年間の社交の空白は人脈の再構築を難しくなる。
+今は一番愚かな方法で一人ずつ連絡しかない。
+
+運動の習慣を維持すのは重要です。
+もし私が退役した時に毎週運動の習慣を出来なかったら、
+今の私の体と心はすでに退化しているだろう。
+これからはただその習慣を維持し続けるです。
+
+時間と知識の管理は今でも一番重要な課題である。
+これは人生に一番難し、そして一番価値のある仕事だろ。
+この数月間の大量な読書と練習は果たしてその知識を自分の身につけるのか？
+------------------------------------------------
+五月目標:
+1.回顧朗讀心智圖x2趟
+2.上國道一次,到賣場停車場停車兩次,到清水岩一次
+3.學習OpenPose背景知識
+林軒田:Youtube機器學習基石共65小節
+讀懂OpenPose程式碼
+建立基礎pose estimation system (focus on single person)
+4.持續接觸機器視覺與機器學習專業人士
+5.運動維持目前運動量
+plank:2.5min*3 rounds| Core muscle training:5sets*3 times
+6.報稅
+7.寫4篇週記in中英日文
+8.聽英文廣播*16min
