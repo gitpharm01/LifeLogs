@@ -1,0 +1,49 @@
+雖然數學證明和推導仍占很大比例,但整體而言林軒田老師的ML課程影片算是非常親近實務的了.
+他在課程中提示了許多在實務上的地雷,例如自以為是的用人腦去不當簡化原有的假說,還有反過來用過高的維度/複雜度創建模型造成的OVERFITTING.
+在實際下場前能有這些常是是非常有幫助的.
+
+上個禮拜在UBUNTU MATE上面安裝並且測試完了ARUCO資料庫後,
+我開始嘗試建立自己的AR系統,作為人體姿勢辨識的基礎.
+預定是用ECLIPSE作為IDE,接下來應該會像2年前玩OPENCV + TESSERACT一樣,成天和各種ERROR奮戰吧.
+
+這個周六我會展開駕駛學習的最後一站:走高速公路並通過八卦山隧道進入草屯.
+這是今年所有的測試中最長距離的一個,
+我已經先擬定了路線和各個重要的轉彎地標,
+此行如果順利完成,我會把駕駛訓練的分量調降為每周一次,
+把時間用在HUMAN POSE ESTIMATION SYSTEM 上面.
+-----------------------
+Although the difficult mathmatical provemet and derivations of theries have large proportion in the lecture, Dr. Lin's tutorial is still quite practical for real machine learning development.
+He noticed his audiences about many possibly dangerous scenarials while building an algorithm.
+Like over simplification of original hypothesis set by arrogant human "wit", and the abuse of high complexity models which may cause overfitting.
+It's very helpful to have these important concepts in mind befor I really start building my own algorithm.
+
+Last week I installed and tested ArUco library on UbuntuMATE.
+After that, I started trying to build my own AR system as the basis of human pose estimation.
+I'll choose Eclipse as my IDE.
+I think I will start getting overwhelmed by errors from now on.
+
+This Saturaday I'll begin my last goal of driving practice this year, 
+which is entering highway and get pass the Ba-Gua-Shan tunnel to Chaw-Tuen.
+This will be the longest trip of this year.
+I already checked the route and noted landmarks of important waypoint.
+If I succeed in this test, the main goal of my driving practice this year will be achived. And I'll reduce the frequency of driving practice to onece per week.
+S------------------------
+数学理論の推論と証明は林軒田先生のマシンラーニング課程に大部分を占める。
+でも全体から見れば、この講座シリーズはとても実務者向きです。
+先生はその課程の中で色々な”実作する時やりがちのミス”を説明した。
+例えば人脳で不適当な方法でモデルを簡単化すること。
+又はその逆で高すぎるダィメーションでモデルを構築すること。
+
+実作する前にこんな知識を手に入られると、きっと多数のミスを予防できるだろう。
+
+先週で私はUbuntuMATEでARUCO　Libraryをインストールしました、そしてその機能を確認した。
+これからは自分のAR Systemを作って、人体姿勢探測の基礎となる。
+予定のIDEはEclipseです。
+毎日で様々なBugとErrorに苦しめられる日が来るだろう。
+
+この土曜日で私は今年の運転勉強の最後のテスト：高速道路とトンネルの運転に挑戦する。
+これは今までのテストの中では一番長い旅です。
+私はすでに路線と重要な地標を調べた。
+今度のテストをパスしたら、今年の運転についての目標を達成する。
+これからは毎週の運転練習は一回にする。
+時間を他の目標へ投入する。
