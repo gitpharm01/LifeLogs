@@ -1,0 +1,92 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+Click here to enable desktop notifications for Gmail.   Learn more  Hide
+ 
+ 
+More 
+1 of 85
+ 
+COMPLETE
+Inbox
+	x
+HAO SENG
+	
+Attachments5:51 PM (15 hours ago)
+	
+to me
+COMPLETE VER
+Attachments area
+	
+Click here to Reply or Forward
+0.01 GB (0%) of 15 GB used
+Manage
+Terms - Privacy
+Last account activity: 4 days ago
+Details
+	
+	
+
+草屯之行令人意外的順利,且在50分鐘內完成了,
+雖然我在上下交流道時繞到了原本計畫之外的地方,但是在隧道內和高速公路上很成功的用安全的速度近到了正確的車道上,並且到達了目的地.
+接下來就是每週一次的固定練習來維持我的開車習慣和手感了.
+
+另外一個提前完成的任務是林軒田老師的ML基石課程,
+學過這些基礎後要再緊接著進入ML技法的部分,
+我對數學公式的細節仍然不是十分清楚,但是整體的概念和精神似乎是有抓到.
+希望在接下來實際編寫我自己的演算法時能派上用場.
+
+我在ArUco時劑的編程上就不是那麼順利了.
+不論是QT CREATOR或是ECLIPSE都無法成功的把我的試作品編譯起來,
+最後是用了CMake經由Command line的方式才成功.
+
+我在Google play 上面找到了一個用ArUco寫的AR射擊遊戲,
+為了尋找可行的開發環境,我像這位作者發了封Email,希望會有好的結果.
+
+另外,Github上也有一個ArUco官方團隊做的Android app,
+理面有著完整的功能展是,更重要的是它也包含了用Java wrapper包住c++ code的部分.
+這個app的原始碼應該會很有參考的價值.
+-----------------------
+The highway trip to Chao-tuen was surprisingly smooth and completed in 50 minutes.
+Although I had a slight detour before I entered the interchange, my way through the tunnel and highway was very successful and in safe speed range.
+The next task would be basic driving practice once per week. 
+That will maintain my driving skill.
+Another task finished earlier is the “Machine Learning Foundation” course.
+After watching this video series, I’ll continue to the following “Machine Learning Techniques” series.
+The mathematical details are still vague to me, but I seem to catch its overall concepts and principles.
+I hope I can put those things in to use when I’m building my6 own algorithms.
+
+My actual progress on ArUco was not that successful.
+Neither Qt creator nor Eclipse could build my test code.
+In the end I used CMake in command line and finally got it working.
+
+I also found an AR shooting game made from Aruco on Google Play.
+In order to find a feasible developing environment, I sent an email to the author.
+I hope there will be some good result.
+
+By the way, on github there’s an app created by official team of ArUco.
+It contains complete functionality of this library.
+Most importantly, it contains the wrapper classes for the c++ code.
+The source code of this app will be very helpful.
+--------------------------
+草屯への運𤛔テストは意外と順序に、そして早いに五十分?Xで完成しました。
+インターチェンジに入った前には予定と違う道に行ったが、
+トンネルと高速道路?Xの運𤛔は全て正しい車道に沿って、安全なスビードで目標地に到𤥢しました。
+これからは暎週一回で車の運𤛔を練習して、よい運𤛔習慣をつくるです。
+もう一つ予定より早く𠡳んだ任務は林軒田先生の”Machine learning Foundation”教?シリーズです。
+その基礎を?んだ後、私は”Machine learning Technique”に移る。
+??啎Wのフォーミュラにあんまり分かっていないが、大体の原則と理念を?恉eったようだ。
+琔際に自分のAlgorithmを作る時に役に立てる欲しいです。
+ArUcoに亼する開𣊫はそんなに順序ではなかった。
+QT creatorでも、Eclipseでも、私の試作品コードをBUILDできないです。
+最後はCMAKEでCOMMAND Lineに通じてBUILD成功しました。
+私はGooglePlay で一つArUcoを基にして作られたAR シューティングゲーム を見つけた。
+琔際に稼動できる開𣊫環境を求めるため、私はその作者にメールをかけた。
+よい返事を貰いたいです。
+
+Githubに一つAruco開𣊫チームが作ったAndroid appはある。
+そのAppはArucoの全ての機能を展示することが出?Sる。
+そしてｃ++コードをWrapできるJava wrapperも含めている。
+このAPPのSource code参考としての価値があるあると思います。
