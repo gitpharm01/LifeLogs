@@ -1,0 +1,60 @@
+雖然我盡可能用扼要的方式介紹我的計畫並提出目前的問題,
+但是我上週發出的Email可說是毫無收穫可言.
+
+林軒田老師表示他對電腦視覺領域並沒有研究,無法提供完善的意見.
+但我過去在學OpenCV時所有的教學材料都把這個問題歸類在機器學習底下,
+大概是我中間搞錯了什麼吧(笑)
+至於王思恆醫師的部分至今仍沒有回應.
+
+看來我到頭來還是只能靠自己.
+
+我在影像的預處理上的確有所斬獲,
+現在我能夠用消除背景的方式切出一個人的剪影,
+如果能夠對這個剪影做KeypointDetection,顯然會比較有效率且準確.
+由於OpenCV的Machine Learning模組有許多缺漏(很多contrib的ML模組需要授權與費用)
+我決定挑戰Tensorflow,將他和OpenCV/ArUco結合,創造出我自己的Algorithm.
+
+我把最關鍵的技術和知識把持在自己手上,靠自己的力量創建WeARFit的基石,
+這樣在未來打造團隊的時候才有更大的談判空間.
+----------------------
+In my E-mails I did my best to explain my project and problems in a simple way.
+But the result was fruitless.
+
+Dr Lin replied to me that he never set foot in the field of computer vision and can't provide good advice.
+However, when I was learning openCV, all the tutorials I used would call it a Machine Learning problem.
+Maybe I got it wrong?
+As for  the Dr. Wang, I still got no respond.
+
+In the end I still have to count on myself.
+
+I did make some progress in pre-processing images.
+Now I can remove the background and extract only the image of a person.
+If I can directly detect keypoints of human body parts on this image, the process will be more efficient and precise.
+
+Due to the lack of machine learning modules(many contrib modules are not free to use!)
+I decided to challenge tensorflow and combine it with opencv/aruco and create my own algorithm.
+
+By doing this, I gain control of the most crucial technology and knowledge.
+I create the foundation of WeARFit with my own power.
+In this way, I may be at higher ground when I'm finding team members.
+-------------------
+私はできる限りWeARFit計画を説明した、そして今の問題を提出した。
+でも私が先週で送ったe-mailは何の収穫を貰わなかった。
+林軒田先生は”自分が電脳視覚についての研究は全くいないので、良い意見を提供することができない”と返事をした。
+
+昔私がOPENCVを勉強していた時、教材は皆この問題をmachine　learningに分類した。
+これは多分私が何かに勘違いしているかな？(笑)
+王思恆先生の方は今でも返事はない。
+
+どうやら頼られるのは私自分自身だけです。
+
+影像の先期処理について、私は確かに成果を出来た。
+今私は背景を削除して、人体しかいる映像を抽出することができる。
+この抽出した影像に人体のKeypoint探知を行うなら、きっと効率的な、そして正しい成果を得るだろう。
+
+OpenCVのmachine　learning　Moduleには欠損が多いので、私はTensorflowに挑戦する。
+これを使って自分のalgorithmを作る。
+
+こうやって私は一番肝心な技術と知識を自分の手で掴む。
+自分の力でWeARFitの基礎を構築する。
+そうすれば、未来でチームメンバーを探すときはもっと有利な立場をもつです。
