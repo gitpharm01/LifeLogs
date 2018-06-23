@@ -1,0 +1,74 @@
+在上周末我成功的安裝了GPU版本的Tensorflow1u,並且順利驗證了他的功能.
+之前安裝openpose/cuda/cudnn/caffe的經驗對我有很大的幫助.
+
+雖然我想要用熟悉的c++做為開發語言,
+但是由於Tensorflow的c++ api並不完善,文件教學也不夠多,
+因此我現在等於要同時學習Tensorflow的結構與python的語法
+
+python這種腳本語言和c++的運行與語法風格有很大的不同,
+好在我之前有過javascript的經驗,而且我使用的IDE---Pycharm也幫助我及時改正許多語法錯誤.
+
+現在我已經大致學習到tensorflow的基本資料架構和輸入/輸出功能,
+由於它是熱門的領域,網路上的教學資源不論是影片或文章都很豐富.
+
+Tensorflow可用的機器學習演算法非常多,
+我看過用它實作svm,knn的例子,當然還有最熱門的DNN,RNN的專題.
+我打算在學完基本功之後先試著實作SVM的幾個衍生型,接下來再嘗試需要長時間訓練的DNN.
+
+WeARFit的人體姿勢辨識環境其實非常單純,如果演算成本低而且結果夠準確,
+就是最適合的演算法,沒必要為了追求完美去搞太複雜又成本高昂的模型.
+
+這個六月已經快要過完,但是我在建立聯絡人的工作方面仍然落後.
+我必須再次地與可能對這個計畫有興趣的人進行接觸.
+
+我目前暫定的重要工作:
+1.完成WeARFit系統的原型作為prove of concept
+2.找到可能的投資者/工作團隊
+3.證明WeARFit的商業模式和制定實務上的執行方法.
+---------------------------
+On last weekend I installed GPU version of tensorflow and successfully validated its functions.
+The experience in installing openpose/cuda/cudnn/caffe helped me a lot.
+Though I wanted to use c++, which I am familiar with, as the programming language.
+Due to the incomplete support of c++ API in Tensorflow, 
+I have to learn the structure of tensorflow and python simutaneously.
+
+As a script language, python differ from C++ a lot.
+Its fortunate that I had experience in javascript and the IDE I'm using now (pycharm) helped me pick up many errors.
+
+Now I've learned the basic structure of tensorflow and its input/output mechanism.
+Since tensorflow is quite popular, there's plentful of advanced tutorials about it.
+I don't have to worry about the learning materials.
+
+The available algorithms of tensorflow are also aboundant.
+I've seem examples of SVM, KNN, and the most popular CNN.
+I am planning to practice several types of SVM after I learn the foundamental things of tensorflow.
+After playing wiht SVMs, I'll try the time consumeing DNNs.
+
+The Human Pose estimation enviroment of WeARFit are quite simple.
+If a algorithm model's computational cost is low enough, and its precision is good, then it will be the best model.
+There's no need to chase ager some fancy model which cost too much.
+
+This June is almost over, but my progress in setting up a core human network is still miserable.
+I need to keep reaching out.
+---------------------------
+私は先週でGPUヴァージョンのTensorflowをインストールし、そしてその機能を検証した。
+前でOpenPose/CUDA/CUDNN/CAFFEについての経験は役に立てた。
+C++で開発したかったが、Tensorflowのｃ＋＋APIは不完全でBuildも難しいなので、結局はPythonでやっあ。
+今は同時にTensorflowとPythonを勉強しなければならない。
+
+ScriptLanguageとしてのPythonあC++とは大きな差別がある。
+でも私にはJavaScriptの経験がある、そして私が使っているIDE－pycharmは即時にプログランの誤りを見つけ出す。
+これで開発は行なわれる。
+今私はTensorflowの基本的なData構造とINPUT/OUTPUT機能を理解した。
+Tensorflowはとても人気があるものから、インターネットで様々な教学材料はある。
+
+Tensorflowが実作できるalgorithmの種類は多いです。
+私はSVM、KNN、そしてDNNの例を見たことある。
+基本をしっかり勉強したあと、私は先ずSVMの派生形をためしてみる、そして訓練時間が長いDNNを挑戦する。
+
+WeARFitの人体姿勢探知の運行環境はすごく単純です。
+もし計算Costは低い、そして探知の精度が充分に高いなら、最適なモデルになれる。
+高いCostがかかる完全なalgorithm　MODELを求める必要がない。
+
+六月はもうすぐおわる、でも顧問探しの仕事はいま何の成果もない。
+私はまた可能の人物を接触するです。
