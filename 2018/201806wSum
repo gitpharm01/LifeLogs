@@ -1,0 +1,73 @@
+tensorflow的架構自由度非常高,
+我在按照<<Tensorflow cookbook>>的範例實作各種模型時可以選用不同的LossFunction和Input/Output種類.
+不論是回歸分析或是分類問題都可用類似的結構去完成,
+只要設定相對應的LossFunction,最佳化的方法,以及Input/output的格式,就可以實現各種模型.
+
+我在實作過程也體驗到了之前ML教程中描述的各種情境,
+取樣的比例和均勻度是如此重要,居然能讓運算的最終結果有天壤之別,
+用python實際作圖呈現svm的gamma值與overfitting的相關性印證了課程中推導的理論和公式.
+MachineLearning確實是們需要大量實做才能了解的學問.
+
+我目前已經實做了幾個CNN,用在文字的辨識上,
+對於如何建立Fully connected/convolutional/activation/pooling這四類的神經網路有了基本的認識.
+
+另外我也把tensorflow版本的openpose程式碼抓了下來,並且把我認為最關鍵的部分印出來,
+試著了解openpose的網路結構.
+
+本月份的任務執行在知識與技術面上都有很大的進展,
+另外在身體鍛鍊的方面,使用了不同的徒手訓練動作確實讓我的全身肌肉組成更加健全.
+然而最關鍵的'人際關係'方面則是完全相反,我毫無得到任何實質上的收穫,
+Loosers can't be the choosers,我必須把WeARFit的基本雛形建立起來證明我的構想,
+並且找出一個能夠達成目標的團隊.
+-------------------------------
+The machine learning infrastructure of tensorlfow is highly flexible.
+When I was implementing models from <<Tensorflow Cookbook>>, I could choose from all kinds of loss functions and Input/Output formats.
+Regression and classification  can be done with similar archetechture as long as I set the corresponding loss functions and optimiztation methods.
+
+While practicing, I experienced the thing described in the ML tutorials,
+The batch size and its ramdomness are so important that  they can make final result totally different.
+Plotting with python showed the Gamma values' importance in controlling overfitting of a SVM model.
+
+The Machine learning is indeed an area that requires a lot of practice.
+
+Now I've implemented several CNNs on recognition of hand written digits.
+And I gained some basic knowledge of the four types of neural network layers:Fully connected/Convolutional/Activation/Pooling.
+I also downloaded tensorflow version of openpose source code and printed the most crucial parts.
+I'll try to understand its structure.
+
+The execution of plans in June had good progress on knowlege and skills.
+In the aspect of physical training, I tried different moves and they did make my muscle composition more balanced.
+However, I totally failed in networking.
+There's still no available social connections I can utilize.
+Loosers can't be the choosers, I must build up the prototype of WeARFit system to prove my concept and build up a team which can achive our goals.
+-------------------------------
+Tensorflowのマシンラーニング構造の自由度はかなり高いです。
+私が＜＜Tensorflow　Cookbook＞＞に沿って色々なモデルを実作する時は様々なLossFunctionとINPUT、Outputを選択できる。
+Regressionも、分類問題も同じ構造のPythonCodeで実現できる。
+その対応のLossFunctionと最適化方法を選べばモデルを実作できる。
+
+練習の間で私はマシンラーニング課程が述べた状況を体験した。
+サンプルのBatch　SizeとRandomnessはこんなに重大な影響力が持つ、少しの変化で全然違う計算結果を出る。
+Pythonで結果を視覚化とすれば、SVMのGAMMA値とoverfittingとの関係は明白になる。
+マシンラーニングは確かに大量な経験が掛かる学問です。
+
+私はすでに複数のCNNを実作した、そのCNNは数字の認識ができる。
+Fully connnected/convolutional/activation/poolingこの4種類の神経層をどうやって構築すことを少しわかりました。
+
+私はTensorflow版のOpenPoseのSourceCodeをダウンロードした。
+そしてその一番重要な部分を紙でプリントした。
+これからはOpenPoseの構造をもっと詳しく調べる。
+
+本月の任務遂行は知識と技術の方面で大きな成果がある。
+体の鍛錬について、新しい訓練動作は私の筋肉構成をもっと健全にする。
+だが一番肝心な”人脈作り”の方面では何の収穫もなかった。
+
+Loosers Can't　Be the　Choosers。私はWeARFitの基本構造を完成させるべきです、そして頼りになるメンバーを探す。
+---------------------------------
+七月目標
+1.完成WeARFit基礎功能(人體keypoint辨識,姿勢辨識)
+2.閱讀<<創業投資聖經>> <<google創投認證>>
+3.每週練車一次
+4.運動每週3次30分鐘,嘗試新的訓練動作
+5.寫四篇週記in中英日文
+6.聽英文廣播x16hr
