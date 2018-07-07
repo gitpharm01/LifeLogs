@@ -1,0 +1,73 @@
+這周我探索了不少Tensorflow上的神經網路模型,
+首先是以速度和精準度著稱的MaskRCNN,他的output是分割且分類過的圖像區域,
+非常適合我現在的目標:
+
+不需要求出完美的人體骨架,只要分析出影像中人體各種部位所佔的區塊,
+這個區塊格式的output內含更加完整的人體姿勢相關資訊,
+當用戶端用手機送出這個output的同時再把含有時間參數的數值一起加入output封包內,
+接下來再由Server端收取這個含有完整時空資料的封包,針對目前應該進行的標準動作進行比對.
+如此一來便能消除資料串送流程造成的時間誤差,同時得到更高精度的姿勢比對結果.
+
+然而我再安裝MaskRCNN的時候出了點小差錯,把原本的tensorflow安裝給搞壞了,
+我在重灌的同時發現了另一個選項:mobilene,他是一個新的network骨架
+在tensorflow版本的openpose當中,作者用了mobilenet的seperable convolution network來改裝原本的神經層,
+大幅度的增加了運算速度,更幸運的是Mobilenet有可供下載的模組和check point,
+我在經歷了一段除錯的過程後成功的實行了即時的Webcam影像分析,這給了我很大的鼓勵,
+另外我還發現了一些專門產生圖片標籤檔的程式和相關的教學,
+我上週末還在傻傻的是做一個簡單版的標籤程式,這下子進度應該會更加順利吧.
+
+經歷了這幾周的找人過程,我決定把聯絡的目標鎖定Google,
+WeARFit的副產品就是大量的人體影像和動作資料,而且會帶來更大量的廣告收入,
+身為廣告平台和AI領域龍頭的google應該會對這個計畫有興趣.
+--------------
+I've explored many neural network models on tensorflow.
+The first one which caught my attension was MaskRCNN.
+Its output is by default a image of segmented areas, which is very suitable for my current goal:
+
+Instead of finding the precise human keypoints locally, 
+we obtain the segmented heatmap of all human body parts from the image.
+This output will contain much more information of the body pose. When the user send out the output package to the server,
+it will be labeld with time information.
+With the complete chrono and spatial data feed, the server will be able to execute accurate real-time "movement" evaluation.
+It also can avoid the interference of the lag caused by bad internet connection.
+
+Unfortunatly, I made some mistake while insatlling MaskRCNN and broke my tensorflow insatllation.
+When I was reinstalling the system, I discovered another option: Mobilenet. 
+It's a new backbone of neural networks.
+In the tensorflow version of openpose, the creator used seperable convolution network from mobilenet to reframe the original structure.
+The detection speed was significantly boosted while the acccuracy still remain good.
+It's very lucky to have vailable model and checkpoints of the lattest version of mobilenet v2.
+
+After a short period of debugging, I successfully created a real-time object detection application.
+This result gave me a lot of hope.
+I also found several labeling tools for preprocessing data.
+This will speed up the development process a lot.
+
+I decided to set the contact target on Google.
+Since WeARFit will generate lots of data and create intense advertisement income.
+This projet's traits can fit into Google and I think they will be interested in this project.
+---------------------
+私は今週で色々なTensorflowのneural networkのモデルを調べた。
+先ずは速度と精度が高いMaskRCNN、これはInstance　Segmentationなので同時に分類と空間探知ができる。
+このようなOutputは私の目標と一致するです。
+
+私の目標は完全な人体骨格図像を計算しない。
+だだその影像の中にある各肢体の区域を探知すればいい、このOutputはもっと完全な人体姿勢に関する情報を含む。
+使用者がこのOutputをServerへ送る同時に動作時間の情報も送る。
+Serverはこの完全な時空データを分析する。
+これでインターネットのLagによって発生した誤算を防ぐ、そしてこうせいどの結果を得る。
+
+だが私がMaskRCNNをインストール際、Tensorflowを壊した。
+全システムをreinstallしていた時に、私はもう一つのモデル～Mobilenetを見つけた。
+Tensorflow版のOpenPoseで作者はMobilenetのSeparable　Convolution　Layerで元の構造を改装した。
+そして大幅な計算速度の上昇という結果を得た。
+Mobilenetはすでに訓練済みのModelとCheckPointがある。
+
+わたしはすこしDebuggingの後、成功にREAL-Timeの物体探知システムを作った。
+私はこの結果に随分励まされた。
+
+ちなみに私は影像にLabel付ける専門のソフトウェアも見つけた、これで開発の進度はもっと順序になるだろう。
+
+この数週間の人探しの過程を経験した後、私は目標をGoogleに移ると決意した。
+WeARFitは大量な動作データを作る、そして高い価値のある広告機会を作る。
+Googleはこの二つの特性に興味が持つだろう。
