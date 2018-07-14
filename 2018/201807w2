@@ -1,0 +1,69 @@
+我在WeARFit的人體姿勢辨識系統的開發上繞了一個非常大的圈,
+七天前我還在嘗試Segmentation,
+但是很快的我發現Tensorflow版本的openpose在適當的參數下已經可以提供足夠的速度.
+在我的PC上可以用8FPS來運行,判讀的結果也大致穩定.
+
+至於Webcam的畫面擷取誤差問題,在使用了一些OpenCV的小技巧,
+排空積存的過時畫面後,我可以得到及時的畫面和人體骨架.
+這樣一來WeARFit的基礎辨識引擎算是準備好了.
+
+為了接下來的動作辨識,我大幅度的改造了原本的程式,
+首先是建立了一個以Console為介面的互動功能,它能夠執行動作開始的預告倒數和訊息回饋.
+未來在手機上移植時,這個系統可以直接切換成TextToSpeech的形式,
+不再使用攝影機畫面的Feedback以節省電力和運算資源.
+
+另外就是人體骨架資料的儲存和讀取,
+為了建立各種動作的標準骨架資料,我必須統計各種姿勢和動作的座標值已訂出標準範圍.
+我首先嘗試了Yaml但是在讀取時碰上了麻煩,
+在採用了python的pickle資料庫後成功用二進位檔形式儲存和讀取.
+並且重現了正確的人體骨架圖.
+
+WeARFit的雛型已越來越完整,我接下來要研究的是Google和Apple的內部有哪些人會對這個計畫有興趣,
+GoogleVenture,AppleStore,Google Play,另外還有Tensorflow的開發團隊都或許是可能的對象.
+-----------------------------------
+I ran into a rabbit hole when I was developing the human pose estimation system for the WeARFit project.
+Seven days ago I was still trying to learn the segmentation system. 
+Now I switch back to openpose with mobilenet backbone.
+I found that mobilenet version of openpose can deliver enough Fps under a certain parameters.
+On my PC I can get 8Fps and the estimation results were stable enough.
+
+As for the lag of webcam frames, I solved it by applying a little trick which dumps the outdated frams.
+Now I can acquire truely real-time image and its corresponding human keypoints.
+With this system done, the basic engine of WeARFit is ready for the next step.
+
+For the next stage of development, I rewrite the original programs of the tf-openpose.
+First I made a console-based interface, providing simple message and countdown function.
+Wen being transplated to smartphone platforms, it can be easily turned in to TTS format and the video output will be no longer needed.
+
+Another issue is the storage and loading of human keypoint datasets.
+In order to build up a standard movement and pose dataset, I have to calculate the coordinates of these movements and poses.
+I tried YAML first but got troubles when reading it.
+After parsing the data into .pkl files with the pickle module,
+I can reload a set of keypoint Data and draw correct kepoint on the screen.
+
+The prototype of WeARFit is getting more and more completed.
+The next thing to consider is "In the Google and Apple, who would be interested in this project?"
+Google venture, Apple Store, Google Play, and the develop team of tensorflow are all the possible targets.
+----------------------------------
+WeARFitの人体姿勢探知システムの開発はちょっと回りくどい過程になった。
+㏦まえで私はまだ”Segmentation”を試していたが、
+Tensorflow版のOpenPoseは適当な条件の下で充分高いFpsを得ることができるという事実を知ったあと、
+私はすぐにOpenPoseに切り替えして、次の開発段階を向かった。
+
+デジカメらの画面のLag問題は一つのOpenCVのテクニックで解決した。
+今私はリアルタイムの画面とその中にある人体Keypointを取得できる。
+これでWeARFitの基本は遂に完成しました。
+
+動作探知システムを作るため、わたしは元のプログランに大幅な改造を行われた。
+まずは文字Consoleのインタフェースを作った。
+このインタフェースはカウントダウンと使用者へのメッセージを示す機能を持っている。
+スマホンに移植する際、このシステムは直接にTextToSpeechの形に改装する。
+これでヴィデオのFeedbackはもう必要がない、電力と計算Costをダウン。 
+
+もう一つは人体Keypointデータの保存と読み込むことです。
+各動作の標準範囲を定めるため、その動作の人体Keypointの座標を計算する必要がある。
+私は最初でYamlをためした、でもデータを読み込む時にErrorが発生した。
+Pickleを使ってｐｋｌファイルに保存したデータの方は無事に読み込めた、そして正確な人体姿勢を再現できる。
+
+WeARFitのPrototypeは益々完備になる。
+これからは”AppleとGoogleのなかでの誰かがこの計画にきょみをもつ”をいう問題を考えることです。        
