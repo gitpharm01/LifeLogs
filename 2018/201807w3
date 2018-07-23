@@ -1,0 +1,49 @@
+最基礎的靜態Pose Varification已經完成了,
+我可以即時的判定現在的動作是否是預設的目標姿勢.
+判定的程式不是什麼複雜的ML Algorithm,
+只是一個由二百個PoseSample得出的平均值和標準差所構成的邏輯判斷框架而已.
+由文字console來顯示姿勢判讀的結果.
+
+然而當我嘗試更進一步的"動作判讀"時,卻在非常低層次的地方陷入了死胡同,
+在抽出樣本資料的時候,我老是找不出適當的迴圈架構來取值,
+用來收納資料的List結構也老是出錯.
+我在這個階段卡了整整五天,花了將近10個小時,挫折真是源源不絕.
+
+為了避免陷入更久的延宕,我決定要提早展開連絡的工作,先錄製一段展示的影片上傳到Youtube
+內容包含console的輸出和WebCam的即時畫面,
+接觸的對象包括Tensorflow.js/poseNet的作者與GoogleAI團隊,我想先用這個簡單的作品來引起他們的興趣.
+再進一步試探他們是否有意願加入WeARFit或是認識其他可能的人選.
+-----------------------
+The most basic pose verification system is ready.
+I can now verify my pose in realtime.
+The verification program was nothing fancy.
+It's just a logic switch made frome mean values and stds of 200 sample frames.
+And the Text console shows the verification result in real-time.
+
+However, when I was trying the movement verification part, I got stucked in a very low-level issue.
+When I was extracting data from samples, I always couldent find a suitable loop structure to assign the value and the list structures always cause errors.
+I've been in this rabbit hole for 5 days and spent 10hours on it.
+The frustration was endless.
+
+In order to avoid further delay, I decided to start contacting first.
+I'll record a short video clip and upload it to youtube. 
+The clip will contain console output and the real-time image of the webcam.
+
+The targets to contact include the author of tensorflow.js and the GoogleAI team.
+I want to attract their attention with this simple program and then ask about their opinion of WeARFit project.
+------------------------------
+基本的なPoseVarificationシステムは完成しました。
+私は即時にカメラに映る人体の姿勢を判定することができる。
+そのシステムは複雑なマシンラーニングalgorithmではなく、
+ただ標準値によるのロジク判断プログランです。
+その判断の結果は文字Consoleに示す。
+
+だがわたしが動作の判定を試していたところに、とても低いレベルの問題に閉じ込めた。
+サンプルからデータを抽出するとき、私はいつも適当なLoop構造を見つからん。
+データを保存するListはいつもエラーが発生している。
+私はこの段階で五日止まっていた、十時間以上の時を掛かって、失敗は絶えずでした。
+
+これ以上の遅延を避けるため、私は連絡の工作を早めに始めると決めた。
+私は今の成果をヴィデオDemoの形にきろくし、そしてYoutubeにUploadする。
+接触の目標はTensorflow.ｊｓの作者とGoogleAIの開発チームです。
+私はこの簡単な作品で彼らの注意を引く、そしてWeARFitについての意見を聞く。
