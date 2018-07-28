@@ -1,0 +1,64 @@
+我長久的努力終於得到了一些回應和成果,
+在使用softmax函數改裝姿勢判讀系統後,
+我得到了一個可以辨識四種特定姿勢,並且把其他姿勢歸類到第五種的系統.
+
+我上傳了一個接近一分鐘的Youtube影片,
+並且向PoseNet的作者"Irene Alvarado'與 Nikhil Thorat發出了Email.
+Thorat氏很快的回應了我,表達了他的興趣.
+總算是有人正面且積極的對我的作品做出了一些回應.
+
+我接下來要做的是更進一步的接觸更多Google的人士,
+了解他們的看法和Google目前的狀況和需求.
+進而提出一個對Google與WeARFit都有力的方案.
+
+另外,有兩個工作必須被完成,
+首先是針對"動作"的辨識系統,我會先準備三個動作的資料,
+內容包括時間和Keypoint(座標以及評分),
+這會需要是先錄影和用OpenPose抽出keypoint並且人工標註每一個影格的分數,
+接下來用回歸方程式來求得動作的正確度.
+
+第二個工作是撰寫英文版的WeARFit簡報.
+有了這個草案簡報,我可以更清楚明確的對Google的人員說明我的計畫.
+---------------------------------
+After months of working, I finally obtained some positive respond from the people who I want to contact with.
+
+I rewrite the pose varification model with softmax algorithm and made it capable of recognizing 4 specific poses and putting unrecognizable poses in to the 5th type.
+I uploaded a short video on youtube and sent e-mails to the author of poseNet(tensorflow.js version)---Irene Alvarado, Nikhil Thorat.
+Mr Thorat instantly replied and expressed his interest in my project.
+
+What I'm going to do is to keep following them and try ot contact more people in GoogleAI and Google fit.
+I'll learn more about their situation and needs. 
+Then I'll offer them a proposal which is beneficial to bothe the Google and WeARFit.
+
+Besides, there are two Tasks must be done. 
+First one is to create a "movement" validification system.
+I'll prepare dataset of three moves, including time, coordinates of keypoints, and the correctness of the temporal movement.
+This will require recording videos, extracating keypoints, and subsequent labeling of the poses.
+I'll create a regression model to evaluate the incomming video fram.
+
+The second task is to conduct a slide of WeARfit in English. 
+With this at hand, I can introduce WeARFit to Google much more clearly and easily.
+---------------------------------------
+------------------------
+長い苦労は遂に成果と反響を得た。
+SoftMaxを使って姿勢探知システムを改装したあと、
+私は四種類のPoseを認識できる、そしてほかの姿勢を第五の種類に分類することができるシステムを作った。
+
+そして私わ長さが一分間ぐらいのヴィデオをYouTubeにUploadした。
+PoseNet(tensorflow.jsヴァージョン)の作者’IreneAlvarado’と’Nikhil Thorat’にメールを送信した。
+Thorat氏は直ちに返信した、そしてからはそのProjectにきょみを持っているといった。
+
+私がこれかあするべきのは、もっとGoogleの開発チームと接触することです。
+そしてGoogleの状況と要望を調べる。
+その情報によってGoogleとWeARFit両方にも有利な提案を出す。
+
+ちなみに、いまは完成するべし仕事が二つあるのです。
+一つは”動作探知システム”を作ることです。
+まずは三種類の動作データを収集する。
+その中に時間と人体Keypointと正確度スコアーがある。
+このデータセットを作るために、録画と人工的な評判がひつようです。
+
+データを収集した後、Regressionモデルで動作の正確度を判断する。
+
+第二の仕事は英語版のWeARFitの講義Slideを作ることです。
+このSlideができたら、GoogleにWeARFitを説明することは明白、そして簡単になる。
