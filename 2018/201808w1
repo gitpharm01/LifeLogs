@@ -1,0 +1,53 @@
+雖然手法笨拙無比,但我總算是建立了WeARFit的即時動作評估系統,
+它現在可以針對二種動作進行及時評估,包括torso twist和high knee.
+
+我暫時把這個判讀系統稱為NoNet,因為它確實不是個Neural Network.
+充其量不過是一組可以判讀時間的softmax model.
+和最熱門的Action Recognition相比,這個系統毫無任何學術價值可言.
+但是實務上它很明顯的可以把正確的動作和錯誤的動作分開,
+當然他的準確度仍有待改善,用來訓練的Data set本身也含有大量誤差.
+
+我在youtube上發表了兩段約3分鐘的展示影片,接下來會試著上傳code與model到github上面.
+
+上周我發了近15封的email,但是沒有任何回應,
+我接下來會在Medium建立幾個說明Nonet和WeARFit的文章,
+試著和Medium上對computerVision 和Machine Learning有興趣的作者們建立聯繫.
+--------------------------------
+Though the design was extremely stupid, I still established the movement verification system for WeARFit.
+It can now verify two types of exercise, including "torso twist" and "high knee".
+
+I call this system "NoNet", because it is literally not a neural netwrok .
+The NoNot is a cluster of softmax models.
+Compared to the most popular "Action Recognition", NoNet have absolutely zero value in academic research.
+However, it can effectively distinguish correct moves from wrong moves.
+
+Of course the accuracy still needs to be improved, and the training data, which is crated by me, contains lot of noise.
+
+I published two demo videos on Youtube.
+I'll try to upload code and trained model to Github.
+
+I've sent 15 emails last week, but still got no respond.
+I'll create several post on Medium to tell about NoNet and WeArFit, 
+try to contact authors who are interested in computervision and machine learning.
+---------------------------------------
+芸のないデザインですが、WeARFitの動作探知システムわやっと出来ました。
+
+このシステムは今二つの訓練動作～TORSO TWIST とHIGH KNEEを認識することができる。
+私はこのシステムをNoNetと命名した。
+原因はこのシステムに何のneural networkもない、
+ただ時間によって対応のModelを再現するプログランだから。
+
+一番注目されているAction　Recongnitionと比べれば、
+このシステムは科学研究の価値が全くいない。
+だが実務の方面で、このシステムは確かに正しい動作と間違った動作を分類するすることができる。
+
+勿論このシステムの正確度には改善が必要です。
+訓練用のデータも大量なノイズがいる。
+でもこれは確かに人に見せる成果だと思います。
+
+私はYoutubeに二つのDemoラジオをUpLoadした。
+次はGitHubにModelとCodeをアプロードする。
+
+先週で私は１５本のメールを送たが、今でもなんの返事もない。
+私わMediumで文章を発表してNoNetとWeARFitを説明する。
+そしてMediumの作者たちと連絡を取る。
