@@ -1,0 +1,74 @@
+把LinkedIn 的個人檔案整理過後,
+我向一位之前曾在tensorflow上面實作過convolutional pose machine 的工程師Tim Ho發出了問題,
+他提示了幾個可能的方向和可用的DataSet,包括減少神經網路的層數和使用Human body part parsing.
+
+有了實際的作品和Demo影片果然更能讓別人認同和了解我的想法,
+但是接下來我必須再加把勁了,
+首先是WeARFit的Feature Detection部分,我之前都在使用OpenPose,
+他雖然已是改良過的版本,但演算成本仍重.
+這周我看了一篇Paper實作FactorizedConvNet,它成功地把共32個BodyPart的人體影像區分出來,
+但是這個Model的運算成本極重,在TitanXP的顯卡上跑512*512的圖片也只有11FPS
+用在手機上是不可能的.
+我另外在GoogleAI部落格上看到了一個可以用手機高效率切出人體影像的作品,
+我想或許可以從這一個Model出發,利用類似FactorizedConNet的結構求出人體的剪影,
+並且用這個剪影加速人體區域和關鍵點的運算.
+
+另外運動的影像DataSet也是一個重點,我每周六日的運動行程或許可以整合影像收集的任務.
+製造一個適合我的影像Data set.
+
+最後是硬體的部分,我目前使用的PC是三年前購入,CPU是4代的i5,
+現在第八代的cpu早就出來了,Nvidia接下來也要推出最新一代的顯卡來接替,
+而這次我要做的可是從頭開始訓練一整個神經網路,或許這會是一個買新電腦的時機.
+-------------------------
+After tidying up my profile on LinkedIn,
+I contacted a engineer who implemented convolutional pose machine on Github.
+He accepted my link ivitation and mentioned some possible ways to improve the efficiency like reducing the depth of neural network                .
+He also told me about some dataset that is suitable for human body image segmentation.
+
+Wit a prototype of my project and its Demo video, it seems much easier to persuade other people.
+Yet I have to work harder from now on.
+
+The first thing to resonsider is the feature detector of WeARFit.
+Until now I'm still using OpenPose.
+It is a optimized version of the original one, but it still cost too much resources.
+This week I read a paper about FactorizedConvNet which successfully segmented 32 body parts from back ground.
+
+But this model is too expensive to run on mobile devices.
+I found another work wich is done by GoogleAI team. 
+It can efficiently cut the human image out of the background.
+I think I may be able to start from this model and use structure similar to FactorizedConvNet to get faster result of human body features.
+
+The second thing to consider is the exercise dataset.
+I maybe able to integrate the data collecting task into my exercise schedule, creating a data set that suit my needs.
+
+The last thing is about the hardware.
+The machine I'm using is bought at 3 years ago.
+It have 4th generation Intel i5 CPU.
+Now the 8th generation CPUs are already available on the market.
+The NVIDIA also is going to realease next generation of its graphic cards.
+If I want to train a model from scratch, a new computer might come in handy and now would be the good timing to get one.
+---------------------------------
+LinkedInの個人情報ページを整えた後、
+私は一人のエンジニアと接触した。
+彼はTensorflowでConvolutionalPoseMachineを実作することがある。
+私のメッセージを読んだ後、彼は可能の改善方法と対応のデータを私に教えた。
+
+実際の作品とそのDemoヴィデオがあると、やはり説得力が上がりますね。
+だがこれからはもっと頑張らなきゃ。
+まずはWeARFitのFeatureExtractorの部分です。
+これまではいずもOpenPoseの改善ヴァージョンを使っているが、そのモデルの計算コストはやはり高すぎる。
+今週で私は一つの研究論文を読んだ。
+それはFactorizedConvNetを実作し、各人体部位の影像を画面から分離することです。
+このモデルにも重い計算コストが掛かる。
+直接にスマホンで使うにはむりです。
+私はGoogleAIのブログである作品を見つかった、それはスマホンで人体影像と背景を二分することができるものです。
+私は後者を基にして、FactorizedConvNetに似た構造で人体SegmentationとKeypointDetectionを図る。
+
+第二の点は運動の標準データです。
+この任務は毎週の運動のスケジュールと整合出来るかもしれない。
+これでWeARFitにふさわしいデータセットをできる。
+
+第三の点はハードウェアの部分です。
+今使っているPCは三年前で購入したもの、CPUは四代目のI5です。
+今はすでに第八世代のCPUがある、そしてNVIDIAは間もなく新しいグラフィックカードを発売する。
+今は新しいPCを入手する機会かもしれない。
