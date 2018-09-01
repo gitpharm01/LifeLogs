@@ -1,0 +1,75 @@
+下載了影像資料及之後,我開始嘗試利用現有的架構去讀取,
+並且展開訓練自作MODEL的行程,但是實際做起來真是難上加難.
+TF-POSE的資料集讀取架構被層層包裹在不同的PYTHON類別下,
+光是要適應他們的結構就花了不少功夫.
+各個DATASET的品質也良莠不齊,
+我原來嘗試的Unite the People資料即在經過檢視後,
+發現他的標記充滿錯誤,人體keypoint設定也不甚理想,
+到頭來我又回到了MS cocoDataset,
+整整12GB的容量花了我4個多鐘頭才下載完,
+好不容易讓他成功讀取卻發生電腦運算資源耗盡的狀況,
+看來在新的電腦入手前我必須用更保守的方式來訓練我的模型了.
+
+在上周我開始改變預訂的FeatureDetecor構想之後,
+我很快的想到了一個可能可以改善效能的做法,就是讓使用者先拍一張照片,
+跑全效的Segmentation/KeypointDetection.
+把人體各部位先切出來,
+接下來在真正的Real-time pose estimation的時候用這些切出來的部位當作Hint,
+只跑非常淺層的NeuralNetwork來求出人體姿勢.
+
+目前我找得到的model大多是針對各種學術性比賽作的,
+並沒有這種"作弊"的model.
+它在學術上的價值不會太高,但是我認為在實務上是會非常實用的.
+--------------------------.
+After downloading the datasets,
+ I stated using existing infrastructures and tried to train my own models.
+It was quite difficult and confusing.
+The data loading framewrok of tf-pose was packed into different python classes.
+It took me lot of work to figure out how they acctually works.
+Besides, the equality of data annotations varies tremandously.
+I was initially trying "Unite the People" datase, but soon I found its labels have significant errors, and its design for human body keypoints are not desirable.
+In the end, I went back to MS coco dataset.
+It took me 4 hours to download the training set.
+I tried to run some training task on it but encountered resources depletion problem.
+I'd better run training tasks more conservertively before I get the new PC.
+
+Last week I started to reconsider about pose estimation method and I came up with anew concept.
+First we let the user take a photo containing full body of himself.
+Second we cut the photo into regions according to the resulting heatmap.
+And we finally start the realtime keypoint detection with these cut images.
+This will get humanpose by relatively shallow neural networks.
+The available models I found are all focused on conditions of academic compatitions.
+Such "cheating" model have no academic value, but I consider it vrey practicle.
+
+I sent plentiful of emails this month, but until now, I got no respond from those contacts.
+My work on linkedIN have much more result. 
+Next month I'll try to contact more people on LinkedIn and test the new model.
+
+-----------------------
+データセットをダウンロードした後、
+私は現有のCodeでデータを読み込むことを試した。
+そして自作モデルのトレーニングを図る。
+
+でも実際に実行した後、私はその難しさを感じた。
+TF－POSEのデータローディング構造は色々なPYTHON CLASSに詰め合わせた。
+そのデータを抽出ことは大変だった。
+データの品質も安定なものではない。
+始めた時私はUNITE the PEOPLE datasetを使っていたが、
+そのデータのAnnotationは誤りが多い過ぎる、人体Keypointのデザインもよくない。
+
+結局私はCocoDatasetを選んだ、そして四時間を掛かって資料をダウンロードした。
+ようやくデータのを読み込む成功した際、ｐｃの運算資源が切れたという状況が発生した。
+どうやら新しいPCを入手する前はあんまり重いトレーニングを行われない方がいい。
+
+先週でFeatureExtractorの構想を改変する後、私は新しい効能改善の方法を考えはじめた。
+それは実際のREAL-Time　PoseEstimationが始まる前、使用者の影像を一枚撮る。
+高機能のKeypointEstimationモデルを行う。
+次はその影像の各人体部位を切り出し。
+最後はこの切り出した影像をヒンートとしてREAL-Timeの人体姿勢探知を行う。
+neural networkの層数をできる限り減る。
+今私が見つかるモデルは各学術チャレンジーイヴェント向きです。
+私が考えでいるこのモデルは何の学術価値もないが、実用性が高いと思う。
+
+今月で何本のメールを送ったが、今まで私は何の返事ももらっていない。
+LinkedInのほうに収穫はある。
+来月はLinkedInでもっと多く人と接触し、そして新しいモデルを作る。
