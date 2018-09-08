@@ -1,0 +1,69 @@
+我最後總共下了20gb的DATASET,包括MS COCO2017和PASCAL VOC2012,
+花了4天的時間,這期間我有嘗試用COCO2014和2017的DATASET去進行TF-POSE的TRAINING,但是跑到特定的點就會停下來,
+用TOP指令去看會發現原本備劃分給TENSORFLOW的記憶體全部又被釋放出來了.
+GPU溫度也沒昇高,並且出現了14個ZOMBIE PROCESS.
+我打算先不改造TF-POSE的MODEL,而是用PASCAL VOC DATASET去RETRAIN DEEPLAB,製作我上周所構思的第一步驟.
+
+我在LINKEDIN上面目前已有三位聯絡人,但如何經營還是個大問題,
+Tim Ho之前給了我依些資訊和建議,但是除了實際做出新的成果,
+我不知道其它有意義的回應.
+另外二位雖然加了我,但對我的發言並沒有任何回應.
+
+我上兩個月並未進行書籍閱讀,只是針對Machine Learning和Computer Vision的paper還有教學文章去學習,
+或許我該回頭去翻翻年初做的筆記,特別是時間和自我的管理.
+
+之前我曾任為現在會是購入顯卡和電腦的好時機,
+但是實際上並非如此,因為現在主流的10世代顯卡並未有太大的降價.
+特別是gtx1060 6g以上的卡.
+但若未來的training真的非換機不可的話,先花個2~3萬弄一台可以應付training需求的pc也是合理的方案.
+---------------------------------------------------------
+I eventually downloaded datasets with volume about 20 GBs,
+including MS coco and Pascal VOC 2012.
+It took me 4 days to download and during this period of time I tried to use tf-pose's training script.
+But the training always stop at a certain point.
+I checked with "top" command and found that the occupied memory was released and the GPU temprature didn't rise.
+There were 14Zombie processes by the way.
+
+I decided not to modify the tf-pose model, but to train Deeplab with pascal voc Dataset.
+This will create the first processing mechanism of the new system:
+Cutting the human image from background.
+
+I now have 3 contacts on LinkedIn.
+But the problem is how to manage the relationship with them.
+I have nothing meaningful to offer them besides the actural breakthrough of my project.
+And this is extremely difficult to achieve.
+I did ask some more questions but still got no respond.
+
+Last two months I sstopped reading and studied only papers and tutorials about machine learning and computer vision.
+Maybe I shold go back and review the notes I made, espacially on the topic of time and self management.
+
+I once considered now a good timing for purchasing a new PC and graphic card.
+But it semms not correct at all.
+The new Nvidia cards are expanding price range and spects.
+The 10th genaration cards didn't show much decrease on their prices.
+But if the training job really demands a better machine, spending 20~30K NTD to get an capable machine is quite reasonable.
+---------------------------
+結局私はMscoco2017とPascalVOCを含めて、計２０GBのデータセットダウンロードした。
+この間で私はCoco2014と２０１７のデータでTF－POSEのトレーニングを試した。
+でもいつも特定の段階で停止していた。
+LinuxのTOP指令で調べれば、MEMORYが全部釈放された、GPUの温度も上がていなかった。
+そして14本のZombieProcessが現れました。
+私は一段とTF－POSEの改造を止めて、PascalVOCでDeeplabをRetrainする。
+先週で考えたシステムの第一段階を作る。
+
+私がLinkedInで三人のコンタクトがいる。
+でもどうやってこの関係を経営するのは問題です。
+私は彼らと意味のある対話をするのはあんまりできないようです。
+実際の研究成果を出さねばならない。
+
+もう二か月間で本を読むことをしなっ方。
+私はただMachine LearningとComputer Visionに関連するPaperと教学材料を勉強した。
+年初で作ったノートを復習するべきかもしれない。
+特に時間と自我管理の部分です。
+
+前で私は”今が新しいPCとグラフィックカードを購入する機会かもしれない”といったが、
+どうやら現実はそうではないようです。
+Nvidiaの新しい製品は確かに発表されたが、
+現在の主流製品の値段は全く減っていない。
+でももしTrainingは新しいハードウェアが必要なら、
+2、3万円で適当なPCを購入することも合理的な方法です。
