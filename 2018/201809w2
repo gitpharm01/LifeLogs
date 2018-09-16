@@ -1,0 +1,69 @@
+沒有完整的訓練,在機器學習和程式設計上真的困難重重而且挫折不斷,
+我這一週氏了許多方法要重新訓練Deeplab,但是都不得其門而入.
+首先完整訓練整個Model是不可能在我的電腦上實現的,
+TransferLearning是唯一可行的道路,但是我試了許多方法都失敗.
+另外DataSet本身也是個問題,
+如果只偵測person這個類別的話,由於Deeplab的Training被包裝成API型式,
+我反而找不到如和忽略其他類別的方法,
+只能從DataSet下手去一張一張更改GroundTruthLabel了.
+
+關於上上周我開始構思的新方法,
+在經過反思之後發現他其實算是Keypoint Matching的問題,
+而且不少研究paper在做這一個領域.
+在完成第一步的預處理之後,我是必要來研究一下這個新的領域.
+
+至於新PC的部分,我在順發物色了一個DIY組合,
+不包括顯卡和Win10的條件下只要14000左右,
+搭上一張GTX1080和一支8GB的DRAM,總價差不多就在三萬出頭.
+
+這幾個月我在進行機器學習試驗的時候被嚴重的挫敗感襲擊著.
+我確實不是什麼意志力異常強韌的人,
+為了消解這些壓力和情緒,我往往會無法執行原本擬定好的任務,
+浪費時間在Youtube上頭,
+轉個念頭想想,這就是最實在的磨練和修行啊!
+----------------------------------------
+Without complete training in programing, I faced countless frustration and difficulties.
+I tried many ways to retrain Deeplab, but made no progress.
+First it is not possible to train the whole model on my current PC.
+Transfer learning is the only feasible way.
+But I failed in all attempts in training with transfer learning.
+Besides, there's also problems on the Datase.
+If I want to detect only the "Person" catagory, I can only modify the original ground truth labels.
+
+About the new concept I came up with two weeks ago.
+I found it to be a keypoint matching problem.
+There are many new research papers on this topic.
+After I finished the first step, I must study this new area of knowledge.
+
+As for the new PC, I found a DIY set on SUNFAR without graphic card and Win10, which costs about 14000NTD.
+Added with a GTX1080 and a 8GB DRAM, the total price will be about 30000.
+
+During these months while programming, I was always deeply struck by the felling of frustration.
+Now I can be certain that I'm not a person with extraordinary willpower.
+In order to relief such pain and stress, I often wasted time on games and youtube videos.
+View it from a different perspective, this process is the most practical way to hone my will and skills.
+-------------------------------------------------------
+完全な訓練を受けとことはないと、Codingの過程は本?暷R難しいです。
+私は今週で色々な方法を試してDeeplabを再訓練したかったが、最後は失敗した。
+先ずは今のPCで全モデルを再訓練することは無理です。
+可能の方法はTransfer learningを使うことです。
+だが私は未だ有佅な方法を見つけていない。
+そのデータセットにも問題がある。
+もしPERSONだけを探知したいなら、データセットのGroundTruthLabelを改造しなければならない。
+
+二週前で考えついた新しいシステムについて、
+それはKeypoint matchingというものです。
+これに亼連の研究は恾山居ます。
+その第一𥖏のPreprocessingを完成する後。この領域の知識を勉強するべしです。
+
+新しいPCの件について、わたしはSUNFARで一つのDIY セットを見つかった。
+グラフィックカードとWin10と除けば、?帕qはNTD１４０００ぐらいです。
+GTX1080と8GBのDRAMを加えば、脪は三万です。
+
+この?菑賱﹊NProgrammingをする頃、
+私はいつも深刻な敗北感に襲われていた。
+私は確かに強い精神力の持ち主ではない。
+その敗北感とストレスを解消するため、私は常にYoutubeで時間を消耗した。
+そして限定の任務を琔行することは出?Sなかった。
+
+逆に考えば、これは一番琔用性のある修行です
