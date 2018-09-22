@@ -1,0 +1,82 @@
+最近各種商品的供貨都出現了嚴重的異常,
+我服務的醫院使用的嬰兒奶粉,從上個月就開始斷貨,據說會缺到年底.
+一些原廠藥也供貨不穩,被東洋併購的諾華流感疫苗今年也不進來了.
+最後我去順發時更發覺Intel的i5系列CPU也沒貨了,同樣要缺到年底.
+今年什麼都漲價,什麼都缺貨,就是街上的抓娃娃機店到處開.
+
+好在AMD的Ryzen2600處理器沒有明顯漲幅,
+但可行的通路只剩下新亞和原價屋了.
+
+我在Deeplab的進度仍然不太順利,
+雖然已經成功地把GroundTruthLabel轉換成只有"person"這個類別了,
+放在Dataset相關設定的數值也改了,但是最後仍無法順利進行Training.
+系統顯示Model的TensorShape不符合.
+
+另一方面在大略看過了5,6篇有關deep matching的paper之後,我發覺預處理其實不需要那麼多步驟,
+光是Full power的Openpose就可以克服背景的干擾了,
+所以我暫時停止研究Deeplab和相關的模型.
+
+在摸熟了tensorboard之後,我用它來看TF-pose的graph,
+發覺其中的Tensor名稱和Code裡設定的不同,
+實際名稱在尾端被加上了一些suffix,這應該就是我之前一直無法讀取到Tensor的原因了.
+
+目前我正在改裝mpii的Dataset,他的影像資料正好有大量相同人物和背景但姿勢不同的資料組,
+每一組至少都有4張左右,非常適合我接下來要做的Model.
+-----------------------------------
+Recently the supply of many kind of goods showed severe abnormalty.
+The powederd milk which is adopted by our hospital was out of supply and will not recover until December.
+Several imported drugs also had unstable supply.
+The influenza vaccine of Norvatis, which is bought by Tonyang, will not enter Taiwan this year.
+Lastly I found the Intel i5 CPUs was also ran out of storage.
+Everything become more expensive and out of storage.
+Only the crane machines got pandamic.
+
+Luckily the Ryzen2600 processor from AMD still have stable supply and the price remain reasonable.
+But I can only get them at Sinya and CoolPC.
+
+My progress on retraining Deeplab was still not very good. 
+Although I already trasformed the Groundtruth Label into "person" only and edited the model's dataset settings.
+The training job still failed and showed error of unmatched tensor size.
+
+On the other hand, after browsing through 6 research papers, I found the preprocess are not necessary to be so complicated.
+The original feature extractor of Openpose is capable enough to overcome the noise.
+Therefore, I stopped the research on Deeplab.
+
+After knowing better about thensorboard.
+I used it to inspect the graph of tf-pose and found the names of tensor outputs are slightly different from the source code.
+This should be the reason why I failed to read from them.
+
+Currently I am modifying the MPII Dataset.
+Its image set contains many clusters of images with the same background and person in the scene.
+It's very suitable for the model I'm going to make.
+------------------------------------
+最近色んな商品の供給に異常が𣊫生しました。
+私が洤いている病院が採用する粉ミルクは先月から品切れになります。
+年末までこの?]態をつつくと言ううわさがある。
+そしてあるBrand name drugの供給も不㷧になる。
+Norvatisのインフルエンザ　ヴァクチンは今年も輸入しない予定です。
+最後は私がSUNFARへ行った後、Intel i5 のCPUも品切れという事を知った。
+今年は何も?岸Wげ、そして何も品切れです。
+𡶺えているものはUFOキャッチャの店だけでしょう。
+
+幸いにAMDのRyzen2600 CPUはまだ合理的な?帕qを持っている、
+でも入手する通路はシンヤと原屋だけです。
+
+DeeplabをRetrainすることはまだ順調ではない。
+GroundtruthLabelを”Person”だけをした、そしてDataset亼連の設定??怪i書き換えしたが、最後は又Trainingを行うことを失敗した。
+
+もう一つの方面で、私が五、六篇のDeep matching亼連のペーパを見た後、
+Preprocessingはそんなに複熌になる必要はないと判明した。
+OpenposeのFeature Extractorだけで背景のノイズを排除できる。
+だからDeeplabeに亼する琔𣺉を一段と止めた。
+
+Tensorboard の𩦝用を馴染むになる後、
+私はそれを使ってTF-PoseのGraphを見ました。
+そしてその中のTensorの名?懘VSource codeで偬載されたものと違いがあると見つかった。
+その名?懘U最後にSuffixが加えられた。
+これはおよそ前で撶み涥む失敗の原因です。
+
+今私はMPIIのデータセットを改?Eしている。
+そのデータの中にどう人物と背景の映像は恾山ある。
+一つのグループには四、五枚ある。
+私が次から作るModelには適用です。
