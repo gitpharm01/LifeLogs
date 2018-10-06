@@ -1,4 +1,53 @@
-﻿コンピュータを組みたつに関する知識は多いです。
+組PC的學問真的不少,同樣的價錢可以買到品質完全不同的組合.
+從主機板的用料到固態硬碟和傳統硬碟的選擇,
+每次的比較和研究都花了我不少功夫,
+最後我把預算仍控制在台幣三萬五以下,
+捨棄了一粒有過熱疑慮的M2固態硬碟,
+但是整體零件品質好了很多.
+
+目前我已經完成了讀取Dataset的python script.
+在測試的時候還發現了資料集配置上的錯誤,
+如果放著不管,應該會嚴重影響訓練出來的model的品質吧.
+
+接下來就是決定神經網路層的工作了,
+目前流行的model是對影像進行大幅度的縮小,
+並且增加Feature channel的數量,如此可以用節省計算資源的方式得到高維度的Feature.
+而我預定的做法是反過來,
+用低維度的Feature產生hash code來和已知的兩組hint hash去比對,
+藉此求出keypoint的位置,這個做法會讓model內含的weight數大幅降低,
+但是最終是否能讓總計算量成功的降低到可以輕鬆在行動裝置上運行的程度,
+這還是個未知數.
+
+整體上來說,我要做的model是一個sub-model,
+他將無法自行獨立運作,而是需要Main model產生hint hash給他.
+作為hint 源頭的main model 將會決定submodel的準確度.
+-------------------------------------------------------------
+There are plenty of details in choosing parts for a PC.
+With the same budget, one can get combbination of parts with different quality.
+From the constituents of mother board to the choice between SSD and traditional hard disk.
+Each of these comparism and research took me quite a lot of time and effort.
+In the end I still controlled the budget below 35000NTD.
+I removed a M2 SSD that might suffer from high working temprature.
+But the overall quality sgot much better.
+
+currently I've comleted the python script for reading data from the custom dataset.
+While testing I even found some error among the dataset.
+If those errors remain uncorrected, the model which is traind from them will have lower quality.
+
+The next task is to decide the archetechture of the neural network.
+The current mainstream models extensivly shrink the size of target image increase the amount of feature channels.
+By doing this, one can easily obtain high dimensional features with low computational cost.
+Yet my method was quite the opposite.
+It uses low dimensional features to create hash code as hint and find the location of keypoints by matching the hash codes.
+This will lower the total amount of weights in the model.
+But it remains unknown whether it can reduce the computational cost to make  mobile devices capable of running the model or not.
+
+Generally speaking, what I want to make is a sub-model.
+It will not be able to operate by itself,
+but to rely on hints provided by main model.
+As the sources of the hints, main model will determine the performance of sub-models.
+----------------------------------------------
+コンピュータを組みたつに関する知識は多いです。
 同じ値段で品質が全然違うのコンビは沢山いる。
 ”Mother boardの材料品質”から”SSDとHDDとの選択”、
 それらを考えと研究することはかなり時間が掛かるです。
