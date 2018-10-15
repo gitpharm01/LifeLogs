@@ -1,0 +1,87 @@
+
+None selected
+
+Skip to content
+Using Gmail with screen readers
+Conversations
+0.03 GB (0%) of 15 GB used
+Manage
+Terms · Privacy · Program Policies
+Last account activity: 9 days ago
+Details
+
+﻿我在SUB-MODEL的開發上碰到了一些問題,但也取得了一些進展.
+
+Sub-model的原始設計適用For loop來切出一個個的ROI,
+用同一個神經網路模型來進行Convolution以萃取出Feature.
+
+但我很快的發現這會再第一部就把記憶體耗盡,
+因為一張小小的400X400 pixel圖片就可以切出4萬張的ROIs.
+在思索過後,我發覺既然convolution是等同於在一個小ROI上面進行的Fully Connected 運算,
+那麼我就先創造一個同Hint ROI尺寸大小的Filter,先對Hint ROI進行Fully connected運算,
+取得Feature並算出hint hash.
+接著再把同一個Filter搬過來到傳統的convolutional layer去做convolution.
+同樣得到Feature map並且以點為單位算出Hash code,
+如此一來就可以迴避記憶體上的容量問題.
+
+經過一番試驗,我成功的造出了一個Filter以及把它轉用在Fully connected weights的轉換程式.
+正確的進行了運算.
+接下來要處理的是把各個output feature value轉換成字串型別的Hash,
+進而求出他的Hamming distance.
+
+但是在試運轉的時候我發現另一個問題,
+就是運算速度快不起來,
+每一次的計算,由於是使用11*11 filter處理3個input channel,且要輸出8個output channel.
+乘法進行的次數高達2904次,
+若使用200*200大小的圖片作為input,總計算量約在118百萬次,
+雖然已經比同條件下的mobileNetV2少了近三分之二,
+但是計算量仍然大得嚇人.
+---------------------------------------
+I encountered some problems while developing the sub-model, 
+but I also made some progress.
+
+The original design of the sub-model is to use "for loops" to cut ROIs and convolve them with the same neural network to get the features.
+I soon found it would deplete the memory on the first step.
+Because a 400 x 400 pixel image will generate 40000 ROIs.
+
+After  thinking for a while, I realized that since the convolution is equivalent to performing fully connected operations on a small ROI,
+I can just creat a filter with the same size as the ROI and performe a fully conneted operation on Hint ROIs to get Hint Hashs.
+And then I'll convolve the sample image with the same filter and get the corresponding Hash codes.
+In this way I evaded the problem of memory depletion.
+
+After experienting, I successfully created a filter and the script to perform fully connected operations with it.
+The test operatoin was successful.
+The next thing to do is to transform the feature values in to String Hashs.
+
+But while testing, I found another problem which is the speed of the operation was not fast enough.
+Because I used 11*11 filter for 3 input channels and 8 output channels.
+The times of multiplication is 2904.
+If the input image is 200*200 pixels, the total computational cost will be about 118Million.
+It's two thirds lesser than mobileNetV2 under the same conditions, but 
+the cost is still huge!
+---------------------------------------------------
+Sub-modelの開発について、少し問題を遭遇した、でもある方面で進度も進めていた。
+
+Sub-modelの原始設計はFor loopでROIsを切り出す、
+おなじNeuralNetworkでConvolutionを行う、
+そしてFeature を取得する。
+でも私はまもなく”この方法はMemoryを使い切る”という事を気付いた。
+それは一つ400ｘ400の影像は４万のROIを生み出すだから。
+
+少し考えた後、わたしは”Convolutionは一つのROIで行うFully connected運算”という事実を認識した。
+それなら同じサイズのFilterを作ってHintROIにFully connected 運算を行う、そしてHint hashを取得する。
+あとはSample imageをおなじFilterでConvolutionを行ってHash codeを取得する。
+これでMemory不足の問題を回避する。
+
+少し実験した後、私は一つのFilterを作りました、そしてそれをFully connected運算にするPython scriptを完成した。
+次はかくFeature ValueをStringに転換する、そしてそのHash codeのHamming 距離を計算する。
+
+実験した際、私はもう一つの問題を見つかった。
+それは計算のスビードが上がらないことだ。
+１１*１１のサイズで3つChannelのInputを計算して8　ChannelのOutputをつくる。一回の運算には２９０４回のMultiplicationがある。
+200ｘ200の影像をInputにすれば、総計算コストは１１８百万回です。
+同じ条件のMobileNetV2より三分の二のコストを減るが、
+その量はやはり驚きほど多いです。
+
+201810W2.txt
+Displaying 201810W2.txt.
