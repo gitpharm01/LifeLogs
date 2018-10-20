@@ -1,0 +1,22 @@
+モデルの開発作業は色々な意外がある。
+FeatureMapを計算するNeuralNetworkを作った、
+そしてSigmoid functionをもとついてHashコードに転換するプログランを作った。
+だがHash codeを比較すところ、
+”PYTHON固有の　For loopを使うと、CPUの計算コストが上がる、そして必要のないComputational graphが増えた”という事を気づいた。
+幸いに私は間もなくStackOverflowでMap_fnとLambda functionの使い方を見つかった。そしてこの問題を解決した。
+
+けれど問題は次々と発生した。
+私の目標は二組のHint hash code によって十六個のSimilarity mapを作る、
+そしてそのMapの最大値の位置を探す。
+全体の構造は複雑なので管理は難しい。
+それに対して私はTf.reshape　を使って76*76*32のSample mapを1維のTensorにする。
+
+Tensorflowの環境の下で行う計算は常に原始のPythonの計算方法と違いがある。
+そのためにTensorflow は特殊のLoopと他の計算Functionを持つ。
+インターネットForumで大量のディスカッションとエラー報告は本当に私を助かった。
+短時間で問題の原因とその対応方法を見つかることが出来る。
+インターネットが成熟に発展した時代でプログラミングをすることは以前より大分便利に成りました。
+
+しかしわたしの開発進度は遅れている。
+本来なら先週でLoose functionを作る予定だが、
+今私は未だその前の一歩だ。
