@@ -1,0 +1,69 @@
+歷經大量的Try and Error,我完成了Loss function和Keypoint座標偵測的輸出函數.
+但是在將Loss value送入Optimizer後卻發生了"No gradients in variables error",
+系統顯示沒有和Variable相關的梯度可用.
+
+我一開始以為是由於我只送了一個Batch的資料進Model裡處理.
+所以用手工的方式製作了Batch數為3的資料匯流結構.
+但是再次將loss值送入Optimizer時卻面臨了同樣的問題.
+
+在匯出了computational graph之後,我檢視了資料的流向,
+訂正了幾個Bug,但是仍未解決此問題.
+在網路上也有不少人碰到了類似的問題.
+重點似乎在於"梯度"在定義Loss function的時候被抹消了.
+因此Optimizer找不到Loss和Weight之間的關係,無法啟動最佳化流程.
+
+由於苦無對策,我在Stack overflow上面發了一篇文章,描述了我的問題和Model的結構.
+
+這幾周我都在埋頭修改Model,
+LinkedIn的帳號都放著沒動,我這幾天上去看發現自己收到了一則聯繫的邀請.
+這是來自一位IT業界的HR,說來有點令人莞爾,明明我是上LinkedIn要找那些實力深厚的老手請益,
+沒想到會有人把實力還沒到家的我當作了一個開發者,
+我必須得體的向這位HR回覆自己的實際狀況,而且對方是個人際網路上的connector,他或許會有不一樣的經歷和智慧.
+-------------------------------------------------
+After lots of try and error, I finished the loss function and Keypoint detection functionality.
+But when I send the loss value into the optimizer,
+"No gradients in variables error" was raised.
+The Tensorflow system showed that there's no available gradient for trainable variables.
+
+In the begining I thought it was because I sent only one batch of data into the model.
+Therefore, I manually created a data convergence structure for Batch number=3.
+But after I sent the loss value to the optimizer again, the same error happened again.
+I explored the computational graph and checked the dataflow.
+I corrected several bus, but still couldn't fix this problem.
+
+On the internet I found may other people encountered the same problem.
+The point seems to be that the "gradient" was erased while defining the loss function and hense the optimizer can't find the relationship between the loss and the weights.
+
+Having no available solutions, I posted an article on stack overflow and described the structure of my model and the problems I faced.
+During these three weeks, I've poured myself into the model development task.
+I didn't even log in my LinkedIN account and when I checked in 3 days ago.
+I found that I received a connection invitation.
+It's from a HR who work in computer science.
+It feels funny since my purpose of joining LinkedIN was to find the skilled developers.
+I never thought someone would consider me one of those skilled developers.
+I must reply to her properly about my true situation.
+----------------------------------------------------------
+試行錯誤を重ねて、私はついにLoss function とKeypoint探知のOutputプログランを完成した。
+でもLoss値をOptimizerに送った時、No gradients in variables errorが発生しました。
+システムは”Variable関連のGradientが存在しない”と示した。
+
+最初は一つBatchだけのデータをモデルに送っただからと思った。
+そして人工的な手段でBatch数が３のデータ流通構造を作った。
+けれど再びLoss値をOptimizerに送った後、同じErrorが発生しました。
+
+Computational graphをExportした後、私はデータの流れを調べた。
+少しBugを修正したが、この問題を解決できなかった。
+
+インターネットで検索すると、この問題を遭遇した人は沢山いると知った。
+重点はおよそGradientがLoss Functionを計算する際でいなくなった。
+OptimizerがWeightsとLossとの関係を見つからない、そしてOptimizerを起動できない。
+
+解決の方法を見つからないので、私はStackoverflowでひとつのPostを作った。
+その中でModelの構造と私が遭遇した問題を述べた。
+
+この数週間で私は全部の精力をModelの改修に注いだから、
+LinkedINのAccountを殆ど管理していなかった。
+数日前私は一つConnectionの要請を貰った、それは一人のIT業のHRからの要請です。
+ちょっと可笑しいだが、私は最初でLinkedINに参加する原因は実力のある開発者を探すためであった。
+こんな未熟な私を一人前の開発者と思うことはとんでもない話であった。
+私はちょんと適当な態度であのHRと接触し、自分の本当の状況を説明するべきです。
