@@ -1,16 +1,4 @@
-
-None selected
-
-Skip to content
-Using Gmail with screen readers
-Conversations
-0.03 GB (0%) of 15 GB used
-Manage
-Terms · Privacy · Program Policies
-Last account activity: 9 days ago
-Details
-
-﻿我在SUB-MODEL的開發上碰到了一些問題,但也取得了一些進展.
+我在SUB-MODEL的開發上碰到了一些問題,但也取得了一些進展.
 
 Sub-model的原始設計適用For loop來切出一個個的ROI,
 用同一個神經網路模型來進行Convolution以萃取出Feature.
