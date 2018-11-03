@@ -1,0 +1,78 @@
+我終於克服了No Gradient in variables error.
+由於之前在StackOverflow上的文章沒人回應,我只好自己土法煉鋼,
+採用了tensorflow 的Eager execution 來一步步推敲Model裡的Gradient到底是何時被抹消的.
+最後在改換了Hash code的二值化函數之後成功維持了Variable和Loss之間的梯度關係.
+
+然而就如同前幾周一樣,新的問題又來了.
+
+我的Model雖然可以進入訓練階段,但是Loss值完全沒有下降的跡象.
+無論是經過5000或是10000次的iteration.
+Model的精準度都不見改善.
+看樣子要從最根本的資料input內容開始檢查起了.
+
+這個月雖然在Model的開發上突破了不少瓶頸,
+但最終我仍未完成一個可以發表,能夠上得了檯面的作品.
+只能在下個月再加把勁,試著把最後一哩路走完吧.
+
+之前久久未回信的Gines Hidalgo氏上週居然回了我兩個月前寫給他的一封信,
+信裡提到了Teacher-student Network,
+它和我想做的Model的基本理念相近,這也是一個可以著力的點.
+
+這個月我把家裡的廢紙廢鐵還有兩台廢棄的PC主機送去了附近的資源回收商.
+四趟下來收了四百多塊,整體上清除雜物的意義遠大於換取收入的價值.
+然而我今年越來越常看見路上有人在專門收集回收物,這明明不是一個能賺錢的行業啊!
+--------------------------
+I finally fixed the "No gradients in any variables" error.
+
+Since there was no reply to my post on stackoverflow.
+I had no choice but to fix it in my own way by utilizing "Eager execution" and check the gradients step by step.
+After I changed binerization method and activation functions in the neural network,
+I successfully preserved the gradient relationship between the variables and the loss.
+
+However, just like the previous weeks, new problems kept showing up!
+
+I can now enter the stage of training.
+But the loss value shown no sign of decrease no matter how long the iteration may be.
+It seems that I have to check from the basic data inputs.
+
+This month I made several breakthroughs on the model development.
+But eventually I still can't complete a model that can be released.
+I have to work my way to the goal next month.
+
+It was surprising that Mr Gines Hildalgo replied to my email which was sent two months ago.
+He mentioned a type of model called "teacher-student Network"
+It have similar concept to my current project.
+This might be something worthy of studying.
+
+This month I carried two old PCs and some other recycables to the recycle plant.
+I made NTD400 in total.
+The meaning of cleaning up is greater than the value of that income.
+But this year I see more and more people on the street gathering recycables.
+It's obviously not a profitable job at all!
+---------------------------------------------------------
+私はやっと”No gradients in variables” errorを解決した。
+
+先日Stackoverflowで作ったPostには何の反響も無かったから、
+私は自分で問題を解決するしかない。
+先ずはTensorflowのEager executionで一歩つづModelの中にあるGradientを追跡する、その消失点を探し出した。
+最後はHash codeのBinerization functionを変えた後、
+成功的にVariableとLoss値との間のGradient関係を維持した。
+
+だが何時ものように、新たな問題が発生しました。
+
+私のModelは今訓練段階に入られるが、
+そのLoss値が全然減っていない、つまりModelは何も学べなかった。
+どうやら基本的なデータフロウーから調べるしかない。
+
+今月はModelの開発について若干の難題を解決したが、最後は発表できるものを出来なかった。
+来月でその最後の一歩を完成させましょう。
+
+二ヶ月前から何の返事も出なかったGines Hidalgo氏は先日で一つのメールを私にくれた。
+彼はそのメールでTeacher-student　Networkという概念を言及した
+それは私が作りたいものと関連性がある。
+参考する価値はあると思う。
+
+今月私は家の中にある廃鉄と紙、そして廃棄のPC二台を近くにいる資源回収業者に売った。
+NTD400ぐらいの金を貰った。
+全体から言え、金を稼ぐより掃除の意味が多い。
+今年、街で回収物を集まる人が沢山増えている、だがこれは金を稼ぐ仕事ではないだ。
