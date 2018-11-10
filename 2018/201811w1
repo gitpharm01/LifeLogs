@@ -1,0 +1,69 @@
+為了解決lOSS值未隨著訓練而下降的問題,我再次於StackOverflow上發文.
+這次很快的就有人回應,指出了我在產生Binarized Hash的方式仍然會使Gradient歸零.
+等於整個程式只是用值為"0"的梯度進行空轉.
+
+很幸運的是,我上周發現的BinarizedNeuralNetwrok(BNN)可能隱含者解決的辦法和另一種出路.
+BNN使用二值化的Weights和Outputs,大幅降低了計算成本.
+它另外還有Heterogenous BNN的變體.
+
+為了克服BNN在二值化後梯度歸零的問題,它的訓練採用來自未二值化的原參數之梯度值.
+我在Github上面找到了一個以Tensorflow實作BNN的專案,實際進行Training後發現確實可運轉,
+我目前正在研究他的Source Code,試圖用它來修補我的Model.
+
+倘若這個Model真的行不通,我也可以式著把原本的OpenPose改造成BNN並且採用Seprable convolution.
+在原本的BNN還有HBNN的論文有提到,大型Model在二值化後反而仍能保持高精準度.
+這也是另一個在手機上實現Realtime pose estimation的手段.
+
+從二個月前我便開始計畫購入新PC,但中途碰上CPU缺貨與顯卡斷貨,最後仍未入手.
+不過我發現新出的RTX2070顯卡價位勉強可以接受,且在Tensorflow的Benchymark表現與GTX1080Ti相當.
+如果沒有嚴重的Bug災情傳出,他或許是一個更好的選擇.
+------------------------------
+In order to find a solution for the training problem of my model, 
+I posted another question on StackOverflow.
+This time I got responses really quick.
+One person pointed out that my method to generate Binarized Hash will still make the gradient becom "zero".
+The whole training program was just looping with a gradinet "0".
+
+Luckily, the Binarized Neural Network(BNN) I found last week might contain the solution and a possible alternative to this model.
+The BNN uses binarized weights and outputs and thus significantly reduced the computational cost.
+It has a drivative version called Heterogenous BNN.
+
+In order to overcom the problem of zero gradient issue after binariztion,
+the gradients for training are actually from the unbinarized variables.
+I found a project on Github that implemented the BNN on Tensorflow framework.
+I tested the code and found it can work on my system.
+I'm now studying its code and I hope that I can use it to fix my model.
+
+If my model is not feasible at all, I can also try to boost the OpenPose model with BNN and seprable convolution.
+The research paper of BNN and HBNN mentioned that BNN works fine espacilly in large scaled models.
+
+This will be another solution for implementing Real-tim pose estimation on mobile devices.
+
+From two months ago I started planning to buy new PC for deep learning.
+But due to the CPU shortage and the target graphic card out of stock.
+I still have't bought the machine yet.
+But I discovered that the newly released RTX2070 graphic cards' price is acceptable and its benchmark on Tensorflow are equivalent to GTX1080Ti.
+If it don't have serious bugs,RTX2070 might be one of the choice.
+----------------
+Loss値が下がらないの問題を解決するため、わたしは再びStackOverflowでPostを作りました。
+発問をした後、間もなく一人のUserが私の問題に返事をした。
+彼は”私のBinaryHashの作り方がGradientを0になる”という事を説明した。
+つまり訓練プログランは只”0”というGradient値で空転したばかりです。
+
+幸い先週で見つかったBinaryNeuralNetworkは解決の方法と他の活路を含めているかもしれない。
+BNNは二値化されたWeights とInput/Outputを採用する、計算コストを大幅削減することが出来る。
+BNNには一つの変異体－HeterogenousBNNがある。
+二値化後のGradient消失問題に対し、BNNの訓練用のGradientは実際二値化まえのVariableのGradientです。
+
+わたしはGitHubで一つTensorflow でBNNを実作するプロジェクトと見つかった。
+そのコードを試行した後、正常稼動できると判断した。
+私は今自分のModelを直せるため、そのSourceCodeを研究している。
+
+もし私のModelは実作不可能なら、OpenPoseをBNNとSeprableConvolutionで改造するという策もある。
+BNNとHBNNの研究報告に”大型Modelは二値化の後、精度を維持することが出来る”と言った。
+
+二ヶ月前から私は新しいPCの購入を計画し始めた。
+途中でCPUとGPUの在庫切れによって、最後は買ってなかった。
+でも先月で発売したRTX2070の値段はぎりぎりで合格。
+それにTensorflowのBenchmarkについてGTX1080Tiいと近い表現がある。
+もし重大なBugが発生していないなら、これは前のGPU（GTX1080）よりよい選択かもしてない。
