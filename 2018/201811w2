@@ -1,0 +1,67 @@
+在繼續試行Model訓練時發現了另一個奇怪的現象,
+在Training進行時,Loss值期時是先上昇,接下來就停在某個位置不動了,
+我目前對這個現象的原因仍然毫無頭緒.
+
+為了能讓Model可以進行Batch Number大於一的Training.
+我改寫了Model的結構,讓含Batch數總共五個維度的Hint picture能夠順利的進入Convolutional Network之中運算.
+
+接著我改變了Data提供者的結構,使它也能支援複數Batch的狀態.
+雖然我很想採用BNN的原碼的方式,使用類別來建立一個有實體的Data Providerc,還有圖片的BatchNormalization.
+但是為了Debug方便,我仍只用了Function的結構.
+現在我正在處理一個無法用numpy顯示Data提供者產生之資料結構的問題.
+
+上周末我讀了MNasNet的研究報告,它是出自Google Brain之手,
+和過去主流的"以Supervised方式訓練手工打造的Model"完全不同.
+MNasNet是個運用Reinforced learning 在眾多自動產生的Model之中找出"最適合在某特定行動裝置平台"的系統.
+和之前我研究的二值化相反,
+MNasNet非常有野心的追求更高的精度和運作效能,而且成功的在依些Data set上實現了此目標.
+這種自動化的訓練方法或許江惠成為未來的趨勢吧.
+
+我在十一月十一號那天開車載媽去了員林大潤發買東西,
+明明是挑早上去的,但仍碰上了不少車流,由於沒找到重意的品項,
+最後只買了一條被單和長褲便回去了.
+----------------------------------------------------
+While I was continuing training my model, I found another strange phenomenon: The loss value was actually climbing up and then stopped at certain point.
+I currently have no idea of the cause of this issue.
+
+In order to make the model compatible to multiple batch input, 
+I rewrote the model structure and made the 5-d dataflow of pictures capable of entering the conv-net.
+Subsequently, I  changed the data provider structure so that it can support the multiple batch number.
+Although I wanted to borrow the class design and batch normalization method from the BNN, since I have to kepp the model simple enough to make it easier to be debugged, I still used my previous design.
+Now I'm handling a problem about unable to show shape of a list by numpy.
+
+Last week I read the paper of MNasNet.
+It was created by Google brain team.
+Unlike the mainstream models --- "Hand-crafted models trained in supervised way.", MNasNet is a system that find the fittest model from automatically generated mdels trained in a reinforced manner.
+Opposite to the methods like binarizations, it ambiciously seek both better precision and performance.
+And it achieved such goal on several datasets.
+Maybe this automated training method will becom the trand of the future.
+
+I drove my way to RT-Mart of Yuan-lin with mom on November eleventh.
+It was early in the morning but still we encounterd quite some traffic flow.
+Since we didn't find the all goods we wanted, we only bought a pair of pants and a comforter and then returned.
+----------------------------------------------------
+Modelの訓練を続行していた際、私はもう一つ異常な現象を見かけた。
+それは”Loss値が上昇して、そしてある位置で止まった”と言う現象です。
+私は今でもこの現象の原因を分からない。
+
+Modelを”1”以上のBatch numberの条件で訓練出来るため、
+私はModelの構造を変えた。
+5－DのHint dataを成功にConvolutional Networkに輸入することが出来る。
+そして私はDeta提供用のプログランを複数Batchが輸出できるように改造した。
+BNNのSource codeで使ったClassとBatch Normalization方法を採用したいが、プログランの構造の単純さを維持するため、
+私は前の方法を選んだ。
+今のうちに私は一つのBugを処理している。
+このBugは”NumpyがData providerからのデータの構造を表示出来ないこと”です。
+
+先週の週末で私はMNasNetの研究報告を読みました。
+それはGoogleの手によって開発されたものです。
+今まで主流の”人工的に作られたModelをSupervised Learningで訓練するとと”と違い、
+MNasNetは多数の自動的に生成されたModelの中に”特定のMobileDeviceに最適なModel”を探し出すシステムです。
+私が前で研究した”二値化”より、このシステムのデザインはもっと野心を持って”精度”と”効率”を同時に追求する。
+そしてMNasNetは若干のData setでこの目標を達成した。
+このような自動化訓練システムは未来の主流方法の一つになるだろう。
+
+十一月十一日の朝、私は母さんを連れて、車でユェンーリンのRT-Martへ行きました。
+朝なのに、車の数が多いでした。
+買いたい商品をあんまり見つからなかっただから、最後は二つだけの商品を買いました、そして帰りました。
