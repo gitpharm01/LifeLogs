@@ -1,0 +1,90 @@
+Model在經過調整後,訓練的結果仍然令人失望.
+Loss值的走向仍為向上增加後固定在特定位置,
+恐怕這個Model在基礎的設計上有數學方面的缺陷.
+我會再上StackOverflow發文並且找尋可能的協助.
+
+到目前我仍思考著自己是否真的把時間當作了朋友.
+四月時發起的WeARFit計畫延續到現在,
+我仍然在Human Pose Estimation的議題上掙扎打滾,
+對於這個領域的了解遠比過去要深厚得太多了,
+但是同時也發現未知的是物漢要應付的挑戰也越來越多,
+創新不只要創意和運氣,深厚的實力也是必要的.
+
+這段期間持續不斷的週記寫作維持著我執行各項計畫的紀律,
+或許我應該把它當作一生的習慣?
+
+紀律是重要的,不斷練習已習得之技能的紀律也包括在內.
+我在這個月練習開車的時後便充分體會這一點.
+我很多次大意都因為發生在車流少的支線道路,僥倖的沒有出事.
+如果不注意,該注意的路況就會被忽略,
+如果不練習,行進和距離方向的控制精準度便會下降,
+稍有怠慢就可能釀成重大意外,
+
+開始工作也有八年多了,我這一路下來觀察到了不少學校不教,報章雜誌不敢明講的事情,
+與其在學校混那不值錢的博碩士,不如上職場賺錢.
+另外我也看到許多人一時光鮮亮麗,成為媒體寵兒.
+但是一轉眼就變成人人喊打的過街老鼠.
+標榜最新科技的產品和市場,骨子裡卻是買空賣空,老鼠會結構的騙局.
+
+和這些"過去的未來趨勢和新貴"相比,難道最穩也最真實的反而是我在過的這種
+無聊生活?
+------------------------------------------------------
+After adjustment, the training result of my model was still dissapointing.
+The change of loss value remained the same pattern:
+sharply surge and freeze at one point.
+The basic design of this model might contain some mathmatical problems.
+I'll make post on StackOverflow again and seek possible help.
+
+Until now I still wander whether I really befriended the time or not.
+The WeARFit project continues and changed several times.
+Yet I am still struggling with the Human pose estimation problem.
+
+I know much deeper and better in this area, but I also found so many questions and challenges.
+It takes not only luck and creativity to make innovations, but also resources and skills.
+
+The continuing weekly review kept me disciplined and stuck to my plans.
+May be I should keep doing it throughout my life.
+
+Discipline is crucial, including the discipline to keep practicing skills I alread learned.
+The driving practice of this month is te best proof of it.
+If I becom careless, the critical situations on the road will be neglected.
+If I don't practice, the precision and distance control will fall.
+One slight mistake might cause severe accident.
+
+I've been working for over 8 years,.
+During this period of time, I discovered many thins that both schools and mass media wouldn't tell and teach.
+Instead of getting the valueless degree in the university, I think getting a job is much more practical.
+I also found many people have their short-lived fame and flattered by mass media.
+But soon they became the target of all kinds of accusation.
+The cutting edge technology market concept are actually a Ponzi scheme.
+Compared to these "future trends and celeberty of the past", 
+my "boring" life seems to be much more realistic and stable, isn't it?
+-------------------------------------------------------------------
+再調整したModelの訓練結果は依然良くないです。
+Loss値の変化パターンは同じく”上昇し、そしてある位置で止まった”と言う状況です。
+恐らくこのModelの基本的な設計に数学上の欠陥がある。
+私は再びStackOverflow で可能な解決方法を探す。
+
+今でも私は”自分が時間の仲間になったか？”と考えている。
+四月で始動したWeARFitプロジェクトについて、
+私は未だPose Estimation の領域でもがいている。
+確かに私は過去よりよほど多いの関連知識を学びました。
+でも未知なことと挑戦も沢山います。
+イノベーションには”創造力”と”運”だけではなく、充分な”実力”が必要なのです。
+
+続いている週間記事は私の計画実行の紀律を維持した。これを一生の習慣の一つにするべきかもしれない。
+
+紀律は大事なものです、習得した技能を練習し続ける紀律も必要です。
+今月の運転練習に通じて私はこの点を理解しました。
+もし私が注意しないなら、気につけるべし状況を掴めることが出来ない。
+もし練習しないなら、車への操作精度は下がる。
+少しな油断は重大な事故になる。
+
+私はもう社会人生活を八年過ごした。
+この間で色々な”学校とマスコミが教えないこと”を見かけた。
+大学で価値の低い学位を追求するより、職場で金を稼ぐの法がいいと思う。
+もう一つ見かけたのは、
+ある人たちが一時的に有名人になった、だが間もなく多く人の非難の的（まと）になった。
+最新のテクノロジで構築された商品と商法は実際Ponzi Schemeであった。
+これら”過去の未来の潮流と長者たち”から比べば、
+私のような平凡な日々こそが一番真実的なものですかね？
