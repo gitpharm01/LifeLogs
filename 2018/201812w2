@@ -1,0 +1,85 @@
+這週我選定了一個Youtube上面的Tensorflow教學系列影片，
+他是大約一年多前開始製作的，整體內容偏向中階到進階，
+重點是她的後半部有幾個關於電腦視覺的重要Modle的介紹。
+
+這系列一開始仍然包括了基本的API結構，
+講者提到的幾個API(Keras / Pretty tensor / Layer B)目前已經漸漸被整合到Tensorflow裡面，
+畢竟Tensorflow是一個更新頻繁的機器學習框架，現在已經來到了r1.12版
+幾個月前我安裝的還只是1.08版呢。
+
+關於神經網路建構時所使用的API語法，我目前仍採用原始的Tensorflow架構，
+目前確實有許多可以整合Loss function甚至是Optimizer的API,
+但由於我的目標Model結構複雜，最好還是採用比較底層的API吧。
+今年花了大半的時間在機器學習上，但最後仍未能訓練出理想的Model,
+但是新的訓練方法還在不斷的推陳出新，智慧型手機的運算能力也在逐步攀升，
+我得堅持下去直到時機成熟的一刻。
+
+最近幾個月我調整了飲食的組合，每周增加一罐鮮乳或豆漿來增加蛋白質攝取量，
+另一方面降低了白米飯的攝取，一次只吃半碗飯。
+沒有出現什麼飢餓感，而且腹部的油脂繼續消退。
+
+雖然常會有人鼓吹要多吃白飯來支持稻農，但我覺得他作為主食的營養價值很低，
+多吃它也只是肥了肚子而已。
+相較之下，半碗十榖米的升糖值低、總熱量少，但是耐飽度更高。
+更何況要花的錢更少啊。
+---------------------------------------------------------
+This week I selected a tutorio series of tensorflow and started studying it.
+This series was started about one and a half year ago.
+The contents are among intermediate level.
+The most important thing is that it contains classic models in computer vision.
+
+This tutorial still covered the basic API structure.
+The creator of this tutorial mentioned several APIs(Keras / Pretty tensor / layers) which are gradually integrated into Tensorflow.
+After all, the Tensorflow is a framework which are rapidly changed.
+Now the stable version is r1.12 while the version I installed several months ago was r1.08.
+
+About the code style of constructiong neural networks, I'm still using the original Tensorflow API.
+There are indeed some APIs that can make the code elegent and integrate loss function, predictions, and optimizer all together.
+
+However, since my target model is quite complicated, I'd better use simple and basic APIs.
+I've spent more than half year on machine learning,
+yet I still couldn't build the ideal model.
+But the new training method and network structure are still being released.
+The computational capability of mobile devices are also surging.
+I should keep learning and trying till the time is ripen.
+
+In recent months, I changed my diet again.
+I increased protein intake by adding a bottle of milk or soy milk weekly.
+On the other hand, I decreased the intake of rice.
+Now I only eat half bowel of rice each meal.
+It didn't cause any feeling of hunger and the fat around my belly kept shrinking.
+
+Though there are many people who promote eating more rice to support the rice farmers.
+I think the nutritional value of milled rice is too low .
+With lower price and GI(Glycemic index), mixed grain rice is much better.
+-----------------------------------
+Youtubeで一つのTensorflow教学シリーズを勉強し始めた。
+そのシリーズは一年ほど前から作れられたものです。
+難易度は中ほど。
+一番大切なのは、そのシリーズの後半部に幾つの代表性のある電脳視覚Modelを含めている。
+
+シリーズの最初のエピソードは依然基本的なAPI構造を説明しました。
+作者が言い及べたAPI(Keras / Pretty tensor / Layers)は今どんどんTensorflowに統合された。
+Tensorflowは常に更新しているフランーワークだから、現在は既にヴァジョンｒ1.2になった。
+数月前で私がインストールしたのはｒ1.2版です。
+
+NeuralNetworkを建造する為のAPIの選択について、
+私は今原生のTensorflow APIを採用している。
+今なら確かにLoss functionとOptimizerを統合するAPIがいるですが、
+私が作りたいModelの構造は複雑なので、原始のAPIを使う方がいいと思う。
+
+今年で沢山の時間がMachine　Learningに投入した、
+けど最後は理想的なModelを出来なかった。
+
+でも新しい訓練方法とNetwork構造が発表されし続けている。
+スマホンの計算能力も改善されている。
+私は時が来るまで頑張り続けるべきです。
+
+この数月間で私は又飲食の組成を調整しました。
+毎週で一缶のミルクやソイミルクを加えて、蛋白質の摂食量を増加しました。
+ちなみに、米の摂食量を減った、でもあんまり飢えていませんでした。
+そして腹に溜まっている脂肪はまた減った。
+
+”米を沢山食べて農民を応援するべし”と言う言論はよく聞いている、
+でも米が主食としての栄養価値が低いと思う。
+GI値が低いマルチグレインライスの方ほもっといい選択と思う。
