@@ -1,0 +1,96 @@
+終於、2018年要過去了，
+這一年我在工作和收入尚沒有什麼顯著成長，
+畢竟我從式的是一門穩定且待遇比上不足、比下有餘的行業。
+但這一行長期的前景恐怕不樂觀，且再回去大學拿學位也不會讓自己的收入或出路有大大的拓展。
+考慮時間和工作的機會成本，我恐怕連學費都無法回收吧。
+
+反過來我以完全自學的方式修習了Tensorflow平台為主的機器學習相關知識，
+雖然目前程度仍卡在不上不下的位置，但總算對它有更全面性的了解，
+AI確實有他強大的地方，但是媒體和一些半桶水專家為了炒作化體而把他過度神化了。
+
+我目前對機器學習的目標仍是達成Mobile Device上的Real-time Pose estimation.
+然而這個目標的意義在於"以電腦視覺來驗證運動訓練時的動作"這件事。
+
+我近來發覺期時有另一個途徑也可達到這個目標。
+就是用"與發電機整合的運動器材"。
+我在製作WeARFit草案時曾有過以這個手段為核心的另一個計畫。
+這個可以說是WeARFit Plan B的方案在性質上類似大規模路跑，
+但是活動地點改在室內、有空氣清淨機的地方，活動時間長達一個月，
+宣傳標語是: "不吸髒空氣又把天空弄乾淨"
+
+在下一個年度的第一季我會嘗試這個手段，
+首先在一月我會先查出適合的器材並且購入，
+可能是飛輪機或是自己用發電機模組DIY,並且用一台空氣清淨機配合運轉。
+
+積下來我惠整理試驗的結果，並且再kickstarter或其他平台發表，
+看看是否能吸引其他人加入。
+
+整體上下個年度的目標有:
+1.建立ACFit的雛形
+2.學習如何說故事，在kickstarter上用這些故事來吸引合作夥伴。
+3.持續學習Machine Learning。
+
+-------------------------------------
+The year of 2018 is comming to an end.
+In this year, I had no significant growth in the aspect of income and work.
+After all, I'm participating in an stable industry with mediocre salary that is  still higher than other jobs.
+However, the long term prospect of this industry is not shiny.
+Adding more academic degree in this area will not improve my salary and job offers.
+
+On the contrary, I studied machine learning which centered on Tensorflow platform with online resources.
+Though I still can't call myself a data scientist, I now have a better understanding in this area.
+The currently released works are in deed powerful, but the media and some quoat to quoat experts overexaggerated this topic.
+
+My goal in this area still remain the same:
+To achieve real-time human pose estimation on mobile devices.
+However, the purpose of this goal is to "verify exercise movement with computervision".
+I recently noticed that I can fulfill this purpose by another method.
+
+It is employing "training instruments which are combined with power generator".
+I came up with this idea when I was planning WeARFit.
+This "plan B" of WeARFit is much like a massive marathon event.
+But the location are indoor with air purifiers.
+The length of event is one month.
+The slogan is :
+Breathe the clean air and make the sky cleaner.
+
+In the comming year, I'll search the proper instruments.
+It may be spin bikes orother things.
+I'll buy an air purifier, which will be powered by the generated electricity.
+And then I'll release the result of my experientment on kickstarter or other platforms, see if I can attract other people to join.
+
+Overall, the goals of next season would be:
+1. make prototype of ACFit
+2.Learn how to tell a story and find partners on kickstarter with those stories.
+3.Keep learning Machine Learning.
+---------------------------------
+2018年はついに終点に向かう。
+この一年間で私の仕事と収入の方面はあんまり成長していなかった。
+ま、私が働いている産業はこんな平穏で待遇が中ほどなものだからな。
+でもこの産業の将来性はよくないです。
+それにもっと高い学位を取得しても、給料と待遇はあんまり増えない。
+時間とオポチュニティコストを含めて考えれば全く割に合わないことです。
+
+その逆、私は今年自習でTensorfowを中心としてのMachine learningを勉強しました。
+今の修行は中途半端の位置ですけど、この領域にもっと全面的な認識を出来ました。
+現在のAIは確かに強い性能が持っている。
+しかしマスコミと一部分の評論家はこの領域を誇張しすぎた。
+
+Machine learningについて、私の目標は依然
+”Mobile　DeviceでReal time human pose estimationを達成すること”です。
+しかしこの目標は
+”電脳視覚で運動の動作を検定する”です。
+この目的を達成するにはもう一つの手段がある。
+
+それは発電装置と一体化した運動機材を使うことです。
+私がWeARFitのプロジェクトを思索した際、この方法を中心にして、もう一つの計画を考えついた。
+この計画はちょっとマラソンイベントと似ている。
+でも活動の地点は”空気清浄機が有る室内”。
+活動期間は一ヶ月です。
+プロパガンダのスローガンは：
+”きれいな空気を吸って、きれいな空を作ろう”です。
+
+２０１９年の第一季で私はこの手段を試す。
+先ずは正月で相応しい機材を探し出す、それを入手して、そして空気清浄機を一台購入する。
+運動で作った電力で清浄機を動かす。
+その実験の結果をKickstarterなどのサイトで発表する、可能の協力者を探す。
