@@ -1,0 +1,75 @@
+我在2018年12月的最後一周把Hvass lab的Tensorflow 教學給看完了，
+感覺上機器學習的程式碼架構大同小異，
+主要是NeuralNetwork的結構和資料流向隨著Model不同而有各式各樣的寫法出現，
+在訓練和驗證時使用的手法通常只有一種。
+
+這個教學系列還囊括了之前我沒有細看的"Style transfer","Natural Language Processing", 還有用視覺Feature輸入NLP Decoder產生對圖片之描述的神經網路。
+算是讓我長了知識
+然而這個教學系列並未對我所感興趣的"高效率電腦視覺Model"著墨太深，
+這一點是有些可惜，
+我目前仍然對要如何建立可行的Model有任何新的想法。
+
+ACFit的雛形方面我倒是有些進展，
+因為我在購物網站上面發現一種水流發電機，工作流速在每分鐘3~4公升，輸出5V的電壓。
+我只要用各種運動訓練的動作去把水提或抽到高處，就能帶動這些發電機。
+完全不需要去考慮馬達的瞬間轉速和我自己的動作頻率，
+因為在固定的高度之下，
+這些水流發電機永遠處在恆定的電力輸出狀態。
+就算我的動作停下，只要在上游的水量足夠，發電機就會繼續恆定的輸出電力。
+如此一來我可以採用HIIT的訓練節奏，不需要像常見的腳踏式發電那樣要一路踩到底，
+而且訓練的動作也可以有多種的變化，上半身和下半身的各種肌群都能被訓練到，
+本周我會在發電機到手以後展開各種試驗。
+------------------------------------
+I finished watching the tutorial series by Hvass Lab in the last week of December, 2018.
+
+The code structures of those tutorial projects are generally the same.
+The difference was mainly caused by varience in Neural network structure and dataflow.
+The training and validation method are mostly the same.
+This tutorial series also included the "style transfer", "Natural language processing", which I skipped when I began learning Tensorflow several 
+months ago.
+There are also an interesting project which inputs visual features into NLP decoders and generate literal discriptions of a picture.
+This series did expend my knowledge in machine learning.
+
+However, the series didn't include the "High efficiency models" such as MobileNet and I currently have no new idea about how to make a desirable model.
+
+On the contrary, I made some progress in ACFit's prototype.
+It was because I found a micro-waterflow generator on online shopping sites.
+This type of generator operate under 3 to 4 liter of waterflow per minute.
+The output is about 5 volts.
+I only need to move or pump the water up with all kinds of muscle training movements to make the generator working.
+
+I totally don't have to consider about my rhythm of movements and the spinning speed of generator's turbine.
+It is because the generator will always output stable electricity under fixed water pressure input.
+Even if I stopped doing exercise, as long as the upper water tank is not empty, the generator will continue to provide electricity.
+
+With this system, I can do training in HIIT style rather than keep spinning the wheel pedle of a bike generator.
+The training movements can have high diversity and I can train both upper and lower body at the same time.
+
+I'll begin the experiment when I get the generators I purchased. 
+-------------------------------------
+2018年の最後の一周でHvass LabのTensorflow教学シリーズを見ることを終了しました。
+Mchine learningの大部分のCode構造は皆似ている。
+NeuralNetworkのデザインとデータの流れによって様々なCdoe編成方法が生み出す。
+ValidationとTestingのときは殆ど同じです。
+
+このシリーズは私が前で無視したModelを収録している。
+それは”Style transfer”と”Natural Language processing (NLP)”と
+視覚特徴をNLP Decoderに輸入し、影像の文字解説を作るModelなどです。
+私は確かに色々勉強しました。
+だがこのシリーズに私が注目している”高効率の視覚Model”は含めていないです。
+残念ですが、私は今でもどうやって目標を実現出来るModelを作るのは全然分からないです。
+
+ACFitのプロトタイプの方は進展がある。
+私はオンラインーショッピングサイトで一種類の水流発電機を見つかりました。
+この発電機は毎分3、4Literの水を輸入し、５Vの電圧輸出できる。
+私は各種類の筋力訓練動作で水を高い場所へ上げ、あるいは運べば、
+この発電機を稼動させることが出来る。
+自分の動作速度どジェネレータの転速を考える必要はない。
+それは”固定な水源高度のしたで水流発電機はいずも固定な電力を輸出すること”だから。
+
+たとえ私が動作を止めるでも、水源となるタンクに水が残っていれば、
+発電機は電力を輸出し続ける。
+これで私はhiitのリズムで筋力訓練できる。
+自転車発電の様に長期間同じ動作を繰り返すことは必要ありません。
+その逆、私は自分のペースで全身の筋肉を訓練できる。
+今週で発電機を入手した後、色々な実験を始めます。
