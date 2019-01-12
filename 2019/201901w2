@@ -1,0 +1,85 @@
+兩個水力發電機到手之後，我又買了一個萬用電錶用來測定電壓和電流。
+目前我花在這個計劃的前大概在一千一百塊左右。
+這二個發電機的出入水管口都是常見的四分管，
+這讓我省了很多工夫，直接用蓮蓬頭的水管就可以連接發電機進水口並展開測試。
+
+我在三樓(水壓較低)的位置測了發電的結果，
+5v穩壓的小型發電機確實能產生穩定的電壓，但是電流異常的小，只有60~80mA左右，
+而不定壓的大功率發電機則是可以上到8v左右，電流也有60mAh，
+大功率版本的發電機在相同的水壓之下居然有更大的功率輸出，
+這可是在我意料之外。
+如果是為了發電，這個大功率發電機應該會是首選。
+
+以前高中物理課都教說"直流電是無法變壓的"，但是事實上不然。
+我在網路上找了一下、居然發現了一個只要台幣40~60元的DC-DC降壓模組，
+他是用半導體去進行穩壓和轉換的，
+可以把高電壓低電流的電力轉換成低電壓高電流的電力，
+如此一來就可以只用一個大功率發電機去對隨身電源進行充電了。
+
+ACFit的雛形目前還有一個重大的挑戰，就是水頭的高度，
+我如果在室內架設水流裝置，最多只能把水頭拉高到2公尺左右，
+這樣只有0.2Pa，可能不足以產生夠大的輸出功率，
+這一個發電機的管路非常小，在低流量的情況下勢必需要大壓力的水頭，
+我可能得考慮在二樓窗台前架設水頭，
+把出水口設在一樓地面，
+但這個設置可能會變得很費工夫。
+--------------------------------------------
+After picking up the two waterflow generator I bought last week,
+I also bought a multimeter to measure the voltage and current of the electricity.
+I've currently spent 1,100 NTD on this project.
+Those two generators have the common half-inch water tubing,
+this made my work a lot more easier.
+I can directly plug them on the hose of a showerhead and start the test.
+
+I measured the voltage and current on the third floor in my home.
+The generator with constant 5-volt output have pretty low current, which is about 60~80mA.
+And the high-power generator can produce 8 volt and 60mA current.
+The high-power generator can produce more energy output with teh same pressure input, this was beyond my expectation.
+
+For better energy efficiency, I should choose the generator with higher output.
+
+Back in highschools, the textbooks always told us that "the voltage of direct current can not be changed".
+But in fact, it can!
+
+I browsed on the internet and discovered a DC-DC voltage control unit which costs about 40 to 60 NTD.
+It converts and stablizes the voltage with semiconductor modules.
+
+The control unit can convert the low current and hight voltage flow into low-voltage and high current form.
+With this unit, I can charge the power bank only by one generator with high power output.
+
+There are still a major challenge in the prototype of ACFit.
+It's the height of the water top.
+If I set the waterflow system indoor, I can only have the water up to 2 meters, which can create only 0.5Pa of water pressure.
+This might not be enough to generate the desired power output,
+since the water flow capacity of the generators are quite small.
+
+I might have to install the water top on 2nd floor and put the generater at 1st floor.
+However, this may be quite troublesome.
+---------------------------------------
+二つの水流𣊫電機を入手した後、私は又回路計を一機購入しました。
+それは電蔃と電流を測定するためです。
+今まで私がこのプロジェクトのために掛かった金は1100NTDです。
+
+この二つの𣊫電機の出、入水口はよく見られる仕昞です。
+これは手間を省けた。
+シャワーヘッドの水道管と𡜻𩦝するだから、直接琔𣺉を行うことが出?Sる。
+私は家の三階で𣊫電の結果を測定しました。
+５Volt定蔃の𣊫電機は確かに安定な電蔃を輸出できるが、
+その電流は非常に低い、80∼60ｍAの位です。
+
+電蔃が固定しない高工率の𣊫電機の方は8Volt、６０mAの電流を輸出。
+昔、学校の物理学講義は”直流電は変圧不可能だ”と言っていた。
+でもそれは真実ではない。
+私はショッピングーサイトで一つのDC-DC高圧部件を見つかりました。
+その部件は半導体を使って電流転換を実現したものです。
+高圧低電流の輸入を低圧大電流を輸出できる。
+これで単一の発電機で携帯用電源を充電できる。
+
+だがACFitのプロトタイプにはもう一つの挑戦がある。
+それは水タンクの高度です。
+
+室内で水流装置を世知すれば、タンクの高度は最大２メートルに過ぎない、
+つまり0.2Paの水圧だけ。
+こんな圧力は十分な電力を輸出することが出来ない恐れがある。
+二階でタンクを設置し、発電機を一階の地面に置く、
+これなら設置複雑度が高くなる。
