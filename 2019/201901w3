@@ -1,0 +1,74 @@
+這兩個微型發電機在測試之下並無法發出足夠的電力，
+我在拆解他們的結構之後發現他們的發電效率也不高，類似傳統的水車結構，
+只能轉化小部分的水流動力為電力，
+看樣子靠它們是行不通的。
+
+我在查過水力發電機的設計之後發現了一種適用於低水頭環境的類型，
+稱為Gravitational vortex ，用重利和渦流來轉化水的位能成為動力並且發電。
+這個設計的結構非常簡單，甚至用碗公大小的水槽就能產生出推動水車的渦流我準備了兩個小水槽和一個用寶特瓶製成的水車扇葉，
+接下來就看看他能產生多少的出力了。
+
+這個方案是必要購入馬達來自己組裝發電模組，
+市面上的DC電機多是高轉速的設計，找不太到慢速、高扭力的版本，
+我可能要用一個普通的DC電機搭配一個加速齒輪組，
+另外還要購入熱溶膠槍和電烙鐵，鑽孔機或許也可以考慮使用。
+
+市面上的DC-DC直流轉換模組型號眾多，
+我有看過一個要價150元的，也有39元就搞定的版本，
+我自己其實看不太出他們之間有什麼差別。
+
+一組Gogoro的電池要充到飽需要3度左右的電，
+我換算成水流量之後發現這個能量其實驚人的高，
+如果水頭只有兩公尺，水流量總共要551000公升才行。
+----------------------------------------
+Those two water-flow generator failed to generate enough electricity when I tested them.
+I dissembled tehmn and found their mechanism of generating power is not quite efficient. 
+They resemble the traditional watermill and can only convert small portion of the water flow into electricity.
+It seemd not practical to apply them in my project.
+
+Agter researching the various designs of water power generators,
+I found a type which is suitable for low waterhead setting.
+It's called gravitational vortex water generator.
+It uses gravitation and water vortex to convert water potential energy into electircity.
+This design is quite simple and can be easily constructed even with a small basin.
+I prepared two small basins and a turbine made from a PET bottle.
+I'll check how mucitsign generate.
+
+To make this design working, I have to purchase a motor to make my own generator module.
+Most of the DC generators on the market are hig-rpm versinos.
+I can't find desirable low-rpm motors so I'll have to use a speed lowering gear set.
+Besides, I have to buy a hot glue gun and a soldering gun.
+A drill may also come in handy.
+
+The DC-DC converter modules on the market have various designs.
+There's one costs about 150NTD and another one costs only 39NTD.
+To be honest, I can't tell the difference between them.
+
+To fully charge a set of Gogoro's battery takes electricity about 3 KWh.
+I converted the energy into water potential energy and found it to be surprising high.
+It may take about 551000liters of waterflow if height of the waterhead is 2 meters.
+--------------------------------------
+実験の後、あの二つの水流発電機は充分な電力を輸出できないと判明した。
+発電機を解体した後、その構造は発電効率が高くないと気付いた。
+これらの設計はただ少数の部分の動力を電力に変えます。
+どうやら使い物にならないようです。
+
+水力発電機のデザインを調べた後、
+私は一つ”ウォータヘッドが低い環境に対応する設計”を見つけた。
+その名はGravitational　Water Vortex　Generatorです。
+このデザインは重力と水の渦巻きを使って動力を輸出する。
+構造はとても簡単です。
+どんぶりのサイスの水槽で実現できる。
+私は二つの水槽とペットボトルで作った水車タービンを用意した。
+これからはこのシステムがどれぐらいの電力を輸出することを調べる。
+
+このデザインを採用すれば、モーターを購入しなければならない。
+市場にあるDCモーターはほぼ全部が高回転数対応のものです。
+低い回転数、トークが高いDCモーターはあんまり見つかりませんでした。
+おそらく私は普通のモーターと加速ギアセットを入手する必要がある。
+ちなみにグルーガンと半田鏝（はんだごて）が必要です。
+電気ドリルも入手する考えがある。
+
+DC-DC変圧部品の形は沢山有る。
+一本150NTDが掛かるものはあるが、39NTDの安い物も有る。
+正直に言え、私はそれらの間の差別がよく分かりませんです。
