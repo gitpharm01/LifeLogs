@@ -1,0 +1,98 @@
+﻿這個短片是一個"水力發電型健身器材"的概念原型，
+本片中的系統中大多數的結構和組成都尚未最佳化，僅作為展示。
+
+This is a concept demo of hydropower based fitness device
+Most of the components are not optimized.
+
+重要!! Important!!
+
+這個系統的設計目的｢不｣在於使人體的出力成為主要的能源來源之一，
+它是要讓運動發電的效率更好，更容易運用其電力，並且足以抵銷一部分的日常用電
+This system is NOT going to make human force a major source of energy.
+It aims to make the energy production by exercise more efficient, easier to utilize, and able to neutralize a portion of daily energy consumption.
+
+-----------------------------
+系統結構
+Components of the system
+
+1.上方水槽(水頭)
+  The upper tank(Water head)
+
+2.水力發電機
+  The Waterflow generator
+
+3.電表
+  The multimeter
+
+4.下方水槽和水罐
+  Lower tank and the water bottle
+-------------------
+結構圖 Structure details
+
+
+
+
+
+
+-------------------
+運作示意圖 How it operates
+
+
+
+-------------------
+試行結果 Test result
+1.電力輸出 Electricity output
+  電壓(Volts)
+  電流(mA)
+2.水流量 Water flow
+  1.9L / 40 sec = 47.5ml/Sec
+-------------------
+設計概念 Concept of this desine
+用水位能來儲存並匯集各個使用者以不同運動方式、
+不同節奏和出力、在不同時間產生的功。
+被保存的水位能統一由一個高效率的水力發電機進行電力轉化和輸出。
+Store and converge the work done by users in potential energy while they are doing exercises.
+They can do different exercises at different pace with different strength according to their needs.
+The stored potential energy will be converted to electricity by one single hydropower generator.
+-------------------
+優點 Advantage
+1.集中發電 Centralized generation of electricity
+  a.只需要一個發電機而不需要把每一個運動器材都加上發電馬達
+    It only requires one generator instead of installing multiple generators on all training equipments.
+  b.不需要有壽命限制又昂貴的充電電池
+    No need for expensive battaries
+  c.水管路比電路安全、便宜且容易維護
+    Water pipes are much safer and cheaper than electric wires.
+  d.水流容易控制，可按照設施電力需求量大小來發電
+    By controlling the water flow, the system can generate electricity according to the demand of the facility.
+2.讓使用者按照自己的需求進行運動 The users can do training according to their needs
+  a.使用者無需去配合發電機的轉速和出力，而是按照自己的訓練目標去規劃和進行運動訓練
+    The users don't have to consider about the rotation speed and torque of the generator.
+    They can do exercises at their own pace and strength.
+  b.由於是以儲存水位能的方式做功，就算是靜態的動作也可以發出電力
+    Since the energy is stored as potential energy, the user can generate power even by doing 靜態運動
+3.更多運動項目可供選擇 More exercises to choose from
+  a.舉重機 Weight machines
+    將重量負載改為抽水活塞 The weights are replaced by water pumps
+  b.飛輪機 
+    用抽油機結構改裝
+  c.划船機 Rowing machines
+    改為用拉繩拉動抽水活塞
+  d.慢跑機
+    腳踏板改為腳踏式抽水機
+  e.甚至連拳擊靶也可以發電
+----------------
+電力的用途  The use of generated electricity
+1.驅動空氣清淨機和冷氣機
+  Air conditioning and purification
+2.室內照明
+  Illumination of the facility
+3.網路或電腦設備用電
+  Powering wifi device or computers
+-------------------
+結論  Conclusion
+這個構想的目標是藉由更有成效和效率的發電/節能來促進人們從事各種健身運動，
+另一方面也讓參加運動的人更能夠按照自己的喜好和需要來進行健身訓練，
+在避免運動傷害的同時促進健身的成效。
+The goal is to build a more efficient system which encourages people to do exercises.
+On the other hand, it enables the people to do the exercises they prefer/need.
