@@ -1,0 +1,67 @@
+﻿市面上並不存在超小型的pelton turbine,
+只有金屬製的中型水輪，對應的發電量是百瓦倒千瓦上下，
+完全不適合我的實驗規模。
+
+好在我還有另一個選項:用3d代印的服務來把水輪印出來，
+現在的3d代客列印服務已經比較普遍了，有的店家還能夠作中低價味的小型模型，
+另外更幸運的是很多人都已經嘗試過用3d列印來製作peltonTurbine了，
+我在Youtube上面找到很多人用列印出來的水輪進行的試驗，
+而且在網路上已經有一些Model被開源釋出了，
+我不需要從頭做起，
+只要用Blender和Freecad程式修改並確認尺寸就能得到我要的模型，
+
+我已經接洽了一些代印的廠商，目前行情價似乎是250元/小時，
+只是我沒有自行列印的經驗，要等廠商估價才知道真正的價格。
+
+我在網路上還找到了一個有趣的MIT專題報告，
+這位作者的設計是用1000公升的水槽來儲存用太陽能和風力所抽起的井水，
+在夜間的時候將水流開啟以推動水力發電機，
+這個專題的名稱為Smart Africa,目的在幫助偏遠地區儲水、淨水還有夜間照明電力需求。
+
+這位作者在專題報告中還非常完整的記錄了水力流量設計上的物理計算，
+對於他的Pelton turbine也有很詳細的描述，
+他的pelton turbine另外經過光固化的處理，製法相當精細，
+因為他的目標瓦數遠超過十瓦。
+
+我目前的打算是在1000元以下的價格做出一個強度夠高的Turbine.
+-----------------------------------------
+There are no available micro-sized pelton turbine among Taiwan's shopping sites.
+Only middle- sized turbines which made by metal are available on ebay and Amazon.
+Their compatible power is 100W to 1KW, which totally don't fit into my desired scale.
+Luckily, I still have one available ption:
+ to print the terbine by 3Dprinting.
+The printing service nowadays are much more popullar.
+Some service providers can accept small-scaled models.
+It's even luckier to know that many people had already experimented printing this type of urbine and put it into tests.
+I found many footage videos on Youtube, which covers the actual result of these printed turbines.
+
+Some of these turbine's digital files are shared on the web so I don't have to make one from scratch.
+I only need to confirm and adjust its size with Freecad and Blender.
+I contacted several service providers, the general pricing is about 250NTD per hour.
+But I have to wait forthe quotations to know the exact price.
+
+I also found an interesting MIT project record on the internet.
+It's design uses a 1000 lither Tank to store the well water pumped up by solar and wind power.
+ The water will be released and drive the turbine of hydropower generator.
+The name of the project is "Smart Africa", it's purpose is to improve the off-grid region's water storage /purification and illumination during night time.
+
+The author recorded his physical calculations on water flow design in detail.
+He also recorded the making of his pelton turbine well.
+He ven treated the 3D printed turbine with light-curing since his model have larger scale.
+My current plan is to print a turbine wchich is strong enough and with budget bwlow 1000NTD.
+--------------------------------
+ショッピングサイトに小型ペルトンタービンはいないです。
+あるのは金属製の中・大型タービン。
+その対応のパワーは百Wattから千Wattぐらいです。
+私の実験規模に全然相応しくないです。
+幸い私にはまだ一つの選択肢が有る、
+それは３Dプリントでタービンを作ることです。
+今の３Dプリントサービスは前より普遍化された。
+サービス提供者は小型のモデルを受ける。
+もっとおめでたいことは大勢な人が３Dプリントでペルトンタービンを作ることを試した。
+私はYoutubeで実験の結果と過程を記録したヴィデオを見つかりました。
+ちなみにインターネットで若干の３DモデルファイルがOpensourceされた。
+これで少しの改造で私が求めるモデルを作ることが出来る。
+
+今四つのサービス提供者を接触しました、今の費用はいちじかん250NTDです。
+でも私のモデルのプリント代はサービス提供者のオファーしだいです。
