@@ -1,0 +1,60 @@
+﻿3D代印的報價結果讓我嚇了一跳，
+一個直徑12公分、高3公分的小水輪居然要價兩千甚至三千塊台幣，
+另外還有一家業者報了五千塊錢的天價，
+現在網購一台入門級的3D列印機只要四千多塊錢，
+與其付人五千塊不如買一台列表機自己印。
+我最後和一家公司議價後敲定了一筆一千五百元的訂單，
+接下來就要看看列印出來的成品是否能夠使用了，
+
+雖然自己製作的難度高且成品品質不會太好，
+但是我仍然自己用廢棄CD漢縮膠湯匙做了一個pelton turbine，
+我事先查了一些文獻來決定turbine的尺寸比例，
+花了一天左右的時間完成。
+我實際接上發電機並且在水龍頭底下進行測試，
+沒想到居然能夠順利運轉。
+
+但是這一個turbine還是有些缺點，
+首先他重量的比例分佈無法達到完美平衡，
+第二是每片扇葉的角度都有些微的傾斜，
+而且扇葉總數只有八個，
+離最有效率的16~17葉版本差了許多，
+另外由於材料受限，我只能用採用半徑六公分的湯勺，
+整體體積過大。
+如果3d列印的成品不符需求，我會以此自製品為基礎來製作更好的版本。
+
+解決了發電機和turbine的問題後，我接下來要處理的是整個系統的固定和封裝。
+首先馬達的防水必須要完善，而且之稱他的支架必須有足夠的強度，
+另外turbine的外罩必須能把濺出的水擋下並且導引回到下方水槽，
+我目前正在用塑膠板等素材建立最初的雛型。
+
+-----------------------------
+I was shocked by the quotation result of 3D printing.
+A 12-cm diameter, 3cm-high turbine costs about 2000 to 3000NTD!
+There's even one service provider told me the price would be 5000NTD,
+which is equal to the price of a entry-level 3D printer.
+In the end I choosed a service provider and bargained with them to get a price about 1500.
+I'll see if the product really worth the price.
+
+Though the DIY product will be difficult to make and have lower quality,
+I still made a Pelton turbine with a CD and some plastic spoons.
+I even checked some documentations to confirm the design of pelton trbines before making it.
+It took me about one day to finish it.
+
+I combined the turbine with DCMotor and tested it under tape water.
+
+Surprisingly, it really worked.
+However, ther are still many defects in this turbine.
+First the weight is not perfectly distributed.
+The buckets on the turbine have tilt problems, and the number of them is only 8.
+It's far from the optimal number, which 16.
+
+Since the choice of material is much limited in my cas, I can only use spoons with 60cm diameter.
+The overall size of the turbine is too big.
+
+If the 3D-printed turbine fails to meet my requirement, I'll make another turbine based on this one. 
+After solveing the problem of motor and turbine, the next thing to solve would be the casing.
+
+First the motor's insulation from water must be reliable, and the supprt system must be strong enough.
+Secondly, the turbine's casing must stop the splatting water and deliver it back to the lower bank.
+I'm currently making an initial model with materials like plastic boards.
+--------------------------------------------
