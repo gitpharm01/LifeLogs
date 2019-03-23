@@ -1,0 +1,81 @@
+有了第一個水輪機外殼的製作經驗，
+我在製作第二個機殼的設計上做了不少的改良，
+首先有考慮到排水和馬達的防水，
+另外對進水口的方位和距離也有所改善。
+
+花了一天半左右的時間完成機殼後，我進行了一次簡單的測試，
+水輪機成功的帶動了馬達的運轉。
+
+之後我又進行了另一次的試驗，將入射水柱的數目提升到兩個。
+但這一次我在別的地方碰上了麻煩，
+因為進水口和軟水管接合的衛致發生了嚴重的滲漏，
+上方水槽的第二個版本也由於我高估了熱容矽膠的強度和防水能力而產生了破裂和滲漏的問題，
+實驗最後在實際讓馬達運轉之前就終止了。
+
+為了解決這兩個問題，我查詢了pvc硬管和塑膠軟管相關的技術資料，
+發現倒之前自己的Teflon止漏帶的用法完全錯誤，
+正確方式應該是在兩個管路的接觸面之間使用才對，
+我另外還發現了PCV擴孔的技術，
+但是這個手段的困難度較高，我暫時不打算採用。
+
+目前我正在製做一個以塑膠板為骨架的上方水槽，
+會使用塑膠布當作防水的內襯，
+這一側的結構會比較能夠配合水路的設計，
+在完成這一個水槽之後，我將會再次進行試驗，
+這一次的試驗仍維持兩個入射水柱的設定，用1.8公尺左右的水頭高度。
+如果能夠達到7~10Volt / 1 Ampere的電流量就算成功。
+接下來我會進行降壓模組的焊接。
+----------------------------
+Having the experience of making the first turbine casing, I made several improvements on the design of the second casing.
+The next model had better drainage and insulation of the DC-motor.
+ And the position and angle of water stream was much better .
+I spent one and a half day to complete the second casing and did a simple test.
+The system successfully got up and running.
+
+After that, I performed another test, increasing the water stream from one to two.
+However, this time I ran into troubles.
+The conjunction of PVC pipe and poly tube had severe leakage.
+Because I overestimated the strength and water-sealing capability of heat-melt adhesive/ hot glue, the upper tank also suffered from the leakage problem.
+The test was aborted before the motor was set operational.
+
+Inorder to solve these two problems.
+I searched the techniques about PVC pipes and poly tubes.
+I found thatmy way of using teflon tapes was actually incorrect.
+The tape should be wrapped on the contacted surface of the two junctions.
+I also learned about the enlargement technique of PVC pipes.
+But it's much more dangerous and I don't consider to apply it right now.
+
+I'm now making the third version of upper tank with plastic boards as backbones.
+The inner lining will be plastic sheets which provide the water sealing capability.
+The structure of the tank will fit better to the water fow system.
+After finishing this tank, I'll perform another test, which have the same settings as previous one.
+If the generated electricity achieves 7~10Volt / 1 Ampere, this system will be sonsider5ed successful.
+I'll perform the following work of soldering DC-conversion modules on the motor.
+---------------------------------
+﻿一番目のタービン外殻を製作した経験のおかげで、
+私は二番目の外殻の設計について色々改善をしました。
+
+排水とモータの防水を重視し、そして水の噴射口の位置と角度も改善しました。
+一日半ぐらいの時間でこの外殻を完成しました。
+その後、私は一つ簡単なテストを行われた。
+システムは成功に稼動した。
+
+そして私はもう一つの実験をしました、
+今度は噴射する水柱を二本に変えた。
+だが今回の実験は予想外の問題を遭遇しました。
+pvc管と軟質水管との接続点に重大な水漏れが発生しました。
+私がホットグルの頑丈さと防水力を買被ったせいで、
+上方タンクにも破裂と水漏れが発生しました。
+
+結局、モータが動き始めた前で実験は中止されました。
+
+この二つの問題を解決するため、わたしはpvc管に関する技術を色々調べた。
+自分がテフロンテープの使い方が間違ったときついた。
+正しい使い方は二つの管路の接続面に巻きつくことです。
+ちなみにpvc管を熱で拡大する方法も調べた。
+でもこの方法は難しくて危ないだからしばらくは使えない。
+
+今私はプラスチック板を骨格として一つの上方ターンくを作った。
+そして水漏れを予防するため、プラスチックのシーツを内部に設置する。
+今回のタンクは前よりもっと良い水流構造を持つ。
+改良版のタンクを完成する際、私は二度目の実験を行う。
