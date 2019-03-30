@@ -1,0 +1,80 @@
+雖然距離上次驗車沒有多久，但是我又得把家裡那台老爺車送去驗了。
+這台車原本就有換檔不太靈光的毛病，
+我這次去驗的時候正巧就發現了這個問題。
+原因是出在排檔現老化損壞所造成的，
+更換的費用要花台幣2400元，養車確實是件很花錢的事，
+但是要開車開得安全，得花的錢還是不能省。
+
+第三波的水力發電實驗結果比前幾次成功，但是仍未達到我想要的目標，
+另外我發現雙重的入射水柱並未能夠產生雙重的電力功率輸出，
+這恐怕是因為Pelton水輪機的轉速取決於入射水流的速度/沖量。
+另一方面，895電機的發電成果比775電機來得出色，
+大扭力的電機在低轉速的條件下有比較高的能源轉換效率，
+
+但不論是何種設定，這個系統最高也只輸出了約0.2W的電力，
+距離我想要的10W差了五十倍之多。
+
+我目前的改進方向有兩個，
+一個是拉近噴嘴和水輪機的距離，
+令一個是增高上方水槽的高度，大約3~2.5m左右，
+雖然這樣一來勢必得在戶外進行，
+但這只是展示性的模型，
+只要能夠達到當初的目標: 對手機和USB電源進行供電。
+那麼系統就算是成功了。
+-------------------------------------------
+Though I felt that it was not long before last time I send the car to the maintainance check, I had to do that again.
+The car did have some problems in shifting gears and the reason was found during this maintainance check.
+It was because the shift control cable was worn out.
+The repair fee cost 2400NTD.
+To keep a car up and running is indeed expensive.
+But in order to drive savely, the money should be spent.
+
+The third wave of hydropower experiment had better results than previous ones.
+But still, I didn't achieve the goal I wated.
+I also found that doubled water injection did not generate doubled electricity output.
+This might due to the fact that pelton turbine's rotation speed depends on the water stream's speed and momentum.
+If the water flow speed is not fast enough, the second stream won't be able to add up all its energy to the output.
+
+Another observation I made was that the 895 DCmotor out performed 775 motor.
+Since the water speed is limited, the motor with higher torque will have better efficiency in converting momentum to electricity.
+
+No matter what setting I choosed, the highest energy output was only6 0.5Watts.
+This is 50 times lower than the target(10 Watt / sec).
+
+Now I can improve the system in two directions, 
+ones is to shorten the distance between the turbine and the nozzle.
+Another direction is to make the  the location of upper tank higher, which is about 2.5 to 3 meters.
+Though this will make the syste not suitable for indoor environment,
+since it's only a model for demonstration of my concept,
+if I achieve the initial goal(charge phones and USB devices) then the system would be considered successful.
+------------------------------------
+先回の自動車車両検査は未だ昨日の様な気がするけど、
+私は又あの使い古した車を検査業者のところへ運ばねばならなかった。
+あの車は本来ギアをシフトするときに異常が発生する状況がある。
+今度の検査でその問題の原因を見つかりました。
+それはシフトのコントロールケーブルが破損しましただから。
+あの部品の交換料金は２４００NTDでした。
+
+自動車を維持するのは大変金が掛かることだ。
+でも安全のため、その金を支払う方が良い。
+
+第三次の水力発電実験の結果は前より良いでした。
+でも私が目指した目標を達成したなかった。
+
+ちなみにわたしは一つの現象を気付いた。
+それは”二倍の水柱は二倍の電力輸出を作らないこと”です。
+恐らくペルトンタービンの特性はその原因です。
+
+もう一つは８９５モータは７７５モータより多い電力を輸出しましたことです。
+同じ水流輸入の状況で高いトークを持つモータはより高い電力転換の効率をもつだと思う。
+
+どんな設定にしても、最大の電力輸出は0.2Wだけでした。
+私が欲しかった10W/ｓの五十分の一に過ぎない。
+
+今改善の方向は二つある。
+ひつぉつは噴水口とタービンとの距離を縮める。
+もう一つは上方タンクの高さを増加することです。
+これなら室外で活動するしかない。
+でもこのシステムはあくまでもデモ用のモデルだけ、
+最初の目標”スマホンとUSB電源を充電する”を達成すれば、
+このシステムは成功になる。
