@@ -1,0 +1,83 @@
+這一次的水力發電試驗被移到了戶外，
+我採用了2.8公尺的水頭高度，並且對其中一個噴嘴進行了改造，
+結果這次的電力輸出大幅度增加，
+水頭只增加了原本的五成，但是電力的輸出瓦數卻變成了原本的七倍。
+pELTON水輪機果然如文獻上所說的，適合用於高水頭/水壓的狀況。
+
+但是我最高也只能把水頭高度提到4公尺，
+而且光是這一次的2.8M高度就讓我在設置管路時吃了不少苦頭，
+軟水管和應pvc管之間的接合和固定也是個問題，
+最關鍵的是這次的輸出也只有0.7~0.8Watt/Sec，
+在不使用加壓手段的條件下，Pelton水輪機恐怕無法勝任。
+
+我最後在StackExchange發了一篇文章，描述了我的試驗結果。
+
+並且詢問了有關Kaplan/Francis 水輪機的問題。
+我目前正在研究Kaplan和Francis水輪機的資料，
+看看他們再怎樣的規模夏能夠達到10~8W/Sec 的發電量。
+
+我已經招到了一個可印出的Francis水輪機3D模型，
+但是Francis和Kaplan水輪機不只需要設計良好的turbine，
+就連Casing 也很講究，
+二者勢必都需要使用3D列印來製作，
+按照上次代印的經驗，收費恐怕會逼近三千到四千，
+我正在考慮是否要購入一台平價的3D列印機，
+目前物色的對象是Anycubic的kossel，
+金額在7500NTD左右
+------------------------------------
+This time the hydropower experiment is performed at outdoor.
+The hydraulic head is 2.8meters.
+I imroved one of the nozzles.
+The resulting electricity output is far better than last time.
+The height was only increased by 50% but the power generated was 7 times higer.
+Just like what textbooks said, the Pelton turbines are indeed suitable for high hydraulic head situations.
+
+However, I can only raise the hydraulic head up to 4 meters,
+and the 2.8meter setting is already troublesome enough.
+The fixation and conjunction of poly tube and PVC pipes also caused some issues.
+The most crucial thing is that the electricity output is only 0.7~0.8 Watt/Sec.
+
+Without using any pressure-increasing method, the Pelton turbine may not be able to achieve my goal.
+﻿I posted an article on stack Exchange and described the results of my experiments.
+I also askd some questions about Francis/ Kaplan turbines.
+
+I'm now studying about Kaplan and Francis type systems.
+I want to know what kind of setting can make them achieve 10~8W output.
+
+I already found a printable 3D model of Francis turbine on the internet.
+But the Francis and Kaplan hydrowoer systems require both the turbine and casing to be well made.
+To achive such quality, they must be totally made by 3D-printing.
+
+Judging from the experience of 3D printg service last time, the cost of such system might approach 3 to 4K NTD.
+
+I'm know considering about buying a 3D printer.
+The kossel from Anycubic wchich costs about 7500NTD is my current target.
+-----------------
+今回の実験は室外で行われた。
+Hydraulic head の高さは２．８メートルでした。
+そして私は予定通り、一つの噴水口を改善しました。
+今度の発電結果には前回より大幅な増加がある。
+Hydraulic headの高さを五割だけ増やしたけど、
+輸出のパワーが七倍になりました。
+ペルトンタービンはやはり書類の通り、高Hydraulic headの関係に相応しいです。
+
+だが高さを増えろうとしても、４メートルが私の限界です。
+それに２．８メートルの高さは既に色々なトラブルを生み出した。
+PVC管とPoly管との接続や固定することなども大変でした。
+一番肝心なのは、今回の電力出力は０．７～０．８Watt/Secだけでした。
+水圧を他の方法で増圧しないと、ペルトンタービンは恐らく私の目標を達成出来ないだろう。
+
+私はStack Exchangeで一つの文章を作った、
+今回の実験の結果を述べた。
+そしてKaplan/Francisタービンについて問題を聞きました。
+
+私は今Kaplan/Francisタービンを研究している。
+１０～８Watt/Secの輸出をどうやって達成できるかと調べている。
+
+私は既に一つプリント可能のFrancisタービンの3Dファイルを取得しました。
+でもFrancisとKaplanには複雑なCasingが必要です。
+つまりタービンとCasing両方も３Dプリントで作るしかないです。
+先回の経験から見れば、３Dプリントの料金は3、4千NTDを越える。
+
+今は一つ低価格の３Dプリンターに注目している、それはAnycubicのKosselです。
+値段は７５００NTDぐらいです。
