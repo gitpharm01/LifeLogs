@@ -1,0 +1,82 @@
+Francis水輪機系統終於完成，
+在印製零件的過程中，我順便用了pp版和塑膠袋製作另一個上方水槽。
+這次使用了3D列印的水管接頭，慕帝在於更密合的連接水管。
+
+然而我再次以1.7M的高度展開實驗時，那些令人熟悉的問題又來了，
+首先上方水槽仍然發生了滲漏，
+暫時修復漏水後，Francis水輪機進行了運轉，
+但是效率遠比Pelton水輪機差，
+電壓只有0.4V左右，瞬間水流量更硬是比Pelton水輪機大上了兩三倍。
+
+理論上，在低水頭的情況時Francis 水輪機理當會在效率上超越Pelton水輪機，但他的瞬間水流量需求時在太大了，
+對於我這一個總水量不能超過20公升的系統來說，恐怕是不能適用的。
+
+面對這個令人失望的實驗結果，我想出了兩個解決方案，
+1.改回使用Pelton水輪機系統，採用改進過、以3D列印製作的噴嘴，
+   並且重新製作可用的上方水槽。
+
+2.先放棄製作完整的水力發電系統，改用棘輪結構製作手動發電機。
+
+除了Francis水輪機的實驗外，我還測試了手壓幫浦，
+發現要讓水升高到超過一公尺左右便很吃力，
+而且幫浦系統的漏氣問題也會讓系統的效率降低許多，
+解決的辦法是採用離心幫浦，而這種幫浦剛好是能夠用3D列印製作的。
+
+---------------------------------
+The Francis turbine system is finally completed.
+During the printing, I also made another upper tank for wtaer storage with plastic board and plastic bag.
+This time I used 3D printed adapter in order to make the conjuction tighter.
+
+However, when I started the experiment again with 1.7 meter hydraulic head settings, 
+those old troubles emerged again.
+First there was still leakage in the upper tank.
+ I fixed the leakage and moved on.
+The Francis turbine system successfully started, but its efficiency was far worse than the pelton turbine.
+
+It only produced 0.4 V on voltage and the flow rate of trhe water was two to three times larger than Pelton system.
+Theoretically, the Francis turbine should surpass the pelton turbine system when the water head is low.
+But I ignored the fact that the needed quantity of water flow is too large.
+It may not be applicable to my system.
+
+Facing this dissapointing result, I came up with 2 possible solutions.
+1. Go back to Pelton turbine system.
+Create improved nozzle with 3D printer,  and remake the upper tank.
+
+2.Postphone the making of complete hydropower system.
+Create a manual generator which is integrated with exercise equipment.
+
+Besides the experment on Francis turbine, I also tested on hand pumps.
+I discovered that it was quite difficult to pump the water higher than one meter.
+Also, the leakage in the pumps and joints will decrease the efficiency of the pump system.
+ The solution might be using centrifugal pumps.
+This type of pump is coincidentally  3D printable.
+
+-----------------------------------
+Francisタービンシステムはついに完成しました。
+３Dプリントを行している間、
+わたしはもう一つの上方水槽を作りました。
+今回は３Dプリントで作ったアデプタを採用した。
+その目的は水漏れを防ぐためです。
+
+しかし私が再び１．７メートルの高さで琔𣺉を再開した時、
+昔の問題は又現れた。
+先ずは上方水槽に水漏れがやはりあった。
+それを排除した後、Francisタービンは成功に稼動始めたが、
+電力輸出の佅率はPeltonタービンより低いでした。
+電蔃は0.4Voltだけ、そして水流量はPeltonタービンの二、三倍でした。
+
+教科書によってば、低いHydraulic headの?]況でFrancisタービンの佅率はPeltonタービンを凌駕するはずだが、
+Francisタービンに必要な水流量は高すぎるだからやはり私のシステムで使えない。
+
+この失望的な結果に𡜻して、私は二つの解決方法を考えついた。
+１．Peltonタービンを再び採用し、３Dプリントで改善版のNozzleをつくる、そして上方の水槽のデザインを直し、もう一つの水槽を作る。
+
+２.完全な水力𣊫電システムを放棄し、ratchet構造で人力𣊫電機を作る。
+
+今週の琔𣺉はFrancisタービンだけではない、
+人力パンップも色々琔𣺉しました
+
+私は”水を一メートル以上の高さを超えるのが難しい”と佋付いた。
+そしてパンップ自体と接の亼節で𣊫生した漏れはシステムの佅率を下がる。
+もう一つの方法はCentrifugal pumpを採用する、
+こういうタイプのパンップは３Dプリントで作ることが出?Sるです。
