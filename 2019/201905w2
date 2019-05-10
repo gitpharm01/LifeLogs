@@ -1,0 +1,98 @@
+最近常看到各種母親節蛋糕的廣告，
+這些蛋糕裝飾華麗且用了一大堆的奶油，價位都是從400NTD起跳，
+我左想右想最後跑去買了最樸素的古早味蛋糕，
+一斤只要85NTD，我和媽吃了都覺得是真材實料，
+而且最重要的是吃起癌沒什麼負擔，
+根本用不著花大錢去吃一堆食品添加物。
+
+為了試驗棘輪結構在3D列印製品的表現，我印了一個棘輪板手，
+PLA材質的強度剛好可以讓板手正常運作，
+產生"只限一個方向旋轉"的效果，
+但是噪音和摩擦的問題非常惱人。
+
+在尋找更好的棘輪模型時，
+我發現了一些奇特的設計，如齒輪軸承還有單向滾珠軸承，
+這些都是只有3D列印才可能實現的特殊結構，
+然而他們也需要高品質的列印機才能產生正常運作的產品，
+我不指望手上的這台Delta型陽春印表機可以達到那麼極致的精準度。
+
+最後我發現了一個過去一直忽略的機械結構...曲軸Crankshaft，
+他是活塞引擎的必備傳動元件，
+這個結構可以把直線的往復運動轉化成穩定的轉軸運動，
+如果採用曲軸，我可以實現以一般常見運動訓練動作來驅動離心幫浦的目標，
+加上變速齒輪組後更可以達到更高的轉速，
+然而這一次我沒有任何現成的模型可用，
+必須用Blender從頭做起了，
+
+我印製了一個結構非常簡單的離心幫浦，
+但是在縮小尺寸時讓結構變得過於脆弱，
+而且一些精細的轉軸部位由於單層列印面積極小，散熱時間不夠，
+因此讓該部位最後糊成了一團，
+這使得成品最後無法使用，
+我目前在考慮用之前列印的Francis水輪機來當作離心幫浦。
+
+--------------------------------------------------
+Recently I often see advertisements of mother's day cakes.
+These cakes are covered by cream and heavily decorated.
+The price of these cake are above 400NTD.
+After cosidering about which to by, I ended up buying an old fashioned  sponge cake with a price about 80NTD.
+My mother and I bot consider it delicious after eating.
+The most important thing is that eating it won't cause much metabolic burden.
+It's pointless to spend a lot of money for food additives.
+
+In order to verify the 3d printed ratchet's performance, I printed a ratchet wrench.
+The PLA material is strong enough to make the wrench work normally and produce the one-way rotation effect.
+But the friction and noice was quite annoying.
+During the search for a better ratchet design,
+Idiscovered some marvelous designs,
+ like the gear gearing and one-way bearings.
+These can only be produced by 3D printing.
+However, these structures requi8re higher printing quality.
+I don't consider it possible to achieve it with my machine.
+
+In the end I found a mechanism which was ignored by me for a long time--- the crankshaft.
+It's the crucial part for piston engines.
+This type of structure can convert linear momentum into rotation movement.
+
+By  implementing crankshaft, I can achieve the goal of powering centrifugal pumps by ordinary exercise movements.
+With a proper gearbox, I can obtain higher turbine spin rate.
+But this time I have no ready-to-print 3D models and have to  make it from scratch with Blender.
+
+I printed a simple centrifugal pump.
+Unfortunately, the structure was weakend too much when scaled down.
+Due to extremely small printing area per layer and not enough cooling time, some parts are malformed.
+These caused the centrifugal pump unusable.
+I'm now considering about utillizing the Francis turbine I made as a pump.
+--------------------------------------------------
+最近はよく　母の日ケーキ　の広告を見かける。
+そのケーキにはデコレーションが一杯かけている、そして大量なバターに埋め込んだ。
+値段は４００NTD以上です。
+考えの後、私は８０NTDで素朴な伝統ケーキを一個買った。
+試食した後、私と母はそれを美味しいと思った。
+一番大事なのはあのケーキを食べても、体に重い加担を与えない。
+大金で食品添加物を食べることは賢い選択ではない。
+
+３Dプリントで作ったRatchet構造の性能を検証するため、
+私は一つのRatchet　Wrenchをプリントしました。
+PLA材料はあれを正常に作動させた。
+でもノイズと摩擦の問題はとても悩ましいでした。
+
+より良いRatchetのモデルを探していた間、
+私は様様奇妙な構造設計を発見しました。
+例えばGear bearingとOne－WayBearing。
+これらは３Dプリントしか製作できる物です。
+しかしそれらには高いプリント精度と品質が必要です。
+私は自分のプリンタがそれほどの精度を持っていないと思う。
+
+最後で私は一つ自分に無視された構造を見つかった。
+それはCrankshaft、ピストンーエンジンには不可欠の構造です。
+Crankshaftは直線の往復運動を回転運動に添加する。
+もしこれを使えば、普通の運動訓練動作でCentrifugal pumpを動かすことが可能にする。
+しかし今回は既存の３Dモデルがいません。
+Blenderで初めから作るしかない。
+
+私は一つ簡単な構造を持つCentrifugal pumpをプリントしました。
+しかしサイズを縮める過程でその構造を弱化しすぎた。
+そして単層の冷却時間が足りないせいで、一部分のパーツが高温に熔かされた。
+結局このCentrifugal pumpは使えるものに成れなかった。
+私は先回で作ったFrancis turbineをパンプとして使うと思う・
