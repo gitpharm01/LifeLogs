@@ -1,0 +1,74 @@
+3D列印曲軸的實驗結果再次讓我體會到3D列印(FDM)的局限性，
+負責承受應力的中心曲軸由於太細，導致在組裝的過程中斷裂，
+另外零件的精準度也會在一些角度出現下降，
+特別是在牽扯到支撐材的時候，
+而且列印件接觸支撐材的部會總是會出現嚴重的破面和扭曲，
+另外我在研究曲軸時還發現了一個問題，那就是在用曲軸的往復運動端作為動力源時，整個系統會出現死點(Dead points)，導致動作停滯，
+最後我得出了曲軸結構不可用的結論，
+
+與此同時，我出於好奇而列印了之前提過的3D列印版本的單向軸承，
+沒想到我的Delta印表機用很高的品質把軸承給印了出來，
+軸承確實如網路影片展示的一樣，可以產生單向旋轉傳動的效果，
+但是當施力過強時，軸成就會在內部滑脫導致應力流失，
+因此這個機構也是不可行的。
+
+為我提供替代方案的是一個令人意想不到的東西---好神拖的修理零件。
+由於好神拖在網購平台把所有大小的修理零件都分開出售，
+所以我能用合理價格買到附帶齒輪的單向軸承，
+另外還有以腳踩方式來驅動旋轉機構的踏板系統，
+我打算以這些零件來製作離心幫浦的驅動系統。
+
+目前我正在設計Pelton turbine的改良版外殼，
+這一次的結構整合了發電機的支架和噴嘴系統，
+我打算把外殼系統拆散成數個模組，
+方便切換噴頭和避免系統大小不合時需要整個重印。
+--------------------------------------------------
+The experiment on 3D printed Crankshaft made me realized the limitation of 3D printing(FDM).
+The shaft was too thick and thus it broke during assembly.
+Besides, the precision of printing will drop significantly when the object have specific angle or structure.
+This problem gets worse when support parts are involved.
+The printed object will present with severe distorsion and broken faces at the contact site of support.
+
+I also found an issue of crankshaft mechanism, which is "dead points", this will show up when the system is powered by the reciprocating movent.
+Dead points will cause the whole system lose power.
+Eventually I made  a conclusion that the crankshaft is not applicable.
+
+In the meantime, due to curiosity, I printed a on=way bearing which I mentioned last week.
+It was to my surprise that the printing quality of this bearing was exclusively high and the bearing did function normally.
+But when the applied orce become too strong, the bearing will bump and slip int the inside.
+The applied force will be partially lost if such phenomum is not fixed.
+Therefore, this bearing is not applicable neither.
+
+The thing which provided me alternative solution was something unimaginable--- the repari parts of spinning mops!
+Since the spinning mop's manufacturer provide all its parts on the online shopping sites, I can buy one-way bearings with a reasonable price on the website.
+There's also a peddle mechanism which can produce rotational movemnet.
+I'm planning to use these parts to build the driving mechanism of the centrifugal pump.
+
+Currently I'm designing the improved version of the Pelton turbine housing.
+This time the system included generator support and integrated nozzle system.
+I will divide the system into different modules, so as to switch nozzles and prevent reprinting the whole system if there exist any kind of incompatibility.
+-----------------------------------------------------
+３dプリントで作ったCrankshaftの実験結果は又３Dプリント（FDM）の局限性を私に知らせた。
+CrankShaftの軸は細すぎるのせいで組立ての途中に壊れた。
+ちなみにパーツの再現度はある状況で非常に低下になる。
+Supportを採用するときはいずも厳重な欠損と歪みが出る。
+そして私がCrankshaftを研究する間でもう一つの問題を発見しました。
+それは往復運動を動力源として使う際、システムがDead Pointという状況に入り、稼動は中止される。
+私は最後でCrankshaftが使えないと言う結論を出た。
+
+その同じ時点で私は好奇心によって先週言い及べたOne-way bearingをプリントしました。
+ちょっと意外だけど私のプリンタは成功にあのBearingを作り上げた、
+しかもプリントの品質が高かった。
+あのBearingは正常作動できるが、与えられた力が強すぎると、内部が滑りが発生する。
+つまり全ての力を伝動できない。
+その故でこれも使えない。
+
+私に代替案をくれたのは一つ予想外のものーーーSpinning　Mopの修理用パーツでした。
+Spinning mopのパーツはショッピングサイトで合理的な値段で買うことが出来る。
+そしてあのパーツの中ではギア付きのOne Way Bearingがあります。
+ちなみにペダルで回転機構を動かすシステムもある。
+私はこれらを使ってCentrifugal pumpの駆動システムを作る予定です。
+
+今私は改善版のPelton turbineの外殻を設計している。
+今回はシステムを幾つかのモデルに分ける。
+これでサイズが合わせない時でも全システムを再びプリントする必要がない。
