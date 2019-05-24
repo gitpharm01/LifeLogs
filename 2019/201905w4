@@ -1,0 +1,79 @@
+和去年的天氣相反，今年的春季雨水豐沛，
+連帶使得氣溫沒那麼高，空氣品質也比較好了。
+可說是一個舒適的春天，不過不太是和冒著梅雨出遊就是了。
+
+Pelton水輪機的改良版已經印出了大部份的零件，
+但是最後的部分油於列印線材不足，只好暫時中斷，
+把時間放在離心幫浦的改善還有齒輪組的3D建模工作上。
+這一陣子的學習和練習讓我在Blender軟體的操作上更加熟練，
+而且更發現了許多有用的開源工具，
+例如Ovinta.com製作的齒輪模組生成工具，
+我可以很直覺的去產生我想要的齒輪，而結構複雜的螺旋齒輪和魚骨齒輪也能輕鬆製作，
+網路上的開源社群支援真的讓想創作的人得到了很大的助力。
+
+我之前下單的好神拖軸承和踏板系統也順利到貨，
+我使用了3D列印的軸心和齒輪趣和單向軸承作配對，
+很幸運的成功進行運作，
+但是單向軸承由於要承受巨大的應力，
+而且需要光滑而堅硬的軸心表面才能順利進入空轉狀態，
+最後我可能仍然需要採用鋼制軸心。
+
+距離展開ACFit的計畫已長達五個月的時間，
+這也意味著我已接近半年時間沒有在關注和練習機器學習方面的實作。
+對這方面的知識和技能想必已經退步了很多吧，
+但是與其成為樣樣通樣樣鬆的人，
+不如把時間和精力放在關件的計畫和目標上，
+然而也只有最終的成功才能夠證明我真的做了正確的選擇了。
+
+---------------------------------------------------
+On the contrary to last year's weather, the quantity of rainfall in this spring was abundant.
+This made the temperature cooler and the air condition better.
+This spring can be considered comfortable.
+However, it's not suitable to travel around while the endless rain falling on your head.
+
+I've printed most of Pelton turbine housing's parts. 
+But due to insufficient printing filament, the making of turbine housing was interrupted.
+I hense turned to create better 3D models of centrifugal pump and gearsets.
+The recent practice and learning made my skill in blender much better.
+I also discovered many opensourced resources.
+For example, the gear set calculator from Ovinta.com helped me a lot.
+With it, I can intuitively create gear sets and sophisticated helical and fishbone gears.
+The opensource community really helped those who want to create innovation a lot.
+I received the pedal and one way bearing I ordered and tested them with 3D printed shaft and gear.
+Luckily these things worked well.
+But since the one-way bearings have to endure enormous force and need shafts with smooth and hard surface, I may have to buy steel shafts for this part.
+
+It's benn 5 months since I launched the ACFit project.
+This also means that I've not practiced or investigated in the area of machine learning.
+There's no doubt that my skills in Tensorflow already started to rurn rusty.
+However, I think it's better to focus on specific area and target instead of being a jack of all trades.
+Yet only the eventual success can prove that I made the right choice.
+
+-----------------------------------------
+去年の天気と反して、今年の春には豊かな雨水が有る。
+そのお陰で気温もそんなに高くない、空気の品質も良くなれる。
+快適な春とは言えるでしょう。
+旅行の途中で梅雨を逢うのはあんまり良くないですけど。
+
+改善版のPeltonタービン外殻のパーツはほぼ全てプリントしました。
+でも途中でプリント材料が不足になったので完成させなかった。
+その故で私はギアとCentrifugal pumpの改善ばん３Dモデルを作ることに専念しました。
+
+この間の練習と勉強はBlenderについての操作技術をもっと上手になりました。
+そして色々実用性が高いOpensource資源を見付かりました。
+例えばOvinta.comのギアのモデル生成Script。
+私は直観的な方法でギアを作れる。
+ちなみに構造が複雑なHelical gearとFishbone Gearも簡単に作れる。
+Opensourceコミュニティからの支援は本当に創作者たちに強い力を与えた。
+
+先週注文したSpin mopのOne-way bearingとパドルーシステムは無事に入荷しました。
+私は３Dプリントで作ったShaftとギアを使ってOne-way bearingを試してみた。
+その実験結果は成功。
+しかしOne-way bearingは強大な力を伝動する、そしてシャフトの表面は滑りさと硬さが必要から、
+最後は鋼のシャフトを購入しかもしれない。
+
+ACfit計画を始めたからもう五ヶ月、
+つまり私は既に半年間でMachine learning関連の技術と知識を調べていない。
+私はこの領域についての技術が錆っているだろう。
+しかし何でも屋になるより、時間と精力を肝心な目標に賭けるほうがいいと思う。
+でもこれを証明できるものは”最後で”成功を得ること”にしかない。
