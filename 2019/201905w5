@@ -1,0 +1,86 @@
+Pelton水輪機的組裝工作在線材到貨之後順利完成了，
+然而有兩個小瑕疵讓整個系統陷入了大麻煩之中。
+
+首先是噴嘴的位置太靠近水輪，
+我在進行3D建模時確實有設置空間來區隔兩者，
+但是在實際運轉時，水輪機因受力而產生位移，
+導致了噴頭和水輪發生碰撞，如果長期發生，最後會導致兩個重要的零件損壞。
+
+第二個問題是水路連接的方式造成的，由於是用軟水管來接通上方水槽和水輪機，
+當水管受壓時各個關節都很容易鬆脫，我已經不只一次被濺出的水噴得滿臉都是了。
+
+我目前決定嘗試的方法是用3D列印把上方水槽以及輸送水的管路全部製作出來，
+列印線材只要3~4百NTD就可以弄到手，真正高昂的成本其實是時間，
+因為光是水槽本體要完全列印完成就要花上超過二十四個鐘頭，
+而且最後還要用熱溶膠接合，
+比較有效率的做法就是在列印時進行其他零件的3D建模。
+
+現在的Youtube上不只有各種教學影片，甚至連最新的MV、動畫和原聲帶都有，
+不需要花一毛錢就能夠享受高素質的內容，這恐怕是Binge Watching症候群快速增加的原因之一吧。
+然而我不禁懷疑起這些影片真正的價值，
+人的滿足感是很容易下降的，
+當大腦習慣了大量的刺激之後，看完一部片的滿足感反而會越來越低落，
+而且立刻就會想要找下一部影集來追，
+這樣一來根本就無法提升生活的滿足感，
+
+或許現在對待影視資源的態度應該和對待點心零食的方式一樣?
+-----------------------------------------
+The assembly of Pelton turbine system was completed agter I received the PLA filament.
+However, ther are two small flaws that caused big problems to the whole system.
+
+The first is reletive postion of nozzle, which was too close to the turbine.
+Though I did preserved some space to avoid collision when I was editing the 3D model,
+the force of water flow caused the turbine started tilting while the system was operational and hence collided with the nozzle.
+If unsolved, this might break these two crucial parts of the system.
+
+The second problem is caused by the connection method of water pipes.
+The joint site between soft poly pipes and PLA adapters were easily set loose when it's under water pressure.
+I've been splashed with water by those leakage events for seeral times.
+
+The current solution I came up with is to create upper tank and water tubing with 3D printing.
+The cost of filament is not a problem since I can get 1Kg with a cost only 400NTD.
+The biggest cost is time, the upper tank alone requires over 24 hours to print.
+And I have to combine the parts with hot glue.
+The more efficient way of working is to edit the following parts while the previous parts are being printed.
+
+The Youtube nowadays not only contain all kinds of tutorials, but also latest MVs, animation and even original sound tracks.
+The users can watch high quality contents without paying a penny.
+This might be one of the reasons of epidemic of binge watching syndrome.
+
+Yet I can't help but to doubt the trued valuew of these video resources.
+Human's satisfacation will drop quickly.
+When the brain get used to that kind of high intensity stimui from binge watching, the satisfacation will be lesser and lesser.
+This will also cause the urge of searching for the next series of stimuli.
+In this manner, those contents do not improve the quality of life at all.
+Maybe the right way of treating video contents nowadays is to treat them like cheese cake and other desserts.
+-------------------------------------------------
+Peltonタービンシステムの製作はプリント用材料が届く後で無事完了しました。
+しかし二つの不具合はは全システムに大きな問題を作った。
+
+先ずはNozzleの位置がタービンから近すぎることです。
+わたしが３Dモデルを編集した時ほちゃんとスペースを預かった。
+でもタービンが稼動している際、水流からの衝撃によって偏移が発生しました。
+そしてタービンとNozzle両方はお互い摩擦を始めた。
+もし解決しないなら、この二つのパーツが壊れしまう。
+
+第二の問題は水管配置の方法によって起こった。
+軟質の水管で水槽とタービンシステムを接続するから、水圧が上昇すると接続点が緩める。
+私は既に何回も噴出した水に全身をぶっ掛けられた。
+
+今試している解決方法は３Dプリントで上方水槽と水道管を作ることです。
+プリント用のPLA Filamentは１Kg三、四百NTDですからたいした問題ではない。
+一番高いコストは”時間”だ。
+水槽をプリントするだけで二十四時間以上が掛かる。
+しかも最後はパーツをグルガンで粘着する。
+
+いまのYoutubeは各種類の教学ヴィデオだけではなく、最新のMVと動画やOriginal sound trackまで見つかる。
+つまり無料で品質の高い内容を楽しめる。
+これはBingeWatching総合症が流行する原因の一つだろう。
+
+しかし私はあのヴィデオの価値を疑う。
+人の満足感は減る安いです。
+もし大脳がBingeWatchingからの刺激を慣れたら、
+毎度の満足感がどんどん下がる。
+そして次のシリーズを探す衝動が出で来る。
+これじゃ生活の品質を全く改善していない。
+今のヴィデオ内容はケーキみたいなデザートの様で預かる法がいいかな?
