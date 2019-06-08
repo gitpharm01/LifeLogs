@@ -1,0 +1,82 @@
+為了加速列印的效率，我選用了0.4mm的層高來製作上方水槽，
+這確實節省了不少時間，而且水槽本身的結構單純，不需要太高的解析度。
+然而這樣高速的列印產生了之前從未發生過的問題，
+我在網路上看到的"線材斷裂"和"線材內部糾纏打結"的問題開始出現，
+這使得列印漸出現缺損和結構脆弱的狀況，
+甚至在被從列印平台移除時發生了斷裂。
+
+我花了不少功夫來修補這些破損的地方，好在熱熔膠槍很成功的修補了這些零件。
+而且在接著的時候，由於PLA的低熔點，接縫比起其他塑膠材質更佳的密合，
+在組裝完成後的初步測試中並未出現任何滲漏的問題。
+
+為了解決接縫漏水的問題，我採用了螺紋街頭的結構來設計輸水管以及噴嘴，
+Otvinta.com的教學資源再次派上了用場，
+我在兩天之內就完成了螺紋結構的初步建模，接著製作出了輸水管和噴嘴的3D模型，
+接下來要先是印一份並且實地測試它是否能解決滲漏的問題。
+
+我這個月有三天的時間要到彰化師範大學去上持續教育的課程，
+這三天的課程被排得很滿，大概除了上課以外沒有別的行程可以排入了，
+因此用在ACFit的時間勢必會被縮減，
+我得再加把勁繼續推動這個計畫。
+
+另一方面我在Medium上發了3篇的文章，
+講述ACFit的概念和我過去的實驗結果，
+這些紀錄也許可以當作在Kickstarter建立專案時的材料。
+--------------------------------------------------------------------
+In order to boost up the printing efficiency of the upper tank, I chose 0.4mm layer height for the print settings.
+This did save a lot of time.
+Besides, the structure of the tank is quite simple and thus doesn't require high resolution.
+
+However, such high-speed printing caused problems that never happened before.
+Situations like breaking and cringing of filament, which I learned on the internet before, were showing up.
+These problems caused fragility and breakage to the printed objects.
+Some parts even got broken when removed from the printing platform.
+
+It took me a lot of effort to repair those parts.
+Luckily the glue gun successfully fused those broken parts.
+Thanks to the low melting point of PLA, the glued region had better connection.
+The fully assembled tank showed no leakage during the initial tests.
+
+In order to solve the problem of leakage on pipe conjuctions, I applied thread/ screw structure on the pipe and nozzle adapters.
+The tutorial resources from Otvinta.com again provided great help.
+I finished inital model of the threaded structure whinthin two days.
+The water pipes and nozzles are made soon after that.
+The next thing to do is to print them out and test their performance.
+
+There are three days of this month that I have to go to National Changhua University of Education for continuing education.
+The schedule of lessons in those three days are really compac and no  much remaining time to do other things.
+It means that the time for ACFit is lesser in this mont.
+I have to keep pushing foward the progress of this project.
+
+By the way, I had posted several stories about the concept and initial experiment result of ACFit.
+These stories can also be the material for the kickstarter project.
+
+--------------------------------------------------------------------
+水槽をプリントする効率を高めるため、私は0.4mmのlayer heightを選べた。
+これは確かに大量な時間を節約した。
+それに水槽の構造はかなり簡単なので、もともと高い精度でプリントする必要がないでした。
+しかしこんな高速なプリント方法は前で一度も逢われなかった問題を招いた。
+昔ネットで見つかった”Filamentが断裂した”や”Filamentが結ばれた”などの問題が現れた。
+
+これらはプリントした物件に破損および構造弱化の状況におちる。
+しかも物件がプリントPlatformから外す際バラバラになることも有る。
+
+私は工夫して破損した物件を修復しました。
+幸いGlue gunの修復効果は予想より良いでした。
+PLAの融点が低いのお陰で接続面の密着度が高い。
+組み合わせた水槽は初めのテストで水漏れが起こらなかった。
+
+水管接続点の漏れを解決するため、私はねじ山の構造を採用しました。
+Otvinta.comからの教学資源は又役に立った。
+その教学のお陰で二日間で初めのねじ山構造の３Dモデルを作った。
+そしてすいかんとNozzleの３Dモデルも完済させた。
+これからはモデルをプリントして、その性能を検証する。
+
+今月の三つの日は彰化師範大学で継続教育を受け予定です。
+その課程は相当詰まっていますなので、他の事をする余裕は全くないです。
+だからACFitに分けられる時間が減る。
+わたしはこの計画をもっと推進しなければなりません。
+
+ちなみに私はもうMediumで三つの文章を発表しました。
+ACFitの概念と実験の結果を述べた。
+これもKickstarterでプロジェクトを作る時に参考用の素材になるだろう。
