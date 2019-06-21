@@ -1,0 +1,78 @@
+為了緩衝地面和水輪機底部之間的高地落差，我列印了一個一體成型的可調式升降平台。
+它的結構完全都是PLA，因此無須擔心鏽蝕的問題。
+
+之後我組裝了水槽、水管以及水輪機系統，並且嘗試性的放水下去運轉，
+結果發生了新的問題，除了漏水之外，支撐水槽的支架也有著傾斜和不穩固的狀況，
+支架平台的傾斜導致了出水管的水流不連續，因此使得水流的力道大打折扣，無法產生應有的電力瓦數，
+而架子本身不穩的結構讓水槽處在極度不安定的狀態下，
+稍有碰撞就可能發生傾倒。
+我原本有打算採用金屬層架來當作支架，但是它的價格偏高且有生鏽的疑慮，
+位後我決定用3D列印製作支架系統，但這個系統將會比水槽和水管系統花上更多時間才能完成，
+因為他的體積更大，而且全部的結構都需要自行設計建模。
+
+之前我曾寫道自己的花錢慾望非常低落，只有必需品才能引起我的興趣。
+之前購入的捕蚊器算是其中之一，
+因為今年的天氣使得蚊蟲大量孳生，我挑了一個電擊兼吸入式的捕蚊器，
+價位在650NTD左右，使用的效果還算令人滿意。
+我另外打算用含硬脂酸的乳霜來強化它的效果。
+
+反觀一天到晚出現在廣告版面的消費商品反而令我興趣缺缺，
+畢竟我根本不是廣告商鎖定的那種消費成癮者或是需要名牌來滿足自己虛榮心的人。
+--------------------------------------------------
+In order to compensate the distance between the ground and bottom of turbine of turbine housing,
+I printed an adjustable platform jack.
+It's all made of PLA and thus don't have rust problems.
+
+After that, assembled the water tank, tubing, and turbine system.
+I poured water in to the system and started it, but new problems appeared.
+
+Besides leaking, the rack which support the tank have tilting and shaky structure.
+The tilting caused the water flow in the pipe to be not continuous and gravely6 reduced the momentum of water stream.
+Therefor, the system was unable to produce the voltage it ought to deliver.
+The shaky structure of trhe rack made the tank system extremely unstable.
+One slight collision might knock the tank down.
+I did thought about using metal shelving to replace the cheap plastic rack.
+But the metal shelving is too expensive and have rusting issues.
+Eventually I decided to use 3D printing to create the support system. 
+However, since the system must be designed by my own and hve larger volume than the tank system,
+it might take way more time to complete it.
+
+I mentioned in my dairy before that my desire of spending money is extremely low.
+Only the necessary things can get my attention.
+The mosquito trap I bought recently is a good example.
+
+Due to the rainy weather, the quantity of mosquitos grew bigger than ever.
+I bought a vaccume plus electric shock type mosquito trap with a price about 650NTD.
+Its effectiveness is good enough.
+I am even planning to fortify its effect by using cream containing stearic acd.
+
+On the contrary, the goods showing up on the advertisements can't attract me at all.
+After all, I'm not the advertiser's target who is addicted to shopping or need luxery to satisfy his own vanity.
+--------------------------------------------------
+タービン外殻と地面の高度差を補正するため、
+私は一つ一体成型のPlatform jackをプリントしました。
+このPlatform jackの構造は全部PLAだから
+錆びることなどを心配する必要はない。
+
+その後私は水槽、水管及びタービンシステムを組み立てた。
+そして水を入れて全システムの稼動を試した。
+でも新しい問題が出た。
+水漏れはともかく、水槽を支える棚にも傾きと脆さの状況がある。
+棚の傾きは水管の中で流れている水流を不連続な状態にする。
+その故で水流の強さがかなり弱めになった、そして理論値のVoltage数を輸出出来なかった。
+棚の構造の脆さは水槽を倒れやすい状態になりました。他のものと軽くぶつかると転倒する。
+
+私は本来なら金属製の棚を使うことを考えたが、それの価格が高すぎる、そして錆びる可能性があるだから使わなかった。
+
+私は最後３Dプリントで棚を作ること決めた。
+でも全てのモデルは自分で作るしかない、そして全体の体積はタンクシステムよっり大きいだから、時間がもっと掛かるでしょう。
+
+昔、私は週間記事で”自分の消費欲が低い”と書いた。
+必要な物だけがわたしの興味を引き起こす。
+最近購入した虫取りランプはその一つです。
+今年の天気のせいで蚊が大量増えているだから、私は一つ電撃及び吸入式の虫取りランプを一機購入しました。
+その効果は十分良いと思う。
+私はStearic acidが添加したのクリームを使って虫取りランプの効果上がる事を考えている。
+
+それに反して、私は毎日広告で出る商品に全く興味がない。
+私は広告業者たちが狙っている目標ではないだから。
