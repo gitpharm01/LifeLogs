@@ -1,0 +1,77 @@
+﻿我進行了最高規格的微型水力發電試驗，
+但其結果仍然沒達到我所要的目標。
+
+這次實驗中的水槽位置十分穩固，水流也順利從3D列印製作的水管通過，
+雖然整個系統還是有滲漏的問題，但是沒那麼嚴重，
+然而電壓仍然卡在1V左右，無法產生更大的電壓。
+恐怕只有建立水頭2M至3M的較大規模系統才能讓水力發電的效率發揮出來。
+
+山不轉路轉，我在這次的實驗之後就暫時停止了水力發電的計畫，
+轉向手搖發電機構的改良，要製作一個可以對應多種肌力訓練動作的齒輪/槓桿機構，
+和水力發電相比，它的可攜性和便利性會高上許多，
+但是它不太可能有辦法輸出恆定的電壓/電流，
+對於被充電的裝置不是那麼的友善。
+
+目前我已經改造並且試作了齒輪組所需的橫軸和軸承，
+另外也建立了Herringbone gear與Bevel gear的3D模型，
+接下來要做的就是把這些零件整合成一個可運轉的傳動系統了。
+
+這個系統直接可以對應到的肌力訓練動作包括胸肌和背部的動作，
+如果整合踏板系統的話，下半身的訓練也是可能的，
+再做出這個系統之後的下一個目標是用它在一周內充飽一個行動電源，並且紀錄全程。
+
+如果我的Blender技術進步到可以自己建立purgo水輪機以及多重噴嘴系統的話，
+2M以下的低水頭水力發電仍有可行的空間，但我將先專注在手搖發電上面。
+-----------------------------------------------
+I executed the micro-hydro experiment under the higest settings, 
+but the result still failed to achieve my goals.
+
+The tank is this experiment was very stable.
+The water flew smoothly through the 3D printed pipes.
+Though there were still some leakage, the situation was not that serious.
+
+However, the voltage was still stucked at 1V and unable to climb up.
+Maybe only with 3M or higher hydraulic head can the hydropower system achieve enough efficiency.
+
+I can't change the direction of the wind, but I can always adjust my sail s to reach my destination.
+I stopped the hydropower project and turned to the hand-cranked power generator.
+I want to create a gear/leverage system which is sompatible to multiple training movements.
+Compared to hydropower, its mobility and convenience will be better.
+But it is unlikely to generate constant and stable electric current, 
+which may not be friendly to the device to be chareged.
+
+Now I already modified and printed a 3D model of shaft and bearing for the gear set.
+I also created 3D models for herringbone gears and bevel gears.
+The next thing to do is to integrate those parts into a functioning transduction system.
+This system is compatible for training chest and back muscle groups.
+If combined with peddle system, the training of lower body will be possible too.
+The next goal after finishing this system is to fully charge a USB powerbank within one week and record the footage.
+
+If my skill in blender becom good enough to create a Purgo turbine and multi-nozzle system.
+There would be still some possibility for low-hydraulic head systems.
+But I'll focus on hand-cranked power generator.
+------------------------------------------------
+私は最高の規格で水力発電ををテストしましたが、
+結局私が目指した目標を達成できなかった。
+
+今回の実験の水槽はかなり安定、水流も順序にに３Dプリントで作った水管の中で流れた。
+少し水漏れはあったが、それはそんなに重大な問題ではなかった。
+しかし電圧は1Voltだけ、より強い電流を輸出することが出来なかった。
+恐らくHydraulic head が二、三メートル以上の中型システムこそ水力発電機構の効率を発揮させる。
+
+この道が通じないなら他の道を探していこう。
+私は今回の実験の直後、水力発電計画を停止しました。
+そして人力発電機機構の改善へ向かった。
+これからは多種類の筋肉訓練動作に対応するギア/レヴァレジ機構を作るです。
+こんな機構は水力発電より便利性と機動性が高い。
+でもこれは安定な電流を輸出することが出来ない。
+チャージされた電器に対したはそんなに優しくはない。
+
+今私は既にギアセット用のシャフトとベアリングを試作しました。
+そしてHerringbone gear とBevel　Gearの３Dモデルも完成させた。
+次はこれらのパーツを統合して、一つの伝動機構を組み合わせる。
+このシステムが直接に対応できるの筋力訓練動作は上半身の部分です。
+もしパドルを使えば、下半身の筋肉を訓練することも可能でしょう。
+
+もしこのシステムを完成させたら、次の目標は一週間で一つのUSBパワーバンクを完全に充電することです。
+その過程も記録する。
