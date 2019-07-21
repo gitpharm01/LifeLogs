@@ -1,0 +1,93 @@
+在購入3D列印機的三個月後，歷經2.5公斤左右的線材列印量，
+這台機器出現的故障，無法將線材擠出，且面板顯示的溫度停留在室溫。
+
+我起初以為是加熱棒壞了，但後來檢查的結果是噴嘴或散熱喉管的部位組塞了。
+我動用了一些手工具來拆除零件，
+畢竟是第一次拆裝，難免感到有些緊張，
+不過基本的背景知識都在Youtube的教學影片中補足了，
+因此整個拆裝過程還算順利，
+最後發現堵塞的位置在散熱喉管，
+我用了縫衣針和1.5mm的鑽頭來去除組塞物，
+將印表機重新組中回去後進行了送料試驗，而機器也成功的恢復了正常運作。
+接下來列印出的成品仍維持原有的精準度，讓我鬆了一口氣。
+
+不過這一趟修理過程中室溫都高達34度C，
+讓工作中的我全程都泡在自己的汗水裡，真是令人吃不消的經歷阿。
+
+目前Bevel gear已經整組印出，與輪軸、軸承的配合度良好，
+我會繼續完成其他的零件。
+
+這幾年火車站有再持續作"漂書"的活動，提供免費的舊書讓人索取。
+其中偶爾會有不錯的老書出現，
+像是講述成癮藥物歷史的<<上癮五百年>>、劉墉、王溢嘉的作品、
+還有英文讀物及繪本。
+
+另外也看到一些講股票和經濟動向預測的書，
+標題聳動有餘，但是內容空虛，預測的結果準確度連猴子射飛鏢都比不上。
+以後在書店大可不必再浪費時間去看那些用機密數據和大量華而不實文字製造出來的垃圾了。
+它們和油炸零食一樣，裡面一點營養都沒有。
+---------------------------------------------------
+3 months after I purchased the 3D printer,
+this machine has printed 2.5 kilograms of filament, and I encountered the first severe breakdow.
+
+It couldn't extrude the filament and the temperature shown by the LED panel was stucked to room temperature.
+I initially guessed that it was caused by malfunction of heating components.
+After some examination, however, the problem was caused by clogging in the extruder unit.
+
+I used some hand tools to dissemble the printer.
+Since it was my first time to dissemble extruder unit, I couldn't help but got quite nervous.
+But since I already collected the nevessary information from Youtube tutorials, the dissembling was done smoothly.
+I located the clogging at the heatsink and cleaned it up with a needle and a 1.5mm drill.
+
+The printer worked normally and precisely after I assembled it back.
+It was very releaving to see such result.
+
+But while I was working on the printer, the room temperature was 34 degree celsius.
+The heat made me soaked in my own sweat and it felt like getting tortured.
+
+Now I finished printing the bevel gear set.
+It have good compatibility to the shaft and bearings.
+I'll keep finishing the remaining parts.
+
+In recent years, the train station regularly held bookcrossing events.
+They offer free-to-take books for passengers.
+Sometimes there will be nice books among them.
+For example, the <<Forces of habit>> which talks about substance abuse and addiction, the works of Yong Liu and Yi-Jia Wang , some English reading materials and picture books also caught my attention.
+
+There were also some books about predicting stock prices and the trend of economy.
+These books usually have exaggerating titles and poor content.
+The precision of the predictions were worse than a monkey shooting darts.
+I'd better ignore them if I see them in book stores.
+It's pointless to wast time on trash made from exesive data and tawdry articles.
+---------------------------------------------------
+３Dプリンタを購入した三ヵ月後、計二点五キログランのFilamentをプリントしました、そして私はついに重大な故障に逢った。
+あのプリンタはFilamentを射出出来なくなりました、ついてにPanelで顕示された温度は室温に固定された。
+
+最小は電熱ユニットの故障と疑っていたが。
+検査の後、射出ユニットが塞がれたと判明した。
+私は工具でを使って射出ユニットを解体しました。
+始めてこの部分を解体するから、緊張感はあった。
+でも必要な知識は既にYoutubeの教学ヴィデオから得たから、解体の作業は順序だった。
+
+塞がれた所はHeat Sinkの中央でした。
+私は一本の針とドリルを使って管路を塞がった物を排除しました。
+そして再びパーツを組み合わせた。
+プリンタは全ての機能を回復しました。
+射出した製品の精度も落ちていなかった、これでやっと安心した。
+
+でも作業した際、部屋の温度が三十四度位の高温でした。
+そのお陰で私は自分の汗水に漬けられていた。
+これはかなり大変な体験でした。
+
+今は既にBevel gearのセットをプリントしました。
+Shaft、ベアリングとの相性も良いでした。
+私はこれから他のパーツを完成させる。
+
+駅ではこの数年間でBookCrossingと言う活動が続いていた。
+無料の本を提供する。
+たまには面白い本が出る。例えば薬物乱用の歴史を述べる＜＜Forces of habit＞＞、劉墉、王溢嘉の作品、そして英語の書物、絵本など。
+
+他には株の価格と経済の動向を予測する本があった。
+大げさな題名をもっているが、その内容はからぽい。
+予測結果の精度は猿のダーツ投げより低い。
+書店でこんな種類の本を見かけたら絶対買わない。時間とお金の無駄使いですから。
