@@ -1,0 +1,85 @@
+把家裡這半年來堆積的可回收物送到回收場賣掉以後，產生了不少的空間出來。
+現在的紙類回收已經便宜到一公斤1.5NTD，
+但是街上還是有許多收集廢紙的人，它們可以算得上是窮忙族中的窮忙族吧。
+
+這趟真正換到錢的是廢銅和廢鐵，讓最後的總收入達到了300NTD，
+但也讓我在搬運時出了一身汗，不過經過鍛練的身體讓我沒有受到肌肉痠痛之苦。
+
+以收集資源回收物品為業的人並非是想去做這行，而是不得不去做吧。
+但是回收物價格只會越來越低，而食物等生活必需品的價格只會漲得更高，
+就長遠來看，做這一行恐怕會是一條死胡同。
+
+CAFit的手動齒輪發電模組已經大致上建模完成了，
+除了軸心和驅動齒輪的握把之外，大多數的細部設計都已經完成。
+我把整個系統設計成了組裝式而非一體成型，
+以防在未來有不相容或零件磨損時需要整組重製。
+畢竟3D列印的最大成本還是"時間"，像是我這周印出的HerringBone齒輪，
+由於使用了0.2mm的層高來製作，最後花了五個小時以上才完成，
+也只有在需要高耐受能力、高強度的部件才能採用這種結構吧。
+
+至於首當其衝要忍受應力衝擊的握把部分，
+我不打算用3D列印製作，而是用原木作為素材。
+因為最近修建樹木時正好砍下了一兩根直徑接近十公分的枝幹，
+與其燒掉汙染空氣，不如拿來應用。
+--------------------------------
+After I sold the recycable waste which was generated during this year to the recycling center, large space were freed in my home.
+The price of waste paper has dropped to 1.5NTD per kilogram.
+But still there are so many people who's collection recycables.
+They might be the pooriest working poor.
+
+This ttime the thing that really created income was waste metal.
+It raised the amout of money to 300NTD.
+Yet it also made me sweat  a lot while I was carrying the recycables.
+Luckily my body is well trained and thus don't suffer from any injury or sores.
+
+Those who do recycable waste gathering as an occupation did not choosed to do it, but forced to do it.
+Sadly, the purchase price of recycables will only drop in the future, nd foor or other necessary goods will only get more and more expensive.
+In the long run, this kind of job is absolutely a deadend.
+
+The 3D model of hand-cranked gear generator system for CAFit is almost completed.
+Besides the shafts and handle of input gears, most parts are designed in detail.
+The system is designed to be assembled by multiple parts instead of all-in one to avoid reprinting the whole system when part of the system get worn out or have incompatibility issues.
+
+After all, the higest cost of 3D printing is "time".
+Take the herring bone gear, for example.
+Since it was printed under 0.2mm layer height, it took more than 5 hours to print.
+Only parts that require high tolerance to forces or need precision can be printed in such high resolution.
+
+As for the crank handle, which is going to bew the most force-intensive part of the system, I am not going to use 3D printing.
+Instead, I'm going to use wood plank as raw material.
+Because I recently cutted some trunks from the trees in the yard.
+It's better to utilize them than buring them and produce air pollution.
+
+--------------------------------
+この半年間で積んだ資源ゴミを資源回収業者に売った後、
+家には沢山の空間が開放された。
+現在の紙くずの価格は既に一キログラン1.5NTDの位に落ちた。
+しかし町で紙くずを拾う人々は減っていない。
+彼らは”ワーキングプア中のワーキングプア”だと言えるだろう。
+
+今回で本当に金を稼いだものは鉄と銅でした。
+それらの廃金属製品が収入を３００NTDに上げた。
+でもそれを運べていた頃はすごい汗を出ました。
+幸い私はちゃんと体を鍛錬したから、筋肉痛は出ませんでした。
+資源ごみ集めを本業とする人々はきっとこの業界を選んだではなく、
+この仕事をしなければならないでしょう。
+
+しかし資源ごみの買い取る価格は減る一方です、
+そして食品と他の生活必要品の価格は高くなる一方だ。
+長期的見れば、この業界に未来はない。
+
+CAFitようの人力ギア発電システムの３Dモデルは殆ど完成された。
+Shaftとギアを動かすハンドルを除いて、
+大部分のパーツの詳しいデザイン化完成した。
+
+一体成型を選ばず、私はこのシステムを複数のパーツに分けた。
+これで部件か磨り減られたとか、不具合とかが派生した場合、
+全システムを作り直し必要がないでしょう。
+何ゆえ３ｄプリントの一番高いコストは時間だ。
+例えば今週で作ったHerring boneギア、これは五時間以上の時間を掛かった。
+こんな構造はやはり高い荷重を担う部分でしか使えるだろう。
+
+一番ローでリグが重いハンドルの部分について、私はせれを３Dプリントで作るつもりはない。
+その代わりに私は丸木を使う。
+最近庭の木々を刈った。
+切り出した丸木を焼いて空気を汚染するより、応用する方がよほどいい。
