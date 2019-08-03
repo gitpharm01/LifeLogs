@@ -1,0 +1,75 @@
+手搖式齒輪發電機組的第一個版本成功的在本周完成列印，並且組裝完成了。
+組裝完成的成品和我在Blender裡面預覽道的模組有九成以上的再現度。
+然而實際去轉動齒輪時，卻發現整個系統卡頓的很嚴重，無法正常運作。
+
+另外我忽略了BevelGear的組合需要更緊密的固定，
+目前的可拆卸式設計讓齒輪可偏移的空間過大，造成兩個BevelGear之間產生鬆脫，
+種種的設計失誤讓看似可以成功的作品成了失敗作，這是我始料未及的。
+
+不過我目前已經構想出另一個設計，
+迴避使用大量軸承和多重軸心結構，改以雙向轉單向的傳動機構搭配行星齒輪，
+而且第一個版本的零件可備用在第二個版本，節省了製作時間。
+
+本周我讀完了<<牧羊少年的奇幻之旅>>，
+目前正在讀Peter.L.Bernstein的<<Against the gods, the remarkable story of risk>>，
+這兩本書都是從漂書活動所得，也是二十多年的老書了。
+第二本書用人物故事為媒介來講述風險觀念的確立和機率科學的發展，
+其中出人意料的是位機率理論打下基礎的人事裡有不少的賭徒，
+就連學者也常是為了解決某個數學上的賭局問題蔡涉入此領域的，
+反觀現在的機率理論已經被學校用無趣又令人作嘔的數學語言包裝成神殿裡的大理石像，實在難以親近。
+
+很快的一個月的時間又流逝了，我雖然大致遵守著自己訂下的紀律去執行各個計畫，但是仍然發現有許多時間被白白浪費掉了，
+專注力和意志力在這個媒體與資訊刺激泛濫的時代可以說是比黃金還要昂貴的稀有資源啊。
+---------------------------------------------
+
+The first version of hand-cranked generator was completed in this week.
+The assembled system resembles the model I created on Blender.
+When I tried to operate the system, however, I found it was severely jammed and unable to work properly.
+Additionally, I neglected the fact that bevel gear sets needs tighter combination and fixation.
+The current seprable design gave the gears too much room for tilting and eventually caused the two bevel gears seperate from each other.
+
+These defects mad the seemly successful work into a failure.
+This result was something taht I never expected.
+
+But I already came up with another design which avoids using bearings and multiple shafts.
+I'll replace them with two way to one way mechanism and planetary gears.
+I can also reuse the gears from the first version.
+
+I finished reading <<The Alchemist>> and currently reading <<Against the gods, the remarkable stories of risk>> from Peter. L. Bernstein.
+I got these two books from bookcrossing, and they have been sold for overtwenty years.
+The later book talked about the development of risk and probability scienc through  stories  of people who discovered or solved the problems.
+Surprisingly, many of them were gamblers/speculators.
+More so, the schoolers who entered this field because they want to sove some kind of gamble problems.
+Nowadays the topic of probability is casted into marble statues with disqusting mathtatical language which can only be worshipped by the cult of mathmaticians.
+
+Another month has passed.
+Though I generally followed the plan and executed things tat should be done. I still find large amout of time was wasted.
+In this media-flooded world, the focus and willpower are the rare resources which are more precious than gold.
+-----------------------------------------------------
+
+ヴァージョンワンの手動ギア発電機は無事に完了しました。
+組み立てられた製品はBlenderで見たものの九割以上の再現度を持っていた。
+しかし実際にギアを回すとき、私はこのシステムが重大な閉塞があることを気付いた。
+そして私は”Bevel gearにもっときつい固定が必要”と言うことを見落とした。
+現在のデザインは歯車に過大な可動空間をを与えた。
+そのせいで二つのBevelGearは双方から分離しました。
+
+様々なデザイン上の欠陥はこの見た目が完璧な作品を失敗作になれました。
+これは予想外だった。
+
+でも私は既にもう一つの設計を考えついた。
+この設計はベアリングと複雑なシャフトの採用を回避し、Two way to one way機構とPlanetory gearを使用する。
+そして前で作ったパーツを再利用することは可能です。
+
+今週で＜＜The alchemist＞＞を読みきった、そして今はPeter.L.Bernstein の＜＜Against the gods, the remarkable stories of risk＞＞を読んでいる。
+この二冊の本もBookCrossingで入手したも、そして二十年以上の古い本でした。
+＜＜Against the gods＞＞は色々な人物の物語でフウ件と確率概念の発展を述べる。
+ちょっと意外だが、確率学の基礎を築く人々の中にギャンブラもいる。
+たとえ学者でも、有るギャンブルの数学問題を解決するためだからこの領域に入った。
+これは全然神聖性がない学問でした。
+でも今の確率学は反吐が出そうな数学言語にかざされて、一般人はそれを接触することが難しくなる。
+
+これで一か月の時間も又過ごした。
+私は大体自分が決めた計画を実行していたが。
+大量な時間を無駄にしたことはやはり有った。
+こんなインフォメーションとメディアが溢れている時代で、集中力と精神力は金より高い希少資源だ。
