@@ -1,0 +1,64 @@
+新齒輪組機構的設計目前已經大致成形，
+我正在Blenader上面修改各個零件的配置。
+
+這次的系統採用了一對單向軸承，以及雙向轉單向的切換機構，
+這樣子的設計可以讓使用者無論是在往婦運動中的哪一個階段都能驅動發電機，而且電流方向一致。
+
+我另外試印了一個行星齒輪，它是一個可無限擴充的結構，
+作者很貼心了提供了一次列印所有必須零件的stl檔案，
+成品可以正常運作，將高轉速的輸入轉換成低轉速的輸出，
+然而它系統內的摩擦力太大了，無法反過來進行加速輸出，
+或許有其它的設計能夠克服這個問題，但我決定先回來使用傳統的齒輪組合，
+並且從線上訂購了鋼珠軸承，直接用高品質的軸承來克服摩擦力的耗損。
+
+除了目前設計的這一個結構之外，我還有另外兩種構想，
+他們的核心部分都是和前者一樣，
+一個是腳踏式的結構，用踏步的動作來發電，
+另一個是拉力繩，以尼龍繩牽動軸心來驅動馬達，
+但目前我必須先完成正在進行的這一個版本。
+
+----------------------------------------
+The new design of gear system had taken shape.
+I'm currently adjusting configurations of each part.
+
+This system adopted a pair of one way bearings and the two way to one way converting mechanism.
+Such combination can let the user always generate stable DC electricity at different phases of movement.
+
+I also printed a planetary gear system.
+It has a expandable design.
+The author intemately included a stl file which contain all the parts needed to build the system.
+The printed product succeded in reducing revolution count of output, turing high revolution input into low revolution.
+But it has too much friction in the system and thus unable to operate in the opposite direction.
+There may be other designs that can overcome this problem, but I decided to again use the traditional gear combination.
+I also purchased steel ball bearings online to further reduce the friction.
+
+Besides the design I'm currently working on,
+I also have two other system concepts.
+They share the same core structure with the current one.
+One ofthem is driven by foot pedals.
+Another has rally rope structure.
+The user drive the motor by pulling nylon ropes wrapped on a shaft.
+But now I have to focus on the current design.
+----------------------------------------
+新しいギアシステムのデザインは大体決定しました。
+私は今Blenderで各パーツの配置を編集している。
+
+今回のシステムは二つの単方向ベアリング、そしてTwo way to one way 機構を採用しました。
+こんなデザインは使用者がいつでも単一方向の電力を作らせることを可能にする。
+
+私は付いてに一つPlanetary　Gear　Setをプリントしました。
+この構造は無限拡張することが出来るです。
+作者は一つ全てのパーツを含めているSTLファイルを提供しました。
+プリントした完成品は正常作動できるが、それは”減速”のみだった。
+加速ギアとして使う場合、摩擦がおきいすぎて全然動かないです。
+この問題を解決できるデザインがあるかもしれないが、
+私はやはり一番簡単なSpur gearを選べると決めた。
+そしてオンラインショップで鉄のボールベアリングを買った。
+高い品質を持つベアリングで摩擦を克服する。
+
+現在編集している設計以外、私には二つの構想が有る。
+その中心の構造は前者と同じです。
+一つはPedal構造で入力。
+もう一つはRally ropeみたいなものです。
+それはロープでシャフトを引き、そしてモータを動かすものです。
+でも今の私は目の前にいる設計を完成させるべきです。
