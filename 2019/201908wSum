@@ -1,0 +1,76 @@
+關於手動發電機MKII的製作，我又發現了兩個缺失點導致系統不能運作，
+首先是輸入動力的齒輪之旋轉方向被設計錯了，
+必須再加入一個緩衝的小齒輪才能避免系統被相反的兩股力道卡死。
+第二點是中央齒輪的固定作方位有一些偏差，
+這使得後續的齒輪咬合不良，無法進行動力的傳送。
+
+完成MKII的設計只花了我兩周的時間，但是後續的修正花了超過兩周的時間，
+我不得不承認再修正的期間，我的執行態度並不像之前那樣的積極，
+失誤帶來的挫折感實在令人不快，
+但如果我不做出個結果來，這整個月的時間就全部被浪費了!
+就算得到"這個設計是不可行"的結論，也稱得上是一個可貴的成果。
+
+我出社會的這八年中狼吞虎嚥的堆積著各種知識，
+領域非常廣泛，但真正讓我產生穩定收入的仍然是大學畢業當年考到的那張專業證照。
+我曾經積極的涉入電腦程式設計的領域，從Java、c++到機器學習，
+也曾探索過心理學、社交工程，並且聽了三年該領域的英文廣播節目，
+我總是想著要是我累積了足夠的知識、達到一個臨界點之後，成功就會手到擒來，
+但事實上我從未自上述領域得到太多成果，
+與其累積知識，不如累積各種實作後的些微"經驗和成果"，
+這是我現在自我反省所得到的結論，
+但每一次的實作意味著會有更多的挫折和風險，這是我必須忍受的。
+
+----------------------------------------------------
+About the making of hand crank generator MKII
+I again discovered 2 defects that caused the system malfunction.
+The first is wrong design of rotation directions in the input gears.
+I have to add a small geat to correct the rotation.
+The second problem is caused by bias of the middle gear's location.
+It caused prolapse between it and the subsequent gear.
+And therefor, the force could not be transfered.
+
+It took me only two weeks to complete the 3D model of MKII, but the following job of fixing the model took me more than two weeks.
+I must admit that my attitude of executing the tasks was not that enthusiastic.
+The frustration caused by failures was intolerable.
+But if I don't make anything out of it, this month will be totally wasted.
+Even a prove of this sytem to be a complete failure is a significant result.
+
+I devoured all kinds of knowledge during these 8 years.
+It included very wide range of knowledge.
+But the only thing that offered me stable incom was the pharmacist licence I got when I graduated from school.
+
+I dived into the field of computer science, from Java and C++ to machine learning.
+I also explored psychology, social engineering and listened to related podcasts for 3 years.
+
+I always imagined that I'll achieve success when I accumulate enough knowledge to a critical point.
+But in fact, I never get much result from things mentioned above.
+Ithingk it's better to acculate experiences and results, no matter how tiny they are.
+But every new attempts and tests will bring more risks and possible frustration.
+These are the things that I should endure.
+
+------------------------------------------------------
+手動発電機MKIIの製作について、私は又二つのデザイン上の間違えを見つかった。
+一つは”入力歯車の回転方向が間違った”こと。
+もう一つ回転修正用の小型ギアを加える必要がある。
+第二の問題は中止ギアを固定する板の位置に偏差が有る。
+このせいで次のギアとの接続は不完全になって伝動できなかった。
+
+MKIIの３Dモデルの製作は二週間掛かった。
+しかしこのモデルの修正はこれ以上の時間を掛かった。
+私は”自分がモデル修正している頃、工作を実行する態度が消極になった”ことを認めなければならない。
+次から次への挫折はとても不愉快でした。
+
+でももし私が何の結果も出ないなら、今月の時間が無駄になっちゃう。
+
+社会人になったこの八年間で私は広い知識を大量取った。
+でも私に安定な収入を与えたのは依然あの大学卒業の時で撮った薬剤師免許だけだ。
+私は積極的な態度で電脳科学の領域へ探求しました。
+Java、C++からマシンーラーニングを学んだ。
+そして心理学、社交工程を勉強し、三年を渡って関連のPodcastを聞き続けた。
+
+私は何時も”自分がもしある程度の知識を集めたら成功になる”と思っていた。
+しかし私は実際これらの領域であんまり大きい成果を出来なかった。
+知識を集めるより、すこしずつ実作の経験と成果を貯まるの方が正しい。
+これが今の私の心得です。
+でも自作するたびにリスクと挫折が必ずたずねる。
+私はそれを耐えるべしです。
