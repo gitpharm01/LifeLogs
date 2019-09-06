@@ -1,0 +1,78 @@
+我對手動發電機MKII進行了數次的調整，但最後的結果仍然不成功，
+當我把我的試驗結果po上facebook時，很意外的得到了一些注意和迴響。
+
+有人表示與其使用機械結構來統整傳動方向，不如對產生的電流動手腳，
+使用"橋式整流器"、以流失部分電壓最為代價，
+將間歇變動的相反電流調整為同方向。
+購物網站上面居然有不少商家有再販賣這種半導體元件，
+而且單一個元件的價格並不貴，只要幾十塊錢就能弄到。
+
+我會繼續以這個新構想為基礎，進行手搖發電機MKIII的設計，
+並且繼續把自己的成果在facebook上面發表，看看能不能得到更多的迴響。
+目前手搖發電機MKIII的設計有兩個重點目標，
+第一是結構的簡化與強化，
+第二是增加齒輪比，因為在先前的試驗中，64倍的放大力矩明顯不足以產生夠高的末端轉速，
+這次我打算讓放大比例擴大到256倍，使用775電機以高電壓、低電流的方式降低能量的損耗。
+
+先前在搞事的那個地政士仍然繼續在作怪，企圖讓我們還有土地的其他共有人辦一些不利我方權利的事。
+不過有一位共有人稍微懂一些法律，知道怎麼因應，
+他也知道這個法律流氓的背後是土地開發商為首的圈地集團，
+裡面甚至有搞政治的人，這一帶已經有數筆土地被他們"合法"的騙到手裡了。
+法律根本就不能防止犯罪，它是那些法律流氓訂定出來、用來謀權奪利的工具罷了。
+
+------------------------------------
+I made several modifications on hand-cranked generator MKII, but the final result was still unacceptable.
+I posted my test results on a facebook forum and, surprisingly, gained some attention and feedback.
+
+One of them told me that I should modify the electric current instead of using two-way to one-way mechanism.
+I can make use of the "bridge rectifier" unit to unify the direction of current with a price which is slight loss of voltage.
+
+Moreover there are many suppliers on online-shopping sites can offer this kind of semiconductor components.
+The prices are not expensive at all.
+They costs only 10 to 40 NTD per unit.
+
+I'll keep developing the next version of hand-cranked generator based on this concept.
+And I'll keep posting my results on the facebook forum, see if I can get more responses and attention from the community.
+
+Currently there are two main goals for MKIII.
+The first is to simplify and fortify the structure of the system.
+The second is to increase the gear ratio, since it was not enough during the previous tests.
+This time i'm going to make a system which accelerate rotation speed by 256 times.
+With higher voltage output, the loss of energy will be reduced.
+
+That land administration agent who mad troubles for us was still ding ill things.
+He tried to fools and other landlords into signing up agreements that will damage our right.
+But there's as landlord who have some knowledge in law and seemed to know how to deal with these accusations.
+He also know there was a property developer behind this land administration agent.
+Its members even include some politicians.
+Some land around here were already "legally" stolen by them.
+The law is not the tool to stop crimes, it's the vicious weapon forged by those mobs of law.
+
+------------------------------------
+手動発電機MKIIについて、私は若干の調整を行った。
+でも最後の結果は失敗的だった。
+自分の実験結果をFacebookで３Dプリント関連の討論掲示板で発表した後、意外だが、私はコミュニティからの注目と反響を得た。
+
+有る人は”Two-way to one-way mechanismを採用するより、電流の方向を直接に調整すればいい”と指摘しました。
+それはBridge rectifierを使って、一部分の電圧を代償として、変動し続けている電流の方向を統一化することです。
+オンラインショッピングサイトで多い出品者がこの部品を売っている。
+そして単品の価格は高くない、数十NTDで入手できる。
+
+私はこれからこの構想を基にして、発電機MKIIIの開発をオコンマう。
+そして自分の実験結果をFacebookで公表して、もっと注意と反響を引く。
+
+MKIIIの設計についての重点は二つある。
+一つは構造の簡単化と強化。
+二つ目はGear ratioを増やすことです。
+その前の実験でギアシステムによる加速は明らかに足りなかった。
+今回は256倍の回転加速で高い電圧/低い電流を使って、Bridge rectifierによるエネルギー消耗を減る。
+
+訴訟を提出したあの司法書士は又悪いことをした。
+彼は私たち、そして土地のほかの共有者たちを騙して権利を奪うことを図った。
+でも一人の共有者は少し法律を分かっている。
+彼はあの司法書士を止める方法を知っているらしい。
+彼もあの司法書士の背後に土地開発グループが居ると知っている。
+そのグループの中で政客でも居る。
+このあたりの一部分の土地は既に彼らに”合法的な手段”で奪われた。
+
+法律もはやは犯罪を防ぐものではなく、法律盗賊たちが作った犯罪道具に過ぎない。
