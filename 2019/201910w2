@@ -1,0 +1,81 @@
+儘管我對MarkV有著很大的期待，但是他終究未能成功運作。
+
+MKV大幅度簡化的結構使得他在製作與組裝上都十分順利，
+然而它最關鍵的拉繩回捲機制無法如設計一樣產生效果，
+這是因為拉繩在回捲的時候，整個系統是沒有任何外力輸入的，
+只能靠輪軸自身的慣性，然而它同時還要抵銷來自馬達的阻力，
+最後使得拉繩頂多回捲個一兩圈就停下了。
+如此一來就無法像當初設定的那樣進行順暢的往復運動了。
+
+確認了拉繩機構為不可行之後，我再次更換了核心架構，開始了MKVI的設計。
+這次的結構會使用直齒輪，以直線往復的方式來產生動力，
+目前建模已經完成了五成左右。
+
+雖然我在Facebook3D列印社團有一些互動，但是最近不知不覺的沉寂了下來，
+至今仍未發出新的訊息與內容。
+另一方面，我目前也尚未加入任何人進入好友名單，
+我打算乾脆直接在3D列印討論社團發問，詢問台灣在3D列印領域有哪些高手以及他們的FB頁面，
+如此一來就能更有效率地找到值得追蹤的對象了。
+
+每周的三語筆記已寫了接近快兩年，不過我至今仍未覺得自己有筆力大增或是英日語寫作能力突飛猛進的感覺，
+頂多只有起到預防退步的效果而已。
+語言能力的培養和累積恐怕不是那麼快就能看得見效果的，
+時至今日，我依然在和自己的惰性對抗，試圖做時間的朋友。
+
+-----------------------------------
+Though I had high expectation of mark V, it still failed in the end.
+
+The significantly simplified structure of markV made the printing and assembling much easier.
+But its crucial mechanism, the rope-rescrolling function, was unable to work as I dsigned.
+This was because the rope had no external force input while being re-scrolled to the bar.
+It all depends on the remaining momentum in the system to keep the bar spinning.
+But it also had to simutaneously overcom the resistance from the motor and thus could only rescroll up to two rounds before it stopped.
+In this manner, the system will not work as smoothly as I designed.
+
+After confirming the fact that rope mechanism is not viable, I changd the core design again.
+This time I'll use rack gears.
+It will turn the reciprocating movement into rotation.
+The progress of modeling is about fifty percent by now.
+
+I did have some activity in the 3D printing forum on Facebook.
+But I went quiet recently and did not release any new contents.
+On the other hand, I haven't add any user to my friend list.
+Now I am considering making a post on the forum and ask about 3D modeling/printing experts in Taiwan and their facebook pages.
+Maybe I can find valuable targets more efficiently.
+
+I've been writting trilingual weekly diary for almost two years.
+Yet I feel that neither my writting skill nor the skills in Japanese and English got significantly improved.
+It only prevented them from degrading.
+The accumulation and development of language skills may not be so easy to achieve any obvious results.
+
+Untill now, I'm still fighting with my own lazyness and trying to be the friend of time.
+
+--------------------------------------
+Mark Vに対して大きな希望を持っただが、結局それは成功稼動できなかった。
+
+大幅簡単化された構造はMK Vの製作を易くなりました。
+しかし一番肝心な”ロープ回収構造”は設計の通りに動くことが出来なかった。
+これはロープが棒に巻き込まれたときは何の外力が入力されていませんでしただから。
+全システムはただ慣性に頼って動くです。
+しかし同時にモータからのレジスタンスは強すぎて、ロープを一、二週巻いただけでとまった。
+
+こうなったら最初の設計通り、スムースな往復運動は不可能です。
+ロープ回収機構が使えないと確認した後、私は又中心機構を変わって、
+新しいモデルーーーMK VIの設計を始めた。
+今回はRack gearを使って、直線の往復運動で動力を作る。
+現在の３Dモデルの完成率は五十パーセントです。
+
+私は確かにFacebookの３Dプリントクラブで少しやり取りをしたが、
+最近はなんだか沈黙になった。
+新しいコンテントを発表しなかった。
+ちなみにFriend listは今でも一人も居ませんです。
+
+私は直接で３Dプリントクラブで質問を申す、台湾の３Dプリントの達人そして彼らのFacebookページについて聞きます。
+これでもっと高利的な方法で高い価値のある人物を見つけ出す。
+
+私はもう三語週間記事を二年ぐらい書き続けた。
+しかし今でも自分の文章力が大幅な上昇や、日本語と英語の言語能力が良くなることは全然感じていません。
+ただ退歩をふせぎましただけです。
+外国語能力の養成はそんなに早く目立ちの成果が出来るものではないようだ。
+
+私は今でも自分自身の怠惰性を抗えて、時間の友になることを目指している。
