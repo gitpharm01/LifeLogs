@@ -1,0 +1,81 @@
+人力發電機MKVI的模型已經大功告成，
+它具有一個連接直流馬達的齒輪箱，以四排直齒輪來驅動。
+
+很不幸的是，在列印它的時候發生了一個意外:
+加熱單元的溫度突然上不去，在經歷了一系列的檢查和重新開機之後仍然無法排除問題。
+
+我原本以為這要花上一個星期才能解決，而且可能必須要購買替換零件，
+但是在我把家熱棒元建拆下並且徹底分解之後，問題的根源被我找了出來。
+原來是它的電源線在轉接頭的內部斷裂了，
+當我把它重新組裝之後，加熱棒又恢復了原本的功能。
+MKVI的製作得以繼續進行，目前已經完成大約七成左右。
+
+這一台只花了7500NTD就入手的陽春3D列印機用到目前為止真的讓我覺得物超所值。
+他雖然沒有雙噴頭或是其他高規格的零組件，甚至連家熱床都沒有，
+但是對於只想使用無毒PLA材質的我來說已經是十分夠用的了，
+而且它的列印品質已經算是優良。
+反觀那些動輒上萬元的機台，出問題的機率也不小，而且由於結構複雜，
+維修的難度和成本都高上許多。
+
+買東西部一定要挑名牌或旗艦機種，有時候"夠用"而且"耐用"才是最佳選擇。
+
+這次的印表機問題我其實也有在FB社群裡發問，但是和上周發起的討論串一樣，並未得到太多具體的結果，
+畢竟這是自願性、免費加入的社團，而且人數也沒有非常多，
+目前就先當作是累積自己經驗和實力，把帳號繼續經營下去吧。
+
+--------------------------------------------
+The hand-cranked generator MKVI is now fully modeled.
+It has a gearbox which connects the DC motor and driven by 4 rows of rack gears.
+
+Unfortunately, there was an accident while printing it out:
+The heating unit suddenly failed to heat up the extruder.
+Agter a series of examination and rebooting, the problem was still unresolved.
+
+I thought it would take a week or more to fix and it might require purchasing new parts for replacement.
+
+But when I throughly dissembled the heating rod of the printer, the cause of the problem became clear.
+It was because the metal filament inside the adapter of the heating rod was broken.
+Agter I repaired this part, the heating rod fully recovered its function and the printing of MKVI is continued.
+The currnt printing progress is about 70 percent.
+
+This entry-level 3D printer which costs me only 7500NTD really makes me feel that its value out weights its price.
+Though it doesn't have dual-extruder or other fancy features and even the heat bed is not installed, it's quite enough for me since I only want to print with txin-free PLA filament.
+Besides, it's printing quality is good enough.
+
+To the contrary, those expensive printers which cost more than 30K have similar rate of failure.
+Since those printers have more complex structures, the reparing costs more and is more difficult.
+
+It's not necessary to always buy the brand-name goods or flagship product.
+Those products which are "durable enough" and "viable enough" might be the best choices instead.
+
+In fact, I did asked questions about the heating rod on the Facebook forum.
+But I didn't get much significant response just like the post I created last week.
+Since it's just a volunteer and free to join forum, which don't have too many members, I should not expect too much.
+I'll just use it as a practicing tool for online networking.
+
+----------------------------------
+人力発電機MKVIの３Dモデルは完成しました。
+それには一つDCモータと接続するギアボックスが有る、そして四本のRack gearで駆動する。
+
+だがプリントの途中である事故が発生しました：
+加温ユニとの温度が突然上がらない様になりました。
+一連の検査とRebooを行った後、この問題は排除していませんでした。
+
+私はこの問題の解決は一週間以上の時間が掛かる、そして交換用の部品を購入する必要があると思ったが、
+Heating rodを完全に解体した後、問題の原因が判明された：
+Heating rodのケーブルはプラグの中で割れた。
+それを直して、再びHeating rodを元の通り組み立てた後、
+Heating rod はもとの機能を回復しました。
+
+これでMKVIの製作は再開できる、現在の完成度は七割ぐらいです。
+
+この7500NTDだけで入手した３Dプリンタは今まで”お買い得品”とはいえるだろ。
+あれにはDual extruderみたいな高級部品を搭載していません、そしてHot bed すら居ませんですが、
+PLA材料だけ使えたい私にとって、このプリンタは充分使える。
+それにことプリンタの精度は良いです。
+
+対照してみると、その数万NTDが掛かるプリンタの故障率も低くない、
+そしてその複雑な構造によって、修理の難易度とコストも高い。
+
+高級ブランド品ばかり買う必要がないです。
+使える、そして耐久性が十分ある品こそが最善の選択だと思っている。
