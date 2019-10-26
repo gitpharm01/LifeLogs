@@ -1,0 +1,86 @@
+列印到八成左右之後，我嘗試性的組裝了MKVI，但是發現了零件再次發生了密合度不足以及偏差的問題。
+機械結構的公差和關節設計仍然是需要一定程度的Try and error才能完成。
+我重新設計了MKVI的支架系統，但是在列印的時候發現印表機的加熱棒仍有不穩定的問題，恐怕還是更換新品會比較妥當。
+
+在等待新品到貨的空檔中，我開始了MKVII的建模，採用的是以MKIV為基礎的結構，但是更加簡化，
+而且驅動方法也從拉繩改換為槓桿。
+
+在3D列印的學習上，我必須持續累積經驗和功力，如果半途而廢的話，今年以來的努力就前功盡棄了。
+
+關於土地分割官司的案件，下周一就要開民事的辯論庭了，
+我們已經確立了我分的主張，要用我們的方式來說服法官進行原物分割。
+我們在查閱法院資料的時候又發現了那個無恥的地政士的另一個犯行，
+他居然用錯誤的地籍資料去誤導土地丈量的結果，
+讓他的持分膨脹，我們自己請了另一個團隊來進行土地複丈，得出了正確的結果，這個資料也要向法官提出。
+
+台灣真的充斥太多這種不事生產、只會偷拐搶騙的法律流氓，
+有的頂著代書、地政士的頭銜，有的是專職的地皮炒手，
+更有四處侵吞土地的惡霸財團，
+這些人大多都沒受到應有的制裁。
+這些人造成的歪風讓年輕一代的價值觀扭曲，越來越多人加入了詐騙集團。
+我們絕對不能讓那個無良地政士得逞。
+
+-------------------------------------
+I attempted assembling the MKVI when I printed 80 percent of its parts.
+But again I discovered that there were bias and prolapsing problems in it.
+The designing of a mechanical structure still require a certain level of try and error.
+I redesigned the support system of MKVI.
+But I found the heating rod of my printer was not stable.
+I consider replacing it with a new one would be a better choice.
+
+While waiting for the new parts, I started modeling MKVII, the next model.
+It has the sme basic structure as the MKIV.
+But it is again simplified and the input method of power is changed from cable to leverage.
+
+On the path of learning 3D printing.
+I must keep accumulationg experience and knowledge.
+If I give up halfway, the effort I have done so far this year will all be in vain.
+
+About the land lawsuit, the oral arguments will be held next monday.
+We already confirmed our proposal.
+We will try to persuade the judge to perform the "Teilung in Natur".
+
+When we were investigating the case files, we discovered another crime done by that shameless land administration agent.
+He delivered wrong data to cause incorrect result of land surveying in order to inflate his share of land.
+We already hired another team to re-measure our land and got the correct results.
+We will deliver it to the judge .
+
+In Taiwan, there are too many "law thugs" like that man who never do anything productive.
+Some of them wearing titles like land administration agent.
+Some of them are professional land speculators.
+Still some are vicious corporates which invade and rob lands from innocent people.
+Most of them are not punished at all.
+
+They created a trend whcih caused the younger generations to consider getting profit by other people's toll.
+
+We must not let these shameless thugs succeed.
+
+-------------------------------------
+八割のパーツをプリントした後、私はMKVIの組立てを試してみた。
+だが部品と部品との間に不具合と偏差があることを発見した。
+機械の構造を設計するにはやはり有る程度のTry and errorが必要ですね。
+私は再びMKVIの構造を修正した。
+でもプリントの最中、Heating rodは不安定な状態になった。
+やはり新しい部品と交換する方がいい。
+
+新品を待っていた頃、私はMKVIIの３Dモデルを作り始めた。
+採用する構造はMKIVをもとにして、そしてもっとシンプルなものです。
+システムを駆動する方法はケーボルからレヴァレッジへ変更した。
+
+３Dプリントの勉強について、わたしは経験と知識をもっと集めるべしです。
+もし中途半端になったら、今年の努力は全て無駄になる。
+
+土地の訴訟案件について、来週の月曜日で民事訴訟の口頭弁論が行われる予定です。
+私たちは既にこちらの主張を確立しました。
+そのときは裁判長を説得して、ただしいい方法で土地を分割する。
+
+私たちが裁判所の資料を調べた時、あの恥知らず司法書士のもう一つの犯行を見つけた。
+彼は間違っている土地登録資料で土地測定の結果をミスリードしました。
+私たちは他の測定業者を雇い、正しい土地区画結果を得た。
+口頭弁論の時は法廷に提出する。
+
+台湾にはこんな詐欺と盗み取ることをばかりする”法律ヤクザ”が多いすぎる。
+あるものは司法書士を名乗り、あるものは専門の地上げ屋、
+そして罪のない人の土地を略奪する悪財団も居る。
+こやつらのせいで若者の価値観も歪められた、そして詐欺師になるものが沢山居ます。
+私たちは必ずあの恥知らずな司法書士の計画をとめる。
