@@ -1,0 +1,74 @@
+手動發電機MKVI的第二個版本已經組裝完成了，
+雖然它大致上能夠以當初設計的方式運轉，但是它無法發出足夠的電壓，
+最高只能達到8V / 200mA左右。
+至少要有這個輸出量的三倍才能滿足5W / Sec的目標。
+
+目前MKVII的3D模型仍然在進行修改，
+它內部的行星齒輪結構或許會帶來摩擦耗損的問題，
+但是也只有動手去試才能知道最後的結果，
+
+回顧我在3D列印上的歷程，當初其實是為了用一個水力發電模組來證明CAFit的儲能模型，才開始學習使用它的。
+
+然而我發現要再自家環境搭建一個可產生足夠瓦數的超小型水力發電系統是不可行的，
+因此才切換跑道，開始進一步學習3D建模，並且製作人力發電機，同時在Facebook社群展開探索。
+不過不論是在我路上拓產有實質意義的人脈或是精通3D建模都不是件容易的事。
+
+這次土地訴訟的口頭辯論庭碰到的法官還算頭腦清楚，
+一開始就把那些無恥地政士的違法主張給駁回了，不過那些人仍然不死心，
+想要繼續騙下去。
+我們除了要穩固自己的立場之外，也要提防那些法律流氓再出什麼骯髒的招數，
+畢竟他們是一群在法庭上也感提出違法主張的卑劣小人，
+虧他們名義上還有"地政士法"在規範。
+這些讀法犯法的法律流氓腦中根本沒有法治和是非，學來的知識全用在偷拐搶騙上!
+
+-----------------------------------
+The second version of hand-cranked generator MKVI was fully assembled now.
+Though it could generally oprate as I initially designed, i t failed to generate enough electricity.
+The best result was 8Volts and 200 mA.
+To achieve my goal, I need 2 times more output of this.
+
+The 3D model of MKVII is still under construction.
+The planetary gear structure might cause friction problems.
+But trying it out is the only way to know whether it will happen or not.
+
+Looking back at my journey on 3D printing, I was initially looking for a method to create a pico-hydro power system which can demostrate my concept of CAFit.
+
+However, I discovered that it's not possible to create such system inside my home.
+So I changed my goal and started learning more about 3D modeling and tried to make a human powered generator.
+Meanwhile, I started discovering 3D printing community on facebook.
+
+Yet neither making a significant human network online nor mastering 3D model designing was not a easy task.
+
+The Judge who organize the oral debate this time was professional enough.
+He rejected the illegal proposals from those shameless LAAs in the begining.
+But those law thugs still did not give up.
+They want to keep frauding people.
+
+Besides consolidating our proposal, wer must prepare ourselves for any kind of dirty tricks played by those thugs.
+They are scums who dare to claim fake and illegal proposal in the face of law.
+There is a law calld "LAA bill" which regulate those people, but those law thugs absolutely have no intention to obey it and they never got punished by it.
+
+----------------------------------
+人力発電機MKVIの第二版は完成しました。
+このモデルは大体設計の通りに動けることが出来るが、
+充分な電力を作ることが出来なかった。
+最大の電力は8V /200ｍAだけでした。
+目標の5W /Secを達成するには、せめてこの量の三倍が必要有る。
+
+今MKVIIの３Dモデルは未だ編集中です。
+その内部のPlanetary gear 構造は摩擦の問題を起こす可能性がある。
+だがその結果を知る方法はモデルをプリントするしかないです。
+
+３Dプリントについての学習過程を振り替えしましょう。
+最初は水力発電モデルを作って、CAFITの原理を証明するためだった。
+
+しかしその後私は”家で十分な電力を輸出できる小型水力発電システムは不可能だ”と判明した。
+その故に私は目標を転換して、３Dモデルの編集方法を学んだ。
+同時にFacebookで３Dプリントのコミュニティを探索し始めた。
+だがネットで意義の有る人脈を作ることや３Dモデル編集を熟達することも容易なものではない。
+
+今回の口頭弁論を司会する裁判長はなかなか法律を知るものです。
+彼は最初からあの恥知らずの司法書士たちの違法な主張を却下しました。
+しかしあの法律ヤクザ供は諦めていない。奴らは未だ人を騙し続けたいです。
+私たちは自分の主張を固守するうちに、あの法律ヤクザからのいんちきな陰謀を防ぐべしです。
+何しろ、奴らは法廷でも違法なことをおおびらに主張する詐欺師だから。
