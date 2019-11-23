@@ -1,0 +1,77 @@
+由於冬天已經來臨，室溫也跟著降低了下來，連帶造成了3D列印件冷卻速度加快許多，
+零件內部的熱脹冷縮明顯可見，
+我因此而不得不加上Brim skirt之後重新製作gcode檔案進行列印，
+由於我用的3D列印機是以FDM為基礎，溫度的掌控變得十分重要。
+
+新版的齒輪有著較短小的牙，在運作上似乎比之前的版本還要順暢，
+不知道這是不是由於動力傳動更加綿密所致，
+但是當模型被放大到0.5倍的時候，整個系統的阻力果然還是偏大了一些。
+我目前考慮用潤滑或是降低齒輪比的方式來克服這個問題。
+
+我另外在網路上找到了一些以3D列印製作的斯特林引擎模型，
+有的還是能夠光靠太陽能就可以啟動的版本，
+這些模型或許可以作為CAFit的驗證模型之素材，和風力幫浦搭配在一起，
+建立一個儲存水位能的蓄能系統。
+
+我在Kickstarter和FB上面搜尋再生能源相關企畫和討論區的工作就不是那麼的有成果了。
+Kickstarter裡面 多的試賣書和"推廣再生能源的桌遊"之類，
+實質意義不大的企畫案，
+另外就是賣太陽能板跟風力發電機的。
+而Facebook上面則是和其他議題一樣，備各種置入式的政治文宣所汙染，
+不大能找到有用的資源或是文章。
+
+我想要做的是在都市內直接解決能源需求，
+不是在颱風和地震的頻繁發生地帶裝設昂怪到極點的巨型風力發電機和太陽能板。
+
+--------------------------------------------------------
+The winter has come, and room temperature dropped significantly.
+This made the cooling of 3D printed objects much faster.
+The shrinking caused by cooling was quite obvious.
+It caused some printed parts unusable and must be reprinted with a brim skirt.
+Since I'm using FDM based printers, the control of temperature become very important.
+
+The gear set of MKVIII have smaller teeth and it worked much smoother than previous ones.
+Maybe it was because it has more intense transduction of force.
+But when the gear ratio rised to 1:125, the resistance from the system was still too big.
+Now I'm considering using grease or slightly decrease the gear ratio.
+
+I also found several models of 3D printed stirling engines.
+Some of them can be driven by solar heat alone.
+These might be suitable to be the building block of CAFit.
+Combined with wind powered pump, they can form up a energy storage system which is based on water potential energy.
+
+The searching on kickstarter and facebook for renewable energy projects and forums was not that good.
+Most projects on kickstarter is selling books and table games which "promotes the idea of renewable energy."
+Other projects are either selling wind turbines or solar panels.
+
+And the posts on Facebook which is related to renewable energy are severely polluted by political propaganda, just like posts on other topics.
+It was quite hard to find useful information or resources.
+
+What I want to created is a system which compensates energy demand and built inside the city.
+I don't want to install expensive and fragile solar panels or huge wind turbines at a place which frequently got struk by typhoons and earthquake.
+
+----------------------------------------------------------------
+冬が来た、そして室内の温度は下がりました。
+この現象は３Dプリント作品の冷却速度に大幅な加速を与えた。
+パーツの冷収縮は肉眼だけで確認できる。
+この現象のせいで、わたしは一部分のパーツをBrim skirtを加えて再製しなければなりませんでした。
+私が使っているプリンタはFDMを基礎として設計されたものだから、
+温度の掌握はとても重要である。
+
+新しいGear setは細い歯をもつ、そして作動は前より順序です。
+ころはもっと綿密な伝動ができるの故かもしれない。
+しかし１２５倍のGear ratioに達する際、全システムのレジスタンスはやはり大きい過ぎる。
+私はいまグリースを使うこととGear ratioを減ることで問題を克服すると考えている。
+
+ちなみに、私はネットで３Dプリントで製作可能のStirling engineを見つけた。
+その中に太陽の熱だけで動けるものは有る。
+これらはCAFitの検証モデルの素材になるかもしれない。
+風力パンプと組み合わせて、一つ水ポテンシャルエネルギーを貯まるシステムになる。
+
+私がKickstarterとFacebookでRenewableEnergyと関連するプロジェクトと掲示板を探すさぎょうはあんまり結果が出来ていなかった。
+Kickstarterのプロジェクトは本とSolar panel、Wind turbineを売るとか、”Renewable energyをプロモートするボードゲーム”など、あんまり意味がない。
+
+しょしてFacebook上のPostは政治関連の言論に汚染され、使える資源や文章などありませんでした。
+
+私がしたいことは都市の中でそのエネルギー需要を解決することだ。
+台風と地震が頻繁に発生する場所で値段が高い、そして脆い大型風力発電機とかSolar panelなどを全然使うつもりはない。
