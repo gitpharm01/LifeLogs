@@ -1,0 +1,67 @@
+MKVIII的第三版如期完成，
+然後，成了無數失敗品中的一員。
+將550直流電機的轉速放大125倍之後，產生的阻抗力道雖然完全未超過我肌肉出力的極限，
+但是3D列印的結構卻無法支撐這業的受力，
+儘管有更好的齒輪設計與傳動軸結構，依然發生了斷裂的情形。
+沒想到最簡單的結構設計依然未能成功，這讓我感到十分挫折。
+
+或許我應該就整體系統的設計概念去做一次完整的檢討。
+我這五六個月幾乎是閉門造車的狀態，只有少數幾次得到了他人的意見。
+我這週會把這半年的試驗記錄整理一番，在Medium以及Facebook的3D列印社群上面發表，
+至少要對這一年來的作業有個總結。
+
+另一方面我也在考慮重新啟動水力統整發電系統的計畫，
+然而我連簡單的發電機設計都做不好，又要怎麼去做更複雜的水力系統呢?
+現實雖然殘酷，但是無視事實也只會讓我陷入徒勞無功的窘境而已。
+
+我在這半年內的實作已經讓我累積了不少的經驗和實力，
+但是要從入門者進步到專業級的領域，還是有太多我仍缺乏的東西。
+老老實實的把這段時間內所作的是和犯過的錯作一次總整理的話，
+或許可以抓出自己過去思考上的盲點，讓接下來的學習更有效率。
+
+--------------------------------------------------------------------------
+The third version of MKVIII was completed on time.
+And it turned out to be one of the countless failures.
+The resistance of 550 DC motor which is amplified by 125 times is never beyond my muscle strength.
+But the 3D printed structures could not endure such force.
+Though it had better gear and shaft design,
+the structure of MKVIII v3 still broke while testing.
+
+I never thought I couldn't achieve success even which easy structures like this and I got really frustrated.
+
+Maybe I should completely review the system designs and their concepts.
+
+Dureing this 6 months, I worked alone most of the time.
+I only acquired suggestions from others for a few times.
+I'll rearrange the test results in this week and publish them on medium and 3D printing group on Facebook.
+I must at least have a summary for my works in this year.
+
+On the other hand, I am also considering about restarting the hydropower project.
+However, someone who can't even create a simple generator device is not likely to be capable of achieving success in complex hydropower system.
+The truth may be cruel, but ignoring it will only make myself more miserable.
+
+I did accumulated a lot of experience and skills throughout these 6 months,
+but there's still too much things necessary to learn in order to turn myself in to a professional user in 3D printing/design.
+If I honestly summerize the things and failures I've done so far, I may be able to find the blind-spot in my thoughts and make my learning more efficient.
+---------------------------------------
+MKVIIIの第三版は予定通り完成しました、そして、無数の失敗品の一つになりました。
+１２５倍に増幅された550DCモータのレジスタンスは私の筋肉の出力で対抗するのはまだ余裕があるですが、
+３Dプリントで作った構造はそんな力を耐え切れなかった。
+
+改善されたギアとシャフトを配置されたものの、MKVIIIは依然その力に壊された。
+
+こんな簡単な設計すら成功できないことは、私に大きい挫折を与えた。
+
+私は全てのシステムの設計概念を一度根本的な検討をするべしかも。
+それに私がこの六ヶ月間で殆ど自主制作の状態でした、ただ他人からわずかなイケンを貰った。
+私は今週で今までの実験記録を整理して、Medium とFacebookで発表する。
+せめて今年でやったことをちゃんとまとめるべしです。
+
+もう一方で、私は水力発電システム製作計画を再開することを考えている。
+しかしそんな簡単な手動発電機すら作らない私がどうやって複雑な水力発電システムを作るのか？
+事実は残酷だが、それを無視すれば、ただ無駄な努力をすることだけだ。
+
+この半年の自作はある程度で私に経験と実力を与えた。
+しかし初心者から専門家へ二なるために、私は未だ勉強するべし物が多いすぎる。
+大人しくこの間でしたことと過ちを整理すれば、かつで自分の思考の死角を見つかれる子も知れない。
+これでその後の学習の効率はもっと高くなるだろ。
