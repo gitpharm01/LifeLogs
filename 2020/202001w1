@@ -1,0 +1,85 @@
+在接上橋式整流器與usb降壓模組之後，
+我將mkix的試驗過程製作成了短片，發布在Facbook的Blender以及3D列印社團，
+整體的反應並沒有太大，但很幸運的是我得到了一些善意的回應與建議。
+
+然而MKIX並不能算是完全成功的，
+由於輸出電流還是不夠強大，導致USB電流偵測器只測到了5V的電壓，卻沒有電流，
+這意味著它仍然無法衛USB裝置充電，
+我目前打算製作MKIX的第二版，用改良的結構來達到實質充電的目標。
+
+在2020年的一開始，我有幾個目標想要完成，
+首先是增加在3D列印社群的曝光，期望能夠找到志同道合的朋友，
+另外就是建立去年未能成功建置的CAFit整合是水力發電系統。
+
+第三個目標是個到目前都還令我感到猶豫的事情，那就是辭去目前的工作。
+這些年來我工作場所的環境已經越來越差，雖然在台灣的大環境下還算比下有餘，
+但是已經失去了大部份的發展潛力。
+而且我目前就算一二年不工作也有足夠的生活資金可調度，已經是沒有那麼急需用錢的狀態，
+而這附近一帶仍然有我可應徵的職缺。
+
+最後，同時也是最重要的一個因素就是我有一個想要實踐的創業計畫。
+我在服兵役時就已經在腦海中有了雛形，
+我這八九年來不斷的反覆思考它的可行性和運作模式。
+現在似乎是時機成熟的時刻，但是我必須要有破釜沉舟的決心才可能實現它。
+
+--------------------------------------
+After connecting bridge rectifier and USB moduel to MKIX, I recorded a footage video for its test operation.
+I then posted the video on Blender and 3D printing groups of Facebook.
+There were no big responses, but I luckily received several friendly messages from the community.
+
+Hoever, MKIX is still no a complete success.
+Since the output current was not strong enough, the USB current tester was only able to detect the wanted voltage and the value of current remained zero.
+I'm now considering making version2 of MKIX.
+I'll reach the ultimate goal which is charging USBdevices by using improved design.
+
+At the begining of 2020, I have several goals that I want to achieve.
+The firstone is to increase my presense on 3D printing community and hopfully find friends who shre the same vision as I do.
+
+The second one is to complete the CAFit hydro power model which I failed to build last year.
+
+I still feel hesitated about the third goal, which is to quit my current job.
+During these years, the environment of the institute I 'm working at had gone worse and worse.
+Although it was better compared to the overall situation of Taiwan's job market, 
+it already lost all of its potential to grow or improve.
+
+Besides, I have enough fund which can keep me alive for two years without any income,
+which means I'm not in such terrible need of money.
+And there are still some job offering around this region.
+
+The last and the most important reason is that I have a startup plan which I really want to start.
+The idea of this project emerged when I was in millitary service.
+During these years, I kept reviewing it and considering its possiblility and ways to operate.
+Now the time is seemly ripe.
+But I need to be extremely determined to achieve success.
+
+----------------------------------
+MKIXをBridge rectifierとUSB　Voltage　Control Moduleと接続した後、
+私はMKIXの実験実況を録画しました。そしてFacebookのBlenderと３DPrintingグループに発表しました。
+あんまり多き反応はないが、私は少し善意的な意見とコメントを貰った。
+
+だがMKIXは完全に成功ではなかった。
+輸出電流が足りないのゆえで、USB電流測定装置は５Vno電圧しか感知した。
+電流の測定値は0だった。
+つまりMKIXはまだUSB装置を充電することが出来ないです。
+私はMKIXの第二版を作る予定です。改善されたデザインで目標を達成する。
+
+2020の始まりで、私には幾つの目標がある。
+先ずは自分が３Dプリントコミュニティでの人気を増やすことです。
+自分と同じ目標を持つ仲間を見つけ出す。
+
+もう一つは去年で作れなかったCAFいｔの水力発電システムを完成させることです。
+
+三つ目の目標に対して、私にはまだ躊躇している。
+その目標は現在の仕事を辞めることです。
+この数年間で私が働いている場所の環境がますます悪くなっていた。
+台湾の全体の労働環境と比べればまだよいといわれるが、この仕事の発展性は殆ど亡くなりました。
+
+それに私には一、二年ぐらいの生活費が持っている。
+つまり仕事がそんなに必要ではありません。
+それにこの辺りではまだ同じ種類の仕事が開いている。
+
+最後の、そして一番重要な理由は私には一つ実現したいビジネスの計画がある。
+これは九年前から私がそれを研究していた。
+今はそれを始まる時機かもしれない。
+しかし私は必ず決意しなければならない。
+
