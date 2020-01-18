@@ -1,0 +1,86 @@
+在Facebook上針對水力整合發電的概念文章只得到了一篇回應，
+但是這則回應相當的有價值，是一位實際在從事工程設計業務的人發出的。
+
+他首先指出了這個系統目前的目標設定的太鬆散了，
+並沒有明確的將系統的規模訂定出來，這樣一來就難以評估要採用哪種設計，
+另外太陽熱能發電的一個重點是陽光必須正確的對焦在斯特林引擎的熱端，
+否則無法有效率的產生輸出，
+這意味著Solar tracking 系統是必要的。
+他最後建議要找一些有工程背景的人來把整個系統的規格算出來。
+
+我之前沒考慮到的盲點都被抓了出來，而且少走了一些冤枉路，
+果然尋求他人的意見是很重要的。
+
+接下來的一月下半月，我會重新檢討整個系統的設計，
+並且畫出一個小規模的模型作為系統驗證的憑據。
+在二月份開始動工，購入一個小型斯特林引擎並且用Ardurino或是Raphsberry Pi做出一個太陽光追蹤系統，
+接下來再整合風力幫浦與水力發電機。
+
+由於Ardurino以及陽光追蹤相關的知識也是必須的，我會在Facebook上面尋找相關的社團與討論區。
+MKIX的第二版在建模上挑戰不少，公差的設定和組裝的順序都必須小心。
+目前大致上已經完成了八成左右，預計下周應該就能完工，
+但是我現在有些擔心棘輪結構內部是否能夠承受所施加的力道，
+在下周這個問題的答案就會揭曉。
+
+--------------------------------------------------
+The article on integrated hydropower which I posted on Facebook got only one reply.
+But its content is actually quite valuable.
+It was from a professional engineer who actually works in this area.
+
+The commentator first pointed out that the goals was set too loosely.
+And the spec/size of the systme was not decided.
+This will make it difficult to decide which design to choose.
+Another point is that the power generation by solar thermal stirling engine requires focused sunlight on hot end of the engine,
+otherwise it cannot produce power efficiently.
+This means solar tracking system is required.
+
+Lastly he suggested that I should find some engineers to calculate the scale and spec of the whole system.
+
+The things I never noticed was discovered and I avoided some unnecessary attempts.
+Asking for other's opinions is indeed important.
+
+In the later half of January, I'll review the whole system and create a blueprint of small-scaled model.
+On Feburary, I'll purchase a small stirling engine and create a sun tracking system with Ardurino or Raphsberry Pi.
+And then integrate it with wind and hydropower.
+Since the knowledge of sun tracking and Ardurino is crucial, I'll find related groups on Facebook.
+
+There are many challenges when it comes to modeling of the second version of MKIX.
+The setting of geometric tolerance and and arrangement of assembly should be decided cautiously.
+The general progress is about 80 percent done.
+It should be finished by next week.
+But I fear that the ratchet's sprag structure might not be able to endure the applied force.
+The answer will be clear next week.
+
+----------------------------------------
+Facebookで水力統合発電の概念についての文章は一つだけの返事得た。
+しかしその返事の内容はかなり価値が高い。
+それは一人のエンジニアに送れたものでした。
+先ず彼は”このシステムの現在の目標が具体的ではない”と指し示した。
+システムの規模は全然特定されていません。
+これじゃどんなデザインを採用するかと決めませんです。
+
+それに太陽熱による発電の重点は日光をStirling engine のHot end に集中させること。
+さもないと効率的な発電は出来ません。
+つまりSolar tracking システムが必要です。
+
+最後彼は”工程専門のエンジニアを探して、システム全体の規模を明白に計算してください”と言った。
+
+私が前で全然考えなかった点が見つけ出された。
+そして無駄な努力を避けた。
+やはり他人の意見を聞くのは重要です。
+
+今月の残った日で、私は全システムの設計を考え直す。
+そして一つの小規模なモデルの設計図を作る。
+このモデルで概念を検証する。
+
+二月から製作を始まる。
+ひつぉつの小型Stirling engine を購入する、そしてArdurino あるいはRaphsberry Piで太陽光線追跡システムを作る。
+最後は風力パンプと水力発電システムと統合する。
+
+ArdurinoとSolar tracking kランレンの知識が必要だから私はFacebookで関連のグループを探す。
+
+MKIXの第二版のモデル編集について、色々困難があった。
+公差の設定と組立ての順列を決めることに注意しなければならない。
+大きい問題が出ないなら来週で完成することが出来る。
+しかし今私はちょっとRatchet の内部構造が与えられた力を耐えるかどうかと心配している。
+その結果は来週で分かるでしょう。
