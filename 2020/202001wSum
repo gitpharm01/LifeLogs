@@ -1,0 +1,85 @@
+雖然我如期把MKIX Ver2的零件全印出來了，但是這一次的模型並未成功運轉。
+
+首先雙重棘輪結構和主齒輪之間出現了熟悉的脫垂現象，
+在兩種轉動方向中的其中一個狀態時會出現這個問題，
+使得整個系統只有在一半的時間是正常運轉的。
+
+另外主齒輪與馬達齒輪間也發生了脫垂，讓動力的傳送斷斷續續，
+反倒是之前我所擔心的力矩過大問題完全沒有出現，
+只要齒輪間還是以正確的方式連接，我就有辦法輕鬆的驅動整個系統。
+
+關於脫垂的問題，我目前有從兩個方向來改善，
+第一個是重新設計棘輪系統，使他和主齒輪之間的結合更加穩固，
+並且會有兩個排齒輪來約束棘輪的位置。
+第二個改進方法是在主齒輪箱對於馬達齒輪的相反位置加上一個固定用的空載齒輪，
+使主齒輪被迫緊，充分的和馬達齒輪互相咬合。
+我目前已經把修改版的模型完成，名為MKIX Ver3，
+它比之前多了許多零件，要耗費的線材和列印時間會比之前還要來的多。
+
+這周我也下載了五、六個風力扇葉的模型，垂直和水平式的設計都有，
+但是我發現他們都有一些設計上的瑕疵，要不然就是結構和規模過大且複雜，
+到頭來我可能還是得要自己建模。
+
+我把月初時製作的飛翔海龜音樂盒送給了親戚的小孩，
+反應比預期的還要好，另外我發現了3D列印的另一種可能的商業模式，
+恰好有潛在的資源可以配合，我打算先試探一下這條路的可行性。
+
+---------------------------------------------------------
+I did printed all the parts of MKIX Ver2 in time, but this model was still not successful.
+Firstly there was the old prolapsing problem between the double ratchet gear and the main gear.
+It showed up in one of the two phases of rotation.
+This caused the system can only function in half of the rotation cycle.
+
+Secondly there was also prolapsing between the main gear and the motor gear.
+This caused incontinous transduction of force.
+Surprisingly, the higher gear ratio didn't create any problem.
+As long as the gears are connected, I cna easily make the system running.
+
+About the prolapsing, I have two measurements to solve it.
+The first is to redesign the double ratchet gear system, make its connection with main gear tighter.
+There will also be two rack gears to stablize the position of the ratchet gear.
+The second measurement is to add a gear on the opposite site of motor gear.
+This will force the main gear to connect with the motor gear more tightly.
+
+I now have finished the corrected model which is named MKIX ver3.
+It has more parts than previous version, which will take more filament and time to print.
+
+I also downloaded several models of wind turbines, including vertical and horizontal types.
+But I sonn found those models all have problems in their designs.
+Some are also too big and complex to build.
+I might have to design my own model in the end.
+
+I gave away the flying sea turtle music box to reletives's child.
+The reaction was greater than I anticipated.
+I also came up with a new business model of 3D printing.
+And I have potential resources which can aid me in this business.
+I'm plannning to discover the possibilities in this area.
+
+---------------------------------------------------------
+MKIX Ver2のパーツを予定通り、全てプリントしたが、今回のモデルは成功ではなかった。
+先ずDouble ratchet とMain gear との間に前でよく出た接続不良の問題が発生しました。
+二種類の回転パタンの一つに限ってこの問題が起こる。
+これでシステムはただ半分の時間しか正常作動できる。
+第二の問題は、Main gear とMotor gear と野間に接続不良の問題も発生しました。
+その故に動力の伝動は連続的ではない。
+前で心配してたGear ratio が高すぎる件は逆に問題になれなかった。
+歯車が正しく接続していれば、私はシステムを動かせることが簡単に出来る。
+
+接続不良の問題について、私は二つの改善方法を考えた。
+その第一はRatchetこうぞうを再編集することです。
+Main gearとの接続を強化する、そして二つのRack gearでその位置を固定する。
+二つ目の方法はMain gear の隣にもう一つの固定用のギアを加える。
+これでMaingearはこのギアとMotor gearとの間に挟まれて、よりいい接続が出来る。
+
+私は今修正版（MKIX Ver3）のモデルを完成させた。
+このモデルのパーツは前より多い、そして必要なFilamentと時間が増えるだろう。
+
+今週で私も六つのWiond turbineのモデルをダウンロードしました。
+Vertical とHorizontalの設計が含めていた。
+しかしそれらの設計には欠陥がある。有るモデルは構造の規模と複雑さが高すぎる。
+結局私は自力でモデルを作る必要があるかもしれない。
+
+私は今月で製作したFlying sea turtle Music boxを親戚の子にプレゼントした。
+反応は予想より良いでした。
+ちなみに私は３Dプリントのもう一つ可能のBusiness modelを考え付いた。
+この道の可能性を試してみたいです。
