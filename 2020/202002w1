@@ -1,0 +1,81 @@
+使用雙重排齒輪的MKIX Ver3依然功虧一簣，沒有能夠成為成功的作品，
+主要的原因在於新增的排齒輪並沒有相對的迫緊齒輪來配合，
+因此無法和棘輪齒輪緊密咬合，
+傳動系統仍然只有一個方向有在正常的發生作用。
+
+另外我在設計MKIX Ver2和ver3時沒有注意到一點，
+就是我由於放大了輸入動力的齒輪的半徑，因此其實整體上齒輪比是和Ver1差不多的，
+為了修正上述的問題，我隨即製作了MKIX Ver4的模型，
+增加迫緊齒輪，並且拉大了棘輪齒輪和主齒輪之間的齒輪比達二點五倍，
+目前模型已經列印完成，下周應該就可以知道它的測試結果。
+
+關於上周提到的3D列印商業模式，它其實已經有一些人在做了，
+那就是客製化糕點的切模和印模，遊客戶提供圖檔後建膜並且印出，
+我跟一位公司的"關係企業"的糕點師傅接觸了一下，
+不過他很明顯的不希望增加任何可能的麻煩。
+然而我自己動手測試模具的效果也不是不可能。
+
+我的模式的重點在於利用Blender和圖片處理軟體來讓原本需要人工製圖與建膜的過程完全自動化，
+Blender可以輕易的用python script來進行不需途型介面的大規模自動化工程。
+因此我的工作只剩下和客戶溝通以及微調模型之後印出而已。
+
+目前我的構想是以此為基礎建立一個小工作室，
+一方面鍛鍊自己的業務能力，另一方面也可以測試我自身究竟適不適合創業。
+
+-------------------------------------------------
+The MKIX ver3, which have double rack gear structure, still failed to deliver a good result.
+The main reason is that the added rack gear was not accompanied by a corresponding gear for its fixation.
+Therefore,  it could not combine tightly with the ratchet gear.
+And the system still can only function in one phase of the rotation.
+
+Besides, I ignored that I actually enlarged the imput gear's size when I was designing Version 2 and 3.
+They hence have similar gear ratio to the version one.
+
+In order to correct the problems above, I subsequently made version 4 of the model.
+I added a gear for fixation and enlarged gear ratio between main gear and ratchet gear by two and a half times.
+The corrected parts are now fully printed and I'll know its test result in the next week.
+
+The business model I mentioned last week, which some workshops are already doning, is the service of printing customed pastry molds.
+The clients will give images of shapes they want for the molds.
+And the workshops will turn it into 3D model and print it out.
+I contacted a cook who's working at our "affiliated company".
+But he declined because he didn't want to increase any potential work.
+However, I still can test the molds by myself.
+
+The most important trait of my business model is automation by Blender.
+This will save time and money needed for modeling.
+The blender platform can automatically process large batch of models with python script.
+The job I have to do is to communicate with clients and print those models out.
+
+My current plan is to start up a small workshop based on this.
+I can not only practice my skills in propaganda and maketing, but also find out whether I'm suited for running business or not.
+
+------------------------------------------------
+二重Rack gearを採用したMkIXVer3は又失敗しました。
+その原因は増えたRackgearに対応の固定用ギアが居ないです。
+その故にRatchet gearとの接続は不良でした。
+そして全システムは又単方向の入力でしか作動できる。
+
+ちなみにわたしがVersion2とVersion3を設計していた頃は有る重要なことを忘れた。
+それは動力を入力するギアのサイズが増大されたことだ。
+つまりGearRatioはじつにVersion １と同じぐらいでした。
+
+上に述べた問題を解決するため、私はすぐMKIX Ver4のモデルを作った。
+こて用のギアを増加し、そしてRatchet gearとMain gearとのGear ratioを二点５倍に増大しました。
+今３Dモデルは完成しました。
+来週のときその実験結果は明白になるだろう。
+
+先週で言い及べた３DプリントのBusiness modelは実にある業者がしている。
+その内容はカスタムマのデザートモードの製作です。
+客から提出した図形を３Dモデルに変えて、そして３Dプリントで作り出す。
+私は自分が働いている会社の”関連企業”のデザート担当のシェフと接触した。
+しかし彼は可能の仕事が増えることが嫌だから、私を協力することは無理です。
+だが自分でモードを試すことも可能です。
+
+私が考えているBusiness　Modelの重点はBlenderによる自動化処理です。
+これで人事のコストと作業時間が大幅減るです。
+BlenderはPython scriptで操縦できる、そして大量なファイルを同時に処理できる。
+これで私の主要な仕事は客との連絡とモデルを調整してプリントするだけです。
+
+今私の構想はこれを基にして、一つのWorkshopを成立することです。
+一方は自分の業務能力を鍛錬する、もう一方は自分が本当に創業に相応しいかどうかを判明するです。
