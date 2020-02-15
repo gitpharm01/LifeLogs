@@ -1,0 +1,84 @@
+藉由MKIX Ver4，我終於成功實作了Two-way to one-way rotation機構，
+雙重棘輪實際運作起來的噪音真的很嚇人，不過脫齒的問題總算是解決了，
+去除了橋式整流器之後，整體的能量損耗也降到了最低，
+但事發出來的電量仍然不足以進行USB充電，
+電流計的讀數仍為零，我覺得我好像低估輸出每秒五瓦特所需要的能量了。
+
+不論如何，這次的模型改修總算是有了一個成果，
+我已經準備好在Blender以及3D列印社團上發表。
+
+另外一方面，我在一番摸索之後成功建立了Blender平台的Python自動化腳本，
+可以把大批的SVG圖檔分別存成相對應的STL檔案，
+這樣一來建模的問題就解決了。
+至於尚由SVG圖檔的處理，有開源的inkscape能夠做到這一點。
+而且在Linux底下能夠靠Bash script來做到自動化處理，
+一旦自動化的根基確立，我就能夠更有效率的去處理客戶的提案。
+
+食品上會用到的模具除了翻模、印模、以及切模以外，還有擠花嘴之類的工具，
+可以應用3D列印來製作的品項其實非常多。
+而且製作高價甜點禮盒附屬的客製化裝飾品也是一門生意，
+3D列印的好處是可以小規模製作個人化的商品。
+
+我的另外一個想法是製作客製化的音樂盒禮品，
+運用3D列印和Blender的自動建模能力，將樂譜解析以後產生相對應的軸心，
+目前客製化的音樂盒都非常昂貴，而且曲目不多，這也是潛在的商機。
+
+---------------------------------------------------------
+Through MKIX ver 4, I finally implemented a two-way to one-way rotation mechanism.
+The double ratchet made tremendous noise which sounds really scary.
+But the meshing problem was finally solved.
+By removing bridge rectifier from the system, total loss of energy is reduced to the lowgest level.
+
+However, the electricity generated was still not enough to support the charging of a USB device.
+The USB current detector showed zero Amperage.
+I think I significantly under estimated what 5 watt/sec output would require.
+
+Nevertheless, I did make some meaningful progress  this time and I'm ready to publish it on Blender and 3D printing groups on Facebook.
+
+On the other hand, I built up an initial script for automation of Blender modeling after spending some time and effort.
+It can convert large batch of svg files into printable stl files.
+Now the modeling phase is completed.
+
+As for the sonversion from bitmap image to svg, ther is Inkscape which can also be automated by linux bash scripts.
+Once the fundation of automation is secured, I can efficiently deal with projects deliverd by clients.
+
+The tools used in food industry are not limited in the catagory of molds.
+Things like decorating tip can also be printed.
+Besides, making customized decoration for fancy desserts can also be profitable.
+This offers bakery shops a chance to make high quality decoration in extremely small scale.
+
+My another idea is to make customized music box gifts.
+Through 3D printing and the automation of Blender.
+I can generate corresponding music cylinders after I analize the music notes of a song.
+Currently the cost for customized music boxes are quite expensive and the songs are very limited.
+This might be a profitable business.
+
+-------------------------------------------------------
+MKIX ver4 により、私は遂にTwo-way to one-way rotation機構を琔作しました。
+二重のRatchetが動かすと凄いノイズが出ます。
+しかしこれでやっと𠸝車の接問題を解決しました。
+Bridge rectifierを外した後、システムのエネルギー消耗も最低限になった。
+しかし輸出した電力は又USB充電が出?Sなかった。
+USB電流メータはAmperageの??怪yゼロと表示した。
+私は５Watt/Secを輸出するための力を過小評したようだ。
+
+何せよ、今回はやっと成果が出た。
+私はFacebookのBlenderと３Dプリント　グループでの𣊫表を整えた。
+
+もう一方で、私はBlenderの自動化Python scriptを出?Sた。
+これで自動的に大量なｓｖｇ影像を別々のｓｔｌファイルに𤛔換することは可能です。
+一般影像をSVGファイルに𤛔換𠯆理のことについて、Inkscapeはこの仕事に相𩦝しいです。
+それにLinux のBash scriptによる自動化も可能です。
+もし自動化作業の基礎が確立されたら、私はより高い佅率で客の提案を𠯆理できる。
+
+食品工業で使う金具はモードに限らない。
+Decorating tipみたいな器具もある。
+３Dプリントを𩦝用することが可能の物件は琔に恾山なります。
+高格のデザートの飾りも一つ可能の商敫になれるです。
+３Dプリントの優れた特性により個人化の飾りを小規模製作することが可能です。
+
+私が考えているもう一つの計?醾VCustomized music boxを敫るです。
+３DプリントとBlenderの自動化機能を利用してMusic cylinderをつくります。
+現在個人化のMusic box商品の?帕qはかなり高いです。
+それに使える曲も少ない。
+これももう一つ可能のBusiness Opportunityです。
