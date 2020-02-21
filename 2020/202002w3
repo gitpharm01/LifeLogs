@@ -1,0 +1,80 @@
+我在Facebook上的英文3D列印社團得到一些關於改良MKIX的意見，
+我發現道有一些電路學上而非機械設計的手段可以讓它順利達成原來訂定的目標，
+國際規模的專業社群果然討論品質就是明顯高了一些。
+我很慶幸自己能夠掌握外語能力，這讓我能夠輕易的取得許多高價值的資源。
+
+但是我仍然打算先擱置手動發電機的計畫，因為有更具優先執行價值的目標:
+建立3D列印工作室。
+
+這是一個極小規模的創業，
+和同時需要涉及能源、運動器材、以及大量人力的CAFit計畫相比，實行上是簡單太多了，
+而且它在財務上的風險也明顯較低，所需要的技術和設備也更容易取得。
+這個工作室創業計畫會是一個試金石，
+它會徹底檢驗我這個人究竟是否適合經營一門生意。
+
+光是設立個人工作室就會需要去處理稅務、法規、宣傳、工作排程管理、還有服務與產品的設計與開發。
+腳踏實地的學習這些基本功才能讓我自己成為一個別人願意出錢投資的經營者。
+想要被別人信賴，就得用最實在的方式建立起自己的實力和品牌。
+
+目前的第一個課題是完成自動建模的骨幹，
+我已經大致了解並且打造了將圖片轉乘svg路徑並且自動建立模型的BashScript.
+接下來要把建模的品質調整好。
+我的想法是建立一個HTML5為基礎的互動式網頁，
+讓客戶可以選擇自行畫出svg路徑檔案或是付費讓工作室處理所有的製程。
+
+-----------------------------------------
+I got some advices about improving MKIX from english 3D printing group on Facebook.
+I discovered that instead of mechanical design, some changes in the electric circuit may make MKIX able to achieve its designed goal.
+The quality of discussion from a international base is obviously better.
+Ifeel lucky that I have the ability of foreign languages.
+This alloows me to easily access plenty of valuable resources.
+
+But still I'm planning to freeze the project of human power generator.
+I currently have another target which is much more valuable:
+Starting up a personal workshop of 3D printing.
+
+Since it's a start up of extremely small scale.
+Compared with the CAFit project which requires resources in energy, fitness, and large quantity of work force, 
+the small workshop is much simpler to start with.
+Additinally, it will have much lower financial risk.
+The technology and equipments are also more accessible.
+
+The workshop project will be a touchstone to test my capability of managing a business.
+It is because that I have to deal with taxation, regulations, marketing, job assignment, and design for services and products for this small workshop.
+Only by learning these basic skills can I make myself a manager who others would invest their money in.
+In order to obtain others' trust, I must build up my resources and personal brand with the most practical method.
+
+The first task is to complete the backbone of automatic modeling system.
+I already learned and created a BASH script which can turn bitmap image into svg paths.
+And the stl file will be made according to the svg path.
+The next thing to do is to improve the quality of these models.
+My plan is to create a HTML5 webpage as the frontend.
+Let the clients choose either draw their svg paths or pay a little more for svg conversion services.
+
+----------------------------------------------------
+Facebookの３DプリントグループでMKIXの改善方法について様々な意見を貰った。
+機械構造ではなく電子サーカトを改造するの方がMKIXの本来の目標を達成させるです。
+国際レベルのコミュニティでの討論はやはり品質が高いです。
+自分が外国語を掌握出来ることはとても幸いです。
+それによって高い価値の資源と上方を簡単に入手できる。
+
+しかし私は人力発電機プロジェクトをしばらく放置する出巣。
+個人３dプリントWorkshopを成立すると言う、もっと価値がある目標があるだから。
+
+これは極めて小規模の起業です。
+エネルギー、運動器材、そして大量な人力が必要のCAFit計画と比べたら、
+Wrokshopのほうが簡単に過ぎる。
+それに財務上のリスクも明らかに低いです。
+必要な技術や設備などを取得することもより易いです。
+このWorkshop計画は試金石になり、私が企業を経営できるかどうかを判明する。
+個人のWorkshopを成立するだけで税金、法律、宣伝、作業管理、そして商品の開発などの能力が必要です。
+一歩ずつこれらの技能を勉強するこそ、自分を他人が信頼できる経営者になる方法です。
+これからは自分の実力と個人のブランドを作るです。
+
+今の第一の課題はモデル生成自動化の基礎を作ることです。
+私は影像をｓｖｇに、そしてｓｖｇファイルを３Dモデルに転換する方法を分かった。
+そしてそのためのBASH scriptも作った。
+次は生成したモデルの品質を改善することです。
+
+現在私が考えていることは一つHTML5のウェーブページを作って、クライアントに”自分でSVG影像を作る”と
+”追加料金を払って全部の作業をこちらに任せる”と二つの選択肢を提供するです。
