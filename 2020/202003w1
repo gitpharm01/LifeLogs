@@ -1,0 +1,83 @@
+上周提到的線上建模網站是基於一個叫做Three.js的Javascript開源資料庫所開發的。
+再對這個資料庫做更詳細的研究之後，
+我發現它不但功能強大，而且檔案大小也相當輕盈，
+它已經被開發了多年，不少網站其實都在使用它，
+這也使得THree.js的教學資源頗為豐富，讓我可以更快的上手。
+
+那個名為Cookie caster的網站應該還用了其他的影像處理引擎，
+但是由於我解析HTML文件的功力還不是那麼深，
+所以還做不到把全部機關都查清楚的地步。
+
+我自己用Three.js搭建了一個雙重Canvas的網頁，一個Canvas用於畫出路徑/圖形，
+另一個用來顯示產生出來的3D模型。
+接下來的工作是要找出如何在Three.js畫出Bezier曲線的方法，
+並且要基於這個曲線建立模型。
+
+我目前對網站的構想是在首頁作初步的分流，
+完全沒使用過的人可以先走一趟互動式的使用教學，
+接下來再去選擇自己想要建模的項目，如切模、印模、或是擠花嘴等。
+在使用者畫好自己要的圖型之後自行勾選所需的模型大小和模具厚度，
+這樣子一來就能讓對3D列印完全沒有概念的人可以明確的把自己的需求表達出來。
+我不需要每一次和新客戶接洽時都得重覆去教育他們，
+協商和議價的流程也會更家有效率。
+只有在十分特殊的情況下才靠我自己用Blender手動建立模型。
+
+3D列印產業在台灣已經是個十分成熟的產業，有很多人都用不同的方法在搶食這個商機，
+這幾週我大略愾了一下現有的商業模式，其中並沒有和我所計畫的模式完全相同的，
+但是仔細研究這些潛在的競爭對手仍然會讓我在創業和經營上更有利。
+
+------------------------------------------------
+The online modeling service I mentioned last week is based on an open source Javascript engine called Three.js.
+After discovering more about it, I found this engine tobe quite powerful and light-weighed.
+It's been developed and released for many year and is applied by many websites.
+This made tutorials and resources of Three.js become very aboundant.
+I can learn its development quite swiftly.
+
+That modeling site which is called Cookie caster might include other javascript databases.
+But since my capability in analysing html files is still not that good, I could not understand all mechanism behind this website. 
+
+I made a dual canvas html page with three.js by myself.
+One canvas is for drawing paths and another is for previewing models.
+The next job is to find out  how to draw bezier curves by three.js and create meshes which is based on those curves.
+
+M current plan for my website is to create a guidance at front page.
+Let those who never used it before walk through an interactive tutorial and then they can proceed and choose the model type they want, like cookie cutter, cake mold, or decoration tips.
+After the users fish drawing the shapes they want, they will pick the detailed settings like size and wall thickness.
+In this manner, I can make someone who totally has no idea about 3D printing describe their needs in detail.
+I don't have to educate every new clients from the begining.
+The negotiation process should be more efficient too.
+I'll do the modeling on Blender only when special situations occur.
+
+The 3D printing industry in Taiwan had already been mature.
+Many companies compete with eachother in their own ways.
+Though I haven't found any existing business which is totally the same as my project,
+there are still great value in studying other business models.
+
+---------------------------------------------
+先週で言い及べたOnline Modeling サービスはThree.jsと言うOpensourceの３DEngineを基にして開発されたものです。
+この３DEngineをもっと詳しく調べたら、私はこのJavascript Engineの性能と軽量化されたVolumeに目をつけた。
+Three.jsは長年開発された、そして多いサイトに採用される。
+その故にネットで教学資源は多いです。
+そのお陰で私はこのEngineを入門する効率も高くのれるでしょう。
+
+CookieCasterというサイトは他の影像編集用Javascript engineを採用しているはずです。
+しかし私がHTMLファイルを解析する能力が足りないので、全ての構造を理解することは未だ無理です。
+
+私は自力でThree.jsで一つ二重Canvasを持つウェブページを作った。
+一つのCanvasはPath/ Shapeを描くため。もう一つは生成されたモデルを表示する。
+次の仕事はThree.jsでBezier　Curveを描くことを探す、そしてそのCurveを基づいてモデルを生成するです。
+
+今自分が考えているサイトについて、先ずはFront Pageでガイド機能をつけます。
+このサイトを全然使ったことのない人はInteractive tutorialを体験する。
+そして自分が選べたいモデル種類を選択する、例えばCookie cutterやCake moldやDecoration tipなど。
+クライアントが欲しい図形を描いた後、彼らに大きさと厚さを選べさせる。
+こうすると、完全にに３Dプリントを知らない人が自分の要望を具体的に、そして明白に伝える。
+私は毎回新しいクライアントを接触する度に彼らを基本から教育する必要がないです。
+料金を交渉する過程も効率的になるはずです。
+特殊な状況のみ私が自分でBlenderでモデル編集する。
+
+台湾の３Dプリント産業は十分に発展された。
+多く人が色んな方法でこの領域で競争する。
+私の計画と全然同じBusinessModelは未だ見付からないです。
+しかし他の３Dプリント業者を詳しく調べて、経験と知識を獲るならば、
+Workshopの成功率は高くなるでしょう。
