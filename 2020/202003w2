@@ -1,0 +1,87 @@
+線上自助建模網頁的製作進度進入了瓶頸，
+雖然我能夠按照教學在場景內畫出貝茲曲線，
+但是最關鍵的Point and click繪畫功能卻遲遲作不出來，
+首先3D場景的座標系統和網頁canvas的平面座標之間必須去做投影轉換，
+然而Three.js歷經了數次改版，數年前的教學裡面使用的部分功能早已被廢棄，
+我得要自己從頭摸索起。
+
+另外一個問題就是3D場景容易失焦，只調了幾個參數可能就會讓畫面完全空無一物，
+在這種狀態下實在很難進行除錯和開發。
+
+我原本以為自己可以很快的建立起和Cookie Caster一樣的建模系統，
+但是到頭來還是像我在其他程式設計專案的經驗一樣，
+充滿了阻礙和挫折。
+
+這是考驗我是否能成為成功的個人工作室創業者的試煉，我必須專注於克服目前的問題，
+如果我連自己的老闆都做不好，又怎麼能夠成為一個公司的經營者呢?
+
+我利用週記的方式來監控並且試圖強化自己的執行能力，使自己更能夠有效率的使用自己的時間，
+然而我作為一個執行者仍然充滿著各種弱點，
+碰到挫折很快就放棄，過去學習的各種技能也不夠深入和熟練。
+
+這個3D列印工作室的創業計畫是我到目前為止整體上最實際可行的一個企畫案，
+如果它成功運作，將會帶給我工作和生活上很大的自由，脫離日漸惡化的工作環境，
+並且讓我在個人能力成長上得到很大的進步空間，
+如果我沒能及時啟動這個計畫，未來絕對是會後悔的。
+
+------------------------------------------------------
+I've got myself into a bottleneck in the making of online modeling service.
+Though I can successfully drew Bezier curves in 3D themes following the online tutorials, 
+the most crucial function for the service, which is drawing points by mouse clicks was not done yet.
+
+The first problem is that coordinate system in 3D scene must be converted to 2D canvas coordinates of a webpage.
+But three.js had several major updates during recent years and the old methods used by tutorials are already depricated.
+I have to find my own way to solve this problem.
+
+The other problem is that 3D environment is hard to control.
+With only a little adjustment the scene might become totally empty.
+In this kind of situation, it is really difficult to debug and develop the system.
+
+I thought I could swiftly build up a modeling system like cookie caster. 
+But in the end the process is till filled with obstacles and frustrations.
+
+This will be a trial for me which tests my capability of starting up a company.
+I must focus on the difficulties at hand.
+If I failed to manage myself, how could I manage a company?
+
+I monitored and attemped to strengthen my ability in executing my plans by writting weekly notes.
+So as to use my time more efficiently and meaningfully.
+However, as an executor, I still have a lot of weaknesses.
+I gave up easily once I encountered some obstacles.
+I didn't learn myskills with all my attention and didn't practice them enough.
+
+The strtup plan of 3D printing workshop is the most practical one I ever came up with.
+If I succeed in this project, this will bring great deal of freedom to my life and carrer.
+It will also get me out of the worsening working environment.
+My personal skills will also be significantly improved.
+I'll absolutly regret about it if I did not lauch the plan in time.
+
+-----------------------------------------------
+Onlineモデル作りサーヴィスのウェブページの製作はボトルネックに入った。
+教学を参考して私は３Dシーンのなかで正しいBezier curvesを描けることが出来る。
+でも一番肝心なPoint and click描く機能はどうしても作らないでした。
+
+先ず３Dシーンの座標システムはページの２D座標システムへ転換する必要がある。
+しかしThree.jsは数回の更新の後、教学で使った一部分の機能は廃棄された。
+つまり私は最初からそれを勉強しかないです。
+
+もう一つの問題は３Dシーンの操作は難しいです。
+ただ僅かな数値を変えたらシーンはからぽっくになる。
+こんな状況では開発とDebugは実に困難だ。
+自分は短期間でCookieCaster見たいなモデル編集システムを作れると思ったが。
+結局他のProgramming計画と同じ、その過程は挫折だらけだった。
+
+これは自分が一人前の創業者になる試練です。
+もし自分すら管理できないなら、私はどうやって一つの企業の管理者になるか？
+
+私は週間記事で自分の執行力を強化すると図った。
+自分の時間をもっと効率的な方法で、そして価値の有る形で使いたかった。
+しかし私には未だ弱点が一杯持っている。
+挫折を遭遇したらすぐ諦める。
+昔で学んだ技術も熟練度が足りない。
+
+３DプリントこじんWorkshopは私が今まで考えた一番実現が可能な計画です。
+もし私が成功したら、私のキャリアと生活の自由が高くなるでしょう。
+そして悪化しつつある職場から離れる。
+自分の能力の成長空間も広がる。
+もし私はこの計画を始めないたら、未来できっと後悔するでしょう。
