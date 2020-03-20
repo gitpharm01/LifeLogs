@@ -1,0 +1,86 @@
+我在自助建模網頁的核心建置進度依然嚴重落後，
+目前只完成了滑鼠位置的捕捉以及貝茲曲線的繪製，
+使用Raycaster來實現物件選取和拖曳的部分則是一直失敗，
+我按照官方網站的教學所製作的code完全無法運作，
+
+我在這個階段已經浪費了超過十小時的時間，明明範例裡的code都正常運作，
+但我自己撰寫的code卻半點東西都偵測不到，
+而且Stackoverflow以及其他討論版也有人碰上同樣問題，這真的很令人沮喪。
+我現在嘗試的策略是直接拿現有可正常運作的範例來進行修改，
+一步步去除多餘的程式碼並且試著搭建出我所想要的環境和功能。
+
+Javascript和HTML在編寫規則上相對寬鬆，可以讓設計者自由發揮，
+但是這也使得產生出來的程式碼容易變得雜亂不堪，甚至出現難以找出原因的Bug，
+我目前的問題說不定就是源自於此。
+良好的程式碼編排或許可以減少這類問題的發生機率。
+
+Covid19的易情被媒體過度的渲染，講得好像跟伊波拉病毒一樣致命，
+結果造成了許多地方民眾的恐慌，連股市都崩跌，
+這時也發生了一件直得注意的事: 
+Ethereum與Bitcoin等主要加密貨幣的市價發生了比股市更誇張的跌幅。
+當初這些打著"去中心化"而且"回避傳統貨幣風險"等行銷口號的東西被捧上了天，
+一大堆類似的Cryptocurrency專案也在各個市場瘋狂吸金，
+但是到頭來它們不但不能避險，而且實際上是被少數投機者操縱
+雖然還沒有人會承認，但是所謂的區塊鍊和加密貨幣根本就是騙徒和媒體炒作出來的另一個騙局罷了。
+
+-------------------------------------------------------------
+My progress in developing DIY 3D modeling system was still severely delayed.
+Currently I only completed the mouse tracking and drawing function of Bezier curves.
+The implimentation of raycaster to achieve object picking and draging just kept failing.
+The code I wrote following the official tutorials failed to produce any result.
+
+Untill now,I have wasted over ten hours on this topic.
+Those examples shown in the official site worked fine, but my code didn't.
+Besides, there were many others who suffered the same problem on Stackoverflow and other communities.
+
+The strategy I'm taking now is to find existing scripts which function normally and modify them bit by bit.
+I'll try to created the environment and functions I want.
+
+The coding rules for javascript and HTML is relatively loose.
+They grant programmers much more freedom in writing their code.
+But this also make the resulting code become cluttered and suffer from bugs which are difficult to analze.
+The problem I'm facing might be caused by this.
+Better layout of scripts may decrease simillar problems.
+
+The situations of COVID-19 pandemic was overexaggerated by mass media.
+They made this disease look as lethal as Ebola virus.
+This caused unnecessary panic throughout the world.
+Even the stock markets were struck by it.
+One notewothy thing also happended:
+The prices of major cryptocurrency like Ethereum and Bitcoin dropped harder than stock and other commodities.
+
+Initially, those digital currencies were advertised with slogans like "Decentralization" and "Risk Reduction".
+Tons of similar cryptocurrencies also emerged agter them, absorbing millions of dollars.
+But in the end these currencies did not reduce the systematic risk and are manipulated by a small number of  speculators.
+No one would publically admit it, but these things are just another scam conducted by fraudulent conmen and irresponsible media.
+
+----------------------------------------------
+DIYモデル作りサイトの作成進度は未だ遅れている。
+今私が完成したものはMouse位置の捕捉とBezier curvesを描く機能だけです。
+Raycasterによる物件選択と牽引はいつも失敗な結果が出ていた。
+公式サイトの教学に従って作ったCodeは全然聞かなかった。
+
+私はこの段階で既に十時間を掛かった。
+公式のExample codeは作動できるが、自分が作ったCodeは何も見つかりませんでした。
+それにStackoverflowと他のコミュニティにも私と同じ問題を困る人が居る。
+これは本当に気分が落ち込むことです。
+私が今試している方法は作動できるコードを少しずつ改造することです。
+こうして私が欲しい環境と機能を作る。
+
+JavascriptとHTMLの編集規則は比較的に緩いです。
+Programmerがもっと自由的にCodeを編集する。
+しかしそのコードは容易に乱雑になる、そして解析難いBugが出てくる。
+私が今遭遇した問題の原因はこれかもしれない。
+良いJavascriptのコード配置はこんな問題をある程度減るだろう。
+
+Covid19の状況はマスコミに過大宣伝された。
+彼らはこの病気をEbolaウィルスぐらい致命的なものと宣伝した。
+その結果は世界中の人々の中にパニックが起こった。
+株の暴落もあった。
+こんな時にもう一つ注目するべき事件は起こった。
+それはEthereumとBitcoinなどのCryptocurrencyの価格の崩落です。
+これらは最初で”Decentralization”と”Risk Reduction”などのスローガンを持って、
+一時的に全世界の注目をえた。
+沢山なCryptocurrencyは成立され、大量な資金を募集しました。
+しかしこれらは結局リスクを減っていない、そして少数の投機者に操縦された。
+今誰も公開的に承認したくないが、Cryptocurrencyはただもう一つの詐欺に過ぎない。
