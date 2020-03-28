@@ -1,0 +1,83 @@
+﻿在Three.js平台搭建繪圖系統的工作有了一些進展，
+一直無法克服的raycater功能終於成功運作，我得以進行下一步的工程，
+不過目前仍然困難重重。
+
+我在設計javascript的邏輯開關和流程上還稱不上專業，
+當整體的程式碼變得較為龐大之後就容易失去掌握。
+像是我現在正在試圖建立的控制點拖曳功能就是一個例子，
+原本設計好要調控拖曳功能的開與關的程式碼老是出錯，無法達到我想要的結果。
+或許從頭梳理一次整體的程式碼會讓問題顯現出來，並且讓程式碼更加簡潔。
+
+目前我使用的編輯器是Bracktes，
+它比Notepad++相比有更多的擴充功能，這些也是我過去未曾仔細探究過的。
+除了可以提供現成的HTML templates之外，它們還能夠自動改善程式碼的排版。
+這個功能可以協助我解開cookie caster原本被濃縮的程式碼結構，
+把它背後的原理徹底的研究清楚。
+
+這年頭要學習和進行城市設計有太多太多免費的資源和平台可用，
+然而要把一個專案從頭到尾做到好仍然需要投注大量的心力和時間，
+我必須持續專注在這個計畫上。
+
+目前CaFit以及製作人力發電機的計畫已經確定完全停止下來了，
+為了取得讓它們變得可行的資本和實力，我必須先達到"成功經營一門生意"的程度。
+我從未經歷過商業方面的歷練，
+再學習的歷程中必然會遇到挫折和困難，這是在離開舒適圈之後必然發生的事情。
+如果我停止嘗試，那麼這些年來所作的各種學習和努力都將白費。
+
+------------------------------------
+I made some progress in the making of modeling platform on THREE.js.
+The raycaster was finally worked and I was allowed to proceed to further development.
+But the project is still filled with difficulties.
+My capability of designing logic switches and workflows in Javascript is not enough to be professional.
+When the code got bigger and bigger, I'm pron to lose control over it.
+
+Take the drag and drop function for example, I always found the code for switching the function to be malfunctional.
+I'm now still unable to get this thing up and running.
+Maybe a complete review and tidying ofthe code will make the problem more visible to me.
+
+The editor I'm using now is Brackets, it have more extensions compared to the Notepad++.
+I didn't take a closer look at them until now.
+Besides offering instant HTML templates, these extensions can also automatically improve the layout of code.
+This will aid me in studying the mechanism behind cookie caster's compressed source code.
+
+Nowadays it's much easier to learn and create your own programming project, because there are so many free resources and platforms to achieve this goal.
+However, in order to complete a project, it still require a lot of effort and time.
+I must focus on my current project.
+
+The human power generator and CAFit are now completely stopped.
+In order to gain resources and capability to make such projects practical to me,
+I must first acquire the capability ofg managing a business.
+I was never trained in management and marketing and the learning process will certainly be accompanied with frustrations and obstacles.
+This is the cost of leaving my confort zone.
+But if I stopped those attempts, all I've done will be in vain.
+
+-------------------------------------------
+Three.jsを基づいてのモデル編集システムを作る作業の進度は少し進んだ。
+Raycasterはようやく正常稼動できた。
+そして次の段階へ進むことは可能になった。
+しかし作業は依然難しいでした。
+私はJavascriptのLogic switchとWork flowの設計についてはまだ下手です。
+全体が厖大になると、コードへコントロールは弱くなる。
+例えばDrag & dropを調整するSwitchはいつもエラーが出てきた。
+プログランを最初のコードから全ての部位を整理すれば、問題は明白に慣れるかもしれない。
+それにコードはもっと簡潔になる。
+
+私が今使っているEditorはBracketsです。
+これはNotepadより多いの拡張モデルを持っている。
+最近まで私はこれらを詳しく調べたことはなかった。
+これらのExtensionはインスタントのHTML templatesを提供できる、
+そして自動的にコードの組版を改善することも出来る。
+この機能を使えば、Cookie casterの圧縮されたコードの構造を解析することは可能になる。
+Cookie casterの原理は判明する。
+
+この時代でProgrammingを学ぶこととプログランを作ることも易くなりました。
+沢山な無料資源とPlatformがある。
+しかし一つのプロジェクトを徹底的に完成するには、やはり大量な努力と時間が掛かる。
+私は今の計画に集中するべしです。
+
+CAFいｔと人力発電機プロジェクトは今完全に停止された。
+こんな計画を実行可能になる実力と資本を獲るため、
+私は一人前の経営者になる必要がある。
+私は商業についての訓練を受けていませんでした。
+勉強の課程は必ず挫折と困難を遭遇する。
+これはConfort zone から離す対価だ。
