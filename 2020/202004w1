@@ -1,0 +1,82 @@
+以滑鼠點擊方式繪製吉調整貝茲曲線的功能終於完成了，
+之前之所以無法成功似乎是因為某個tHREE.JS類別裡的Method無法生效，
+有三個method可以達到同樣效果，但是只有其中一個能在我的case生效。
+接下來要做的事情就是以一個特定形狀的橫切面來讓整個貝茲曲線實體化、產生出目標模型。
+
+我在cookie caster原始碼的解析方面也有所進展，目前已經大致看出了它繪圖的手法，
+令我驚訝的是，它竟然用2D canvas在HTML環境下建立曲線，
+並且先檢查曲線的線段之間是否互相重疊，
+接下來按照使用者指定的規格如厚度、高度、以及大小來產生模型的vertices，
+最後以obj的格式匯出3D模型資料，在Three.js的環境顯示3D模型。
+
+這樣子的手法徹底降低了3D物件與環境的使用，節省了大量的運算資源，
+而且這個設計還整合了bitmap tracing的功能，
+讓系統同時能夠接受手繪和自動描邊產生出來的路徑資料。
+雖然我在自己的試作品cod已經投入了大量時間，並且也有了具體的成果，
+但是最終我應該還是會轉換到Cookie Caster的模式，
+這會讓網站運作更加有效率。
+
+去年一直困擾我們的土地訴訟案終於宣判了，結果是我們的土地維持原狀，
+意圖要使土地被財團圈買的那些下三濫地政士的意圖落了空，
+但是他們仍然會繼續上訴，我們得繼續小心守護自己的身家財產。
+
+Covid-19整體的嚴重度在歐美疫情失控之後變得十分嚴峻，
+反觀亞洲仍然在控制之下，不過經濟上的嚴重衰退應該是不可避免了。
+
+------------------------------------
+The function of drawing and adjusting Bezier curves by mouse clicks was finally completed.
+The reason why it failed again and again was due to a method of a class in Three.js was not working.
+Threre are three methods which can achieve the same effect, but only one of them can work in my case.
+My next goal is to solidify the bezier curve loop with a specific shape and generate the targeted 3D model.
+
+I also made some progress in analysing source code of cookie caster.
+Now I have general idea about how it creats 3D models.
+To my surprice, it uses HTML canvas to draw curves and will first check if the lines are intersecting with each other.
+It generate vertices according to user's settings like thickness, height, and size.
+It then export the data in obj format.
+Finally the 3D model will be displayed in Three.js environment.
+In this manner, the computational cost of #D objects and environments are minimized.
+
+This design also integrates the function of bitmap tracing, enabling the system to accept both hand-drawn and automatically generated shapes.
+Though I already spent lots of time on my prototype code and achieved some results, I think I will still switch to cookie caster's design.
+This will benefit the performance of the website.
+
+The lawsuit which bothered us from last year was finally closed.
+Our lands  remain in status quo.
+This result means those fraudulant land administration agents failed to rob our lands.
+But they will keep appealing judical reviews.
+We must continue on the task of protecting our properties.
+
+The overall severity of COVid19 got much worse when the outbreak happend in Europe and America.
+On the contrary, Asia seems to be able to hold the line.
+But a sever recession in economics is inevitable.
+
+------------------------------------
+Mouse clickによるBezierCurvesを描く、及び調整する機能は遂に完成しました。
+前で何時も失敗した原因はあるThree.jsのClassのMethodが聞かなかったからです。
+三つのMethodはこの効果が出来るが、たった一つだけが私のコードで正常作動できる。
+次の目標は出来たBezierCurvesを特定の形の断面で立体化させることです。
+
+CookieCasterのコードを解析する作業の進度も進んだ。
+今私はそれのモデル作りの方法を大体分かった。
+それはHTMLのCanvasで２DのCurvesをつくるです。これは驚きだ。
+それに線と線の間に交錯の有無もチェックする。
+そして使用者が指定した設定によってモデルのVerticiesを作る。
+最後はOBJの形式でDataをThree.js　Sceneへ送る。
+こうやって３D　Computational　Costを最低限にする。
+
+ちなみにこの設計はBitmap tracing機能も含めている。
+これで手書きも、自動生成されたCurveも自由自在に選択できる。
+私は今の試作品に大量な時間を掛かった、そして有る程度の成果が出来たが、
+最後はやはりCookieCasterのような設計を採用すると思う。
+この設計の方こそ、もっと効率的なサイトを作るです。
+
+去年からずっと私たちを困らせた土地訴訟案件の判決はやっと出来た。
+私たちの土地は元の状態を維持することになる。
+あの下劣な司法書士たちが図ったことは失敗した。
+しかし奴らは上訴する予定です。
+私たちはこれからも自分の財産を守り続けるです。
+
+COVid19の全体の厳重度はヨッロパとアメリカのアウトブレークによって悪化された。
+それを反して、アジアの方は未だコントロールできる状態です。
+しかし重大な経済衰退は不可避になった。
