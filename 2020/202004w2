@@ -1,0 +1,85 @@
+在W3C的線上教學課程花了一些時間之後，我對於css/HTML/javascript的了解更加深入，
+也能夠更有效率的去解讀cookie caster的程式碼。
+
+目前我決定停止正在寫的編輯器版本，
+它由於完全使用Three.js環境而使得系統負載過大，
+雖然現在的電腦和行動裝置之運算性能都十分強大，但是不應該浪費資源在沒有明顯好處的地方上。
+
+經過Brackets的自動排版擴充套件處理之後，cookie caster的2D作畫流程也更加清楚了，
+我會先將原本的網頁程式碼修剪到只剩下模型編輯器的程度，
+去除不必要的外掛和裝飾圖片，
+就目前來看，Jquery可能也是一個必須的javascript API，
+它掌控了模型編輯器的啟動與否，不過我還不打算花太多時間在它上面。
+整體而言，我的進度仍然十分緩慢。
+
+我看了一些台灣的大學的創業相關的開放式課程，
+但是覺得內容不太有價值，大多只是照抄商業雜誌的專題內容，
+而這些雜誌本來就只是在隨著流行的話題起鬨，
+無論是對未來局勢的預測或是現狀的分析都不準確，
+只是要吸引人來買那一疊印滿彩色廣告的紙而已。
+反而是一些3D列印的專業網站以及我自己收集的業界資料比較有參考價值。
+
+另外<<觀察的力量>>這本書雖然不太容易讀通，但是對新的服務和商品開發有更精闢的解析，
+我現在也在思考3D列印的服務本質為何，
+使用者在選擇這個服務實會有哪些心理上的預設門檻?
+這個服務是否能夠符合市場的需求呢?
+
+----------------------------------------------------------
+After spending some time on W3C school's tutorials,
+I now have better understanding in CSS/HTML/Javascript and can analyze the code of CookieCaster more efficiently.
+
+I decided to stop the development of current 3D model editor.
+Its computational cost is too heavy since everything is done under three.js environment.
+Although the computers and mobile divices nowadays have stronger comutational capability, it should not be wasted on things which have no significant benefit.
+
+Now I understand the cookie caster's 2D editing system better with the help of Bracket's extensions.
+I'll trim the original code and leave only the modeling part and the unnecessary plugins and pictures will be removed.
+For now, the JQuery might still be a necessary javascript API.
+It controls the on and off of the model editor.
+But I'm not going to spend too much time on it.
+My general progress in this project was still very slow.
+
+I watched several open courses from Taiwan's universities about staring up businesses.
+But I feel those content was not soo good.
+Most ofthem were merely copies from business magzines.
+And those magzines are just playing with issues which are aready popular.
+Neither their prediction towards the future nor the analysis on the present is accurate.
+These magzines are merely papers printed with tons of full-color advertisements.
+
+On the contrary, some professional 3D printing sits and the data I collected from currently running businesses are more helpful.
+
+Besides, though <<Hidden in plain sight>> is difficult to read through,
+it has deeper and more complete explaination on hw to develop a new service or product.
+I'm now also thinking about what is the essential element of 3D printing service.
+What kind of mental threshold would appear in the minds of potential customers?
+Will this service satisfy the need of the market?
+
+-----------------------------------
+W3Cのオンライン教学に少し時間を掛かった後、私はCSS/HTML/Javascriptについてもっと深く認識した。
+そして私はもっと効率的にCookie caster のコードを解析できる。
+
+今使っているシステムを放棄すると決まった。
+それは完全にThree.jsの環境で稼動するだから、計算上のコストが高すぎる。
+今のコンピュータやスマホの計算能力はとても強いですけど、
+そんな資源を利益のないところへ投げ捨てることは良くないです。
+
+Bracketsの拡張機能によって再編集されたコードを分析した後、
+Cookiecasterの２D作画ギミックももっと明白になった。
+私はこれから元のウェブページのコードを削ります。
+必要無いの部分を削除する。
+Jqueryは必要なJavascript APIらしい。
+それはモデルの編集システムの起動を操る。
+でも私は未だこのAPIにあんまり多い時間を掛かるつもりがないです。
+全体から言うと、私の進度ははるかに遅れている。
+
+私はある台湾の大学のOpen courseを見たけど、その内容をあんまり価値がないと思う。
+それはただ商業向きの雑誌の内容をコピしたものです。
+そしてそんな雑誌はもともと当時話題になったものを利用するばかりです。
+未来の趨勢を予測することも、現状を分析することも、その精度が低いです。
+言わばFull-colorの広告に塗れた紙にすぎない。
+
+それに反して、３Dプリント使用者向きのサイトと自分が収集した資料の方はもっと価値がある。
+ちなみに＜＜Hidden in plain sight＞＞の内容は難しいですが、新しい商品とサービスの開発についてもっと鋭い見解を持っている。
+私は今も３Dプリントの本質を考えている。
+使用者はこのサービスを選ぶ時にどんな心理的なThresholdがあるか？
+一番大事なのは、このサービスは果たして市場の要望を答えられるのか？
