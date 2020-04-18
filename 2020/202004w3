@@ -1,0 +1,77 @@
+在解析CookieCaster原始碼的方面，我發現它比當初想像的還要龐大且複雜，
+除了教學/展示模式之外，它還有手動消除節點的功能，
+而且它儲存座標點的格式也十分特殊，
+並且容許BitmapTracing mode與手繪模式之間的切換，
+更重要的是，它把最關鍵的機能---從2D轉化為3D模型的程式給隱藏起來了，
+這部份的程式碼只能在網站的伺服器內運作，並不會備下載到客戶端，
+除非我找到手法把這個部份的程式碼下載下來，
+不然我必須完全靠自己來完成這部份的程式。
+
+CookieCaster當初在規畫的時候確實在保護自己關鍵技術以及系統規畫的部分下了很深的工夫，
+這值得我去學習。
+它之所以無法繼續經營下去，恐怕是因為他把自己的市場設定得太窄了，
+它針對餅乾切模作了十分深入的特化，
+甚至還提供網路帳號來儲存、分享使用者創作的模型。
+但是它的客群被限制在"想用3D列印製造餅乾切模的人"上面。
+
+這樣的技術和商業模式應該可以有更加廣闊的客群。
+如果把目標設定為"沒有基礎建模能力但想要製造某種類物件的人"，
+這會讓客群變得更加廣泛。
+另外我也建建覺得與其用自己十分受限的時間和技術去和其他已經十分老練的3D代印業者競爭，
+倒不如用簡易3D線上建模系統作為誘因，
+建立一個媒合平台來搓合"想要製造物品的人"與 "有製造物品能力的人" ，甚至是"有高階建模能力的人"，
+這樣子的商業模式會創造更大的價值，而且更具有競爭上的優勢，
+但是這個模式的主軸就會轉為網站經營以及各類型客戶之間的協調，而非個人工作室了。
+
+------------------------------------------
+About the task of analysing the source code of cookiecaster,
+I found it tobe more huge and complicated than I have imagined.
+Besides the tutorial mode, it even have the function for deleting anchor points.
+And it have a special way to store anchor points.
+The manual drawing and automatic bitmap tracing are freely switchable between each other.
+
+Most importantly, it hides the key element- the program which turns 2D path into 3D models.
+This part of source code is only accessable inside the server and can't be downloaded by the client.
+Unless I find a way to get that part, I must write my own version of the code.
+
+cookie caster had done a great job in designing its system and protecting its key technology.
+That is worthy of learning.
+
+The reason why it failed to continue its business might be its target market, which is too narrow.
+It specialized in the area of cookie cutters and even offer online accounts for storing user created models.
+But its range of customers was confined to those who want to create cookie cutters with 3D printing.
+
+Such technology and business model shold have a broader spectrum of customers.
+If I set the target to those who don't have basic modeling capability and want to create specific type of objects, I'll get much wider range of customers.
+
+By the way, I started felling that instead of competing with other well established and experienced print-on-demand service providers.
+It's better to create a platform which attracts people with free modeling system and can do matchmaking for "those who want to mak things" and "those who can make things" and even "those who have advanced modeling skills".
+
+This kind of business model can create greater value and it's more competitive.
+But this mode's top issue will be website management and communications between customers, not just a personal workshop.
+
+----------------------------------
+CookieCasterのSource Codeを解析することについて、
+私はそれが予想より複雑だと気づいた。
+教学モード以外に、Cookiecasterは手動的にAnchor pointを消す機能を持つ。
+そしてその座標位置の保存方法も特別だ。
+ついてにBitmap tracingと手描きモードも自由転換できる。
+
+一番大事なのは、CookieCasterはその核心の機能ー２DPathを３Dモデルへ転換するプログランを隠した。
+この部分のコードはサーヴァ内部でしか動く、クライアントはこれをダンウロードできない。
+この部分が入手できないならば、自力で作るしかない。
+
+CookieCasterは確かにシステムデザインと核心のテクノロジを保護することについて大変工夫した。
+これは勉強する価値が有る。
+このビジネスが中止した理由は恐らく自分自身のターゲットクライアントの設定を狭すぎるにしただからです。
+CookieCutterに対して、このサイトは深刻な特化を行った。
+しかもその使用者にAccoutを提供し、Cookie cutter のモデルを保存、共有するサービスも有る。
+しかしその客層は３DプリントでCookie Cutterを作りたい人に限った。
+こんな技術とビジネスモデルはもっと広い範囲のクライアントを持つはずです。
+
+もし目標のクライアントを”３Dモデル作成する技術を持たずがある種類の物を作りたい人”に設定すれば、もっと広い範囲のクライアントを招くはずだ。
+
+ちなみに私は”他のプリントサーヴィス業者と競争するより、簡易３Dモデル作成システムをセールスポイントとして、物を作りたい人と者を作れる人と高いレベルのモデル技術を持つ人を仲介するサイトを作る”と言う考えがどんどん強くなる。
+
+こんなビジネスはもっと大きいな価値を生み出す、そして競争力も強いです。
+しかしこれじゃサイトを経営することが仕事の中心になる、もはや個人Workshopではない。
