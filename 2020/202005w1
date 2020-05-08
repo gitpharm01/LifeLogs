@@ -1,0 +1,77 @@
+到目前為止CookieCaster的程式碼已經有百分之七十左右被加上了註解，
+Demo模式相關的部分已經被我逐步消除，
+不過有一些和主程式緊密結合的部份需要額外的力氣去處理。
+
+它光是和Three.js無關的部分就已經十分複雜，設計了各種視覺輔助和防錯機制，
+而且和主網頁的Javascript code之間還有許多互動，
+要徹底了解CookieCaster的運作結構恐怕還要在花上一個月的時間。
+
+可以確定的是，CookieCaster當初投入的開發成本絕對不小，
+但這個強大的編輯系統卻未能替這個公司帶來足夠的收入，
+從我在MIT創業課程學到的東西來分析，
+它首先在市場選擇上做了錯誤的決定，
+就如同我先前幾週寫到的，
+他把一個"讓沒有3D設計能力的人能夠快速製作出想要的3D模型"的服務之應用範圍從"所有東西"侷限到只剩下"餅乾切模"這一塊。
+
+並且它並未充分利用接下來的3D列印服務的機會，
+只是粗略的提供了一個代印業者的連結，
+它甚至還跳下去做耗時費工的餅乾訂製服務，
+它雖然有Paypal的使用者贊助頁面，但並未把贊助與網站功能擴充鍊結在一起，
+這使得贊助者的捐款動機不足，而且也無法得到讓網站向有收益的方向擴充的意見。
+
+在MIT課程中提到Marketing跟BusinessModel的時候，
+講者一再強調要充分的和目標消費者溝通。
+他用自己開發糖尿病患的營養品的失敗與成功經驗說明這件事的重要性，
+我現在開發的東西也得適時的去放到潛在使用者的面前，找出可能的問題並修正方向。
+
+-------------------------------------------------------------------
+Until now, over seventy percent of the cookiecaster source code is annotated.
+The demo-related parts were gradually deleted by me.
+But some of them are tightly combined to the main program and they might take much more effort to separate them.
+
+The source code is already very complex in parts which are not related to three.js.
+It have many visual designs to assist the drawing process and prevent errors from happening.
+It also have many interactions with the HTML main page.
+It may take another month for me to totally understand this website.
+
+There's one thing for sure: Cookie catser's team must had invested much resources in it.
+However, this powerful system was unable to generate enough incom.
+I analyzed with the things I learned from MIT startup courses and found out that it made many wrong decisions in market settings.
+Like what I mentioned several weeks ago, it confined the application of "a system which enables people who can't edit 3D models to instantly create printable 3D files." from making anything to only cookie cutters.
+
+And CookieCaster didn't take advantage of the sonsequent need for 3D printing services.
+It just simply offered a link to a print-on-demand service provider.
+The CookieCaster even tried to sell the custom cookies which costs lot of resources and time.
+It had nonation mechanism through Paypal but it never link it with the expansion of the site.
+This made the users had lesser motivation in donating money and the website lost the chance to acquire advices which might had made the site more profitable.
+
+When the lecturer of  MIT start up courses talked about the Marketing and business models, he again and again emphasized that the team should commnuicate with the potential customers extensively.
+He illustrated its importance with his own failures in developing nutrient supplements for diabetes patients.
+I must also bring my project to the target customers and fix the errors in it.
+
+---------------------------------------------------------
+今までCookieCasterのSource codeは七十パーセントが注釈をつけられた。
+Demo modeと関わった部分もどんどん削除された。
+しかしある部分はMain programと深く結ばれたから、それを処理するには未だ時間が掛かる。
+
+Three.jsと無関係のコードは既に複雑な構造を持っている。
+様々な視覚輔助とエラーを防ぐ機能がある。
+しかもMain pageのJavascriptとの交流が沢山ある。
+このサイトを徹底的に理解するには未だ一ヶ月の時間が必要だ。
+
+確信できることは、CookieCasterの経営者がこのシステムに投入した資源は決して少ないではなかった。
+しかしこんな強大なシステムは結局足りる収入を作らなかった。
+MITの起業Courseから勉強したもので分析すれば、CookieCasterは先ず違った市場を選んだ。
+先週で言ったとおり、CookieCasterは”３D編集能力がない人に作りたい３Dモデルを作り上げる”と言うサービスの応用範囲を”全てのもの”から”クッキーカッター”たけに限った。
+そしてその後の３Dプリントサービスの機会を逃して、
+ただ一つの業者のサイトへのリンクをつけた。
+更にCookieCasterは時間と人力が大量掛かるカスタムクッキーの商売もやった。
+Paypalによる使用者支援のページはあるが、
+サイトの機能拡張と組み合わせなかった。
+これじゃ使用者が支援資金を提供する動機が低い、それにサイトの収益を上昇させる可能の助言も貰えなかった。
+
+MITのStartup　CourseでMarketingとBusinessModelを言い及べたとき、
+講師は”客と充分な交流をするべし”と何度も強調した。
+彼は彼自身が糖尿病患者の栄養補充品開発の経験でその重要性を示した。
+私は必ず自分が開発しているサービスを可能の使用者に見させる、その意見を貰う。
+そして計画の中にある間違いを修正する。
