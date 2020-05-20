@@ -7,6 +7,7 @@ $.ajaxSetup({
         a.setRequestHeader("X-CSRF-Token", $('meta[name="csrf-token"]').attr("content"))
     }
 });
+//Jquery function to fade out the loading screen
 $(document).ready(function () {
     $(".canvas-loading").on("fadedone", function () {
         $(this).fadeToggle("slow", function () {
@@ -14,27 +15,32 @@ $(document).ready(function () {
         })
     })
 });
+
+
+
+
+
 var firstPointMouseTolerance = 16;
 var firstPointMouseToleranceOffset = 8;
 var mouseTolerance = 8;
 var mouseToleranceOffset = 5;
 var guideTolerance = 5;
 var HIGHLIGHT_ANCHOR_COLOR = "rgb(41,171,226)";
-var HIGHLIGHT_ANCHOR_RADIUS = 10;
+var HIGHLIGHT_ANCHOR_RADIUS = 15;
 var HIGHLIGHT_LINE_WIDTH = 2;
 var CLOSE_ANCHOR_COLOR = "#000000";
 var CLOSE_ANCHOR_RADIUS = 2;
-var POINT_BORDER_COLOR = "#df4b26";
+var POINT_BORDER_COLOR = "#d12a00";
 var POINT_FILL_COLOR = "rgba(41,171,226,0.75)";
 var FIRST_POINT_FILL_COLOR = "rgba(156,228,62,0.7)";
-var POINT_RADIUS = 4;
-var INITIAL_LINE_COLOR = "rgba(0,255,255,0.7)";
+var POINT_RADIUS = 5;
+var INITIAL_LINE_COLOR = "rgba(0,255,100,0.7)";
 var INITIAL_FILL_COLOR = "#666666";
-var INITIAL_LINE_WIDTH = 10;
-var CLOSED_LINE_COLOR = "rgba(0,255,255,0.9)";
+var INITIAL_LINE_WIDTH = 15;
+var CLOSED_LINE_COLOR = "rgba(0,255,100,0.9)";
 var SAMPLE_IMAGE_COLOR = "rgba(0,255,255, 0.1)";
 var CLOSED_FILL_COLOR = "#EEEEEE";
-var CLOSED_LINE_WIDTH = 10;
+var CLOSED_LINE_WIDTH = 15;
 var LINE_DROPSHADOW_COLOR = "rgba(0,0,0,0.2)";
 var LINE_DROPSHADOW_BLUR = 4;
 var LINE_DROPSHADOW_OFFSETX = 3;
@@ -42,14 +48,14 @@ var LINE_DROPSHADOW_OFFSETY = 3;
 var REPLACE_CONTROL_POINT_TOLERANCE = 1;
 var TRACE_SCALE_FACTOR = 0.9;
 var POINT_DISTANCE_FROM_EDGE = 2;
-var POINT_DELETE_MODE_FILL_COLOR = "rgba(178,34,34,0.75)";
+var POINT_DELETE_MODE_FILL_COLOR = "rgba(0, 20, 255, 0.75)";
 var POTENTIAL_LINE_COLOR = "#aaaaaa";
 var POTENTIAL_LINE_WIDTH = 8;
 var CONTROL_POINT_ACTIVE_RADIUS = 3;
 var CONTROL_POINT_ACTIVE_FILL_COLOR = "rgba(251,176,59,0.8)";
 var CONTROL_POINT_INACTIVE_RADIUS = 3;
 var CONTROL_POINT_INACTIVE_FILL_COLOR = "rgba(251,176,59,0.7)";
-var CONTROL_POINT_ADD_FILL_COLOR = "rgba(231,67,255,0.75)";
+var CONTROL_POINT_ADD_FILL_COLOR = "#ea1f1f";
 var CONTROL_POINT_SELECTED_LINE_WIDTH = 2;
 var CONTROL_POINT_INACTIVE_SELECTED_COLOR = "#444444";
 var CONTROL_POINT_ACTIVE_SELECTED_COLOR = "rgba(251,176,59,0.8)";
@@ -75,10 +81,10 @@ var messages = {
     empty: "",
     magictracefailed: "Sorry, magic trace wasn't able to build a cookie cutter",
     startmagictrace: "Magic Trace Mode: Click within your image to auto-select it",
-    deletemode: "Delete Mode: Click on any anchor to delete it",
+    deletemode: "Delete Mode: Click on any red points to delete it with connecting segments",
     savedsuccessfully: "Congratulations, your cookie cutter has been added to our gallery",
     savefailed: "Sorry, we weren't able to save your cookie cutter",
-    insertmode: "Insert Mode: Click on any purple point to add an anchor there."
+    insertmode: "Insert mode: Click on red points to create new anchors. Tap i again to exit this mode."
 };
 var cookieCanvas, context;
 var traceCanvas, traceContext;
@@ -97,7 +103,7 @@ var itemClosed = 0;
 var itemEditable = true;
 var startOverFlag = 0;
 var deleteAnchorMode = 0;
-var displaySampleImage = 1;
+var displaySampleImage = 0;
 var magicTrace = 0;
 var traceImageLoaded = 0;
 var magicTraceError = 0;
@@ -113,7 +119,9 @@ var guideActiveVerticalControl = 0;
 var guideActiveHorizontal = -1;
 var guideActiveHorizontalControl = 0;
 var anchorRemoved = 0;
-var demoMode = true;
+/////////////////////////////////////
+var demoMode = false;
+/////////////////////////////////////
 var inAnchoringDemo = false;
 var inCurvingDemo = false;
 var inTracingDemo = false;
@@ -157,60 +165,7 @@ function closedDemo() {
         }
     }, 0)
 }
-//Tutorial mode walkthrough
-function drawDemo() {
-    if (!demoMode) {
-        $(".demo-labels").children().fadeOut();
-        return
-    }
-    var e = [[466, 485, 538, 466, 1], [511, 394, 491, 353, 1], [432, 353, 370, 220, 1], [244, 319, 180, 304, 1], [180, 362, 91, 440, 1], [191, 485, 328.5, 485, 0]];
-    var l;
-    if (inAnchoringDemo) {
-        for (var c in e) {
-            l = e[c];
-            drawPointSphereAdvanced(l[0], l[1], 9, "rgba(51, 195, 250, 0.3)");
-            drawPointSphereRadiusAdvanced(l[0], l[1], 14, "rgba(0, 198, 255, 1)")
-        }
-    } else {
-        if (inCurvingDemo) {
-            for (var c in e) {
-                l = e[c];
-                if (l[4] == 0) {
-                    continue
-                }
-                drawPointSphereAdvanced(l[2], l[3], 9, "rgba(51, 195, 250, 0.3)");
-                drawPointSphereRadiusAdvanced(l[2], l[3], 14, "rgba(0, 198, 255, 1)");
-                var j = new Image();
-                j.src = "/demo/arrow-long-mid.png";
-                context.drawImage(j, 339, 254);
-                var b = new Image();
-                b.src = "/demo/arrow-long-bl.png";
-                context.drawImage(b, 112, 418);
-                var g = new Image();
-                g.src = "/demo/arrow-short-br.png";
-                context.drawImage(g, 497, 444);
-                var d = new Image();
-                d.src = "/demo/arrow-short-tl.png";
-                context.drawImage(d, 190, 316);
-                var h = new Image();
-                h.src = "/demo/arrow-stub-tr.png";
-                context.drawImage(h, 474, 359)
-            }
-        } else {
-            if (inTracingDemo) {
-                var k = new Image();
-                k.src = "/demo/arrow-wide-to-trace.png";
-                context.drawImage(k, 460, 449)
-            } else {
-                if (inMagicTracingDemo) {
-                    var a = new Image();
-                    a.src = "/demo/arrow-wide-to-magictrace.png";
-                    context.drawImage(a, 160, 449)
-                }
-            }
-        }
-    }
-}
+
 //MBD code
 //var sampleStartImage = [[[182, 219, 194, 168, 1], [245, 178, 367, 75, 1], [432, 212, 489, 203, 1], [513, 252, 526, 297, 1], [492, 328, 468, 343, 1], [466, 342, 328.5, 342, 0], [191, 342, 148, 320, 1], [148, 286, 141, 266, 1], [153, 252, 167.5, 235.5, 0], [182, 219, 167.5, 235.5, 0]], [[379, 62, 425, 106, 1], [390, 177, 485, 147, 1], [492, 184, 515, 228, 1], [461, 254, 435, 265, 1], [409, 276, 390, 315, 1], [433, 381, 534, 407, 1], [486, 464, 470, 486, 1], [423, 489, 375, 458.5, 1], [327, 428, 288.2828729281768, 449.9745856353591, 0], [253, 470, 189, 506, 1], [150, 453, 129, 398, 1], [206, 387, 253, 340, 1], [241, 276, 200.5, 260, 0], [160, 244, 129, 204, 1], [160, 172, 194, 147, 1], [259, 184, 222, 122, 1], [264, 62, 321.5, 17, 1], [379, 62, 321.5, 62, 1]]];
 
@@ -274,12 +229,13 @@ function startFinishingDemo() {
     });
     redraw()
 }
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //Initialize the scene after the page is ready.
 var shiftDepressed = 0;
 $(document).ready(function () {
     setupCanvas();
-    loadInitializer();//A function defiend in the main HTML page, load existing cookie caster models
-    
+    loadInitializer(); //A function defiend in the main HTML page, load existing cookie caster models
+
     //make trace buttons visible
     $("#trace-buttons").show();
     $("#tracebtn").css("visibility", "visible");
@@ -303,28 +259,36 @@ $(document).ready(function () {
     $(".demo-instructor .exit-demo").on("click", function () {
         toggleDemoMode()
     });
-    //Key event???
+    //Key event: if shift key is pressed, change the variable "shiftDepressed" to 1, seems to be useless.
     $(document).keydown(function (a) {
         if (a.which == 16) {
             shiftDepressed = 1
         }
     });
+    //Keyboard function to toggle different modes
     $(document).keyup(function (a) {
         if (a.target.nodeName == "INPUT" || a.target.nodeName == "TEXTAREA" || a.target.nodeName == "SELECT") {
             return
         }
+        // keyboard number 78= "n", 82 = "r"
         if (a.which == 78 || a.which == 82) {
             startOver();
             return
         } else {
+            //keyboard number 80="p", 66="b"
             if (a.which == 80 || a.which == 66) {} else {
+                //press t to enter trace mode
                 if (a.which == 84) {
                     $("#traceimage").click()
                 } else {
                     if (a.which == 68) {
+                        //press d to enter delete mode
                         toggleDeleteMode()
                     } else {
-                        if (a.which == 73) {} else {
+                        //press s to save the model
+                        if (a.which == 73) {
+                            insertModeToggle()
+                        } else {
                             if (a.which == 83) {
                                 saveCast(true, false)
                             } else {
@@ -337,6 +301,7 @@ $(document).ready(function () {
         }
     })
 });
+
 //switch on or off DemoMode,
 function toggleDemoMode() {
     if (demoMode) {
@@ -350,6 +315,7 @@ function toggleDemoMode() {
         demoMode = true
     }
 }
+
 //Set up the html5 2d canvas 
 function setupCanvas() {
     cookieCanvas = document.getElementById("cookiesketcharea");
@@ -371,7 +337,7 @@ function setupCanvas() {
     cookieCanvas.addEventListener("drop", loadTraceImage, false);
     //add listeners for drawing related mouse event(press, drag, release, cancel) 
     addRelevantEventListeners();
-    //CSS effects
+    //CSS effects for the user interface
     $(".mode-label .exit").click(function () {
         $(this).parent().fadeOut();
         $(".toolbar").slideDown();
@@ -389,40 +355,57 @@ function setupCanvas() {
     //    var a = sampleStartImage.length == 1 ? 0 : Math.floor(Math.random() * sampleStartImage.length)
     //}
     redraw();
+    //trace mode settings
     if (($("meta[name=trace_image]").length == 1) && !metaUsed) {
         metaUsed = true;
         drawTraceImage($("meta[name=trace_image]").attr("content"));
         $("meta[name=trace_image]").remove()
     }
 }
+
 //function for mouse 'click'
 function press(j) {
-    var d = j.pageX - offset.left;
-    var b = j.pageY - offset.top;
+    //reletive mouse click position at (x,y)
+    var x = j.pageX - offset.left;
+    var y = j.pageY - offset.top;
+    //test function for demo mode, will return if the demo mode is not active
     if (demoMode) {
-        pressDemo(d, b)
+        pressDemo(x, y)
     }
+    //In a condition which allPoints is empty or the Sample Image is present
     if (allPoints.length == 0 || displaySampleImage) {
+        //call function to set up offset(in this case is canvas) size( width and length)
         setOffset();
+        //call function to clean up the sample image
         removeSampleImage();
+        //return if the trace mode is not active
         if (!magicTrace) {
             return
         }
     }
+    //In tracemode, locate the selected region and the "redraw()" function will activate the magic trace
     if (magicTrace) {
-        findSelectedRegion(d, b);
+        findSelectedRegion(x, y);
         redraw();
         return
     }
+    //Delete anchor mode part
     for (var c = 0; c < allPoints.length; c++) {
-        if (((c !== 0 || itemClosed) || (c == 0 && allPoints.length > 0 && allPoints.length < 3)) && checkIfNearPoint(d, b, allPoints[c][0], allPoints[c][1])) {
+        //If the click position is near to any of the anchorPoint (function "checkIfNearPoint"),
+        //do the following code, otherwise just keep looping
+        if (((c !== 0 || itemClosed) || (c == 0 && allPoints.length > 0 && allPoints.length < 3)) && checkIfNearPoint(x, y, allPoints[c][0], allPoints[c][1])) {
+            //In Delete anchor mode, function"removeAnchor()" will be called to return a value "l"(true or false)
             if (deleteAnchorMode) {
+                //get variable "l" to show the result of anchor deletion,
+                //it will return true(1) if deletion happended
                 var l = removeAnchor(c);
                 if (l) {
+                    //if a anchor is deleted, change the global variable anchorRemoved to true(1)
                     anchorRemoved = 1;
                     if (allPoints.length == 0) {
                         toggleDeleteMode()
                     }
+                    //redraw first if the item is closed and the points can form up a shape
                     redraw();
                     if (itemClosed && allPoints.length == 4) {
                         toggleDeleteMode()
@@ -432,12 +415,16 @@ function press(j) {
                 }
                 return
             }
+            //set index value to "c" and break the loop
             editAnchorIndex = c;
             cookieCanvas.style.cursor = "default";
             return
         }
     }
-    if (deleteAnchorMode && !itemClosed && checkIfNearPoint(d, b, allPoints[0][0], allPoints[0][1])) {
+    //End of loop
+
+    //If it's in deleteAnchor mode AND the points are Not closed AND the clicked area is near the first point
+    if (deleteAnchorMode && !itemClosed && checkIfNearPoint(x, y, allPoints[0][0], allPoints[0][1])) {
         var l = removeAnchor(0);
         if (l) {
             anchorRemoved = 1;
@@ -450,25 +437,38 @@ function press(j) {
         }
         return
     }
+
+    //Insert mode part
+    //If the are more than one points, go through following loop 
     if (allPoints.length > 1) {
         for (var c = 0; c < allPoints.length - 1; c++) {
-            var h = allPoints[c][2];
-            var g = allPoints[c][3];
-            if (checkIfNearPoint(d, b, h, g)) {
+            //(cx,xy)is the position of point[c]'s control point,
+            var cx = allPoints[c][2];
+            var cy = allPoints[c][3];
+            //check if the clicked area is near to any one of the control points in allPoints
+            //replace the control point at point[c] with a new anchor point and create a new control point
+            if (checkIfNearPoint(x, y, cx, cy)) {
                 if (insertMode) {
+                    //loop backward from last point,
                     for (var a = allPoints.length - 1; a > -1; a--) {
+                        //if a is still bigger than c, pass the value of allPoints[a] to [a+1], 
+                        //Because the array is inserted with a new point
                         if (a > c) {
                             allPoints[a + 1] = allPoints[a]
                         }
+                        //If the "Control" point c is reached, change the value of subsequent anchor point [a+1]
+                        //
                         if (a == c) {
-                            allPoints[a + 1] = [h, g, h, g, 0];
+                            allPoints[a + 1] = [cx, cy, cx, cy, 0];
                             allPoints[a][2] = allPoints[a][0] + (allPoints[a + 1][0] - allPoints[a][0]) / 2;
                             allPoints[a][3] = allPoints[a][1] + (allPoints[a + 1][1] - allPoints[a][1]) / 2;
+                            //The control point value of [a+1] will be set again here!!
                             allPoints[a + 1][2] = allPoints[a + 1][0] + (allPoints[a + 2][0] - allPoints[a + 1][0]) / 2;
-                            allPoints[a + 1][3] = allPoints[a + 1][1] + (allPoints[a + 2][1] - allPoints[a + 1][1]) / 2
+                            allPoints[a + 1][3] = allPoints[a + 1][1] + (allPoints[a + 2][1] - allPoints[a + 1][1]) / 2;
                         }
                     }
                 } else {
+                    //If it's not in add anchor point mod, turn the control point into editable form
                     editControlIndex = c;
                     allPoints[editControlIndex][4] = 1;
                     cookieCanvas.style.cursor = "default"
@@ -477,45 +477,62 @@ function press(j) {
         }
     }
 }
-//function for mouse up
+
+//function for mouse up (c,b)
 function release(d) {
-    var c = d.pageX - offset.left;
-    var b = d.pageY - offset.top;
+    var x = d.pageX - offset.left;
+    var y = d.pageY - offset.top;
+    //handle the mouse up event in demo 
     if (demoMode) {
         closedDemo();
-        releaseDemo(c, b)
+        releaseDemo(x, y)
     }
+    //Nothing to do in magictrace mode
     if (magicTrace) {
         return
     }
+    //If there are a anchor point removed, reset the variable"anchorRemoved" and update the model in 3DViewer
     if (anchorRemoved == 1) {
         anchorRemoved = 0;
         update3DViewer();
         return
     }
+    if (insertMode) {
+        insertMode = 0;
+        update3DViewer();
+        return
+    }
+    //If one of the anchor point is clicked, do the following:
     if (editAnchorIndex != -1) {
+        //If there are more than one point and in deleteAnchorMode
         if (deleteAnchorMode != 1 && allPoints.length > 0) {
+            //reassign the value of x and y to the deleted point
             if (guideActiveVertical != -1) {
-                c = allPoints[guideActiveVertical][0]
+                x = allPoints[guideActiveVertical][0]
             }
             if (guideActiveHorizontal != -1) {
-                b = allPoints[guideActiveHorizontal][1]
+                y = allPoints[guideActiveHorizontal][1]
             }
         }
-        changeAnchor(c, b, editAnchorIndex);
+        //change the anchor point position
+        changeAnchor(x, y, editAnchorIndex);
+        //reset the anchorIndex to -1(no anchor selected) and call redraw and update3Dviewer
         editAnchorIndex = -1;
         redraw();
         update3DViewer();
         cookieCanvas.style.cursor = "crosshair";
         return
     }
+    //If one of the control points is clicked
     if (editControlIndex != -1) {
-        if (determineIfControlPointReplaced(c, b, editControlIndex)) {
+        //check function if contorl point is needed to be replaced, will return true if control point have no need to be changed
+        if (determineIfControlPointReplaced(x, y, editControlIndex)) {
             var a = editControlIndex + 1;
             if (itemClosed && a == allPoints.length - 1) {
                 a = 0
             }
-            recenterControlPointPosition(c, b, editControlIndex);
+            //Send the control point back to proper position and redraw/update3D Viewer
+            recenterControlPointPosition(x, y, editControlIndex);
             editControlIndex = -1;
             update3DViewer();
             redraw();
@@ -528,18 +545,27 @@ function release(d) {
         cookieCanvas.style.cursor = "crosshair";
         return
     }
+    //For Demo mode 
     if (itemClosed || deleteAnchorMode) {
+        //will move to next demo
         closedDemo();
         return
     }
+    //If the mouse curser hover on the first point, add the endpoint on the first point(close the loop)
     if (endpointHover) {
         addClick(allPoints[0][0], allPoints[0][1]);
+        //set the control point position for the second last point
         allPoints[allPoints.length - 1][2] = (allPoints[allPoints.length - 2][0] + allPoints[0][0]) / 2;
         allPoints[allPoints.length - 1][3] = (allPoints[allPoints.length - 2][1] + allPoints[0][1]) / 2;
+        //Reset the variable
         endpointHover = 0;
+        //set the flage for complete shape to True
         itemClosed = 1;
+        //refrash the canvas
         redraw();
+        //pop a system message
         updateTopBarMessage("closed");
+        //Generate final result, send the new 3d model to viewer
         createFinalArray();
         update3DViewer();
         cookieCanvas.style.cursor = "default";
@@ -547,19 +573,21 @@ function release(d) {
             closedDemo()
         }
     } else {
+        //If it's not the endpoint, and it's NOT in delete anchor mode
+        //check if the new position will cause any intersection, return if intersection happened
         cookieCanvas.style.cursor = "crosshair";
         if (deleteAnchorMode != 1 && !itemClosed && allPoints.length > 0) {
             if (guideActiveVertical != -1) {
-                c = allPoints[guideActiveVertical][0]
+                x = allPoints[guideActiveVertical][0]
             }
             if (guideActiveHorizontal != -1) {
-                b = allPoints[guideActiveHorizontal][1]
+                y = allPoints[guideActiveHorizontal][1]
             }
         }
-        if (determineIfAnyIntersection(c, b)) {
+        if (determineIfAnyIntersection(x, y)) {
             return
         }
-        addClick(c, b);
+        addClick(x, y);
         if (demoMode) {
             closedDemo()
         }
@@ -573,42 +601,56 @@ function drag(j) {
     var a = j.pageY - offset.top;
     dragDemo(b, a);
     j.preventDefault();
+    //skip the whoel process if in magic trace mode have sample image in the canvas
     if (magicTrace || displaySampleImage) {
         return
     }
+    //If allpoints is empty, skip the process
     if (allPoints.length == 0) {
         cookieCanvas.style.cursor = "crosshair";
         redrawWithMouseover(b, a);
         return
     }
+    //turn off the horizontal and axial guide lines
     turnOffGuides();
+    //If the mode for deleting points is not active( press "D"Key to toggle), start editing points(anchors) 
     if (deleteAnchorMode != 1) {
         var m, g, l, d;
         for (var h = 0; h < allPoints.length; h++) {
+            //skip all loops if item is closed and there is no point(anchor/controlpoint) selected.
             if (itemClosed && (editAnchorIndex == -1 && editControlIndex == -1)) {
                 break
             }
+            //skip one loop if the selected point is reached
             if (editAnchorIndex == h) {
                 continue
             }
+            //skip one loop if there is only one point
             if (editAnchorIndex == 0 && h == allPoints.length - 1) {
                 continue
             }
-            m = allPoints[h][0] - guideTolerance;
-            g = allPoints[h][0] + guideTolerance;
-            l = allPoints[h][1] - guideTolerance;
-            d = allPoints[h][1] + guideTolerance;
+            //create a square region with tolerance range(default guide tolerance is 5)
+            m = allPoints[h][0] - guideTolerance; //left limit of x 
+            g = allPoints[h][0] + guideTolerance; //right limit of x
+            l = allPoints[h][1] - guideTolerance; //up limit of y
+            d = allPoints[h][1] + guideTolerance; //bottom limit of y
+
+            //if the x coordinate of the mouse cursor is inside of the canvas(with tolerance),
+            //copy the x coordinate value to the variable "b"
             if (m < b && b < g && guideActiveVertical == -1) {
                 b = allPoints[h][0];
                 guideActiveVertical = h;
                 guideActiveVerticalControl = 0
             } else {
+                //if the y coordinate of the mouse cursor is inside of the canvas(with tolerance),
+                //copy the y coordinate value to the variable "a"
                 if (l < a && a < d && guideActiveHorizontal == -1) {
                     a = allPoints[h][1];
                     guideActiveHorizontal = h;
                     guideActiveHorizontalControl = 0
                 }
             }
+            //skip one loop if control point is not being dragged 
             if (editControlIndex == h || editControlIndex == -1) {
                 continue
             }
@@ -629,59 +671,74 @@ function drag(j) {
             }
         }
     }
+    //if the anchor point is being dragged, call changeAnchor function to change the x,y values
+    //the changeAnchor will change the anchor point and also the control point if necessary
     if (editAnchorIndex != -1) {
         changeAnchor(b, a, editAnchorIndex);
         redraw();
         highlightPoint(editAnchorIndex, HIGHLIGHT_ANCHOR_COLOR);
         return
     }
+    //if the control point is being dragged, change the x,y values of the corresponding control point directly
     if (editControlIndex != -1) {
         allPoints[editControlIndex][2] = b;
         allPoints[editControlIndex][3] = a;
+        //If the controlpoint position is on the straight line between two anchor points, 
+        //the control point's movement don't have any effect, just relocate it back to the center!
         if (determineIfControlPointReplaced(b, a, editControlIndex)) {
             allPoints[editControlIndex][4] = 0;
             recenterControlPointPosition(b, a, editControlIndex)
         } else {
+            //If the control point have to be replaced, set it to editable state([index][4]=1)
             allPoints[editControlIndex][4] = 1
         }
-        if ($.browser.msie) {
-            if (countDragEventMSIE < 1) {
-                countDragEventMSIE++
-            } else {
-                countDragEventMSIE = 0;
-                redraw()
-            }
-        } else {
-            redraw()
-        }
+
+        //if (countDragEventMSIE < 1) {
+        //    countDragEventMSIE++
+        //} else {
+        //    countDragEventMSIE = 0;
+        //    redraw()
+        //}
+
+        redraw();
+        //If the controlpoint entered the editable state
         if (allPoints[editControlIndex][4] == 1) {
+            //visualize the triangular tnagents with two red lines
             showControlPointTangents(editControlIndex);
+            //highlight the control point with a yellow circle
             highlightControlPoint(editControlIndex, CONTROL_POINT_ACTIVE_SELECTED_COLOR)
         } else {
+            //No red line needed, just highlight the control point with a black circle
             highlightControlPoint(editControlIndex, CONTROL_POINT_INACTIVE_SELECTED_COLOR)
         }
         return
     }
     endpointHover = 0;
+    //loop through all  points and if the first point is selected
     for (var h = 0; h < allPoints.length; h++) {
         if ((h == 0 && allPoints.length > 2 && !itemClosed && checkIfNearPointAdvanced(b, a, allPoints[h][0], allPoints[h][1], firstPointMouseTolerance, firstPointMouseToleranceOffset)) || checkIfNearPoint(b, a, allPoints[h][0], allPoints[h][1])) {
             cookieCanvas.style.cursor = "default";
             turnOffGuides();
             var c;
+            //If the shape is not closed yet, show the preview of last line which will close the shape.
             if (h == 0 && allPoints.length > 2 && !itemClosed) {
                 redrawWithMouseover(b, a);
                 endpointHover = 1;
                 c = CLOSE_ANCHOR_COLOR;
                 drawPotentialLine(b, a)
             } else {
+                //If it's not the case, just redraw with the new anchor point position
                 redraw();
                 endpointHover = 0;
                 c = HIGHLIGHT_ANCHOR_COLOR
             }
+            //highlight the point which is being hovered on.
             highlightPoint(h, c);
             return
         }
     }
+    //loop through the all points again, but starts from 1 to allPoints.length
+    //check if the mouse position is near any of the control points
     for (var h = 1; h < allPoints.length; h++) {
         if (checkIfNearPoint(b, a, allPoints[h - 1][2], allPoints[h - 1][3])) {
             turnOffGuides();
@@ -698,6 +755,7 @@ function drag(j) {
         return
     }
     redraw();
+    //If the item is closed by a final mouse click on the original point, skip the following code and return.
     if (itemClosed) {
         return
     }
@@ -706,20 +764,23 @@ function drag(j) {
     } else {
         cookieCanvas.style.cursor = "crosshair"
     }
+    //If the item is not closed yet, draw the gray potential line to preview the next line segment.
     drawPotentialLine(b, a)
 }
 //function for mouse out and leave
 function cancel(d) {
-    var c = d.pageX - offset.left;
-    var b = d.pageY - offset.top;
+    var x = d.pageX - offset.left;
+    var y = d.pageY - offset.top;
     overCanvas = 0;
+    //If the control point is being dragged while the mouse curser getting out of the canvas
+    //update the shape with the last position of the mouse curser inside of the canvas.
     if (editControlIndex != -1) {
-        if (determineIfControlPointReplaced(c, b, editControlIndex)) {
+        if (determineIfControlPointReplaced(x, y, editControlIndex)) {
             var a = editControlIndex + 1;
             if (itemClosed && a == allPoints.length - 1) {
                 a = 0
             }
-            recenterControlPointPosition(c, b, editControlIndex);
+            recenterControlPointPosition(x, y, editControlIndex);
             editControlIndex = -1;
             update3DViewer();
             turnOffGuides();
@@ -753,13 +814,13 @@ function requestDownload() {
         form.submit()
     }
 }
-
+//function called in Html mainpage
 function changeMaterialCharacteristic() {
     if (itemClosed && !displaySampleImage) {
         update3DViewer()
     }
 }
-
+//function called in Html mainpage
 function stopEditing() {
     itemEditable = false;
     cookieCanvas.style.cursor = "crosshair";
@@ -800,30 +861,37 @@ function submitForm() {
 window.onresize = function (a) {
     setOffset()
 };
-
+//Set up the value of global variable "offset"
 function setOffset() {
     offset = $("#cookiesketcharea").offset();
     offset.left = Math.round(offset.left);
     offset.top = Math.round(offset.top)
 }
-
+//Function to add new points into allPoints on clicked position at (a,b)
 function addClick(a, b) {
+    //Nothing to do in insert mode
     if (insertMode) {
         return
     }
+    //At first set the control point postion (newPoint[2] , newPoint[3]) to 0.
     newPoint = [a, b, 0, 0, 0];
+    //If the newPoint is not the first point, set the contorl point position of the point before newPoint.
     if (allPoints.length > 0) {
         allPoints[allPoints.length - 1][2] = (a + allPoints[allPoints.length - 1][0]) / 2;
         allPoints[allPoints.length - 1][3] = (b + allPoints[allPoints.length - 1][1]) / 2
     }
+    //push the new point to the allPoints and call redraw to refrash the canvas
     allPoints.push(newPoint);
     redraw()
 }
-
-function changeAnchor(b, h, e) {
+//function to change position of the anchor point
+//e stands for clicked/dragged anchor index 
+function changeAnchor(mouseX, mouseY, e) {
+    //get the distance between mouse drag/up position and the anchor point's original position  
     var d, c;
-    d = b - allPoints[e][0];
-    c = h - allPoints[e][1];
+    d = mouseX - allPoints[e][0];
+    c = mouseY - allPoints[e][1];
+    //set the anchorpoint position updated
     allPoints[e][0] += d;
     allPoints[e][1] += c;
     if (allPoints.length > 1) {
@@ -836,44 +904,50 @@ function changeAnchor(b, h, e) {
             a = 0
         }
         if (g != -1 && allPoints[g][4] == 0) {
-            allPoints[g][2] = (b + allPoints[g][0]) / 2;
-            allPoints[g][3] = (h + allPoints[g][1]) / 2
+            allPoints[g][2] = (mouseX + allPoints[g][0]) / 2;
+            allPoints[g][3] = (mouseY + allPoints[g][1]) / 2
         }
         if (a != allPoints.length && allPoints[e][4] == 0) {
-            allPoints[e][2] = (b + allPoints[a][0]) / 2;
-            allPoints[e][3] = (h + allPoints[a][1]) / 2
+            allPoints[e][2] = (mouseX + allPoints[a][0]) / 2;
+            allPoints[e][3] = (mouseY + allPoints[a][1]) / 2
         }
     }
     if (itemClosed && e == 0) {
-        allPoints[allPoints.length - 1][0] = b;
-        allPoints[allPoints.length - 1][1] = h
+        allPoints[allPoints.length - 1][0] = mouseX;
+        allPoints[allPoints.length - 1][1] = mouseY
     } else {
         if (itemClosed && (e == allPoints.length - 1)) {
-            allPoints[0][0] = b;
-            allPoints[0][1] = h
+            allPoints[0][0] = mouseX;
+            allPoints[0][1] = mouseY
         }
     }
 }
 
 function removeAnchor(b) {
+    //If the points can only form up a triangle, delete nothing and return with value "False"
     if (itemClosed && allPoints.length == 4) {
         return false
     }
+    //Delete the one point of index"b", !!!!allPoints.length will be changed from "n" to "n-1"
     allPoints.splice(b, 1);
+    //In order to recalculate the new control points of index "b" and "b-1", do the following:
     var c = b - 1;
     var a = b;
+    //If allPoints become empty, return with true
     if (allPoints.length == 0) {
         return true
     }
+    //If the deleted point is the last point( b = a = n-1 ), set the new last point lable(allpoints[][4]) to 0 
     if (a == allPoints.length) {
         allPoints[c][4] = 0;
         return true
     }
+    //If the first point is NOT the point to be deleted: just get control point value with next point"c"
     if (c != -1) {
         allPoints[c][2] = (allPoints[c][0] + allPoints[a][0]) / 2;
         allPoints[c][3] = (allPoints[c][1] + allPoints[a][1]) / 2;
         allPoints[c][4] = 0
-    } else {
+    } else { //In the case when first point got deleted: control point is between last point and new first point
         if (c == -1 && itemClosed) {
             allPoints[allPoints.length - 1][0] = allPoints[0][0];
             allPoints[allPoints.length - 1][1] = allPoints[0][1];
@@ -891,17 +965,18 @@ function turnOffGuides() {
     guideActiveVertical = -1;
     guideActiveHorizontal = -1
 }
+//!!!!!!!!!NOT USED (calculate and return the value of angle )
+//function determineAngle(b, a, d, c) {
+//    var e;
+//    e = Math.atan2(c - a, d - b);
+//    return (e / Math.PI)
+//}
 
-function determineAngle(b, a, d, c) {
-    var e;
-    e = Math.atan2(c - a, d - b);
-    return (e / Math.PI)
-}
-
+//Simple form of CheckIfNearPointAdvanced, have default mouse tolerance and tolerance offset
 function checkIfNearPoint(b, a, d, c) {
     return (checkIfNearPointAdvanced(b, a, d, c, mouseTolerance, mouseToleranceOffset))
 }
-
+//check near point with custom tolerance "a" and offset "d"
 function checkIfNearPointAdvanced(c, b, g, e, a, d) {
     if (allPoints.length > 0) {
         if ((c > (g - a + d)) && (c < (g + a + d)) && (b > (e - a + d)) && (b < (e + a + d))) {
@@ -914,10 +989,10 @@ function checkIfNearPointAdvanced(c, b, g, e, a, d) {
 function redrawWithMouseover(b, a) {
     redraw()
 }
-
+//Draw the shape in magic trace mode and pen mode
 function redraw() {
     cookieCanvas.width = cookieCanvas.width;
-    drawDemo();
+    //If in magic trace mode
     if (magicTrace) {
         context.putImageData(colorLayerData, 0, 0);
         context.strokeStyle = MAGIC_TRACE_PATH_COLOR;
@@ -931,10 +1006,13 @@ function redraw() {
             for (var a = 1; a < allPoints.length; a++) {
                 context.lineTo(allPoints[a][0], allPoints[a][1])
             }
+            //show the resulting shape
             context.stroke();
         }
         return
     }
+    //If in other modes, check the shape and see it is closed or not.
+    //The stroke styel will be determined by it
     var b = itemClosed ? (displaySampleImage ? SAMPLE_IMAGE_COLOR : CLOSED_LINE_COLOR) : INITIAL_LINE_COLOR;
     context.strokeStyle = b;
     context.fillStyle = itemClosed ? CLOSED_FILL_COLOR : INITIAL_FILL_COLOR;
@@ -950,27 +1028,31 @@ function redraw() {
         if (allPoints.length > 1) {
             //start the drawing loop from first controlpoint
             for (var a = 1; a < allPoints.length; a++) {
-                //allPoints[a-1][2] and [a-1][2] are x,y position of control points, allpoints[a] are the end points
+                //allPoints[a-1][2] and [a-1][3] are x,y position of control points, allpoints[a] is the end point
                 context.quadraticCurveTo(allPoints[a - 1][2], allPoints[a - 1][3], allPoints[a][0], allPoints[a][1])
             }
             context.stroke()
         }
-        //close the path to form a loop
+        //close the path
         context.closePath();
         if (!itemEditable) {
             return
         }
-        //draw points
+        //draw different dots on control points and anchor points depending on which edit mode is active
         for (var a = 0; a < allPoints.length; a++) {
+            //In delete anchor mode
             if (deleteAnchorMode) {
                 drawPointSphereAdvanced(allPoints[a][0], allPoints[a][1], POINT_RADIUS, POINT_DELETE_MODE_FILL_COLOR, 0, "")
             } else {
+                //Not in delete anchor mode: draw different shape for first point
                 if (a == 0 && !itemClosed) {
                     drawPointSphereAdvanced(allPoints[a][0], allPoints[a][1], POINT_RADIUS, FIRST_POINT_FILL_COLOR, 0, "")
                 } else {
+                    //draw ordinary points on toher anchor points
                     drawPointSphere(allPoints[a][0], allPoints[a][1])
                 }
             }
+            //draw control points(last point's control point should not be drawn)
             if (!(a == allPoints.length - 1)) {
                 drawControlPointSphere(allPoints[a][2], allPoints[a][3], allPoints[a][4]);
                 if (displaySampleImage) {
@@ -983,6 +1065,7 @@ function redraw() {
     }
 }
 
+//highlight the edited control point with a circle
 function highlightControlPoint(b, a) {
     context.lineWidth = CONTROL_POINT_SELECTED_LINE_WIDTH;
     context.strokeStyle = a;
@@ -991,9 +1074,13 @@ function highlightControlPoint(b, a) {
     context.stroke();
     context.closePath()
 }
-
+//Draw two red lines, one from anchor(b) to control point, another from anchor(a) to control point
+//This will visualize the triangular tangents of the control point
 function showControlPointTangents(b) {
+    //b is the anchorpoint which's control point is selected 
+    //and "a" is the next anchorpoint
     var a = b + 1;
+    //if a is the last point of allPoints, set its value to 0(to the starting point)
     if (itemClosed && a == allPoints.length - 1) {
         a = 0
     } else {
@@ -1019,7 +1106,7 @@ function highlightPoint(b, a) {
     context.stroke();
     context.closePath()
 }
-
+//Draw a gray line to the potential line which might become the next segment of allPoints
 function drawPotentialLine(a, b) {
     if (overCanvas == 0 || deleteAnchorMode || insertMode) {
         return
@@ -1033,39 +1120,34 @@ function drawPotentialLine(a, b) {
     context.closePath()
 }
 
+//draw lines to illustrate the reletve position(horizontally or vertically aligned) of a new point to existing points  
 function drawRelevantGuides() {
     if (guideActiveVertical != -1 && guideActiveVerticalControl) {
-        drawVerticalGuide(allPoints[guideActiveVertical][2])
+        drawGuide(allPoints[guideActiveVertical][2], 1)
     } else {
         if (guideActiveVertical != -1) {
-            drawVerticalGuide(allPoints[guideActiveVertical][0])
+            drawGuide(allPoints[guideActiveVertical][0], 1)
         }
     }
     if (guideActiveHorizontal != -1 && guideActiveHorizontalControl) {
-        drawHorizontalGuide(allPoints[guideActiveHorizontal][3])
+        drawGuide(allPoints[guideActiveHorizontal][3], 0)
     } else {
         if (guideActiveHorizontal != -1) {
-            drawHorizontalGuide(allPoints[guideActiveHorizontal][1])
+            drawGuide(allPoints[guideActiveHorizontal][1], 0)
         }
     }
 }
-
-function drawVerticalGuide(a) {
-    drawGuide(a, 1)
-}
-
-function drawHorizontalGuide(a) {
-    drawGuide(a, 0)
-}
-
+//a=coordinate position in x/y axis, b=1 for vertical, b=0 for horizontal
 function drawGuide(a, b) {
     context.lineWidth = GUIDE_LINE_WIDTH;
     context.strokeStyle = GUIDE_LINE_COLOR;
     context.beginPath();
     if (b) {
+        //draw a vertical line with full height of canvas at position x=a
         context.moveTo(a, 0);
         context.lineTo(a, cookieCanvas.height)
     } else {
+        //draw a horizontal line with full width of canvas at position y=a
         context.moveTo(0, a);
         context.lineTo(cookieCanvas.width, a)
     }
@@ -1096,7 +1178,7 @@ function drawControlPointSphere(a, e, d) {
 function drawPointSphere(a, b) {
     drawPointSphereAdvanced(a, b, POINT_RADIUS, POINT_FILL_COLOR, 1, "rgba(255, 0, 0, 0.3)")
 }
-
+//Prototype function for drawing points on canvas in "pen mode"
 function drawPointSphereAdvanced(b, g, a, d, e, c) {
     context.fillStyle = d;
     context.strokeStyle = d;
@@ -1107,17 +1189,17 @@ function drawPointSphereAdvanced(b, g, a, d, e, c) {
     context.closePath();
     context.moveTo(b, g)
 }
-
-function drawPointSphereRadiusAdvanced(b, g, a, d, e, c) {
-    context.strokeStyle = d;
-    context.lineWidth = 2;
-    context.beginPath();
-    context.arc(b, g, a, 0, 360, false);
-    context.stroke();
-    context.closePath();
-    context.moveTo(b, g);
-    context.lineWidth = 1
-}
+//Unused function
+//function drawPointSphereRadiusAdvanced(b, g, a, d, e, c) {
+//    context.strokeStyle = d;
+//    context.lineWidth = 2;
+//    context.beginPath();
+//    context.arc(b, g, a, 0, 360, false);
+//    context.stroke();
+//    context.closePath();
+//    context.moveTo(b, g);
+//    context.lineWidth = 1
+//}
 
 //a cluster of event listeners for mouse drawing event
 function addRelevantEventListeners() {
@@ -1127,7 +1209,7 @@ function addRelevantEventListeners() {
     cookieCanvas.addEventListener("mouseout", cancel, false);
     cookieCanvas.addEventListener("mouseleave", cancel, false)
 }
-
+//show a text in the middle of canvas to guide the user
 function drawStartText() {
     var b = cookieCanvas.width / 2;
     var d = cookieCanvas.height / 2 + 15;
@@ -1145,15 +1227,17 @@ function drawStartText() {
     context.font = "17pt Arial";
     context.fillText(c[0], b, d)
 }
+//Not used
+//function addCanvasImage() {}
 
-function addCanvasImage() {}
-
+//handle events for dragover on the canvas
 function handleDragOver(a) {
     a.stopPropagation();
     a.preventDefault();
     a.dataTransfer.dropEffect = "copy"
 }
 
+//Will be called in Main html page and load image file if the "trace-buttons" is pressed
 function loadTraceImage(b) {
     if (b.dataTransfer) {
         img = b.dataTransfer
@@ -1162,19 +1246,22 @@ function loadTraceImage(b) {
     }
     f = img.files[0];
     if (f.type.match("image.*")) {
+        //If the browser support html5-file API, then use the FileReader object to load the file
         if (typeof FileReader !== "undefined") {
             var a = new FileReader();
             a.onload = function (c) {
+                //draw the loaded image on the canvas
                 drawTraceImage(c.target.result)
             };
             a.readAsDataURL(f)
         } else {
+            //If the browser is too old to support file API, use an alternative method by calling ajax
             echoFile(f)
         }
     }
     $(".placeImage").addClass("active")
 }
-
+//Alternative method used in loadTraceImage
 function echoFile(a) {
     var b = new FormData();
     b.append("file", a);
@@ -1192,7 +1279,9 @@ function echoFile(a) {
 }
 
 function drawTraceImage(b) {
+    //Initialize a new Image instance
     var a = new Image();
+    //handle error events by showing a failure message
     a.onerror = function () {
         $(".canvas-loading").stop().hide();
         $(".canvas-failed").fadeIn(function () {
@@ -1202,13 +1291,18 @@ function drawTraceImage(b) {
         });
         clearTraceImage()
     };
+    //If the image is loaded
     a.onload = function () {
+        //remove the loading screen
         $(".canvas-loading").stop().hide();
+        //If demo mode is still active, set value of "e" to 1, else adjust it for the loaded picture "a"
         var e = (demoMode && (inMagicTracingDemo || inMagicTraceClickingDemo || inFinishingDemo)) ? 1 : Math.min(traceCanvas.width / a.width, traceCanvas.height / a.height) * TRACE_SCALE_FACTOR;
         var d = a.height * e;
         var c = a.width * e;
         traceContext.clearRect(0, 0, traceCanvas.width, traceCanvas.height);
+        //draw the image "a"(Only making a space, the image data in variable "b" will be loaded later)
         traceContext.drawImage(a, (traceCanvas.width - c) / 2, (traceCanvas.height - d) / 2 + (demoMode ? 100 : 0), c, d);
+        //Update the control panel and flag variable "traceImageLoaded"
         $("#traceimage-add").hide();
         $("#traceimage-remove").show();
         traceImageLoaded = 1;
@@ -1218,9 +1312,10 @@ function drawTraceImage(b) {
         redraw()
     };
     $(".canvas-loading").trigger("fadedone");
+    //Finally load the image data from "b"
     a.src = b
 }
-
+//Remove the loaded image
 function clearTraceImage() {
     $(".canvas-loading").stop().hide();
     traceContext.clearRect(0, 0, traceCanvas.width, traceCanvas.height);
@@ -1233,11 +1328,13 @@ function removeSampleImage() {
     itemClosed = 0;
     allPoints = []
 }
-
+//Wii be called in Main HTML page, handles events when "+" button is clicked
 function insertModeToggle() {
+    //Nothing to do in demo
     if (displaySampleImage) {
         return
     }
+    //Can't do it in magic trace
     if (magicTrace) {
         alert("Sorry, you can't delete an anchor point in Magic Trace mode");
         return
@@ -1263,7 +1360,7 @@ function insertModeToggle() {
     }
     redraw()
 }
-
+//Restart the canvas reset all global variables
 function startOver() {
     updateTopBarMessage("empty");
     startOverFlag = 1;
@@ -1298,7 +1395,7 @@ function startOver() {
     redraw();
     drawStartText()
 }
-
+//check if the new segment is intersecting with existing edges
 function determineIfAnyIntersection(c, a) {
     if (allPoints.length < 3) {
         return false
@@ -1315,12 +1412,17 @@ function determineIfAnyIntersection(c, a) {
     }
     return false
 }
-
+//will return true if the control point is on the straight line between the two connecting anchor points
 function determineIfControlPointReplaced(c, b, d) {
+    //if the shape is closed, the "a" equals the remainder of d(index of editing Control Point)+1 divided by allpoints.length-1.
+    //else the "a" should be remainder of d+1 / allpoints.length
     var a = itemClosed ? (d + 1) % (allPoints.length - 1) : (d + 1) % allPoints.length;
+
+    //if the distance of point (c,b) to point "d" plus (c,b) to point "a" is shorter than point "d" to point "a", the control point should be replaced. 
+    //because the control point is not on the straight line between point "a" and "d" 
     return (pointdistance(c, b, allPoints[d][0], allPoints[d][1]) + pointdistance(c, b, allPoints[a][0], allPoints[a][1]) < pointdistance(allPoints[d][0], allPoints[d][1], allPoints[a][0], allPoints[a][1]) + REPLACE_CONTROL_POINT_TOLERANCE)
 }
-
+//Send the control point back to proper position
 function recenterControlPointPosition(c, b, d) {
     var e = itemClosed ? (d + 1) % (allPoints.length - 1) : (d + 1) % allPoints.length;
     var h = [];
@@ -1340,35 +1442,36 @@ function recenterControlPointPosition(c, b, d) {
     allPoints[d][3] = a[1];
     allPoints[d][4] = 0
 }
-
+//Calculate distance between (b,d) and (a,c)
 function pointdistance(b, d, a, c) {
     return (Math.sqrt(Math.pow((a - b), 2) + Math.pow((c - d), 2)))
 }
+//Function Not used
+//function inRectangle(l, k, g, d, h, e, a, o) {
+//    var j = l - g;
+//    var i = k - d;
+//    var c = dotproduct(j, i, h, e);
+//    var m = dotproduct(h, e, h, e);
+//    var b = dotproduct(j, i, a, o);
+//    var n = dotproduct(a, o, a, o);
+//    return (c >= 0 && m >= c && b >= 0 && n >= b)
+//}
 
-function inRectangle(l, k, g, d, h, e, a, o) {
-    var j = l - g;
-    var i = k - d;
-    var c = dotproduct(j, i, h, e);
-    var m = dotproduct(h, e, h, e);
-    var b = dotproduct(j, i, a, o);
-    var n = dotproduct(a, o, a, o);
-    return (c >= 0 && m >= c && b >= 0 && n >= b)
-}
+//function dotproduct(b, d, a, c) {
+//    return (b * a + d * c)
+//}
 
-function dotproduct(b, d, a, c) {
-    return (b * a + d * c)
-}
-
+//Function called in DoLineSegmentsIntersect
 function IsOnSegment(d, g, b, e, a, c) {
     return (d <= a || b <= a) && (a <= d || a <= b) && (g <= c || e <= c) && (c <= g || c <= e)
 }
-
+//Function called in DoLineSegmentsIntersect
 function ComputeDirection(i, k, g, j, d, h) {
     var e = (d - i) * (j - k);
     var c = (g - i) * (h - k);
     return e < c ? -1 : e > c ? 1 : 0
 }
-
+//Function called in determineIfAnyIntersection
 function DoLineSegmentsIntersect(e, j, d, i, b, h, m, g) {
     var c = ComputeDirection(b, h, m, g, e, j);
     var a = ComputeDirection(b, h, m, g, d, i);
@@ -1380,26 +1483,31 @@ function DoLineSegmentsIntersect(e, j, d, i, b, h, m, g) {
 function createFinalArray() {
     //empty the array first
     finalArray = [];
+    //skip this process if the shape is not closed yet
     if (!itemClosed) {
         return
     }
+    //Iterate through allPoints from 0 to length-1
     for (var b = 0; b < allPoints.length - 1; b++) {
+        //If it's a straight line, just push the anchor point
         if (allPoints[b][4] == 0) {
             var a = [];
             a[0] = allPoints[b][0];
             a[1] = allPoints[b][1];
             finalArray.push(a)
         } else {
+            //
             if (b == allPoints.length - 2 && itemClosed) {
                 nextIndex = 0
             } else {
                 nextIndex = b + 1
             }
+            //interpolate the quadratic curve's points(by 100 segments) and push them in to finalArray
             interpolatePointsForQuad(allPoints[b][0], allPoints[b][1], allPoints[nextIndex][0], allPoints[nextIndex][1], allPoints[b][2], allPoints[b][3])
         }
     }
 }
-
+//interpolate the quadratic curve's points(by 100 segments) and push them in to finalArray
 function interpolatePointsForQuad(h, d, a, l, g, c) {
     var b;
     // e stands for loop length and number of points
@@ -1413,8 +1521,8 @@ function interpolatePointsForQuad(h, d, a, l, g, c) {
         finalArray.push(b)
     }
 }
-
-function loadRemotePoints() {
+//Function not used
+/*function loadRemotePoints() {
     clearTraceImage();
     startOver();
     var a = 0;
@@ -1426,13 +1534,18 @@ function loadRemotePoints() {
     itemClosed = true;
     redraw()
 }
+*/
 
+//Update the 3d model in the viewer
 function update3DViewer() {
-    if ($.browser.msie && demoMode && isCurvingDemo) {
-        return
-    }
+    //if ($.browser.msie && demoMode && isCurvingDemo) {
+    //    return
+    //}
+
+    //Find out the html element of the viewer
     var c = "view-container";
     if (itemClosed) {
+        //Show the loadingfram up
         $("#loadingframe").css("visibility", "visible");
         $("#" + c).replaceWith('<div id="' + c + '"></div>');
         var a = $("#" + c);
@@ -1441,10 +1554,56 @@ function update3DViewer() {
         form.find('input[name="points"]').val(JSON.stringify(allPoints));
         form.find('input[name="type"]').val("obj");
         form.find('input[name="size"]').val($("#cookiecuttersizedropdown").val());
+        //calculate the height from inches to millimeter
         var b = parseFloat($("#cookiecutterheightdropdown").val()) * 25.4;
         form.find('input[name="height"]').val(b);
         form.find('input[name="thickness"]').val($("#cookiecutterthicknessdropdown").val());
-        //send value to ajax
+
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //Experimental code to replace the ajax thing run by server (update3DViewer)
+        //borrow function from create final array, get high resolution point array instead of allPoints
+        //beacuse curves are not directly discribed in allPoints
+        //create three.js geometry from point array
+
+        if (allPoints.length != 0) {
+            createFinalArray();
+            
+            console.log(allPoints);
+            console.log("------------");
+            console.log(finalArray);
+            var pointsToShape = new THREE.Shape();
+            pointsToShape.moveTo(finalArray[0][0],finalArray[0][1]);
+            for(i=1 ; i<finalArray.length ; i++) {
+                pointsToShape.lineTo(finalArray[i][0],finalArray[i][1])
+            }
+            pointsToShape.lineTo(finalArray[0][0],finalArray[0][1]);
+            //pointsToShape.moveTo(250, 104 );
+            //pointsToShape.lineTo(123, 278);
+            //pointsToShape.lineTo(427, 321);
+            //pointsToShape.lineTo(571, 166 );
+            //pointsToShape.lineTo(250, 104 );
+            var extrudeSettings = { amount: 8, bevelEnabled: true, bevelSegments: 2, steps: 2, bevelSize: 1, bevelThickness: 1 }; 
+            var geometry = new THREE.ExtrudeBufferGeometry( pointsToShape, extrudeSettings ); 
+            var mesh = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: 0x00ff00 } ));
+            var exporter = new THREE.OBJExporter();
+            var objMesh = exporter.parse(mesh);
+            $("#alerts").hide();
+            $("#alerts").empty();
+            setOffset();
+            $("#" + c).replaceWith('<div id="' + c + '"></div>');
+            var d = $("#" + c);
+            d.height("250px");
+            d.width("428px");
+            //hide the loading frame
+            $("#loadingframe").css("visibility", "hidden");
+            //load the obj data in html viewer element "c"
+            load_viewer(objMesh, c);
+            animate()
+
+        }
+
+        /*
+        //send value through ajax
         $.ajax({
             url: "/download.json",
             data: form.serialize(),
@@ -1465,29 +1624,38 @@ function update3DViewer() {
                 var d = $("#" + c);
                 d.height("210px");
                 d.width("262px");
+                //hide the loading frame
                 $("#loadingframe").css("visibility", "hidden");
+                //receive the resulting three data
                 threedeedata = e;
                 load_viewer(threedeedata, c);
                 animate()
             }
         })
+        */
     }
 }
-
+//control the delet mode in different situation(having sample image on canvas/ in trace mode, etc)
 function toggleDeleteMode() {
+    //return if it's displaying sample image
     if (displaySampleImage) {
         return
     }
+    //return if in tracemode and give alert message
     if (magicTrace) {
         alert("Sorry, you can't delete an anchor point in Magic Trace mode");
         return
     }
+    //if Not in delete anchor mode, set the global variable deleteAnchorMode to 0 and activate the button
     if (deleteAnchorMode) {
         deleteAnchorMode = 0;
         toggleActive(document.getElementById("deletebutton"));
         updateTopBarMessage("empty");
         $(".mode-label").fadeOut()
     } else {
+        //If in deleteAnchorMode and points are closed and can at least be a triangle, 
+        //Or if the item is not closed and there are one or more points present on the canvas, do the deletion
+        //And toggle the buttons
         if (deleteAnchorMode == 0 && ((itemClosed && allPoints.length > 3) || (!itemClosed && allPoints.length > 0))) {
             $(".mode-label").fadeIn().children(".name").text("Delete");
             deleteAnchorMode = 1;
@@ -1501,14 +1669,16 @@ function toggleDeleteMode() {
             }
         }
     }
+    //Call function to refresh the canvas and control interface
     redraw()
 }
 
-function togglebuyoverlay() {
-    el = document.getElementById("buyoverlay");
-    el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"
-}
+//function togglebuyoverlay() {
+//    el = document.getElementById("buyoverlay");
+//    el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"
+//}
 
+//called in Html page
 function togglefullscreenoverlay() {
     if (!itemClosed) {
         alert("To see a full screen view of your cookie cutter, you must first 'close' your cookie cutter");
@@ -1532,11 +1702,11 @@ function togglefullscreenoverlay() {
         update3dviewerlocal("view-container", 210, 262)
     }
 }
-
+//Function to toggle html element active 
 function toggleActive(a) {
     $(a).toggleClass("active")
 }
-
+//handle events locally(when the model in threedeedata is not changed)
 function update3dviewerlocal(d, a, c) {
     var b = $("#" + d);
     $("#" + d).css("backgroundImage", "none");
@@ -1547,13 +1717,12 @@ function update3dviewerlocal(d, a, c) {
 }
 
 function toggleMagicTrace() {
+    //If no image is loaded yet, show alert
     if (!traceImageLoaded) {
         alert("To use magic trace, load an image to trace");
         return
     }
-    if (demoMode && inMagicTracingDemo) {
-        startMagicTraceClickingDemo()
-    }
+    //Handle event when the function is called during other mods(delet,insert, etc )
     if (deleteAnchorMode) {
         toggleDeleteMode()
     }
@@ -1572,9 +1741,12 @@ function toggleMagicTrace() {
 }
 
 function loadMagicTrace() {
+    //clean up the canvas an variables
     startOver();
+    //set the flag for magic trace to True
     magicTrace = 1;
     allPoints = [];
+
     colorLayerData = context.getImageData(0, 0, cookieCanvas.width, cookieCanvas.height);
     colorLayerDataTraceCanvas = traceContext.getImageData(0, 0, traceCanvas.width, traceCanvas.height);
     $("#magictracebtn").addClass("active");
@@ -1582,7 +1754,7 @@ function loadMagicTrace() {
     toggleActive(document.getElementById("penbutton"));
     redraw()
 }
-
+//Function to turn off magic trace and change html5 elements's activity
 function removeMagicTrace() {
     updateTopBarMessage("empty");
     $("#magictracebtn").removeClass("active");
@@ -1594,27 +1766,31 @@ function removeMagicTrace() {
     magicTraceSegmentDictionary = {};
     startOver()
 }
-
+//Major function in Trace mode, will access the image and locate the region if floodfill function detected it
 function findSelectedRegion(h, d) {
-    if (demoMode && inMagicTraceClickingDemo) {
-        startFinishingDemo()
-    }
+    //set up the variables
     cookieCanvas.width = cookieCanvas.width;
     colorLayerData = null;
     colorLayerData = context.getImageData(0, 0, cookieCanvas.width, cookieCanvas.height);
     magicTraceSegmentDictionary = {};
     allPoints = [];
     magicTracePathArray = null;
+    //k = pixel data position at the array of colorLayerDataTraceCanvas.data
+    //(the value will be multiplied by 4 since there are four channels)
     var k = (d * traceCanvas.width + h) * 4,
         j = colorLayerDataTraceCanvas.data[k],
         i = colorLayerDataTraceCanvas.data[k + 1],
         c = colorLayerDataTraceCanvas.data[k + 2],
         e = colorLayerDataTraceCanvas.data[k + 3];
+    //If the pixel is totally empty, return.
     if (j == 0 && i == 0 && c == 0 && e == 0) {
         return
     }
+    //floodFill the region around coordinate(h,d) with the RGB(j,i,c) value
     floodFill(h, d, j, i, c);
+    //draw the flodded region and get the points on it
     buildOutline();
+    //Send the points to create 3d model if success
     if (allPoints.length != 0 && !magicTraceError) {
         update3DViewer();
         updateTopBarMessage("closed")
@@ -1626,8 +1802,8 @@ function findSelectedRegion(h, d) {
         }
     }
 }
-
-function floodFill(r, q, u, d, g) {
+//floodFill the region around coordinate(r,q) with the RGB(u,d,g) value
+function floodFill(x, y, u, d, g) {
     var k = 1,
         j = 1;
     var o = traceCanvas.width;
@@ -1636,8 +1812,9 @@ function floodFill(r, q, u, d, g) {
         n = j,
         p = k + o - 1,
         m = j + s - 1,
-        a = [[r, q]];
+        a = [[x, y]];
     while (a.length) {
+        //loop through pixels until the continous region with similar color is flooded by matchStartColor
         b = a.pop();
         i = b[0];
         h = b[1];
@@ -1762,7 +1939,7 @@ function buildOutline() {
         convertPathToAllPoints()
     }
 }
-
+//transfer points in magictracePath to allPoints
 function convertPathToAllPoints() {
     var a = false;
     var e = false;
@@ -1771,9 +1948,11 @@ function convertPathToAllPoints() {
         return
     }
     allPoints = [];
+    //fill the anchor points and leave the control points empty
     for (var b = 0; b < magicTracePathArray.length; b++) {
         allPoints.push([magicTracePathArray[b][0], magicTracePathArray[b][1], 0, 0, 0])
     }
+    //fill the control points
     for (var b = 0; b < allPoints.length - 1; b++) {
         allPoints[b][2] = (allPoints[b][0] + allPoints[b + 1][0]) / 2;
         allPoints[b][3] = (allPoints[b][1] + allPoints[b + 1][1]) / 2
@@ -1781,7 +1960,7 @@ function convertPathToAllPoints() {
     itemClosed = true;
     magicTracePathArray = []
 }
-
+//called in buildOutline
 function addSegment(b, a) {
     if (magicTraceSegmentDictionary[b[0]] == undefined) {
         magicTraceSegmentDictionary[b[0]] = {};
@@ -1821,17 +2000,17 @@ function tracePath(h, e) {
     k.push(a);
     return k
 }
-
-function zeroElementsInAssociativeArray(b) {
-    var a = 0;
-    for (ycoord in b) {
-        a++;
-        if (a > 0) {
-            return false
-        }
-    }
-    return true
-}
+//Function not used
+//function zeroElementsInAssociativeArray(b) {
+//    var a = 0;
+//    for (ycoord in b) {
+//        a++;
+//        if (a > 0) {
+//            return false
+//        }
+//    }
+//    return true
+//}
 
 function backupImageLoad() {
     if (typeof FileReader !== "undefined") {
