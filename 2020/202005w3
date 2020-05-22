@@ -1,0 +1,81 @@
+﻿Creative Dimension的原型網站建構又有了新突破，
+CookieCaster的建構系統終於被我成功重建起來，
+Three.js相關的3D模型生成與環境建置已經正常運作，
+我另外對原版的程式流程做了修補，並且改變了途型外觀和繪圖時的配色，
+我打算在完全去除原本的Demo模式程式碼之後加上HTML的圖解教學，
+用幻燈片的方式來引導使用者學習如何使用這個系統。
+
+這個設計會有一個好處，就是把各種教學內容與建模系統的JavaScript程式碼徹底分開，
+未來CreativeDimension可能會有數十種不同的繪畫建模系統，
+如果每一種都要包含最基本的教學模式的話，管理上會變得十分艱難，
+教學的實際效果也會越來越差，
+因為並不是每一個使用者都想重新跑一次教學流程。
+
+在進行編程的時候，Threejs的版本問題也帶來了不少麻煩，
+為了徹底的輕量化，新版的Threejs把不少功能轉化成模組的形式並且與主要的API分開，
+這讓我在開發時必須一個一個的把模組放入專案裡。
+
+我修改3D建模系統的目的不只是要改進它的功能，更重要的是去迴避著作權與專利的問題，
+如果用來營利的話，我至少要把網頁和建模系統都修改到大郭數使用者介面與程式內變數名稱都不相同的地步才行，
+這在未來會替CreativeDimension省去很多不必要的麻煩。
+
+目前CreativeDimension的商業模式是先設定從簡易的建模系統出發，
+藉由使用者付費和提議來開發新的建模功能，
+讓網站的熱門度與用戶群增加，
+接下來再以此為基礎發展相建模葉與代印/製造業者收費的媒合平台。
+
+-----------------------------
+Ther's some breakthrough in the cosctruction of Creative Dimension's prototype website.
+I finally rebuilt the 3D modeling system of cookie caster.
+The Three.js related enviroment and functions are now operational.
+I also made some adjustments on the original program and vhanged the graphical appearance of drawing systme and the Webpage's layout.
+
+I'm planning to add a HTML slide show to replace the demo mode with it.
+This design will be able to seperate the tutorial contents from the main program related to model editing.
+In the future, Creative Dimension may have several dozens of modeling systems.
+If each system must contain the very basic tutorial, it will be extremely difficult to maintain.
+The actual effectiveness  of these tutorials will also be poor, since not every user wants to go through the complete tutorial.
+
+Three.js's version issues had caused me some problems while I was programming the system.
+In order to minimize the size, the latest version of Three.js seperated some of its functions from the main API and turned them into modules.
+This design made me have to pick those modules up one by one while I'm developing the project.
+
+The purpose of modifying the 3D modeling system is not only improving its function, but also evade possible copyright and patent issues.
+
+If I use the system in business applications, I must first at least modify it until it have different appearance and variable/function names to the original.
+This will prevent a lot of troubles from happening.
+
+Currently the business model of Creative Dimension is to start from a simple modeling service.
+It will obtain the feedback and donations from the users to further improve its functionality and increase the traffic and user count.
+Then we can develop the platform which can mediate services from 3D designers and printing service providers.
+
+------------------------------------------
+Creative Dimensionのサイトを構築について、私は又新しい成果を得た。
+CookieCasterの３Dモデルシステムをやっと再現した。
+Three.js関連の３D環境とモデル生成機能は正常稼動できる。
+ちなみに私は元のプログランの流れを少し改修した。
+そしてシステムの外見と作画するときのサポートグラフィックを調整した。
+
+完全にDemoModeを削除したら、私はHTMLの図解を作るつもりです。
+スライドショーの形で使用者に使い方を教える。
+この設計には一つ有利の点が有る。
+それは教学の部分を３Dシステム関連のJavascriptから切り離すことだ。
+未来でCreativeDimensionに数十種類以上のモデルシステムが持つ。
+もし全てのシステムが一つずつ基本の教学まで含めるなら、
+コードの管理はすごく難しくなる。
+その教学の効果も悪くなる。
+だって使用者は毎度全ての教学を体験したくないです。
+
+Source codeを編集したとき、Three.jsのヴァージョン問題はいろんなトラブルを生み出した。
+徹底的に軽量化するため、最新版のThree.jsは沢山の機能を本体から分離させて、モデルの形で独立させた。
+こうすると私は開発するときに一つずつモデルをプロジェクトに入れるしかない。
+
+私が３Dモデルシステムを改造する目的はその機能を改善するだけではなく、著作権と特許の問題を防ぐためだ。
+
+もし商業的な利用を目指すなら、私はせめて大部分のUIとコードの変数名称を変わるべしだ。
+これは未来でCreative Dimensionの沢山な法律問題を防ぐだろう。
+
+今Creative Dimensionのビジネスモデルは簡単なモデルシステムから始まる。
+使用者支援とその意見で新しい機能を開発する。
+そしてサイトの人気と使用者人数を増える。
+その人気と使用者を基づいて、プローの３Dデザイナとプリント業者向きの仲介サイトへ進化する。
