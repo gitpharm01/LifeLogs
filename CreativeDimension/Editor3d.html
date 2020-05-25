@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>3D editing mode</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .button {
+            background-color: rgba(20, 43, 224, 0.61);
+            border: none;
+            color: goldenrod;
+            padding: 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: 10%;
+            position: absolute;
+            font-weight: bold
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div id="ThreeJS" style="position: absolute; left:0px; top:0px">
+        <button class="button" style="top:10%;left: 45%" onclick="moveLeft()"> &#8678 </button>
+        <button class="button" style="top:0% ;left: 50%" onclick="moveUp()"> &#8679 </button>
+        <button class="button" style="top:10%;left: 55%" onclick="moveRight()"> &#8680 </button>
+        <button class="button" style="top:10%;left: 50%" onclick="moveDown()"> &#8681 </button>
+        <button class="button" style="left: 65%" onclick="zoomOut()"> + </button>
+        <button class="button" style="left: 70%" onclick="zoomIn()"> - </button>
+        <button class="button" style="top: 10%;left: 65%" onclick="rotateClock()"> &#8635 </button>
+        <button class="button" style="top: 10%;left: 70%" onclick="rotateAnti()"> &#8634 </button>
+    </div>
+    <script type="text/javascript" src="./Three.js"></script>
+    <script type="text/javascript" src="./THREE.CSG.js"></script>
+    <script type="text/javascript" src="./OrbitControls.js"></script>
+    <script>
+        // SCENE
+        window.scene = new THREE.Scene();
+        var container, scene, camera, renderer; //, controls
+        var zoomIndex = 1;
+        // INITIALIZE
+        (function() {
+            scene = window.scene;
+
+            // CAMERA
+            var SCREEN_WIDTH = window.innerWidth,
+                SCREEN_HEIGHT = window.innerHeight;
+            var VIEW_ANGLE = 45,
+                ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT,
+                NEAR = 0.1,
+                FAR = 20000;
+            camera = new THREE.PerspectiveCamera(45, SCREEN_WIDTH/SCREEN_HEIGHT, 0.01, 10000);
+                //new THREE.OrthographicCamera(
+                //-SCREEN_WIDTH / 2, // left
+                //SCREEN_WIDTH / 2, // right
+                //SCREEN_HEIGHT / 2, // top
+                //-SCREEN_HEIGHT / 2, // bottom
+                //NEAR, // near
+                //FAR // far
+            //);
+            scene.add(camera);
+            camera.position.set(0, 0, 1000);
+            //camera.lookAt(scene.position);
+
+            // RENDERER
+            renderer = new THREE.WebGLRenderer({
+                antialias: true
+            });
+            renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+            scene.background = new THREE.Color(0xffffff);
+            container = document.getElementById('ThreeJS');
+            container.appendChild(renderer.domElement);
+
+            // CONTROLS
+            //controls = new THREE.OrbitControls(camera, renderer.domElement)
+
+            // LIGHT
+            var light = new THREE.DirectionalLight(0xc4c4c4, 1);
+            light.position.set(0, 0, 1).normalize();
+            scene.add(light);
+
+            // GRID
+            var grid1 = new THREE.GridHelper(SCREEN_WIDTH / 2, 6, 0x444444, 0xe1e2e3);
+            grid1.rotation.x = Math.PI / 2;
+            scene.add(grid1);
+
+            var grid2 = new THREE.GridHelper(SCREEN_WIDTH / 2, 30, 0x444444, 0xc1c2c3);
+            grid2.rotation.x = Math.PI / 2;
+            scene.add(grid2);
+        })()
+        animate();
+
+        function animate() {
+            requestAnimationFrame(animate)
+            render()
+            //update()
+        }
+
+        //function update() {
+        //    controls.update()
+        //}
+
+        function render() {
+            renderer.render(scene, camera)
+        }
+
+
+
+        var material = new THREE.MeshLambertMaterial({
+            color: 0x004c98,
+        })
+        var cubeMesh = new THREE.Mesh(new THREE.CubeGeometry(300, 300, 300), material)
+        /*cubeMesh.position.set(0, 0, 150)
+        cubeCSG = THREE.CSG.fromMesh(cubeMesh)
+        // scene.add(cubeMesh)
+
+        var sphereMesh1 = new THREE.Mesh(new THREE.SphereGeometry(200, 30, 30), material)
+        sphereMesh1.position.set(0, 0, 150)
+        sphereCSG1 = THREE.CSG.fromMesh(sphereMesh1)
+        // scene.add(sphereMesh1)
+
+        var sphereMesh2 = new THREE.Mesh(new THREE.SphereGeometry(100, 50, 50), material)
+        sphereMesh2.position.set(0, 0, 150)
+        sphereCSG2 = THREE.CSG.fromMesh(sphereMesh2);
+        // scene.add(sphereMesh2)
+
+        var result = cubeCSG.subtract(sphereCSG1).union(sphereCSG2);
+        var mesh = THREE.CSG.toMesh(result, material);
+        */
+        scene.add(cubeMesh);
+        
+        function moveLeft(){
+            camera.position.x +=10
+        }
+        function moveUp(){
+            camera.position.y -=10
+        }
+        function moveRight(){
+            camera.position.x -=10
+        }
+        function moveDown(){
+            camera.position.y +=10
+        }
+        function zoomOut(){
+            camera.position.z -=30
+        }
+        function zoomIn(){
+            camera.position.z +=30
+        }
+        function rotateClock(){
+            cubeMesh.rotateZ(-0.1)
+        }
+        function rotateAnti(){
+            cubeMesh.rotateZ(0.1)
+        }
+    </script>
+</body>
+
+</html>

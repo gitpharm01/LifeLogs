@@ -48,9 +48,14 @@ function load_viewer(obj_data, viewerId) {
     
 	//geometry.castShadow = true;
 	//geometry.receiveShadow = true;
-  scene.traverse( function(mesh){mesh.doubleSided = true; mesh.flipSided = true;} );
+  scene.traverse( function(mesh){
+      mesh.doubleSided = true; 
+      mesh.flipSided = true;} 
+  );
+  mesh.rotation.set(180,180, 0);
+
   scene.add(mesh);
-  camera.lookAt(geometry);
+  //camera.lookAt(geometry);
   light.lookAt(geometry);
   //if (!$.browser.msie) {
     backLightA.lookAt(geometry);
@@ -66,7 +71,7 @@ function ani (t) {
 }
 
 function resetViewerCamera () {
-  camera.position.set(-40, -40, -150);
+  camera.position.set(0, 0, -200);
 }
 
 //get html element and set up viewer environment including scene, camera, and renderer

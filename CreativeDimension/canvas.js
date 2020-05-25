@@ -20,14 +20,14 @@ $(document).ready(function () {
 
 
 
-var firstPointMouseTolerance = 16;
-var firstPointMouseToleranceOffset = 8;
+var firstPointDistanceTolerance = 16;
+var firstPointDistanceToleranceOffset = 8;
 var mouseTolerance = 8;
 var mouseToleranceOffset = 5;
 var guideTolerance = 5;
-var HIGHLIGHT_ANCHOR_COLOR = "rgb(41,171,226)";
-var HIGHLIGHT_ANCHOR_RADIUS = 15;
-var HIGHLIGHT_LINE_WIDTH = 2;
+var MARKED_ANCHOR_COLOR = "rgb(41,171,226)";
+var MARKED_ANCHOR_RADIUS = 15;
+var MARKED_LINE_WIDTH = 2;
 var CLOSE_ANCHOR_COLOR = "#000000";
 var CLOSE_ANCHOR_RADIUS = 2;
 var POINT_BORDER_COLOR = "#d12a00";
@@ -122,113 +122,8 @@ var anchorRemoved = 0;
 /////////////////////////////////////
 var demoMode = false;
 /////////////////////////////////////
-var inAnchoringDemo = false;
-var inCurvingDemo = false;
-var inTracingDemo = false;
-var inMagicTracingDemo = false;
-var inMagicTraceClickingDemo = false;
-var inFinishingDemo = false;
 
-function pressDemo(a, b) {
-    if (!demoMode) {
-        return
-    }
-}
 
-function dragDemo(a, b) {
-    if (!demoMode) {
-        return
-    }
-}
-
-function releaseDemo(a, d) {
-    if (!demoMode) {
-        return
-    }
-    if (inCurvingDemo) {
-        var c = 0;
-        for (var b in allPoints) {
-            if (allPoints[b][4]) {
-                c++
-            }
-        }
-        if (c == allPoints.length - 2) {
-            startTracingDemo()
-        }
-    }
-}
-
-function closedDemo() {
-    setTimeout(function () {
-        if (itemClosed && inAnchoringDemo) {
-            startCurvingDemo()
-        }
-    }, 0)
-}
-
-//MBD code
-//var sampleStartImage = [[[182, 219, 194, 168, 1], [245, 178, 367, 75, 1], [432, 212, 489, 203, 1], [513, 252, 526, 297, 1], [492, 328, 468, 343, 1], [466, 342, 328.5, 342, 0], [191, 342, 148, 320, 1], [148, 286, 141, 266, 1], [153, 252, 167.5, 235.5, 0], [182, 219, 167.5, 235.5, 0]], [[379, 62, 425, 106, 1], [390, 177, 485, 147, 1], [492, 184, 515, 228, 1], [461, 254, 435, 265, 1], [409, 276, 390, 315, 1], [433, 381, 534, 407, 1], [486, 464, 470, 486, 1], [423, 489, 375, 458.5, 1], [327, 428, 288.2828729281768, 449.9745856353591, 0], [253, 470, 189, 506, 1], [150, 453, 129, 398, 1], [206, 387, 253, 340, 1], [241, 276, 200.5, 260, 0], [160, 244, 129, 204, 1], [160, 172, 194, 147, 1], [259, 184, 222, 122, 1], [264, 62, 321.5, 17, 1], [379, 62, 321.5, 62, 1]]];
-
-function beginDemo() {
-    startAnchoringDemo()
-}
-//update progress in different stages of tutorial
-function updateDemoStateMachine(a) {
-    inAnchoringDemo = (a == "inAnchoringDemo");
-    inCurvingDemo = (a == "inCurvingDemo");
-    inTracingDemo = (a == "inTracingDemo");
-    inMagicTracingDemo = (a == "inMagicTracingDemo");
-    inFinishingDemo = (a == "inFinishingDemo");
-    inMagicTraceClickingDemo = (a == "inMagicTraceClickingDemo")
-}
-
-function startAnchoringDemo() {
-    updateDemoStateMachine("inAnchoringDemo");
-    $(".demo-instructor.anchoring").fadeIn("slow");
-    redraw()
-}
-
-function startCurvingDemo() {
-    updateDemoStateMachine("inCurvingDemo");
-    $(".demo-instructor:visible").fadeOut("slow", function () {
-        $(".demo-instructor.curving").fadeIn("slow")
-    });
-    redraw()
-}
-
-function startTracingDemo() {
-    updateDemoStateMachine("inTracingDemo");
-    $(".demo-instructor:visible").fadeOut("slow", function () {
-        $(".demo-instructor.tracing").fadeIn("slow")
-    });
-    redraw()
-}
-
-function startMagicTracingDemo() {
-    updateDemoStateMachine("inMagicTracingDemo");
-    allPoints = "";
-    drawTraceImage("/demo/gingerbreadman.png");
-    $(".demo-instructor:visible").fadeOut("slow", function () {
-        $(".demo-instructor.magicTracing").fadeIn("slow")
-    });
-    redraw()
-}
-
-function startMagicTraceClickingDemo() {
-    updateDemoStateMachine("inMagicTraceClickingDemo");
-    $(".demo-instructor:visible").fadeOut("slow", function () {
-        $(".demo-instructor.magicTraceClicking").fadeIn("slow")
-    });
-    redraw()
-}
-
-function startFinishingDemo() {
-    updateDemoStateMachine("inFinishingDemo");
-    $(".demo-instructor:visible").fadeOut("slow", function () {
-        $(".demo-instructor.finishing").fadeIn("slow")
-    });
-    redraw()
-}
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //Initialize the scene after the page is ready.
 var shiftDepressed = 0;
@@ -242,23 +137,9 @@ $(document).ready(function () {
     $("#cookiesketcharea").mouseenter(function () {
         overCanvas = 1
     });
-    //Make dialog for demo
-    if (demoMode) {
-        $(".mainCanvas").addClass("blackout");
-        $(".demo-dialog").show().on("click", ".dialog-button", function (a) {
-            $(".demo-dialog").fadeOut("slow");
-            $(".mainCanvas").removeClass("blackout");
-            if ($(this).hasClass("no-to-demo")) {
-                toggleDemoMode();
-                return
-            }
-            beginDemo()
-        })
-    }
-    //switch demoMode
-    $(".demo-instructor .exit-demo").on("click", function () {
-        toggleDemoMode()
-    });
+
+
+    
     //Key event: if shift key is pressed, change the variable "shiftDepressed" to 1, seems to be useless.
     $(document).keydown(function (a) {
         if (a.which == 16) {
@@ -302,19 +183,6 @@ $(document).ready(function () {
     })
 });
 
-//switch on or off DemoMode,
-function toggleDemoMode() {
-    if (demoMode) {
-        demoMode = false;
-        removeTraceImage();
-        $(".toolbar").slideDown();
-        $(".demo-instructor").fadeOut("slow");
-        startOver();
-        redraw()
-    } else {
-        demoMode = true
-    }
-}
 
 //Set up the html5 2d canvas 
 function setupCanvas() {
@@ -368,10 +236,6 @@ function press(j) {
     //reletive mouse click position at (x,y)
     var x = j.pageX - offset.left;
     var y = j.pageY - offset.top;
-    //test function for demo mode, will return if the demo mode is not active
-    if (demoMode) {
-        pressDemo(x, y)
-    }
     //In a condition which allPoints is empty or the Sample Image is present
     if (allPoints.length == 0 || displaySampleImage) {
         //call function to set up offset(in this case is canvas) size( width and length)
@@ -482,11 +346,6 @@ function press(j) {
 function release(d) {
     var x = d.pageX - offset.left;
     var y = d.pageY - offset.top;
-    //handle the mouse up event in demo 
-    if (demoMode) {
-        closedDemo();
-        releaseDemo(x, y)
-    }
     //Nothing to do in magictrace mode
     if (magicTrace) {
         return
@@ -545,10 +404,8 @@ function release(d) {
         cookieCanvas.style.cursor = "crosshair";
         return
     }
-    //For Demo mode 
+
     if (itemClosed || deleteAnchorMode) {
-        //will move to next demo
-        closedDemo();
         return
     }
     //If the mouse curser hover on the first point, add the endpoint on the first point(close the loop)
@@ -569,9 +426,7 @@ function release(d) {
         createFinalArray();
         update3DViewer();
         cookieCanvas.style.cursor = "default";
-        if (demoMode) {
-            closedDemo()
-        }
+        
     } else {
         //If it's not the endpoint, and it's NOT in delete anchor mode
         //check if the new position will cause any intersection, return if intersection happened
@@ -588,9 +443,6 @@ function release(d) {
             return
         }
         addClick(x, y);
-        if (demoMode) {
-            closedDemo()
-        }
     }
 }
 var countDragEventMSIE;
@@ -599,7 +451,6 @@ var countDragEventMSIE;
 function drag(j) {
     var b = j.pageX - offset.left;
     var a = j.pageY - offset.top;
-    dragDemo(b, a);
     j.preventDefault();
     //skip the whoel process if in magic trace mode have sample image in the canvas
     if (magicTrace || displaySampleImage) {
@@ -676,7 +527,7 @@ function drag(j) {
     if (editAnchorIndex != -1) {
         changeAnchor(b, a, editAnchorIndex);
         redraw();
-        highlightPoint(editAnchorIndex, HIGHLIGHT_ANCHOR_COLOR);
+        markPoint(editAnchorIndex, MARKED_ANCHOR_COLOR);
         return
     }
     //if the control point is being dragged, change the x,y values of the corresponding control point directly
@@ -706,17 +557,17 @@ function drag(j) {
             //visualize the triangular tnagents with two red lines
             showControlPointTangents(editControlIndex);
             //highlight the control point with a yellow circle
-            highlightControlPoint(editControlIndex, CONTROL_POINT_ACTIVE_SELECTED_COLOR)
+            markControlPoint(editControlIndex, CONTROL_POINT_ACTIVE_SELECTED_COLOR)
         } else {
             //No red line needed, just highlight the control point with a black circle
-            highlightControlPoint(editControlIndex, CONTROL_POINT_INACTIVE_SELECTED_COLOR)
+            markControlPoint(editControlIndex, CONTROL_POINT_INACTIVE_SELECTED_COLOR)
         }
         return
     }
     endpointHover = 0;
     //loop through all  points and if the first point is selected
     for (var h = 0; h < allPoints.length; h++) {
-        if ((h == 0 && allPoints.length > 2 && !itemClosed && checkIfNearPointAdvanced(b, a, allPoints[h][0], allPoints[h][1], firstPointMouseTolerance, firstPointMouseToleranceOffset)) || checkIfNearPoint(b, a, allPoints[h][0], allPoints[h][1])) {
+        if ((h == 0 && allPoints.length > 2 && !itemClosed && checkIfNearPointAdvanced(b, a, allPoints[h][0], allPoints[h][1], firstPointDistanceTolerance, firstPointDistanceToleranceOffset)) || checkIfNearPoint(b, a, allPoints[h][0], allPoints[h][1])) {
             cookieCanvas.style.cursor = "default";
             turnOffGuides();
             var c;
@@ -730,10 +581,10 @@ function drag(j) {
                 //If it's not the case, just redraw with the new anchor point position
                 redraw();
                 endpointHover = 0;
-                c = HIGHLIGHT_ANCHOR_COLOR
+                c = MARKED_ANCHOR_COLOR
             }
             //highlight the point which is being hovered on.
-            highlightPoint(h, c);
+            markPoint(h, c);
             return
         }
     }
@@ -744,7 +595,7 @@ function drag(j) {
             turnOffGuides();
             redraw();
             var k = allPoints[h - 1][4] == 1 ? CONTROL_POINT_ACTIVE_SELECTED_COLOR : CONTROL_POINT_INACTIVE_SELECTED_COLOR;
-            highlightControlPoint(h - 1, k);
+            markControlPoint(h - 1, k);
             cookieCanvas.style.cursor = "default";
             return
         }
@@ -1066,7 +917,7 @@ function redraw() {
 }
 
 //highlight the edited control point with a circle
-function highlightControlPoint(b, a) {
+function markControlPoint(b, a) {
     context.lineWidth = CONTROL_POINT_SELECTED_LINE_WIDTH;
     context.strokeStyle = a;
     context.beginPath();
@@ -1098,11 +949,11 @@ function showControlPointTangents(b) {
     context.closePath()
 }
 
-function highlightPoint(b, a) {
-    context.lineWidth = HIGHLIGHT_LINE_WIDTH;
+function markPoint(b, a) {
+    context.lineWidth = MARKED_LINE_WIDTH;
     context.strokeStyle = a;
     context.beginPath();
-    context.arc(allPoints[b][0], allPoints[b][1], HIGHLIGHT_ANCHOR_RADIUS, 0, 360, false);
+    context.arc(allPoints[b][0], allPoints[b][1], MARKED_ANCHOR_RADIUS, 0, 360, false);
     context.stroke();
     context.closePath()
 }
@@ -1215,7 +1066,7 @@ function drawStartText() {
     var d = cookieCanvas.height / 2 + 15;
     var c = [];
     var a = [];
-    if (demoMode || traceImageLoaded) {
+    if (traceImageLoaded) {
         c[0] = ""
     } else {
         c[0] = "Click on the canvas to get started"
@@ -1295,13 +1146,13 @@ function drawTraceImage(b) {
     a.onload = function () {
         //remove the loading screen
         $(".canvas-loading").stop().hide();
-        //If demo mode is still active, set value of "e" to 1, else adjust it for the loaded picture "a"
-        var e = (demoMode && (inMagicTracingDemo || inMagicTraceClickingDemo || inFinishingDemo)) ? 1 : Math.min(traceCanvas.width / a.width, traceCanvas.height / a.height) * TRACE_SCALE_FACTOR;
+        //set value of "e"  for the loaded picture "a"
+        var e =  Math.min(traceCanvas.width / a.width, traceCanvas.height / a.height) * TRACE_SCALE_FACTOR;
         var d = a.height * e;
         var c = a.width * e;
         traceContext.clearRect(0, 0, traceCanvas.width, traceCanvas.height);
         //draw the image "a"(Only making a space, the image data in variable "b" will be loaded later)
-        traceContext.drawImage(a, (traceCanvas.width - c) / 2, (traceCanvas.height - d) / 2 + (demoMode ? 100 : 0), c, d);
+        traceContext.drawImage(a, (traceCanvas.width - c) / 2, (traceCanvas.height - d) / 2 + (0), c, d);
         //Update the control panel and flag variable "traceImageLoaded"
         $("#traceimage-add").hide();
         $("#traceimage-remove").show();
@@ -1538,9 +1389,7 @@ function interpolatePointsForQuad(h, d, a, l, g, c) {
 
 //Update the 3d model in the viewer
 function update3DViewer() {
-    //if ($.browser.msie && demoMode && isCurvingDemo) {
-    //    return
-    //}
+    
 
     //Find out the html element of the viewer
     var c = "view-container";
@@ -1582,7 +1431,7 @@ function update3DViewer() {
             //pointsToShape.lineTo(427, 321);
             //pointsToShape.lineTo(571, 166 );
             //pointsToShape.lineTo(250, 104 );
-            var extrudeSettings = { amount: 8, bevelEnabled: true, bevelSegments: 2, steps: 2, bevelSize: 1, bevelThickness: 1 }; 
+            var extrudeSettings = { amount: 30, bevelEnabled: true, bevelSegments: 3, steps: 2, bevelSize: 1, bevelThickness: 1 }; 
             var geometry = new THREE.ExtrudeBufferGeometry( pointsToShape, extrudeSettings ); 
             var mesh = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: 0x00ff00 } ));
             var exporter = new THREE.OBJExporter();
@@ -2064,9 +1913,7 @@ function toggleTraceMenu() {
     }
     var a = $(".placeImage");
     a.toggleClass("active");
-    if (demoMode && inTracingDemo) {
-        return startMagicTracingDemo()
-    }
+    
     if (a.hasClass("active")) {
         a.find(".tracedown").slideDown()
     } else {
