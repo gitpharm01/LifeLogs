@@ -1,0 +1,88 @@
+﻿Creative Dimension的基本繪圖系統已經大致成形了，
+我按照原訂計畫把HTML的圖形介面修改成我認為比較理想的狀態，
+並且建立了一個幻燈片形式的教學區，
+讓使用者可以一邊看著教學圖片、一邊實際去操作系統。
+
+大部分和DemoMode相關的程式碼也被我消除了，
+整體上只剩下參數和含數的名稱要改而已。
+
+為了增加3D模型的多樣性，我另外加入了ThreeCSG API，
+利用它來融合或切割一個不同的3D模型，
+讓使用者可以更輕鬆的創造出具有實際功能性的物品。
+
+在統整好建模系統的雛形之後，
+接下來的工作室去搭建CreativeDimension的網站架構，
+包括首頁、使用者登入介面、個人帳號管理、還有代印服務搜尋系統。
+
+雖然網頁介面的美術設計不必一次做到位，但是在使用者體驗的部分，
+我必須在一開始就打好基礎，讓心使用者能夠順利的理解3D製造技術和建模的概念，
+快速的建立自己所想要的模型並且找到理想的代印廠商。
+
+目前最初步的兩個收入來源分別是使用者贊助和代印業者的廣告收入，
+我從MIT創業課程裡學到，要向這械目標客群推銷自己的服務，
+並不是去宣傳CreativeDimension的機能性和技術優勢，
+而是要找出它們所想要的東西，藉此產生出實際的誘因。
+
+針對使用者而言，一開始可能是只是新奇感，
+我可以試著創造一些容易客製化又能夠在社群網站上造成話題的模型，
+另一群人可能是有模具需求但缺乏手工雕刻能力的人，
+這些人的需求比較穩定。
+
+-----------------------------------------------------
+Generally speaking, the basic modeling system for Creative Dimension is done.
+I followed the plan and modified the HTML graphical USER interface to a layout which I considered better.
+I also created a slide show for tutorial pictures.
+It allows the user to use the system while browsing those tutorials.
+Most of the Dmo mode-related code is removed.
+The remaining things to be changed is the names of functions and variables.
+
+In order to increase the diversity of the resulting 3D models, I added Three.CSG API for its functions to fuse or slice two different 3D models.
+It will allow the users to easily create more useful objects.
+
+After finishing prototype of modeling systems,
+the next task is to bui8ld up the infrastructure of Creative Dimension, 
+including homepage, log in interface, account management page, and search engine for printing-on-demand services.
+
+Although the are design of the webpage is not necessary to be perfect at the begining.
+I must build up a good fundation for user experience.
+The desing should let new users swiftly understand the concept of 3D manufacturing and modeling, then make his own desired model and find the ideal print-on-demand service provider.
+
+The initial incom of this site comes from user sponsorship and advertisement of printing service providers.
+There's one important thing i learned from MIT open course that I should never focus on the functionality of the system.
+The thing I should do is to elicit the customer's desire and need for my services.
+
+For the users, they might start using this system due to curiosity.
+I can try to create something easy to customize and can create popularity among socidal media platforms.
+
+Another group of people who would consider about Creative Dimension might be people who have demand for molds and tools but have no capability in sculpting.
+This type of customers will have more constant demand.
+
+-------------------------------------
+CreativeDimensionの基本モデルシステムは完成しました。
+私は予定通りHTMLのユサーインターフェースを自分が考えた設計に改修した。
+そしてSlideShow式の教学エリアを作った。
+これで使用者は教学影像を見ながらシステムを操作できる。
+
+大部分のDemoMode関連のコードは消された。
+後はFunctionとVariableの名称を変わるだけです。
+
+３Dモデルの多様性を増やすため、私はThreeCSG APIを加えた。
+その機能を利用して、モデルを融合と分立することが出来る。
+これで使用者はもっと簡単に実際の機能を持つ物件を作れる。
+
+モデルシステムを整えた後、次の仕事はCreativeDimension のサイト構造を作るです。
+それはホームページ、使用者のログインページ’個人のアカウントの管理ページ、そしてプリント業者の検索エンジンを含めている。
+美術デザインは最初から完璧になる必要がないが、
+使用者体験の部分を良い基礎を確保しなければならない。
+使用者を確実に３ｄ製造とモデル作りの概念を一瞬で理解させる。
+そして短時間で欲しいモデルを作るように。
+やがて理想なプリント業者を見つけ出す。
+
+CreativeDimensionの最初の収入は使用者からの援助と３Dプリント業者の広告費です。
+私はMITのOPEN courseで一つことを勉強した。
+それはこの二つの客にCreative Dimensionの機能性と技術の優越さを宣伝するではなく、
+彼らが欲しいものを探し出して、その欲望を掌握することだ。
+一般の使用者にとっては、最初は好奇心かもしれない。
+私はもっとカスタム可能そしてSNSで話題になれるものを作ってみる。
+もう一つの客層は器具が求めているが彫刻の能力がない人です。
+このような客からの収入はもっと安定でしょう。
