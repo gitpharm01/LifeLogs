@@ -1,0 +1,92 @@
+Creative Dimension的首頁原型已經做出來了，
+它可以展示最初始的介紹頁面，也能連結到建模系統，
+另外還附有一個登入介面，不過目前帳號管理系統尚未被實作，
+建模系統的繪出功能也實驗成功了，
+它現在可以用文字的方式繪出obj格式的模型檔案，
+只要把黨明改掉就可以讓3D切片軟體成功讀取其中的模型資料，
+不過整體的系統內部仍有許多Bug，需要不少工夫來修正。
+
+現在我需要製作一份可以說服目標專業人士加入團隊的簡報，
+簡單扼要的說明Creative Dimension的商業模式和核心價值，
+並且顯示出它背後的商機，
+最近我在Youtube上找到並且觀看了MIT與哈佛的開放課程，
+在商業模式的設計部分得到不少啟示，
+在接下來的一周，我必須要把這個東西完成。
+
+在進行Creative Dimension相關的工作時，我時常陷入自我懷疑的狀態，
+進而失去繼續下去的動力，
+和一般常見的創業家相比，我缺少極端的熱忱和集中力，
+對風險和詐騙的恐懼也很大，
+就算我擁有網站初期所需的資金，仍然無法彌補這方面的問題，
+而且到目前為止我都是一個人在作業，缺乏團隊的支持與鞭策。
+
+然而讓計畫延宕下去才是最糟的事情，因為時間和機會才是我最昂貴的成本，
+既然我想要離開現在的工作，並且讓自己成長到人生的下一個階段，
+那麼就要有承擔必要風險的勇氣和覺悟，和這接近十年的日常生活道別。
+我已經不能再讓自己的人生停留在目前的階段了，
+未來的人生必須要更多的技能和資源才能順利渡過。
+
+-------------------------------------------
+The initial prototype of Creative Dimension's Front page is created.
+It can show the brief introduction and link to the modeling system.
+I also added a login interface but its account management system is not implimented yet.
+By the way, the exprot function for 3D model is also done.
+It can now output the 3D model in obj formated text.
+Once the text file is renamed as obj file, it can be read correctly by slicing softwares like CURA.
+But there are still plenty of bugs in this system.
+These may take a lot of time and effort to fix.
+
+Now I have to create a briefing which can persuade the target professionals to join my team.
+It must explain the business model and core value to tehm in a simple and clear manner so as to show the business potential behind it.
+Recently I watched several open courses from MIT and Havard.
+I learned a lot from these videos.
+I'll creat this thing in this week.
+
+While I was doing tasks of this project, I often found myself in self-doubting state and started loosing the motive to continue the work.
+Compared to typical entrepreneurs, I lack extreme passion and focus.
+And I also have huge fear to risks and frauds.
+Even though I have enough fund for the initial stage, I still can't overcome these problems.
+Besides, I've been working alone untill now and hve no support and motivation from a team.
+
+But the worst result would be the delay of this project.
+Because the time and opportunity are the most expensive cost to me.
+Since I want to leave my current job and grow in the the next stage in my life,
+I must be prepared and have courage to take the risk.
+Time to say goodbye to the life style I've been in for almost 10 years.
+I can't let my life stop at the stage anymore. 
+My youth will fade with time.
+I must grow and obtain more resources to suvive the rest of my life.
+
+----------------------------------------
+Creative Dimesionのホームページのプロトタイプは出来た。
+これは最初の紹介ページをひょしする、そしてモデルシステムへのリンクもある。
+ちなみにLog-in　Interfaceもつけられた。
+しかしアカウント管理システムは未だ実装されていませんでした。
+
+モデルシステムのExport機能は完成された。
+それは今文字の形でOBJファイルを輸出できる。
+TxtファイルをObjに変更すれば、CURAなどのSlicing softwareはその中にある３Dモデルデータを読み込める。
+しかしシステム全体にはBugが沢山ある。修正するにはまだ時間が掛かる。
+
+今私が作るべきものは目標の専門家たちを説得できるブリーフィングです。
+明白でCreative Dimensionのビジネスモデルと中心の価値を説明する。
+そしてその背後の可能性を示す。
+最近私はYoutubeでMITとHavardのOpen courseを見かけた。
+ビジネスモデルの設計について色々勉強させた。
+次の一週間で私はこのブリーフィングを完成させる。
+
+Creative Dimension関連の作業を進めるとき、
+私は常に自分を疑った、そして作業を続ける動力を見失った。
+一般の企業家と比べると、私は明らかに強烈な集中力と熱情が欠けている。
+リスクと詐欺への恐れも強いです。
+たとえ最初期の資金を持っているでも、私はこれらの問題を解決できないです。
+それに今まで私はいつも一人で作業していた。
+チームからのサポートと鞭撻がなかった。
+
+しかし計画を延期し続けることは最悪のことだ。
+それ原因は時間と機会が私にとって一番高いコストだから。
+もし私が本当に今の仕事から離れたい、そして自分の成長を次の段階へ進めたいなら、
+必要なリスクを受ける勇気と覚悟を持つべしだ。
+この約十年間の日常から離すのだ。
+これ以上自分の人生を同じ場所で停滞しちゃいけないです。
+未来の人生にはもっと多い技能と資源が必要です。
