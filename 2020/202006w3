@@ -1,0 +1,92 @@
+關於建模系統的csg功能，他在最終測試的時候發生了一些詭異的結果，
+原來要把兩個模型結合的union運算結果卻相反的挖了個洞出來，
+我只能以相反的運算方式把它暫時修補起來。
+
+我目前正在嘗試把imageTrace API的功能加進系統裡，
+它可以捕捉svg形式的圖型輪廓，和CookieCaster使用的FloodFill方法相比可以產生更加平滑的型狀，
+進而生成更高品質的3D模型，避免鋸齒的發生。
+
+如果這個部分也完成的話，
+Cookie Caster原生的程式碼將會有大半被我用自己的誠事碼取代掉，
+在解決專利/著作權的路上會再進一步。
+
+Creative Dimension的企劃簡報目前仍停留在草稿階段，
+我試圖使用一些從Havard以及MIT open course所學學到的元素，
+用一個簡潔的句子來描述Creative Dimension的核心價值，
+另外用具體的故事來讓聽眾能夠快速理解Creative Dimension之前在客戶目前所面臨的狀況。
+接下來要做得是把CD的商業模式與公司架構呈現出來，
+由於我的簡報對象是潛在的團隊成員而非投資者，
+我必須把這個部分說得具體且完整才會有說服力，
+而這讓我發現了一個重要但我遲遲未去仔細研究的事情，
+那就是眾籌式系統開發機制的實際運作方法。
+
+這會是CD初期的成長動力來源，但是我從未參與過專業級的軟體開發團隊實作，
+對於開發的節奏和編制完全沒有概念，
+在專家面前裝內行是不會有好下場的，
+我應該採取的作法是誠實且謙虛的把自己目前的構想陳述出來，
+並且點出這個機制在運作上的關鍵要素，
+接下來讓我的聽眾去修正計畫中不合理的地方，
+這個過程也會有助於建立我的團隊。
+
+--------------------------------------------
+
+About the CSG function in modeling system, it produced strange results at the final test.
+The union function created a substraction, which is actually the opposite outcome.
+Currently I can only fix it by using another function to patch it.
+
+I'm trying to add imageTrace API into the modeling sytem.
+It can capture/trace shapes in an image with svg format.
+Compared with the cookiecaster's flood fill method, the imageTrace can generate smoother shapes and thus creats models with higher quality.
+The jigsaw-like edges caused by flood fill will not be an issue anymore.
+
+If I complete this part, the original code of cookie caster will be largely replaced by my own code.
+This is a step forward in the journey of solving the copyright issue.
+
+The briefing of Creative Dimension is now still in draft stage.
+I tied to use some tricks I learned from Havard and MIT open courses.
+I described the core value of creative dimension in a simple paragraph.
+I also told some stories to let my audiences understand what problems our potential customers are facing.
+The next job to do is to present the business model and the structure of the company.
+Since my target audiences are potential team members instead of investors, I have to make this part look realistic and have complete structure to ber persuasive.
+
+However, this let me discovered a important thing which I never studied closely, which is the actural mechanism of crowd/user based system development.
+This will be the main power source of growth in the initial stage.
+But I never participated in any professional software development which involves a team.
+It's not smart to pretend that I have such capability.
+I should honestly present my plan and concept for the mechanism and point out the key factors among this.
+And then I will let my audiences correct me and tell me their opinions.
+This process my have positive effect on building my own team.
+
+-------------------------------------------
+
+モデルシステムのCSG機能について、それは最終のテスト段階で変な結果を出た。
+ふたつの３Dモデルを融合させるはずのUnionFunctionは逆に穴をつけた。
+私が出来ることはしばらく他の機能を使ってこの問題を一時的に抑えるだけだった。
+
+私は今ImageTraceAPIの機能をシステムに加えることを試している。
+それはｓｖｇの形で影像の中にある輪郭を捕捉できる。
+CookieCasterが使っているFloodFillと比べれば、もっとスムーズな輪郭を得る。
+こうするともっと高い品質が持つ３Dモデルが作られる。
+
+もしこの部分も完成すれば、CookieCasterの元のコードは大半私のコードに取り替えられる。所有権問題の解決についてもう一歩進めるだろう。
+
+Creative Dimensionのプロジェクト　ブリーフィングは未だドラフトの状態です。
+私はHavardとMIT　Open Courseで学んだ技を使ってみた。
+一つ簡単な単語でCreative Dimensionの中心価値を述べる。
+そして具体的な物語で聴衆にCDのターゲットクラィエンとの困るところを理解させる。
+次の仕事はCDのビジネスモデルと会社の組成を説明する。
+
+私のブリーフィングの対象は投資者ではなく可能のチームメンバだから、
+私はこの部分を詳しく説明しなければならない。
+そうしないと説得力がないです。
+
+この部分を考える間、私は一つ重要な、そして自分が今まで良く考えなかったことを気づいた。
+それはCrowd/User　Based　System　Developmentの詳しい経営方針です。
+これはCDの最初の動力源だから、とても肝心なものだ。
+
+しかし私は専門のソフトウェア開発の実際の経験が一度もないです。
+開発のスケジュールと編成について全然分からないです。
+釈迦に説法みたいなことは良くないです。
+私がするべきことは正直に自分の構想を述べることだ。
+そして聴衆たちの意見を聞いて計画を修正する。
+こうするとチームの組成にもいい影響が有る。
