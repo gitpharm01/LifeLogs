@@ -1,0 +1,82 @@
+在實地用ImageTracer API進行輪廓萃取時，
+我發現它仍然會發生和數個月前我在試驗自動建模時碰到的問題，
+備萃取出來的輪廓破碎且數量成千上百，難以進行選取和處理。
+我有必要重新考慮和比較Bitmapt Tracing與FloodFill這兩種輪廓萃取手法，
+
+另外我也找到了一些可能可以讓FloodFill更加有效率的方法，
+而且paper.js似乎有有辦法去修正floodFill造成的鋸齒問題。
+如果Bitmaptracing的手段行不通，那麼這也是直得嘗試的一條路。
+
+在Creative Dimension的商業計畫書編寫方面，
+我在眾籌式系統開發的部分也作了一個簡報形式的介紹。
+列出它運作的方式和原理，並且分析它潛在的優勢與挑戰。
+我並不打算讓提案者任意天馬行空的提出不切實際的專案，
+在一開始用戶社群尚未成形的時候，
+Creative Dimension 的團隊會先提出數個案子給使用者們票選，
+接下來再舉辦專案票選活動，提供獎勵來促進用戶們提出實際可行的專案。
+
+另外我也得考量到心加入的競爭者可能會不只模仿Creative Dimension的服務方式，
+更會採用免費策略打亂市場，
+像是將收入完全放在網路流量廣告這一塊，
+讓使用者與製造/設計業者完全免費使用。
+對於Creative Dimension來說，
+要將建模系統從無到有建立起來並且定期維護的成本是不可能靠流量廣告來支付的。
+Creative Dimension必須要建立一個高素質的用戶群，
+並且為製造/設計業者提供價值遠超過google搜尋和FB社群的服務。
+
+在Havar i-lab開放課程提到的公司文化的部分，它不太可能只靠我一個人就能建立，
+而是由創始的團隊去塑造。
+我只能在一開始的時候設定一些目標和原則而已。
+-------------------------------------------
+
+When I was using the ImageTracer API to extract shapes, 
+I found that it still have the the same problem which I encounted two months ago while I was testing automatic modeling.
+The extracted shape became shattered and split into thousands of pieces.
+The are too hard to be selected and processed.
+I have to reconsider and compare bitmap tracing with flood fill.
+
+Besides, I also found methods which may make flood fill more efficient.
+Paper.js have methods that can fix the jig saw edge problem caused by flood fill.
+If bitmap tracing is not feasible, this would be the choice.
+
+In the making of creative dimension's business plan, I made a briefing to introduce the crowd-funded system development, explaning its mechanism and analyzing its advantages and challenges.
+I'm not planning to let the project submitters to image wildly and make unrealistic projects.
+At the initial stage, when the user community is not yet mature, our team will offer several projects for users to choose from.
+And then we will organize a campaign which rewards submitters of the most popular and realistic projects.
+This will encourage the users in our community to grow and learn more.
+
+Also I have to consider about the competitors who followed behind us, they might not only copy our sevices but also use "free service" strategies to disrrupt the market. They may be able to switch all their income source to website traffic advertisements.
+To creative dimension, who must build systems from zero and maintain it regularly, the website traffic is not likely to cover the cost.
+We must build up a user community with high quality and offer the service providers with more valuable services than google and facebook.
+
+About the "culture of the company" mentioned by Harvard i-lab courses.
+Its impossible to be created by myself.
+Its forged by the initial team.
+I can only set fundamental rules and principles.
+------------------------------------------
+
+ImageTracer APIを使って図形捕捉を実作した際、
+私が数ヶ月前で自動モデル生成を実験する頃に遭遇した同じ問題が発生した。
+それは捕捉された図形はボロボロで何千本の破片になった。
+これひゃ処理と選択することは難しくなる。
+BitmapTracingとFloodfillとこの二つの手段を比べて、そして考え直し必要がある。
+
+ちなみに私はFlood Fillをもっと効率的になる手段を見つけた。
+Paper.jsはFlood fillによるぎざぎざな輪郭を修復できるようです。
+もしBitmap tracing は本当に不可能なら、これも一つの方法だ。
+
+Creative Dimensionのビジネスプランを書くことについて、
+私はCrowd-funded system developmentについてブリーフィングを作った。
+その原理と運営方針を説明した、そして潜在的な利点と挑戦を述べた。
+私は使用者たちに非現実的なプロジェクトを提出させるつもりはない。
+User commnuityが成熟になる前に、Creative dimensionのチームは先ず若干のプロジェクトを提出して使用者たちに選べさせる。
+次は提案コンテストを開催する、
+そして実行可能なプロジェクトを提案した使用者たちを褒賞する。
+
+Creative Dimensionを真似る競争者はそのサービスをコッピするだけではなく、
+無料サービス戦略でマーケットを破壊する。
+競争者たちは収入を全てWebsite traffic advertisementにする。
+しかしCreative Dimensionにとって、モデルシステムを零から作り上げる、そして定期的にメンテナンスをするコストはWebsite traffic だけで支払わないです。
+
+Creative Dimensionは素質が高い使用者コミュニティを作る必要がある、
+そして製造業者/デザイナたちにGoogleとFacebookのサービスより価値が高いサービスを作らねば成らない。
