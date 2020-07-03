@@ -1,0 +1,87 @@
+﻿關於Creative Dimension的商業計畫，我依然沒有做出一個完整的版本，
+還有很多要素必須去完成，就拿Ficnancing 和Accounting來說吧，
+我必須列出公司最初所需的各項資本金額，從網路空間與伺服器費用到人事費用，
+這些都必須要被列舉出來，
+另外我也要設訂出收費的標準，對製造服務公司索取的廣告媒合費用要收多少?
+使用者在票選開發項目時的贊助需要設定金額上限嗎?
+每一塊錢的加成權重要怎麼計算?
+雖然我在此時設定的數字絕對會和計畫實際執行時有不小的出入，
+但是收入和支出結構必須完整的被呈現出來，證明這個商業模式的可行性。
+
+另外一邊我也在試著學習一些商業財務管理的基礎知識，
+畢竟Creative Dimension一開始可能會拿不到也請不起一位CFO，
+而且身為公司負責人，基本的財務和稅務管理嘗試還是必要的。
+
+我目前在嘗試把現有的3D建模系統加上可以製作Flexy可動模型的功能。
+它需要一組stl格式的Template，並且由Three.CSG去進行切割與合併的動作，
+這個功能會讓企畫案更具有吸引力，
+不過也考驗著我在Javascript的功力。
+當這個功能完成而且完整的Business plan也擬定好之後，
+我會開始找尋團隊成員的工作，讓Creative Dimension的籌備工作進入下一個階段。
+
+從今年三月開始就一直有不少國內外的大企業宣告倒閉，
+而且這個趨勢一直延續到現在，
+十年前被雜誌媒體吹捧將成為"明日之星"的頁岩油公司紛紛倒下，
+就連美國的槍械製造商都準備進入破產保護，
+各個產業的前景都陷入混亂與未知的狀態，
+Creative Dimension能夠在這個未來打下一席之地嗎?
+
+-----------------------------------------------
+
+About the business plan of Creative Dimension, I still haven't done  a complete version of it.
+There are still many things which must be done.
+Take financing and accounting for example, I ahave to list all of the initial amounts of the costs for the company.
+From internet space and server fee to employee's salary, there are many types of costs that I must concern about.
+Besides, I have to set the prices for our services.
+How much we are going to charge a service provider for our advertisement and matching service?
+Do we have to fcreate a upper limit on user's donation?
+How to calculate the priority index when the voters not only voted a project but also donated a certain amount of money?
+Though the numbers I am going to write in to the plan will not be precisely the same to the reality, income and cost structure must be complete and well presented.
+
+By the way, I'm also trying to learn the basic about financing and accounting in business.
+After all, we may not be able to hire a CFO in the begining.
+And as the company's stake holder, I should have such knowlege.
+
+I'm trying to modify the 3D modeling system and enable it to create flexy models.
+It will require a set of templates and perform the cutting and fusion with three.CSG.
+This function will make the project much more attractive.
+But it will also challenge my skills in javascript.
+Onece the function and the business plans done, I'll begin the task of recruiting possible team members and push the project to the next stage.
+
+From march of this year, news of big companies gone bankruptcy showed up agin and again.
+And yet the trend continues.
+The shale oil companies, which in tenyers ago was told by media to be the star of the future, crumbled one after another.
+Even the gun manufacturer in the US is going to file bankrutpcy.
+The future of all industries is uncertain and covered by chaos.
+Can Creative Dimension stand a out in such future?
+
+-----------------------------------------------------------------
+
+Creative Dimensionのビジネスプランについて、私は未だ完全なヴァージョンを出来ていませんでした。
+計画には沢山な要素が完成させるべしです。
+例えばFinacingとAccountingの部分、私は初期の会社の必要な支出の金額を列挙するべしです。
+そして私は料金の計算方法を決める必要がある。
+我々はService providerたちから一体どのぐらいの広告費を取るか？
+使用者が開発プロジェクトに援助金を支払えば、そのプロジェクトの優先値をどうやって計算すればいいのだ？
+私が提出した数字はきっと現実の状況とある程度の差別があるが、
+収入とコストの構造を完全に表す必要が有る。
+このビジネスモデルの実現性を証明するだから。
+
+もう一方で、私は商業の会計と財部と関する基本な知識を勉強している。
+Creative Dimensionは最初期でCFOを雇うことがあんまり出来ないだから。
+それに会社の責任者として、私はこの領域の知識を持つべしです。
+
+私は今３Dモデルシステムに”Flexy可動モデル”作成機能を加えうことを試している。
+この機能には一つのstl　Templateファイルが必要。
+そしてThree.CSGで分割と合併の操作を行う。
+この機能はプロジェクトをもっと人の心を引く易いになる。
+でもこれは私のJavascript設計能力を挑戦している。
+この機能とビジネスプランが完成すれば、私はチームメンバーを探し始める。
+Creative Dimensionの開発計画を次の段階へ進む。
+
+今年の三月から国内や国外の大企業が倒産した事件が多発でした。
+そして今この状況は続いている。
+十年前でマスコミが未来のスターと褒められたShale oil会社は次から次へ潰れた。
+アメリカの銃砲製造会社も倒産の準備を始まった。
+全ての産業の未来は未知そして混乱。
+こんな未来でCreative Dimensionは成功を獲るのかな。
