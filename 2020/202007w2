@@ -1,0 +1,89 @@
+﻿ThreeCAD是一位在CAD建模與網葉開發領域工作的工程師創作的，
+它在ITHOME.COM有詳盡的介紹文章，而且程式碼的品質也不錯，
+另外它解決了tHREE.JS以及tHREE.CSG內部的一些Bug，
+這讓它顯得十分有價值。
+
+不過由於它是在NodeJS環境下搭建，我必須先搞懂它。
+目前我已經學完最基本的知識，對它的性質和語法結構算是有點概念。
+ES6的模組化變成似乎已經是主流，
+我所觀看的node.js教學也採用了這個規範，它會讓程式整體更加嚴謹，
+適合像Creative Dimension這樣的專案，
+不過node.js的教學有提到在處理高CPU運算成本的項目時，node.js會碰到困難。
+不過按照cookie Caster以及ThreeCSG的成功案例來看，這應該是可以解決的。
+
+我從記帳與會計的教學資源學到了一些基本的表單名稱，
+還有作帳的完整會計流程，如果使用得當，
+這些工具會幫助我了解Creative Dimensio的收入與支出結構，
+雖然這些規則非常麻煩，但他是作為一個經營者必備的技能。
+
+另外我也惡補了一些公司行號稅法的知識，
+這幾年稅不是被改得越來越沉重了，如果不懂得有效的手段去減少稅損，
+可能會落得空忙一場的悲慘結局!
+
+我終於完成了第一個版本的Business plan，
+使用的是一個和MIT opencourse所教格式相似的範本，來自於美國中小企業局。
+不過它只是把Creative Dimension的基本要素列出
+，而且也缺少MIT課程所說的一些元素。
+更重要的是，它並沒有辦法讓人感覺到這是一個會賺大錢且吸引人的計畫，
+我之前完成的簡報也有著相同的問題。
+
+----------------------------------------------------------------
+ThreeCAD was made by a programmer who work in CAD and web-related areas.
+This project has detailed introduction at IThome.com and good quality of code.
+It also fixed several bugs in Three.js and ThreeCSG.
+These traits make it very valuable.
+
+However, since ThreeCAD is developed inside node.js's environment, I have to learn it first.
+Now I've learnt some basic knowledge of node.js and its properties.
+It seems that ES6 of javascript is already the mainstream style of development.
+The node.js tutorial I watched also used this style.
+This will make the program more neat and rigorous, which is suitable of complex project like creative Dimension.
+
+But the tutorial also mentioned that it is not suitable for CPU-intesive jobs.
+Creative dimension needs a ton of 3D calculations and might have such issue.
+But judging from the successful examples like cookiecaster and ThreeCAD, this problem may be solvable.
+
+I've learnt basic concepts and charts in accounting from tutorials, including the complete accountin cycle.
+If used wisely, these tools will help me understandin the income and cost structure of Creative Dimension.
+Though it have complex rules, it's an essential skill for an entrepreneur.
+I also learned some knowledge in company tax.
+Those taxes are becoming heavier and heavier.
+If I don't know how to effectively reduce these damages, I may miserably end up earning nothing.
+
+I finally completed the first version of my business model with a template from US office of small business.
+But it only has essential elements and lacks some important parts which are present in MIT open course.
+Most importantly, it still can't make people feels that it's amazing and going to create huge income.
+The briefing I've done earlier also suffered from the same problem.
+
+--------------------------------------------
+
+Three CADは一人のSoftware engineerが開発したプロジェクトです。
+この開発者はCAD及びO-lineAppに関する領域の専門家です。
+このプロジェクトはITHomeで詳しい説明がある。
+そしてそのコードの品質も悪くない。
+開発者はThree.jsとThreeCSGに潜んだBugを解決した。
+以上の点によって、このプロジェクトの価値が高いです。
+
+しかしこれはNode.jsの環境で開発されたものです。
+私は先ずこれを勉強しないといけません。
+今私は基本的な知識と開発方法を知りました。
+JavascriptのES6Module programmingは主流の開発方法になったらしい。
+私が観たNode.js教学もこの方法を採用した。
+これはプログランの構造設計をもっと慎み深いになる。
+Creative Dimensionみたいなプロジェクトにとっては相応しいです。
+でも教学もNode.jsは重度なCPU計算が必要するときにパフォーマンスが落ちると言った。
+３D計算が大量起こるCreative Dimensionはこの問題を遭遇する可能性がある。
+でもCookie CasterとThreeCADみたいな成功例があるから、この問題は解決可能でしょう。
+
+会計の教学資源から基本的な概念と会計報告の種類、そして作業の順番を学んだ。
+もし正しく使えば、これは私にCreative Dimensionのコストと収入状況を知らせる。
+会計の規則は多いですが、会社の経営者にとっては不可欠の能力です。
+
+付いてに私は会社に関する税金規則を勉強した。
+その税率はますます高くなりました。
+もし有効的な手段で税からの損失を防ぐしないなら、最後は無駄の努力になる。
+
+第一版のBusiness Planは完成しました。
+私は米国のOffice of small Businessが提供した例を使った。
+その構造はMITOpen courseが教えたものと大分同じですが、違う場所がある。
+一番重大な問題は私のBusiness planは未だ人に”これは凄い、絶対大金を稼ぐぞ！”と言う感じが与えないだ。
