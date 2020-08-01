@@ -1,0 +1,100 @@
+我的簡報完成改版了，整體而言它變得生動許多，
+然而它還有一些地方需要補足，
+首先眾籌式開發的機制仍然無法在簡報內完整說明，
+我之前為此製作的第二份簡報用所有的篇幅來詳述它的原理以及細節，
+但完全都是文字，我必須對它進行相同的處理。
+
+第二點是Financial projection的部分，完整的創業計畫是必須包含這部份的，
+我接下來會用概括的方式來列出公司的收入和支出，
+並且搜尋經營網站所需的各項費用，進而訂出一個明確的初期營運方針。
+
+我在ThreeCAD專案的學習已經快要結束了，
+這個專案花了很多篇幅在教CAD軟體的一些基本常識和操作，
+但對我而言最關鍵的CSG布林運算只有一小部分，是有點可惜。
+不過他對於未來CreativeDimension的系統開發團隊而言應該是一個十分有用的資源。
+
+在會計學的學習方面，我發覺可能會有一陣子的停滯期，
+因為實務上的會計很大一部分是在進行會計業務時才學得會的，
+光是理解會計原理和各種報表的格式其實沒有辦法讓人真正發揮會計的效力，
+大量的去實作才能讓我可以經由財務報表得知一個公司的經營狀況，
+我另外借了一本會計的書，它就是在探討公司主管如何用會計來管理部門，
+並且避免潛在的財務陷阱。
+
+接下來的八月我必須把用來招募團隊的工具做個統整，
+首先是文件的部分:
+1.Business plan
+2.公司介紹簡報
+3.Crowd-funded dev簡報
+4.Financial projection
+
+另外我必須完成以node.js為基礎的Flexi建模系統
+
+---------------------------------------------------------------
+I finished re-editing my briefing.
+Generally speaking it became more attractive.
+However, it still needs some improvements.
+First thing is that the crowd-funded development mechanism was still unable to be fully explained in the company briefing.
+The second briefing which I made for this problem covers all details about this topic.
+But it was made of pure text.
+I must process it in the same way I did on the first briefing.
+
+The second thing is aobut financial projection.
+A complete start-up plan would cover this topic.
+I'll roughly list the incom and expenses of the company and then search the verage cost of them.
+Finally I can create a initial operation strategy based on it.
+
+I'm about to finish my learning in ThreeCAD.
+This project used most of its contents to explain the basic functions of CAD softwares and how to build them.
+But the most crucial part, which is the boolean operations by Three.CSG, was only covered slightly.
+It's a pitty but this project can still be a valuable resouce for the future development team of Creative Dimension.
+
+About studying accounting, I found out that I may have a period of time with little progress.
+It was because the practical accounting is mostly learned through actual practice.
+With only knowledge in theory of accounting and forms of the reports, it's impossible to unleash the power of accounting.
+Only repeated practice can let me understand the situabiton of a company through financial reports.
+i also borrowed a book from the library.
+This book teachs managers how to manage their departments and avoid potential traps.
+
+In the next month, I have to arrange my tools for recruiting my team.
+First the documents:
+1.Business Plan
+2.The briefing of the compay
+3.Briefing for crowd funded development
+4.Financial projections
+
+And I have to complete a flexi modeling system which is based on node.js.
+
+-------------------------------------
+私のブリーフィングｍｐ改版は完成した。
+全体から見ればもっと鮮やかになった。
+しかしこれには未だ足りないところが有る。
+先ずCrowd-funded developmentの全体はこのブリーフィングで詳しく説明することが出来ない。
+そのための第二のブリーフィングは用意したが、その内容は文字のみ。
+この二つ目のブリーフィングを同じく修正する必要がある。
+
+次はFinancial projectionの部分です。
+完全なるBusiness planはこの部分を含める筈です。
+私はこれから大体の価格でこの部分を完成する。
+会社の収入とコストを列挙する。
+そして一つ明白な初期経営方針を決める。
+
+ThreeCADプロジェクトをいよいよ全て勉強しました。
+このプロジェクトは大分CADシステムの常識と操作を教える。
+私が一番欲しいCSG操作の部分はちょっとだけです。
+これは残念です。
+でもこのプロジェクトはCreative DimensionのDevelopment Teamにとって大事な教学資源になる。
+
+会計学の勉強について、私はこれから停滞期が来ると気づいた。
+その原因は実務の会計は会計作業をするのみ理解できるものだ。
+会計の原理と財務報告の形を知るだけでは会計の力を手に入れないです。
+大量な実作こそが私に財務報告で会社の経営を理解する能力を与える方法。
+会計関連の本を貸した。
+この本は管理者がどうやって会計で会社を管理することと、財務上の可能な罠を防ぐことを語る。
+
+来月で私はチームメンバをリクルートする材料を整える。
+先ずは書類です
+１．Business plan
+２．会社紹介
+３．Crowd-funded devの紹介
+４．Financial projection
+そして私はNode.jsを基づいてFlexi modeling システムを作る。
