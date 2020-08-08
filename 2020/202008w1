@@ -1,0 +1,89 @@
+經過一番折騰以後，我先前製作的3d建模系統終於在node.js平台上重現了。
+光是要弄懂Client與Server端不同的檔案配置就花了我不少時間。
+Client端的Library需要額外添加，
+因為用npm安裝的module只會在Server端運作，無法在Client端取用。
+
+目前3D建模系統只有少數功能生效，最關鍵的CSG功能還需要更多的嘗試，
+另外在node.js上實作client端與server端的檔案與資料傳輸也是一個重點，
+它可以用來驗證這個系統在實務上的可行性，
+如果實做這個部分，或許就可以實現從網站Server端直接下載stl/obj檔案的目標了。
+
+我統整了Crowd-funded development剪報的內容，
+把它最重要的特性用圖表來呈現，這個圖表會被放在簡報的開頭，
+讓聽眾能夠快速理解這個機制的全貌。
+不過我仍然覺得自己做的這幾個簡報仍然缺乏不少要素，
+但這些需要在開發團隊建立之後才有辦法完成，
+我只能救我現有的知識和資原來建構可以完成的部分。
+
+Financial projection的撰寫其實並不簡單，而且它需要大量的會計知識，
+我在上個月對會計學方面的學習產生了很大的助益，
+另外我找到了一些Excel格式的範本，
+它們其中有一個很適合Creative Dimension這種以網路服務為主的商業模式。
+Creative Dimension本身沒有進出貨以及製造流程之類的作業，
+因此在作帳上會單純非常多，初期的所需資本也很低，
+但是我必須明確的訂出一個可以執行的經營策略，讓財務步上正軌。
+在這個方面，我借的那本會計書有很多的著墨，
+它提到了不少從財務報表來發掘公司經營問題的方法，
+雖然不是那麼容易讀懂，但我必須耐心的去學習這些技巧。
+
+-----------------------------------------------------------
+After struggling with the node.js, I finally remade the 3D modeling system on this platform.
+It took me plenty of time to understand the different file system for the serve  and client side.
+The JS libraries must be added locally for the client side.
+It was because the modules installed by npm will only work on the server side.
+
+Most of the modeling system's functions are still not implemented.
+The CSG, which is the modst crucial function, still needs more effort to build.
+The file and data transmission between the client and the server is also an important issue.
+It can test the feasibility of this system.
+If I successfully implement it, I maybe able to activate the feature of downloading stl/obj files from the server.
+
+I rearranged the contents of the briefing about the crowd-funded development.
+I summerized its key attributes with an infograph.
+This graph will be located at the beginning of the briefing and let the audiences have a quicker understand of the whole mechanism.
+Still I feel that the two briefings lack some essential elements.
+But these parts require a complete development team to finish.
+
+It's actually quite difficult to make a financial projection.
+It requires plenty of knowledge in accounting.
+The basic accounting I learned last month helped me a lot.
+I also found some templateds in Excel format.
+One ofthem are suitable for on-line services.
+The Creative Dimension don't have to worry about buying raw materials, storage, and selling.
+This make the accounting much easier and have lower requirement of initial fund.
+But I must make a executable strategy to push the finance of the company into a healthy state.
+On this topic, the book I borrowed discussed many issues.
+It includes methods to discover potential problems in a company form its financial reports.
+Though difficult to learn, I still have to go through it with patience.
+
+-----------------------------------------------------
+苦労した後、前で作った３DモデルシステムをやっとNode.jsで再現させた。
+私はClientとServer両方のファイル配置を理解するだけで散々時間を掛かった。
+ClientのJSLibraryは一つずつ加える必要がある。
+NPMがInstallしたModelはServerの方だけ稼動できるだから。
+Clientの方はそれを使えない。
+
+いま３Dモデルシステムは多数の機能は稼動できない状態です。
+一番肝心なCSGきのうには未だ時間が掛かる。
+ちなみにNode.jsでClientとServer両方へのデータ送信も一つの重点です。
+これもこのシステムの実現性を検証する点です。
+もし成功すれば、サイトのServerからStl/OBJファイルをダンウロードすることを実現できる。
+
+Crowd-funded　Developmentのブリーフィングを整理した。
+その中の重要な特性を図解の形で示した。
+私はこの図解をブリーフィングの冒頭に置きました。
+観衆にこのメカニズムの全体をもっと早く理解させる。
+しかし私はやはりこの二つのブリーフィングが足りないところが沢山居ますと思う。
+だがそれはチームを集結できたあとこそ完成できるものだ。
+
+Financial projectを作ることは容易ではない。
+それに大量な会計関連の知識が必要です。
+先月で学んだ会計の基本は助けになった。
+そして私はExcelの手本を見つけた。
+その中にCreative DimensionみたいなOn-line　Serviceに相応しいものも有る。
+このプロジェクトは仕入や在庫などの作業がないだから、
+会計上の構造は凄く単純になる。
+そして初期資金の金額も低いです。
+それにしても、私は一つ成功な営業策略を作らねばなりません。
+この話について、私が貸した本は財務報告から会社の運営状況を診断する方法を沢山語りました。
+これはそんなに理解易い物ではないですが、私はきちんっと勉強するべしです。
