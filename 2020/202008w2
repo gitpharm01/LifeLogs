@@ -1,0 +1,93 @@
+ThreeCAD版本的ThreeCSG被我引用到了node.js平台的專案底下，
+在原本的專案所建構的功能已經全部移植過來了，
+以BSD物件來進行布林運算的程式碼也不是特別的困難，
+不過若要得出正確的運算結果可能還要多做一些調整。
+
+我從那本管理會計的書裡學到了一些財務分析的指標，
+可以用來輔助公司經營上的決策，
+像是訂定營業銷售的業績目標或是在兩個企畫案之間作取捨，
+由於作者是實際在業界服務的會計師，
+他會把實務上真正在使用的會計方法點出，這是非常有價值的，
+因為我的目的是用這些工具來使公司獲利，並非成為一個會計師。
+
+從財務報表和其衍生出的指標可以判定公司在業務執行上的成效，
+但是我發現自己並沒有明確的在Business Plan當中詳細的描述實務上要如何去進行公司的各種業務。
+就算完成了商業模式的基本架構，如果沒有辦法去實行的話就沒有意義了。
+我必須要弄清楚公司有哪些業務、
+什麼時候會執行這些業務、
+這些工作佑需要哪些技能和資源呢?
+
+我目前設想的公司業務有兩大主軸，
+一個是在討論區進行的Crowd-funded development，
+另一個是在官網部落格每週刊行的"每周精選模型"，
+這個活動同樣整合了CreativeDimension的兩個主要客群，
+另外還加入了3D建模設計師。
+公司會向想要增加知名度的設計師邀稿，選出最有潛力的模型之後交由3D列印業者印出，
+以專題報導的形式在部落格展示列印的成品並且開放使用者免費下載，
+這等於是同時衛3D設計師與列印業者做宣傳，
+每周發行的專題文章和免費模型可以讓網站的流量穩定增加，
+和Crowd-funded dev之間有互補的作用。
+
+-------------------------------------------------
+
+Thre ThreeCAD version of CSG library was imported to the node.js project.
+All of the functions of previous version are transplanted to this new project.
+The boolean operation on BSP object seems not so difficult to impliment.
+But it needs more adjustments to get the right outcome.
+
+I learned some methods from the accounting book which can help me make decisions about company's management.
+Thijngs like setting the goal of selling or choosing between two investment projects can be decided with some financial indices.
+Since the author of this book is a professional accountant, 
+he can point out the practical methods which are applied by real businesses.
+This is very valuable, because my goal is to find tools to help my company grow, not becomming a accountant.
+
+From the financial reports and indices I can understand the performance of the company.
+But I realized that I didn't discribe how to perform the crucial tasks of the company.
+Though I completed the structure of the business model, It will be totally pointless if it cannot be executed.
+I must figure out what tasks are required for this company, when to perform them, and what skills and resources are required.
+
+There are two main subjects in my current setting.
+One is crowd-funded development wh;ich will be held in the forum.
+Another is the "Model of the week" event which will occur weekly on offical blog.
+This event integrates two majority groups of our customers.
+And it also includes 3D designers.
+The company will invite 3D designers who want to increse their popularity to submit their designs.
+We will pick the best model and have it printed by printing service providers.
+And then the whole project will be reported as a blogpost and offer printable files for free.
+
+This will be an advertisement for both 3D designers and printing service providers.
+This event will also stably increase the website's popularity.
+
+---------------------------------------------------------------
+
+ThreeCAD版のThreeCSGはNode.jsプロジェクトにImportされた。
+前のプロジェクトで作った機能を全てこちらへ移った。
+BSD　ObjectによるBooleanOperationもそんなに難しくないようです。
+でも正しい結果を得るためには未だ調整が必要です。
+
+あの会計の本から私は少し財務分析の指標を勉強した。
+これらは会社の管理を輔助する。
+例えば会社の営業目標を定めること、あるいは二つの計画の間に選択をすること。
+この本の作者は実際に業界で働いていた人だから。
+彼は本当に使える会計方法を強調する。
+私の目的は会計士になるではなく会社の営業状況を改善するだから、これは助けになる。
+
+財務報告とそれから生み出した指標は会社のパフォーマンスを判明できる。
+しかし私は自分が未だBusiness planで会社の各種類の仕事を詳しく述べてたなかったことに気づいた。
+たとえBusiness modelの基本構造を完成したでも、もしその実行の方法がないなら何の意味もない。
+この会社の業務は何種類がある？
+何時かこれらを実行する？
+その必要な技能と資源は何だ？
+これらの問題を解決べしです。
+
+私が今考えている会社の業務には二つの主題が有る。
+一つはForumで行うCrowd-funded development。
+もう一つは公式ブログで毎週更新する”Model of the week”です。
+このイベントも同じくCreative Dimensionの二つの客層を統合した。
+その上に３Dデザイナーを加えた。
+本社は知名度が上げたい３Dデザイナーにモデルを募集する。
+そしてその中で一番目立つものを見つけ出して、
+プリント業者にっぷりんとさせる。
+報道の形でブログで仕上げたモデルを展示する。そして無料ダンウロードを提供する。
+これは同時にデザイナーとプリント業者を宣伝する出来る。
+毎週更新するコンテントはサイトの人気を維持そして増加できる。
