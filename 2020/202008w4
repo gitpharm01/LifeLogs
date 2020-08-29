@@ -1,0 +1,108 @@
+我在IThome的發問並沒有收到什麼有價值的回應，
+因為沒有人提出具體的數字，感覺答非所問。
+或許我還是自己去收集英文資訊會比較妥當。
+先收集網路空間業者的價位區間，另外調查itslith、cookieCaster
+等網站是用哪一種層級的伺服器方案。
+
+github以及google都有免費的架站平台，火也可以在上面做一些小試驗，
+把網站的試作品放上去，進而預估出網站運作所需的流量和運算能力。
+
+將匯入的模型檔案改為stl之後，之前發生的bug聘沒有被解決，
+被切割的3D模型仍然發生了嚴重的破圖。
+目前我想得到的成因只剩下一個，就是作為模型主體的mesh本身有問題，
+它可能是再生成時的設定，又或是在傳遞的過程發生了變化，
+我接下來要做的嘗試有二，
+首先是改動原先的ExtrudeGeometry的設定，
+第二個是放棄在客戶端生成3D模型，
+直接接收各個點的座標值以後在伺服器端生成ExtrudeGeometry，
+
+如果這兩個方法都沒效的話，我考慮把健模引擎轉換到openjsCAD上面，
+雖然openjsCAD的規模還比不上Three.js，
+但是它很明顯的將開發方向射定在建模上，
+只要他順利發展下去，遲早會在這方面超悅Threejs的。
+
+Creative Dimension的介紹文件數量增加了不少，因為要包含創立它的各種面向，
+目前完成的有1.專案簡介  2.Crowdfunded dev  3.Business Plan
+由於情報收集不是那麼的順利，而且我受限於自身的技術能力，
+所以Financial project與網站細部規畫的部分仍是未完成的。
+
+下個月的目標有三:
+1.完成Financial projection
+2.在google或其他免費平台把網站試作品架設上去
+3.開始招募團隊成員
+
+------------------------------------------------------------------
+My question posted on IThome didn't get much valuable replies.
+No body gave me any specific number on the cost of a website and most of them are not focusing on the topic.
+Maybe I would better gather these information in EnglishI'll first gather the pricing information of the web-hosting services.
+And check if I can findout what service package is subscribed by cookie caster & its litho.com.
+
+Github and Google offer free website platforms.
+I may be able to do some little experiments on those by running my website prototype on them.
+This will tell me how much bandwidth and computational force are required.
+
+After changing the imported model file format to STL,
+the bug was still not fixed.
+The cutte model still suffered severe glitching problem.
+\The only possible cause I can imagine lies within the cutted mesh itself.
+It might have proglems in its settings, or it gone wrong during the transmission between the server and the client.
+
+There are two methods i'm going to try.
+The first is to change the setting of the original mesh of ExtrudeGeometry.
+The second method is  to give up forming 3D models on client side and pass the shape points directly to the server to create the extrude geometry.
+
+If all of these methods failed, I'll consider about switching the modeling system from threejs to jscad.
+Although the scale of openjscad is still small, since it clearly sets its target to CAD applications, it may sooner or later exceed three.js in this area.
+
+The documents for Creative Dimension had increased a lot.
+This is because I have to cover all aspects of this project.
+The completed ones are:
+1.Project introduction 2.Crowd-funded development. 3.Business plan.
+
+Because I had trouble gathering info and limited by my own skills.
+The financial projection and detailed website structure was not done yet.
+Threre are three objectives in next month:
+1.Complete financial projection
+2.Run the prototype website on google cloud platform
+3.Start recruiting team members.
+
+-------------------------------------------------------------------------------------------
+ITHomeで提出した問題にあんまり価値が高い答えがもらえなかった。
+誰も具体的な数字を言い出しただから。
+なんだかその答えが問いに対してとんちんがんだ。
+自力で英語の情報を検索する方がいいと思う。
+先ずはWeb　Spacing業者のサービス価格情報を集める。
+そしていｔｓぃｔｈとCoockieCaster観たいなサイトはどんなServerを使っているかを調べる。
+
+GithubとGoogleもフリーのWeb－Hosting　Platformが有る。
+私はそれを使って小規模な実験を行う。
+そしてサイトに必要のTrafficとComputational forceを予測する。
+
+ImportされたモデルファイルがSTLに変えた後、前のBugが修正されていませんでした。
+分割されたモデルにまた重度な破損が起こった。
+今私が考えられる原因は一つ、それは分割対象としてのMeshに問題がある。
+この問題は生成される頃に発生した、あるいはServerに転送されたときに何か変化が起こったかもしれない。
+私がこれから試す方法はふたつ。
+先ずは元のExtrudeGeometryの設定を修正する。
+もう一つはClientSideで３Dモデルの生成を止める。
+直接に全てのPointをServerへ送る、そしてServerでExtrudeGeometryを生成する。
+
+もしこの二つの方法は全て失敗したら、
+私はモデルのエンジンをOpenjsCADに切り替わる。
+OpenJscadの規模はThreejsより小さいですが。
+このプロジェクトはCADに専念した。
+もし開発が進み続けば、何時かこの領域でThree.jsを超えるだろう。
+
+Creative Dimensionの紹介用書類が沢山増えた。
+これはこのプロジェクトの全てを説明するためだから。
+今完成したものは：
+1.プロジェクト紹介
+2.Crowd-funded Development
+3.BusinessPlan
+
+データ収集が順序ではなかった、そして自分の技術力に制限されたから、
+Financial Projectionとサイトの細部デザインの部分は未だ未完成でした。
+来月の目標は三つ：
+1.Financial projectionの完成
+2.GoogleのPlatformに試作サイトを移植する。
+3.チームメンバのリクルートを始める。
