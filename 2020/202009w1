@@ -1,0 +1,103 @@
+在ThreeCSG上進行的最終測試仍然失敗了，
+因此我把建模引擎從Three.js轉移到了jscad上面，
+目前已經完成了初步的移植，在node.js的客戶端正常運作，
+它可以接受網頁元件中的Text並且轉換成javascript程式碼，
+接著按照程式來運行3D建模運算。
+
+openjscad的作法是讓使用者在瀏覽器已程式碼來進行建模，
+它還支援輸出可分享的.jscad檔案，
+讓任何懂得使用openjscad的人都能分享他人的設計，
+這個機制十分有潛力，已經有數位開發者用Github page架設了自己的範例網站。
+
+這或許就是最適合Creative Dimension的最初運作模式，
+我會在googleCloud的免費平台上面架設一個原型網站，
+提供的功能為Flexy模型建模，
+接著在KickStarter上面設立專案，招募支持者與開發團隊成員，
+募款的目標金額就是第一年的所有營運和人事成本，
+在這一個方案，我會放棄將所有建模相關程式碼藏在伺服器的做法，
+讓大部分的運算再使用者的電腦完成，
+這雖然會導致網站被抄襲的機率大增，但是在處理效能方面是最經濟的，
+而且openjscad這個平台原本就已經存在大量的分享機制，
+開發者人數不多，但大多都是精通網頁設計與3D建模的人，
+就算Creative Dimension把自己的程式碼藏起來，
+只要有人想要加入這個市場，在人才與技術上是不會有太大的難度的。
+
+要讓Creative Dimension能夠在抄襲與競爭當中存活下來，
+我認為必須要確立這個網站的品牌和使用者忠誠度，
+我之前購司的Crowd-funded development以及使用者社群的發展就是達到這個目標的方法。
+
+經過調查之後，我發現網站空間的費用除了高等級的雲端主機以外大多都不貴，第一年的費用在數百美元上下，
+但第二年以後會迅速增加，而且主機服務業者的效率和品質也是必須注意的。
+
+-----------------------------------
+The last tests on three.CSG had all failed.
+And I hence switched the modeling engine to openjscad.
+Now the initial transplantation is done.
+The client side on node.js can function normally.
+It can acquire plan in HTML elements and transform them into javascript cod and then execute them.
+
+The openjscad allows users to create 3D models with browsers.
+It also supports sharable .jscad files, which can be distributed freely to anyone who know how to use openjscad.
+This make 3D designs easily sharable and have huge potential for further development.
+There are several developers who already created their example websites using Github page.
+
+This might be the fittest model for Creative Dimension's initial operation.
+I'll create a prototype website on Google cloud's free platform.
+The services it offers would be flexi models and other simple things.
+
+After that I will create a kickstarter page and start raising fund and recruiting development team members.
+The funding target is to cover all expenses of the website and salary for employees.
+
+In this project settings, I will five up hiding all model-related code in the server and let most of the computations be done on users' computers.
+Though this will significantly increase the risk of being copied by other competitors, it's the mode economic solution for the 3D processing.
+Besides, jscad already hve strong mechanisms for sharing designs and code.
+The developer community is still not ver big, butmost of its members master both web-developing and 3D modeling.
+Even if the Creative Dimension hide all of its code.
+As long as there are people who wants to enter this market, it would be not too difficult to find people and technological resources. 
+
+In order to help Creative Dimension survive the piracy and competitions, I think it's crucial to establish the website's brand image and earn loyalty from users.
+The crowd-funded development and management of user community are solutions for this.
+
+After some survey, I found that prices of first year's costs for web-hosting are not so expensive as long as it's not a high-end coud machine.
+The prices are within several hunderd dollars.
+But the prices will go up swiftly after first year, and the quality of these service providers may differ.
+
+-----------------------------------------
+
+ThreeCSGにおける最後の実験も失敗した。
+故に私は３DモデルのエンジンをJscadに移った。
+今私は最初期の移植を完成した。
+Node.jsサイトのClient　Sideで正常稼動できる。
+これはWebpageの中にあるTextをJavascriptに転換し、
+そしてそのJavascriptによってモデルを生成する。
+
+OpenJscadの設計は使用者にInternetBrowser でコードで３Dモデルを作る。
+このシステムは共有可能の。.Jscadファイルを輸出できる。
+.Jscadファイルによる設計の共有化を実現する。
+このメカニズムに発展性がとても高いです。
+既に数人の開発者がGithubpageで自分の試作サイトを作った。
+
+これがCreative Dimensionに一番相応しい初期運営方法かもしれない。
+私はGoogle cloudの無料Platformでプロトタイプサイトを作る。
+Flexy モデル作りというサービスを提供する。
+そしてKickStarterでプロジェクトページを作る。
+サイトの支援者と開発チームメンバーを招く。
+目標の支援金は第一年の運営と人事コストです。
+
+この計画で私は全てのモデル関連のコードを隠すことを諦める。
+大部分の計算は使用者のコンピューターで行う。
+それはサイトの内容がコッピーされる機会を大幅増えるが、
+サイトの３D処理コストが一番安いになれる。
+それにOpenjscadには大量な共有メカニズムが有る。
+開発者の人数は多くないが、略全員がWeb開発と３Dモデルの専門家です。
+たとえCreative Dimensionのコードを全て隠すでも、
+もしこの市場に入りたい人間が居れば、人材と技術資源を調達することは難しくないでしょう。
+
+Creatvie Dimensionをコッピと競争の中から生存させるため、
+私はこのサイトのBrand imageと使用者の忠誠度を確立するが必要と思う。
+前で考え出したCrowd-funded developmentと使用者コミュニティの発展はこの目標を達成する方法です。
+
+調べた後、高級のCloud machine hosting以外のWeb-hosting の価格があんまり高くないと気づいた。
+第一年の価格は数百USD のぐらいです。
+ですが第二年以降の料金は沢山増えます。
+そのサービスの品質にも注意するべしです。
