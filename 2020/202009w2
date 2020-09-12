@@ -1,0 +1,93 @@
+我完成了最初版的Financial projection，在經過檢視之後
+我發現Creative Dimension的最重的成本果然還是人員的薪水，
+總人數不到十人的團隊就可以把大半的利潤吃掉，
+但當公司發展到擁有足夠的使用者以吉合作廠商數量時，公司確實能獲利。
+
+這個版本仍然需要更多的訂正和調整，
+首先要把網域以及虛擬主機的確切費用列出，
+而且公司成立的費用以及稅率也要考慮進去。
+把公司的財務結構分析清楚才能制訂出適合的營運方針，
+這樣子才能正確使用之前在會計書學到的方法。
+
+在Flexy 建模系統的方面，現在已經可以藉由jscad來處理並且把來自2DCanvas的圖形轉化成立體模型，
+初步的CSG運作測試也十分成功，和Three.CSG的效果相比好太多了，
+我也在jscad的環境下建立了最關鍵的可動關節模型。
+
+在下一週，我將進行最重要的開發步驟，將3D模型加上可動關節，成為可3D列印的Flexy模型。
+要讓這個功能完成所需要的code還真不少，
+因為我必須提供使用者各種操作手段來建立他所想要的模型。
+
+再使用了openjscad一段時間後，我發現它也有一些潛在的問題，最重大的一個就是它的版本眾多，
+除了官方github網頁的版本之外，還存在有正在修訂的第二版，
+而我正在使用的版本又是不屬於上述所說的另一個版本。
+每一個版本所使用的語法都有出入，
+這讓我在學習和實際開發上碰到了不少困難，
+我目前會繼續使用現在的版本，因為它的結構最簡單，
+但未來招募到正式開發團隊以後，
+採用最新的版本應該會有更好的支援和效能。
+
+---------------------------
+I made the initial version of Financial projection for Creative Dimension.
+After examing it, I confirned that the heavist lod is indeed the payment for employees.
+Ateam with size below 10 persons can eat up most of the revenue.
+But when the user count and service providers grow big enough, the company will generate profit.
+
+This version still needs more adjustment and some corrections.
+First I have to add the expense on domain name and internet hosting.
+The cost of registrating the company and taxes should also be concerned.
+A decent strategy can only be made when the financial status of the compay is clear.
+And the techniques I learned from the accounting book will only function when they are calculated from correct data.
+
+On the development of flexi model system.
+It can now accept shape points from a HTML5 canvas and extrude it into a 3D model with jscad.
+The initial result on CSG operations was quite successful.
+Ant it was far better than the threeCSG.
+I also made the key componet which is the joint model under jscad environment.
+
+In the next week, I will do the most important develoment process, which is adding the function to create flexible joints on 3D models.
+This will generate printable 3D models.
+In order to create this function, it requires plenty of coding because I have to offer the users methods to maneuver and craft the model they want.
+
+After developming with jscad for some time, I found that it also has some potential problems.
+The giggest one is variety of versions.
+Besides the official release on Github page,
+there exists a version "V2" whcih is still under adjustment.
+And what I'm useing is yet another version.
+All versions differ from each other.
+This caused me many troubles when I was learning and using them.
+
+I'll keep using the current version since it have simplest structure.
+But when I build up the development team, moving to the latest version should have better support and performance.
+
+----------------------------------------
+
+私は最初のFinancial Projectionを完成した。
+調べた後、私はCreative Dimensionの一番重いコストがやはり人事のコストだと確認した。
+人数が十人以下のチームだけで半分以上の収入を消耗する
+でももし会社が充分に使用者とService providerの規模を発展すれば、利益は費用を遥かに超える。
+
+このヴァージョンにはもっと修正と調整が必要です。
+先ずはDomainNameとCloud hostingの料金を加える。
+会社の登録と成立に関する費用、そして税金も考えるべしです。
+こうして会社の財務構造を詳しく調べるこそ、あの会計の本から学んだ方法を正しく使う。
+
+Flexyモデルシステムについて、今はJscadによって２D Canvas の図形を３Dモデルへ転換させられる。
+最初のCSG操作実験も成功です。
+その結果はThree.CSGよりよほど優れた。
+私はJscadの環境のしたで大事なJointモデルを作った。
+来週で私は一番重要な開発段階に入る。
+それは３Dモデルに可動の関節を加えること。
+これで３DプリントできるFlexyモデルが作れる。
+
+欲しいモデルを作れるように、使用者に様々な操作手段を提供するだから、この部分に必要なコードが沢山有る。
+
+Openjscadを使い始めた後、私はその潜在の問題を気づいた。
+一番重大なのはこのLibraryに大量なヴァージョンが有る。
+公式サイトで使うもの以外に、修正中の第二版がある
+
+そして私が使っているのは又別のヴァージョンです。
+これらのコードの規則に沢山の差別がある。
+これは私が開発と勉強の過程に困難を与えた。
+一番簡単な構造が持つだから、私は現在のヴァージョンを使い続ける。
+しかし正式の開発チームを募集できたら、
+最新ヴァージョンを選べる方が一番善いサポートとパフォーマンスを獲るだろう。
