@@ -1,0 +1,103 @@
+Flexi建模系統的開發仍在持續當中，
+有不少之前我沒注意到的細節在過程中帶來了一些阻礙，
+不過後來還是被順利解決了，
+有不少部分的程式碼被大幅度的更動，
+未來關於這方面的成事碼可能會被我獨立成一個模組。
+
+目前我已經實現了關節Template在2DCanvas上的部分操作，
+可以用滑鼠拖曳的方式來調整Template的位置，
+至於旋轉以及調整長度的功能則還需要再調整，
+只要這些功能完成而且最終產生的Flexy模型可以正常列印，
+那麼最初版的Flexi建模系統就算完成了。
+接下來要做的就是把它掛上Google platform。
+
+我在網路上找到了幾個jscad相關的討論區，
+github上面的討論主要被限制在開發上面，另一個討論區則是比較開放一些，
+不過我還是得先確認過版規再發文比較妥當，
+我打算藉著這些討論版一步布的去認是openjscad的社群成員，
+並且從中找出可能的團隊人選。
+最一開始的工作大概會是爬文，找出活躍的發文者，
+進一步調查出他們的背景，另外我也可以發文詢問是否有衛在台灣的開發者。
+畢竟組跨國的創業團隊要處理的問題不是現在的我能解決的。
+
+我再進一步調整了最初版的Financial projection，
+就算把網路主機的費用和稅金列入考量，對公司的財物並沒有太大的衝擊，
+反而是廣告和宣傳方面的成本由於被預設為營收的固定比率，在公司擴張的同時會跟著大幅度膨脹，
+但日在這個年代砸大錢行銷不見得會收得到成效，
+把預算放在能夠配合公司整體策略的行銷方案會是比較有效率的作法。
+
+Creative Dimension的開發即將進入到下一個階段，
+但是又有新的法律案件找上門來，原因是ˇ我上一代的家族中出了幾個敗家子，而祖父並未及時跟他們切斷關係，
+我們目前也只能跟上一個案子一樣小心應對了。
+
+------------------------------------------
+The development of Flexy modeling system continues.
+Many details which I did not notice brought some issues but I handled them eventually.
+There were a lot of cod got changed drastically.
+In the future some of these code may be separated and become a module.
+
+Now I implimented some functions on 3D canvas for editing joint templates.
+I can change the positions of the joints by dragging the templates.
+But the rotation and length adjustment part still need to be fixed.
+Once these functions got completed and the resulting model can be printed successfully, this prototype will be complete.
+The following step would be getting it on google platform.
+
+I ofund several forums which is about openjscad.
+The github forum focuses on development and bug report.
+Another forum have broader topics.
+But Istill have to check the rules before I make any posts.
+I want to get familier with the members of the development community and find possible team members.
+Initial task may be crawling through the articles.
+I'll find the active members and analyze their background.
+I can also make post to ask if any developer is at Taiwan.
+After all, organizing an international startup team is something I cannot handle yet.
+
+I adjusted the financial projection again.
+Even if I add the cost of cloud-hosting and taxes into the expense, the outcom of the company's financial projection will not change too much.
+On the contrary, the budget for advertisement and marketing will grow drastically since it was set to be proportional to the revenue.
+However, it wont guarentee good outcome even if large amount of money is poured into advertisement campaigns.
+It would be much more efficient to put money on projects which can synergise with the company's overall strategy.
+
+Creative Dimension's development is going to enter the next stage.
+Bt a new lawsuit started bothering us recently.
+It was cause by some wastrel of my family in my father's generation.
+What we can do now is to face them carefully like the last case.
+
+-----------------------------
+Flexiモデルシステムの開発は続いている。
+前で注意しなかったことはその過程でトラブルを起こった。
+でも私はなんとなくあれらを解決した。
+でもコードには沢山な部分が変わった。
+未来で私はその部分を独立させて、一つのModuelにする可能性がある。
+
+今私は一部分の２D　Canvas上の関節Templateの操作を実現した。
+マウスでTemplateを引いて関節の位置を変更できる。
+でも回転と長さの調整は未だ実装されていない。
+これらの機能を完成し、そして出来た３Dモデルは成功にプリントされたら、
+このシステムのPrototypeは完成だ。
+次はこのシステムをGoogle Platformの上に移植すろ。
+
+私は二つのJscad関連のForumを見つけた。
+GithubのForumは開発に限る。
+もう一つのForumのルールはもっと緩やかです。
+でも私はやはりルールを確認した後で発言する方がいい。
+私はこのForumでOpenjscadの開発コミュニティを調べる。
+そしてその中でチームメンバを探す。
+
+最初の作業は恐らくPostを読むことだ。
+活躍している発言者を探し出す、そしてその人たちの背景を調べる。
+ちなみに私は”同じく台湾在住の開発者は居るか？”と発問する。
+多国籍のチームは私が管理できるものではない。
+
+私はFinancial projectionを又調整した。
+たとえCloud Hostingの費用と税金を加えるでも、最終の結果にあんまり変わりがない。
+それに反して、宣伝系のコストは収入の固定の比率だから、
+会社が拡張する同時にコストが急速で増える。
+しかしこの時代で大金を払っても、宣伝の効果が出る限りがない。
+予算を会社の全体戦略と統合できるキャンペンに投入する方がいいと思う。
+
+Creative Dimensionはいよいよ次の段階へ進む。
+しかし又新たな訴訟案件が来た。
+今回の原因は昔私の父の同輩の親族の中でどら息子が出た。
+そして祖父は奴らとの関係を切ったなかっただから。
+今は慎重にこの案件を立ち向かうしかない。
