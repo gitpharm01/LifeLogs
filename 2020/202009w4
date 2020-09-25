@@ -1,0 +1,81 @@
+Flexi建模系統的原型終於完成了。
+我製作了兩個stl檔案並且用CURA切出gcode。
+只要能夠用3D列印機成功列印出成品，Creative Dimension的第一階段就算是大功告成了。
+
+然而在把健模系統弄上雲端平台的時候，我碰上了一些問題，
+Google cloud, AWS, Asure這三大平台雖然提供免費試用服務，
+但是它們都需要使用者的信用卡號，這輩子還沒辦過卡的我是低一次覺得需要一張。
+不過我其實還有別的選項，就是使用github的github page平台。
+不過我得注意github上的著作/專利權規範，
+只要是放在公開repository的專案，任何github的使用者都能去複製使用。
+在我的專案裡要清楚定義著作權的設定。
+
+另外我自己的專案本身仍有不少cookieCaster的影子，
+雖然在這半年間的修改之下程式碼已經大不相同，但是仍殘餘不少舊的成分。
+我打算把這個部分轉化成模組，
+一方面徹底解決著作權的問題，利一方面可以讓2D canvas的功能模組化，利於未來的開發。
+
+我開始在jscad的論壇上發文，
+當Flexi建模系統的實際列印成品出爐之後，
+我會陸續發表成品的結果，吸引社群成員的關注。
+
+我現在史上已經有了一個可以證明自己不是空口說白話的依據，
+但是接下來要說服他人加入團隊的任務是會帶來更多的困難與挫折的，
+我必須要有心理準備，
+創業要承擔的事情是非常沉重且繁雜的，
+絕對不是媒體報導的那樣光鮮亮麗。
+
+-------------------------------------------
+The prototype of lfexi model system was finally done.
+I made two stl files and cut them with CURA to generate Gcode.
+Once the printed model is successful, the first stage for Creative Dimension is complete.
+
+However, when I was trying to get the system on the internet, I got some problems.
+Google cloud, AWS, and Asure all offer free trials for their services, 
+but they demand credit car to initialize a trial account.
+This was the first time in my life that I feel the need to own a credit card.
+But still I have another option, which is github page.
+But I have to be careful about the patent / copyright rules  on Github.
+All github users are free to copy any open repository.
+I have to clearly define my settings on the project's copyright.
+Besides,my project still have traces of cookecaster.
+Though the code is much different from the original project, there are still many residues remaining.
+I'm planning to turn the 3D canvas part into a module.
+On one hand it can solve the copyright issue, on the other hand it can make the 2d drawing function reusable to other parts of the project.
+
+I started making posts on jscad's forum.
+When the prints from flexi system is ready, I will make subsequent posts about this topic and attract other members' attention.
+
+Now I have a proof that I am not just a random guy who's selling his empty plan to others.
+But persuading others to join a start up team is a task filled with difficulties and challenges.
+I must be prepared for it.
+Starting a company means that I have to carry more duties which are heavy and tough.
+It will never be as pretty as what mass media potray in the news.
+
+------------------------------
+Flexiモデルシステムのプロトタイプはやっと完成した。
+私は二つのSTLファイルを製作した、そしてCURAでGcodeを生成した。
+もし３Dプリンタはこれらを成功にプリントすれば、Creative Dimensionの第一歩は完成です。
+
+しかしモデルシステムをCloud platformに移植した際、
+一つの問題が現れた：
+Google cloud、AWS、そしてAsureは無料体験サービスを提供しているが、クレジットカードが必要なのだ。
+今までカードが一つも持っていない私は初めてそれが欲しいと思った。
+でも私には他の選択がある、それはGithub pageです。
+しかし私はGithubの所有権についての規則を詳しく調べる必要が有る。
+Githubの公開のRepositoryに置いたプロジェクトは全てのGithub使用者に複製される可能です。
+自分のプロジェクトに詳しい所有権の宣言をちゃんと設定しないといけません。
+
+ちなみに私のプロジェクトに覇までCookiecasterの残存部分がある。
+この半年間で大部分のコードは改修されたでも、Cookiecasterの成分が残している。
+私はこの部分をModuleにする予定です。
+一方は徹底的に所有権問題を解決する、もう一方は２DCanvasの手描き機能を再利用可能の状態にする。
+
+私はJscad　Forumでスレを作った。
+Flexi Systemの実際の製品が出来た次第、私は続きスレを作って、メンバーの注意を引く。
+
+今私には自分の計画を証明できる根拠がある。
+しかし他の人を説得してStart up teamに入らせることは容易ではない。
+私には心の準備をするべし。
+起業者が背負う責任はとても重いです。
+絶対にマスコミの報道みたいに綺麗ではない。
