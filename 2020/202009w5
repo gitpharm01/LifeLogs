@@ -1,0 +1,99 @@
+我把Flexi system的試作品寄給了一個我認識的工程師，
+很幸運的這個系統成功的運作，而且對方給了一些正面的評價，
+不過從cookieCaster而來的大量全域變數以及程式碼過度龐大的問題果然被點了出來。
+目前模組化的工程還在進行中，
+一旦完成，我會把它掛上Github page。
+
+目前我在jscad forum的文章還沒有人回應，畢竟它和github討論版相比人氣還是少了一些。
+它是由一位在日本的開發者所維護的，
+這位開發者也曾參加過日本的自造者活動，
+
+我目前的團隊招募策略仍然不夠具體，只是在試探性的去詢問他人對我這個試作品的意見，
+並沒有提到Creative Dimension的任何情報，
+我自己是希望能夠循序漸進的和一些工程師建立起關係，
+然後一步步的找出適當的人選，但是按照目前的成果來看成效明顯不彰。
+
+為了擬訂一個真正行的通的方案，我得搞清楚一些基本的是情。
+
+我想要找的人是有前端開發工作經驗的人，精通html與javascript並且有設計使用者介面的能力，
+這個人不一定要懂得openjscad，但是要對3D建模有基本概念，
+最重要的是要對3D列印有興趣。
+
+這一位工程師的任務是去維護現有的系統，並且開發新的功能和建模系統，
+這讓我能夠把心力專注在宣傳以及財務上面，利於未來的發展。
+
+接下來的問題是要去哪裡才能找到我要的人，
+以及我要如何說服對方加入，
+直接在104上面找專案代工者似乎有些魯莽，
+因為我還不知道開發專案的價位還有在簽約上須要注意的地方。
+我必須去收集關於招募IT開發人員以及建立團隊所需要的知識。
+
+----------------------------------------------------
+I sent a copy of the prototype of the flexi system to a engineer who I know well.
+Luckily the system worked on his machine and he gave me some positive feedback.
+But he also pointed out the problem of too many global variables and too much cod in one .js file, which is caused by the cookiecaster part.
+The modulization of this part is still in early stage.
+Once it's finished, I will put it on Github page.
+
+My article on jscad forum haven't got any reply.
+Afterall, this forum have much lower traffic than Github.
+This forum is maintained by a developer who's currently in Japan.
+He also attended some events of 3D printing held in Japan.
+
+My strategy for building a start up team is still not clear enough.
+I was only asking people about their opinion on my prototype system and did not mention any information about the Creative Dimension project.
+I wanted to build up relationship with groups of engineers and find suitable ones.
+But judging from my result, this approach is obviously inefficient.
+
+In order to make a feasible plan, I have to get some basic things clear.
+
+The person I want to hire is someone who have experience in front-end development.
+He must be good at HTML and javascript.
+And experience in UI design will make things better.
+He do not have to master jscad but must have basic idea in 3D modeling.
+The most import thing is that he must be interested in 3D printing.
+
+The task of this engineer is to maintain the existing systems and develop new functions and modeling systems.
+With his help, I can focus on the marketing and finance of the project.
+The company will grow faster and better in this manner.
+
+The remaining questions are "Where to find people I want" and "How can I persuade them to joint."
+Directly find a contract engineer on 104.com seems to be too reckless.
+I don't know the average price of a contract for system development. I also have no idea about what must be cautious of when signing a contract.
+I must gather informations on recruiting and building a IT team.
+
+----------------------------------------------------
+私はFlexi Systemのプロトタイプを一人の知り合いのプログランマーに送った。
+ありがたいことに、このシステムは彼のコンピューターで正常稼動した。
+そして彼は私にポジティヴな評価をくれた。
+でもCookieCasterによる大量なGlobal variable数と厖大なコード構造はやはり彼に指摘された。
+この部分のModule化作業は未だ初期の段階です。
+もし完成すれば、私はこのシステムをGithub pageに移植する。
+
+私がJSCAD forumで作ったスレには未だ何の返事もない。
+Githubの掲示板と比べれば、ここの人気はそんなに高くないです。
+このサイトの管理者は一人の日本在住者。
+彼は日本のMaker関連のイベントを参加したことは有る。
+
+今のリクルート計画は未だ具体的になれないです。
+私はただ他の人に自分の試作品に対する意見を聞いただけ。
+Creative Dimensionに関する情報は全然言い及ばなかった。
+私は一歩ずつプログランマーたちと関係を作て、そして理想な適合者を探したかったが、
+今の成果から見れば、その効率はやはり低いです。
+
+本当に実現できる計画を作るため、私は若干の基本条件を考えねばならない。
+
+私が探したい人はFront end開発の経験者です。
+HTML とJavascriptを精通する。
+そしてUI設計の能力を持つ。
+JSCADに関する知識は必要ないですが、３Dモデルの構築について基本の概念を持つ方がいい。
+一番大事なのは３Dプリントに趣味があることだ。
+
+このプログランマーの仕事は現有のシステムのメインテナンス、
+そして新しい機能とモデルシステムを開発すること。
+これで私は宣伝と財務に専念できる。
+
+次の問題は”どこでこんな人を探し出す？”と”どうやって彼を説得する？”。
+104.Comで直接にフリーランサーを探すことは無謀と思う。
+私は未だその平均の値段と契約について注意しなきゃいけないことが全然知らないです。
+私はプログランマーを雇うこと、そして開発チームに関する知識を調べるべしです。
