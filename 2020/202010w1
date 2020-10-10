@@ -1,0 +1,81 @@
+FLEXI SYSTEM的2d繪圖功能支模組化處理發生了不少麻煩，
+因為它本身的體積龐大，而且我在先前的開發過程中加入了大量新的程式碼，
+這使得模組化的作業變得十分困難，
+不過我最後還是成功了。
+現在2d繪圖以及圖型輪廓捕捉功能的部分已經被切出，
+針對變數名稱以及函數的修改也有所進展，預計下周就可以製作出能在GITHUB PAGE上發表的版本。
+我考慮使用註解清除工具來讓它的體積變得更小一些。
+
+我在JSCAD論壇上的發文有了回應，
+回文的就是那一位論壇管理員，它也給了一些正面的評價，
+不過回文者也僅有他一位，
+在GITHUB PAGE上線之後，我會再一次的發文，
+另外在FACEBOOK以及GITHUB的部分也會留言，
+我所要找的目標:對3D建模有基礎知識而且對3D列印有興趣的前端工程師在這些平台的可能性最高，
+我得在文章中註明自己想要雇用工程師的意向。
+當然我也得要有心理準備，因為我是不太可能一舉就成功找到適合的人選的，
+在社群裡面把話題打開，並且盡可能的去認識社群的成員，
+這是沒有人脈的我唯一可以做的事。
+
+我陸陸續續看了一些關於招募IT人員的情報和文章，
+我發現自己身為一個業餘開發者會有一個大問題，
+那就是沒有能力去判定應徵者是否具備這份工作所需的技能，
+另外我本身也沒有人資方面的經歷，不太可能在短短一小時內就摸清楚面試者的底細。
+盡可能的去增加相關背景知識是我所想得出來的解決辦法。
+
+---------------------------------------------
+There were a lot of troubles when I was dealing with the modulization of 2D drawing functions.
+It was because of its size.
+And I added more code into it when I was developing the system.
+This made the modulization more difficult.
+But I still managed to complete it.
+Now the 2D drawing and shape tracing functions are seperated from the main script.
+I also made some progress in changing the names of functions and variables.
+I may be able to release the first version on Github page in next week and I'm considering usiong tools to minimize its size.
+
+My new post on jscad forum got some reply.
+The persion who replied me was actually the forum manager.
+He gave some positive opinions on my project.
+But he was the only person who replied my post.
+When my github page is ready, I will make new post and also send message to Facebook and github groups.
+The people I want to find might be also in these groups.
+I have to mention in my post that I want to hire front end engineer who's interested in 3D printing.
+I also have to be prepared since I am not likely to find the right person immediately.
+All I can do now is to create a topic among the community and get familier with the members as much as possible.
+
+I've read several articles about hiring engineers.
+There's a problem in me as an amateur, which is the lack of proficiency to distinguish whether someone is capable of handling this job or not.
+Besides, I don't have experience in human resources.
+It's not lilkely for me to see a person through withing an hour.
+Getting as much knowledge in this area as possible is the solution I can com up with.
+
+-------------------------------------
+Flexi systemの２D絵図機能のModule化作業は色々な問題が発生した。
+そのコードはもともと厖大だから。
+それに私が開発の過程で大量なコードを増えた。
+Module化の作業はとても厄介になった。
+でも私は何度なく成功した。
+
+今２D絵図と図形捕捉機能の部分は一つのModuleとして分離された。
+Variable とFunctionの名称を変わる作業も進んでいる。
+来週でGithub pageで発表できるヴァージョンをつるれる。
+私はそのコードを整理して、ファイルを一番小さいにすることを考えている。
+
+Jscad forumでのスレに返事が貰った。
+返事をくれた人はそのForumのマネージャだ。
+彼はいい評価をくれた。
+でも返事をくれた人は彼一人だけ。
+Githubページが出来たら、私はもう一度スレを作る、
+そしてFacebookとGithub groupでも発言する。
+私が探している目標－３Dプリントに興味を持つ、そして３Dモデルについて基本の知識があるFront end engineerはこれらの場所に居る可能性が高い。
+勿論私はスレの内容に自分が人を雇いたいを言い及ばないといけない。
+それに私には心の準備をするべしです。私は多分一気に相応な人を探し出すことが出来ないと思うだから。
+コミュニティの中で話題を作る。そして出来る限りそのメンバーと付き合う。
+これは私に唯一の出来ことだ。
+
+私はIT開発者を雇うに付いての文章を少し調べた。
+Amateurである私には一つ大きい問題があると気づいた。
+それは自分が応募者の能力を判明することが出来ないことだ。
+それに私自身に人事部門の履歴が無いだから、
+数時間の面接で人の素性を分かることが出来ない。
+出来る限りその関連の知識を撮ることは自分が考えられる方法だ。
