@@ -1,0 +1,83 @@
+我完成了FlexiSystem的css class以及Function還有variable名稱的更換，
+並且把他從node.js平台再次切換回原本的靜態網頁，
+經過一番調整之後，Github page成功上線了。
+
+我接著在jscad Forum與Facebook社群上發文，
+不過就如同我之前預期的一般，得到的反應並不大，
+我深刻體認到要宣傳和推廣一個專案是多麼的難，
+畢竟這個系統目前還沒有特別吸引人的特點，而且使用者介面也有帶加強，
+最重要的事他目前也只能製作一種已經大量存在的模型，
+我會在道FB的其它3D列印討論區留言，增加他的曝光度。
+另外在jscad的Github群組發文，
+除了介紹這個系統以外還要詢問群組成員有關開發上的問題，
+因為jscad的版本眾多，我想要找到一個理想的版本。
+
+我另外需要做的事情是和目標客戶充分溝通，
+也就是需要某種特定類型的3D模型的人，
+他們最需要哪種模型?願意花多少代價來取得?
+相是在Facebook的3D printing useful things討論群組有時就會重複出現一些同類型的物件，
+它們之間只有尺寸上的差異，
+我可以發起一個投票調查群組成員最需要的物品種類，
+以及需要調整的參數，如尺寸、外型之類。
+投票的結果會成為下一個建模系統的主軸。
+
+我覺得自己最近有很多過去所學的技能都生疏了，
+這一個禮拜我要重新針對一些重要的領域去複習，
+首先是MIT的創業課程，另外還有社交工程、心理學以及自我管理相關的主題。
+
+----------------------------------------------
+I changed the names of FlexiSystem's css class, functions, and variable names.
+And I turned this system from node.js back into a static webpage.
+After some adjustments, the Github page is now up and running.
+
+I made posts on jscad forum and Facebook groups.
+But just like how I've predicted, there were not much reations to my post.
+I realized how hard it is to promote a project.
+After all, this system still lacks traits that are extremely attractive.
+And the user interface still needs improvements.
+Most importantly, it can make only one kind of object, which is very common nowadays.
+
+I will make posts about it on other 3D printing related groups on Facebook to increaset its exposure to the public.
+I will also make a post on Github.
+Besides introducing this system, I will ask the community about how to further develop this project.
+Since there are many versions of jscad, I want to find the best version to develop with.
+
+Another thing I have to do is to communicate with my target customers, who need specific type of 3D models.
+What do they want most? How much are they willing to pay for it?
+Take the Facebook group named "3D printing usefull things"  for example, some type of object will show from time to time with a little difference in shape or size.
+I can start a poll and ask the members what are the most wanted objects and the attributes that must be adjustable.
+The result of the voting will become topic of the next modeling system.
+
+I'm feeling that some skills I learned before are decaying.
+During this week I will review some of them which are important.
+First the MIT startup course, and then social engineeringand self management.
+
+-------------------------------------------
+私はFlexiSystemのCss class とFunction及びVariableの名称を変わった。
+そしてこのシステムをNode.jsからStatic webpageに戻した。
+少し調整した後、Github pageで成功に稼動した。
+
+その後私はJscad forumとFacebook groupでスレを作った。
+でも予想の通りあんまりたいした反応がない。
+私は一つのプロジェクトを宣伝することがどれぐらい難しいかと分かった。
+大体このシステムには未だ人の目を引く点がない。
+それにUIにも改善できるところが有る。
+このシステムはただ一種類の３Dモデルしか作れない。
+そしてこのようなモデルは既に沢山有る。
+
+私は他のFacebook groupでスレを作る、その知名度を上げる。
+そしてJSCADのGithub groupで作るスレはメンバーたちに開発関連の問題を提出する。
+私は一番効率的な方法でシステムを開発したいだから。
+
+もう一つするべし個とは目標の使用者と充分な交流です。
+すなわち特定な種類の３Dモデルがほしいい人たちです。
+彼らは一体どんなモデルが欲しいか？
+そのためにどれぐらいの代償が払うかな。
+Facebookの”３D printing usefull things”と言うグループに時々同じ種類のモデルが話題になる。
+そのモデルの間にはサイズの差別しかある。
+私は一つのPollを始めて、そのグループメンバーの一番欲しいもの種類、及び調整するいつ様な要素を調べる。
+調査の結果は次のシステムの目標になる。
+
+私は最近自分が学んだ技能が鈍くなったと感じた。
+今週で私は重要な領域に関する技能を復習する。
+先ずはMITの起業コースです、そしてSocial engineering、心理学及び自我管理の部分をもう一度勉強する。
