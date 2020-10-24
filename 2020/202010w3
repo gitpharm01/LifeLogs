@@ -1,0 +1,89 @@
+到目前為止FlexiSystem並沒有獲得我之前所想要的關注，
+我會繼續嘗試改進它，並且把更新的結果以貼文的方式公開，
+讓這個專案的能見度更高。
+
+刪除關節Template的功能已經上線，
+我現在正在處理Accessory的添加功能，讓系統產生的模型可以擁有更多的用途。
+另外我算把教學功能的模組擴充，增加文字說明的部分，
+這樣一來就算系統改版，我也不用再次使用GIMP去一張張的重新製作教學圖片。
+
+我複習了MIT的開放課程，現在看起來我的計畫是比起年初的時候週全了許多，
+但是對最基本的行銷以及財務方面仍然有不足的地方。
+MIT開放課程每一堂的內容其實是被高度濃縮的，
+我雖然可以理解講師在課程中所強調的核心原則，
+但是對於實行上的細節仍然一無所知。
+
+目前我實際上的計畫進行進度仍停留在初期的階段，
+要如何擴大他人對這個計畫的關注，甚至願意成為團隊的一員，
+這是我在推動CreativeDimension計畫的階段性重點。
+我的試作品仍非專業水準，但是勉強是上得了檯面，
+我會加入一些前端開發的社群，把自己的構想描述出來，
+看看能不能找到志同道合的人。
+
+Flexi系統目前有另一個重要的課題，就是把建模的核心切換到新的版本上。
+我會先以目前最穩定的V1為基礎，參考jscad.org官網的配置來進行移植。
+
+2020年已經接近尾聲了，我在今年執行的Cretive Dimension計畫比起過去的CAFit等專案相比嚴謹許多。
+但是我也發現自己還有需多不足的地方需要去填補才能讓創業計畫真正上軌道。
+
+--------------------------------
+Until now, the FlexiSystem didn't gain the attension I wanted.
+I'll keep improving it and publish the update progress by Facebook post.
+This will keep the project on the surface.
+
+The function for deleting joint templates is on-line.
+I'm now dealing with the adding of accessories.
+This will make the resulting model more versitile.
+I'm also considering about the expansion of tutorial module.
+By adding text part to the tutorial, I don't have to re-edit all tutorial pictures one by one with GIMP.
+
+I reviewed "nuts and bolts of Business plan" from MIT open course.
+My plan is much more complete compared with the initial version in the beginning of this year.
+But it still have holes in the aspect of marketing and financial.
+This course is highly compact.
+I can comprehend the fundamental principles, but there are still too many details I don't know when it comes to practicing these principles.
+
+My project is still in a early stage.
+How to accumulate and expand other's interest to my project and further more become a team member is the current main topic of my task.
+My work is far from proffesional, but it is barely enough to be put under the pulic's examination.
+I will join some groups related to front-end development and describe my initial concept, see if I can find people who share the same vision.
+
+The flexisystem has one addional challenge, which is to switch the 3D engine to the new version.
+I'll consider using the stable V1 and transplant it by studying the structure of jscad.org.
+
+The 2020 is comming to an end.
+The Creative Dimension project is much feasible than my previous projects like CAFit.
+But meanwhile I found that I still lack many things to really make Creative Dimension into a real business.
+
+---------------------------------
+今までFlexiSystemは私が欲しかった注意を貰わなかった。
+私はこのシステムを更に改善する、そして更新の結果をスレの形で𣊫表して、このプロジェクトの人佋を𡶺やす。
+
+Joint Templateを削除する機能は完成した。
+私は今Accessoryを加える機能を開𣊫している。
+これはモデルにもっと多昞な用途を与える。
+ちなみに私は教?Moduleの機能を強化する予定です。
+文字の部分を加えれば、たとえシステムが更新されても、
+私は一つずつ教?影像を作る必要が居なくなりました。
+
+私はMITのOpenCourseを復習した。
+今から𠍿れば、私の計?醾V年初め時よりもっと完全になった。
+しかし基本的なMarketingと財務の方について不足なところは恾山有る。
+MIT OpenCourseの?X容は高度蔃縮されたものです。
+私は教師が強調した中心原則を理解出?Sるが、
+それを琔現するために何かを注意しなければならないことは知っていない。
+
+今この計?醾U琔行段階は未だ初期に留まっている。
+どうやって他の人がこの計?醾R𡜻する注目を𡶺やせるのか。
+どうやってチームメンバをリクルートできるか？
+これらは現在のCreative Dimensionに𡜻する一番重要な課題だ。
+
+私の作品は未だプロのレベルではないが、
+ぎりぎり見せるものとはいえる。
+私はFront end開𣊫亼連のグループを?禰[する。
+そして試作品と自分の考えを𣊫表する。
+こうして同じことを考えている仲間を見つけ出す。
+
+Flexi Systemにもう一つ重要な課題がある。
+それは３Dエンジンを新しいヴァージョンに移植することです。
+私は一番安定なV1を目指す。
