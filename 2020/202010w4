@@ -1,0 +1,81 @@
+FlexiSystem的教學模組以及附件模組都大致上完成了，
+我決定把心力放在下一個專案，先暫時停止FlexiSystem的更新。
+我已經研究過了JSCAD正式版本的程式碼結構，
+所有核心的程式碼會和一些附加的功能一起被封裝到一個JS檔案裡面，
+這會使得網站的結構極為簡潔，
+不過反過來要分析這個系統就變得有些困難，
+很幸運的是有人做出了一個以最基本JSCAD核心功能為基礎的Self-hosted page application，
+它可以成為下一個專案的學習範本，
+而且它已經有充分的註釋，在開發上應該不會有太大的技術問題。
+
+然而下一個專案的建模目標成了大問題，因為我不知道人們究竟想要哪種東西。
+我打算先在網路上搜尋出最熱門且有實用性的數種物件，
+接下來再到Facebook社團進行問券調查，詢問群組成員最想要的3D列印物件。
+這樣做會有幾個好處，首先是確保我做的東西是"我宣傳能力所及的人"所想要的。
+第二個好處是它會成為一系列宣傳活動的開端，
+而且由於我已經在社團裡做出公開承諾，在潛在的履約壓力之下我執行開發的效率會更高。
+
+我已經加入了一個前端開發的FB社團，確認過討論的風氣算是良好，
+我會在參加的社團展開前述的調查。
+
+但光是知道人們最想要的東西是哪一種其實不足以支撐Creative Dimension的成長，
+為有讓使用者可以不斷的回到網站尋求更多服務，
+達到所謂的Customer Retension才能讓使用者人數成長不中斷，並且徹底的和Thingiverse所提供的服務做出區隔。
+
+------------------------------------
+The Accessory and tutorial modules of Flexisystem are basically completed.
+I decided to stop updating it and put my time and energy on the next project.
+I've studied the official release of jscad.
+All of its core modules and some optimal features will be packed into one js file.
+This will make the website structure much tidier.
+But it also made the system more difficult to study.
+
+Luckily,m someone has created a self-hosted page application which contains the minimal build of jscad.
+This can be the backbone of the next project.
+Its code is well cited and thus will have lesser technical problems.
+
+However, the model of subject for the next project becomes the biggest problem since I don't know what kind of models are most wanted by users.
+
+I'm planning to search on internet and find the most popular things which are useful.
+And then I'll ask questions in Facebook groups about what does the members want and need most.
+By doing this I'll gain several advantages.
+First I can make sure that what I'm going to make is desirable to groups I can contact with.
+The second effect is that it can be the beginning of a serie of propaganda.
+And since I've promised publicly that I'm going to make the next project, the pressure will make me more dedicated to the development.
+
+I've joind a Facebook group on Front-end development and I confirmed that it have good culture on discussions.
+I will launch the survey in this group.
+
+However, simply knowing what people want will not be enough to support the growth of Creative Dimension.
+Only when the users keep going back to the website for more services, the goal of customer retension can be achieved.
+And this is how Creative Dimension will distinguish it self from thingiverse.
+
+--------------------------------------------------
+Flexi Systemの教学とアクセサリModuleは一応完成した。
+私はこのシステムを暫く放置して、自分の時間を次のプロジェクトに投入する。
+私はJscadのMaster branchを勉強した。
+その全ての中心のコードと追加機能は一つのｊｓファイルに詰め込まれた。
+これはサイトのファイルシステムをより簡潔になるが、
+システムを解析する作業は難しくなる。
+
+幸いにある人はJscadの基本的な機能を持つSelf-hostedPageApplicationを作った。
+これは次のプロジェクトのテンプレートになれる。
+ちなみにそのコードにも適当なコメントがつけたから、
+大した技術問題が起こさないだろう。
+
+しかし次のプロジェクトの主題は大問題になった。
+その原因は私が人が欲しがっているモデルの種類が全然知らないだから。
+私は先ずネットで一番人気が高い、そして実用性があるものの種類を検索すると思う。
+そしてFacebook　Groupでアンケートをする。
+そのリストの中で一番人気があるものを探し出す。
+この方法には三つの効果がある。
+先ず私がこれから作るものは自分が連絡できる人に欲しがっている。
+第二の効果はこのアンケートは一連の宣伝キャンペンの始まりになる。
+第三の効果は自分が新しいシステムを作ると宣言した故に、その約束からの圧力で自分はもっとシステムの開発に専念する。
+
+私は一つのFront-end開発関連のFacebook groupに参加した。
+そのグループの雰囲気ほ良好です。
+私はここでアンケートを行う。
+
+しかし使用者達が欲しい物を知るだけでも、Creative Dimensionの成長を支えないです。
+使用者が繰り返すサイトへ戻ってもっと多いサービスを求める状態になるこそ、Customer retensionと言う目標を達成できる。
