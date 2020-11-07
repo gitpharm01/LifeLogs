@@ -1,0 +1,89 @@
+在Front end development討論區發的投票很幸運的沒有被管理員當作不相干的文章刪掉，
+而且有數十個人參加了這一次的投票，
+目前票數最高的是一個防積水的肥皂盒，這其實是最容易建模的一個物品，
+剛好可以用來讓我練習jscad。
+
+我已經把他的兩個主要零件:有開排水孔的盒子以及網狀盒蓋製作出來了。
+只要加上可調整的參數介面，這個作品就可以發表了。
+
+我打算參考一個github 專案的作法，製作一個可以陳列所有作品的頁面，
+接下來把我的設計一一放入其中。
+
+最近這幾個星期下來我發覺我正在打造的這個系統並沒有一口氣成為人氣話題的潛力，
+我必須修正自己的心態，限從最小眾的客層出發，
+不要妄想自己可以在沒有經驗的情況下輕鬆創立新公司和網站，
+我應該先打造自己的品牌和盒新客戶群。
+成立patreon專案或許是個實際的做法，
+Paatreon是一個龐大且發展成熟的平台，可信度也較高，
+雖然來自贊助者的資金會被抽成，但是金流和帳務上會比較單純，
+我可以專注在技術開發以及經營用戶群上面。
+關於Crowd-funded development部分，
+我也可以在Patreon進行票選活動來模擬它的運作。
+
+在這個月我要達成的目標有以下數個:
+1.完成四個以上的jscad設計專案並且發布在github,facbook以及jscad usergroup上面。
+
+2.研究10個3D列印模型相關的patreon專案，分析他們的策略(目標客群 ,宣傳平台,更新頻率)
+
+3.建立我自己的patreon帳號以及專案。
+
+-----------------------------------------------------
+My polling post on Front-end developer group was luckily not treated as off-topic article by administrators and stayed alive.
+Several dozen people joind this poll.
+The item which currently has the highest votes is a soap case which will not retain water in it.
+This is actually the easiest one to make and can be a practice for jscad skills for me.
+I've already made the major components, which are a box with drainage holes and a sieve plate to hold the soap.
+
+Once the interface for adjustable parameters got added to the design, this system will be ready to be published.
+
+I'm planning to adopt the method from a github project which lists all jscad designs in a portfolio.
+
+During recent weeks, I discovered that my project didn't have the potential to immediately become a popular topic.
+I have to adjust my expectations and start from the smallest group of customers.
+I should not dream of fast and easy success on building a company and a website without any experience.
+The thing I must do is creating my own brand and fundamental customers.
+Making a Patreon project may be a practical approach.
+This platform is huge and well-developed.
+This grant the projects on Patreon with higher creditibility.
+Although a part of the donation will be taken away by the platform, the financial issues will be much easier to handle.
+This will allow me to focus on development of 3D designs and my usergroups.
+
+About the crowd-funded development.
+I can start polling on my Patreon page to simulate its operation.
+
+The goals in this month are the following:
+1. Complete more than 4 jscad designs and publish them on Github, Facebook and jscad usergroup.
+
+2. Study ten 3D printing design-related Patreon projects and analyze their strategies.
+
+3. Create my own Patreon account and project.
+------------------------------
+Front-end developer groupで作ったアンケートスレは幸い無関係の内容にされて削除されなかった。
+それに数十人のメンバーが投票に参加した。
+目前一番高い票数を持つデザインは排水機能付きの石鹸箱です。
+このデザインはとても簡単なものです。
+jsCAD技術の練習としては相応しい。
+私は既にその二つのパーツ：穴つきの箱とメッシュ型の蓋を完成した。
+数値を調整できるインターフェースを加えれば、この作品は発表できる。
+
+私は有るGithub pageの方法を参考して、すべてのJSCADデザインを一つのWeb-pageで展示する。
+
+この数週間を渡って、私は自分が作った作品FlexiSystemに一瞬で人気の話題になれる素質がないときついた。
+私は自分の期待を修正するべしです。
+自分が短期間で楽に会社とウェブサイトを出来ることなどの妄想を止めるべしです。
+今は自分のブランドと中心の客層を作ることに専念する。
+Patreonプロジェクトを作ることは実行可能の方法化も知れない。
+Patreonは厖大、そして充分発展されたFunding platformです。
+一般人がそれに対する信頼度も高い。
+一部分の支援金はPatreonに支払うですが、財務の部分は単純になる。
+私は３Dデザイン開発と使用者グループを経営することに専念できる。
+
+Crowd-funded developmentについて。
+私はPatreonでアンケートイベントを開催して、その運営のシミュレーションをする。
+
+今月で私の目標は以下の数点です：
+1.四つ以上のデザインを完成させる。そしてGithub、Facebook及びJscad usergroupで発表する。
+
+2.３Dデザイン関連のPatreon　Projectを研究する、その経営対策を調べる。
+
+３.自分のPatreonアカウントを作る、そしてプロジェクトを準備する。
