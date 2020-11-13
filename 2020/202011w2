@@ -1,0 +1,76 @@
+防積水肥皂盒的JSCAD設計順利完成，
+不過我再往頁的建構上碰到了一些技術上的問題。
+我採用的JSCAD版本所附的範例只有模型展示功能，沒有辦法繪出STL檔案，
+在經過逆項工程並且研究過原始碼之後，
+我成功啟動了可列印檔的匯出功能。
+
+在上周我打算採用一個GITHUB專案的格是來陳列自己的JSCAD設計，
+但是我發現它的結構過於複雜，使用了NODE.JS和JEKYLL來進行網頁的靜態轉化，
+對我而言在檔案系統的管理上反而變得困難且不便，
+我自己寫了一個簡單的靜態網頁，能夠輕鬆的重複利用CSS與JS檔案。
+現在這個網頁系統已經被我上傳到GITHUB上面，只要頁面運作正常我就可以進行發表了。
+當然我還得列印出一些樣品來測試它的可靠性。
+
+我健立了自己的PATREON帳號，目前還有許多部分須要去設定和完成，
+為了確認稅務上的問題，我還研究了一下官網上的說明文件，
+目前美國對一年內USD 20k以下的收入是不會進行課稅的，
+確定會被抽成的市PATREON以及PAYPAL / PAYONEER的手續費。
+我已經藉由GITHUB上的試作品驗證了這個專案在技術上的可行性，
+當我成功建立自己的用戶群之後，就會著手開始設定PAYPAL或PAYONEER以及銀行帳號的部分。
+
+接下來要進行的工作仍然是十一月初所設定的目標，
+持續的和各種可能的客層接觸，找出我有辦法滿足的需求吧。
+
+----------------------------------
+The jscad design for soapbox with drainage is done without much challenges.
+But I was faced with some problems when making the webpage.
+The example page from the jscad build I choosed can only display models.
+It couldn't export STL files.
+After some reverse engineering and research on its source code, I successfuly enabled the function of generating printable files.
+
+During last week I was planning to apply the framwork from a github project ot display my jscad designs.
+But I found that its structure was too complicated.
+It uses node.js and Jekyll to make static pages.
+To me, the file system is much more inconvenient to manage.
+I wrote a simple static page which can easily reuse the CSS and JS files.
+Now the page is uploaded to my Github repository.
+As long as the page work normally, I can publish it.
+Of course I also have to print some samples to test its reliability.
+
+I created my patreon account.
+There are still many things which require setting.
+In oreder to check the tax issue, I studied some documentatin from the Patreon.
+Currently the United States will not charge incomtax against overseas creator who earn lesser than 20K per year.
+The confirmed cost of my patreon project will be fees to Patreon and Paypal/ Payoneer.
+
+I've proven the feasiblility of this projectin the technical aspect.
+When I build up my initial customer group, I will start my paypal/ payoneer and bank account for the project.
+My following task remains the same, which is to continue persuing the goals I set for November.
+
+----------------------------------
+排水管付き石鹸箱のJscadデザインは順序に完成した。
+でも私はウェブページの構築について、少し技術的な問題を遭遇した。
+私が採用したJscadに付けたサンプルは３Dモデルを展示することしか出来る。
+STLファイルを輸出機能がない。
+私はReverse engineering した、そしてコードを研究した後、プリント可能のファイルを輸出機能を起動した。
+
+先週で私はあるGithubプロジェクトの方法で自分のJscadデザインを展示したかったが、その構造複雑すぎると気づいた。
+Node.jsとJekyllを使ってStatic pageを作ることはファイルシステムの管理の難易度を大幅増えた。
+その代わりに、私は簡易なStatic pageを作った。
+そのコードは簡単に再利用可能です。
+
+今この際とは既にGithubにアップロードされた。
+正常稼動すれば、私はこれを発表できる。
+勿論私はテストプリントを作る必要がある。
+
+自分のPatreon アカウントを作った。
+今は未だ沢山な部分を設置する必要がある。
+税金についての問題を調べるため、私は公式サイトの説明を読んだ。
+米国は一年で20K USD以下の収入に課税をしない。
+支払い必要があるのはPatreonとPaypal / Payoneerの手続料金。
+
+私はGithub上の試作品でこのプロジェクトの技術的な実現性を検証した。
+私自身の客層を作った後、私はPaypal/payoneerと銀行のアカウントを作る。
+
+次の仕事は相変わらず先週で決めたものだ。
+自分が満足させられる要望を探そう。
