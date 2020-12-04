@@ -1,0 +1,90 @@
+我決定要對Creative Dimension計畫做一個修訂，
+把全部的力氣放在"可客製化模型設計網站"的階段。
+先建立起一個擁有一定會員與粉絲支援的網站系統。
+使用paypal或linePay的方式來接收使用者的捐款，
+避免過多的平台費用耗損。(Patreon至少會抽走5~8%的款項!)
+既然我有一定程度的架站能力，不如果自己來架設一個網站。
+
+我的主要發表平台會在Facebook以及Youtube還有Thingiverse，
+開發的3D模型種類以實用性高的物品為主，
+最好每一個物品之間能有所關聯，
+目前我已經健立了三到四個設計，
+在接下來的這個月，同時也是2020年的最後一個月份，
+我會繼續在原本的githubPage上面開發。
+
+另外一個主要的任務是建立paypal與玉山銀的帳號，
+在讀過許多文章之後，我卻認paypal會比payoneer來得穩當，
+因為payoneer國際中轉行的費用高達20到30USD，這個費用是今年四月的時候確立的。
+有不少人都在討論區談論這件事。
+另外在台灣占大多數市場的LinePay也是可以考慮的收款方式，
+不過我還事先從基本的PayPal開始做起吧。
+
+我在上周對束口夾以及量匙的設計多做了一些修正，
+讓他們比起網路上流傳的設計能夠有更好的性能，
+像是減少列印出錯的可能性還友避免一個小部位受損就要整組重印的問題。
+
+在列印測試的時候我其實也碰上不少問題，
+有一捲PLA線材因為放太久而受潮，因而發生了線材斷裂以及堵料的狀況，
+好在我還沒有忘記如何去排除這些問題，最後仍然把試作品印了出來。
+3D列印不論是建模或是機器的操作維護上都不是那麼簡單的。
+
+----------------------------------
+I decided to make some adjustments on the execution of my project.
+I'll focus on my energy on the statge of making a websit of customizable 3D models for 3D printing.
+I have to build up a website with registered member and supportive fans.
+I'll utilize the paypla.me or linepay to accept donations from the users and avoid execess cost of the platform.(Patreon takes 5 to 8 percent of the fund!)
+Since I have basic capability of making a website, it woud be better to make my own.
+
+I'll publish my works on Facebook, Youtube and thingiverse.
+The catagory of my work will mainly be useful things or tools.
+It's better to have connection between each desibn.
+
+I've now made 3 to 4 designs.
+In this month, which is the last month of this year, I'll keep developing on the Github page.
+
+Another important task of this month is to establish accounts on Paypal and Yu-san bank.
+After reading through many articles, I confirmed that it's better to use Paypal than Payoneer.
+It was because that the intermediary bank will charge fees as high as 20 to 30 USD.
+This policy is made in April this year.
+Many people had discussed on this issue in various forums.
+The LinePay which have large share of Taiwan's market can also be considered. 
+But I will strat the basic setup from Paypal.
+
+I made some additional adjustments on the bagclip and spoon to make them have better performance than other models shared on the internet.
+These includes decreasing the possibility of failed prints and avoiding reprinting of the whole system when a small portion of it breaks.
+
+There were actually many troubles when I was doing test prints.
+A roll of PLA filament was exposed to air for too long and got moistrurized.
+This had caused problems like broken filament and obstruction in the teflon hose.
+Luckily I still remember how to fix these problems.
+The test prints were still got printed out.
+-------------------------------------
+
+私はCreative Dimension計画を少し調整する。
+これから私は全力で”カストム可能な３Dモデル作りサイト”を開発する。
+そして一つ登録メンバーと支援金を提供するファンが居るサイトになる。
+PaypalあるいはLinepayで支援金を受け取る。
+こうしてPlatformによる費用を避ける。（Patreonは最低限でも5～8パーセントの支援金を取る）
+私は基本的なサイト開発能力があるだから、自力で自分のPlatformを作る方がいい。
+
+私はこれから作品をFacebook、Youtube、及びThingiverseで発表する。
+開発する３Dモデルの種類は実用性が高いものです。
+各物件の間に関連性があるほうがいい。
+私は既に三、四本の設計を作った。
+今月で私はGithub　Pageで開発を続行します。
+
+もう一つの主要な仕事はPaypalと玉山銀行のアカウントを作る。
+多い文章を読んだ後、私はPaypalがPayoneerより優れていると確認した。
+その原因は今年四月からPayoneerの国際入金費用が常軌化した。毎回は３０から２０USDの料金が掛かる。
+この件について沢山な人がネットで討論した。
+ちなみに台湾で普遍率が高いLinePayも選択肢の一つだ。
+でも今はPaypalに専念する方がいい。
+
+先週でBagclipとスプーンの設計に少し修正をした。
+それらをネットで共有されている他のモデルよりもっと良い性能を与えた。
+例えばプリント失敗の可能性を減ること、または”一つ小さな部位が破損したら全部作り直すしかない”と言う問題を解決する。
+
+試作品をプリントする頃も色々な問題があった。
+一本のPLA　Filiamentは空気に接触する時間が長すぎるだから湿り気を吸収した。
+その故にFilamentが裂けるや管の中を塞がるの状況が出た。
+幸い私はまだ解決の方法を覚えているから、試作品は最後無事にプリントされた。
