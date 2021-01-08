@@ -1,0 +1,86 @@
+這一週我曾經嘗試用v2版本的jscad，
+不過他目前的狀態只適合當作單純的3D編輯器，
+我還沒有辦法在node.js架構之下從原始碼build出我要的版本，
+最適合我的專案的js核心仍然是v1。
+
+然而v1內部有一些被回報但開發團隊已經放棄修復的Bug，
+其中Rotate Extrude的最低邊數被限制在八以上這個問題最讓人頭痛，
+因為他算是很基本的功能，
+我為了使用這個功能而硬著頭皮研究了原始碼，
+沒想到這個Bug被我用很粗糙的方式修補過去了，
+我也因此得以進行下一個jsad設計的開發。
+
+這一個新設計是可折疊收納的籃子，
+在Thingiverse上面有一個被改良得很好的版本，
+我基於這個版本開發出了可以調整層數以及整體尺寸大小的jscad設計檔，經過一次失敗的試印之後修正出了可以正常使用的版本，
+我個人覺得是可以在加上幾個能和本體結合的小附件，
+讓籃子在展開使用時會更加穩固。
+
+我發覺自己到目前為止的設計和網站並沒有真正建立所謂的粉絲群，
+我在Youtube上看到的成功創作者大多都有非常專一且明確的主題，
+例如飛行器或是特殊的機械構造試驗，
+這些創作者專業且深入的內容吸引到一些會穩定追蹤這個主題的人，
+進而讓頻道穩定發展起來，
+我自己的設計也要設訂出主軸，
+暫定是視覺幻象裝置、收納工具、還有盆栽用具這三個。
+我每個月要在這三個領域中各發表一個設計，
+並且在Youtube上面發佈影片。
+
+------------------------------------------------
+This week I tried to move on to version2 of jscad.
+But it was still in pre-release stage and can only work as a editor.
+I could not build the core javascript fiel for my project from the source code through node.js.
+The most suitable choice for me is still the version1.
+
+However, ther exists some bugs which are reported but the development team had given up repairing them.
+Among these, the issue with rotate-extrude function, which have limited minimum edge number of the extruded geometry to be 8 or higher, was quite annoying.
+It is such a common and basic function.
+
+In order to make it work for me, I tried my luck on the source code.
+Luckily, I patched this bug up with some crude method.
+By doing this, I was able to start developing my next design.
+This design is a foldable basket.
+There are a well improved version on thingiverse.
+I developed my design based on it.
+Its number of layers and size are fully customizable.
+After a failed test print, I managed to correct the design and printed a model which is functional.
+I think this can be improved further by adding several accessaries which can make the basket more stable while expanded.
+
+I realized that my desing and website so far did not establish a solid fan base.
+The successful creators I found on Youtube usually focus on a relevant topic.
+For example, planes and drones or special machine mechanism.
+The specific and in-depth contents can attract people who would regularly follow their interested topics.
+This allows the creators to build their fan bas up.
+
+I should also decide what topics to focus on.
+I'll set three for now, first is visual illusion devices, the second is storage tools, and the third is bonsai tools.
+I will publish on design monthly for each of the topics.
+And I will release video on Youtube.
+
+--------------------------------------------
+私は先週でV2ヴァージョンのJSCADを試したが、
+その状態はまだ3DEditor機能のみでした。
+私はNode.jsでSource codeから自分が欲しかった核心Javascriptファイルを生成できなかった。
+現在の私にとって一番相応しいのはやはりV1です。
+
+しかしV1の内部には通報されたのに、開発チームが修正を放棄したBugがある。
+その中にRotate-extrudeの結果の最小頂点数が八以上に制限されたBugが一番困る。
+それは基本的な機能だから。
+
+私はこの機能を使うためにいやいやながらSource codeを研究した。
+以外に私はこのBugを粗末な方法で修正した。
+そのお陰で私は次のJSCADデザインを開発できる。
+このデザインは折り畳むバスケです。
+Thingiverseで一つ良く改善されたモデルがある。
+私はこのモデルを基にして、層の数と全体のサイズが調整可能のJscadデザインを作った。
+一つの失敗作を作った後。
+私はデザインを修正して、正常作動できるヴァージョンを作った。
+このデザインに少し本体と接続可能な補助パーツをつけると思う。
+こんなパーツはバスケが展開している状態で本体の安定性を確保する。
+
+私は自分が今までの作品とサイトが本当のファンーベースを作っていなかったと気づいた。
+自分がYoutube で見かけた成功なクリエータたちは皆ひたむきな、そして明白な主題が有る。
+例えば飛行機、あるいは特殊な機械構造。
+こんな深くて専門なm内容は特定の主題を定期的にフォローする人を引き寄せる。
+自分のデザインも主題を設定するべしです。
+暫くは視学幻像装置と格納用の道具と盆栽用の道具、この三つで決める。
