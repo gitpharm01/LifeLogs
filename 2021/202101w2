@@ -1,0 +1,69 @@
+﻿可摺疊提籃的設計被我修改得更有質感了，
+而且在附件的輔助之下它的穩定度也大大提升，
+然而我碰上了低溫和強烈冷氣團的問題，
+過度的低溫導致列印件出現各種異常現象，底層的翹曲是最明顯的一個，
+他會讓玲健和關節無法發揮原本的作用，
+我只能先暫停測試品的列印，專注在新模型的開發上。
+
+這個月的第二個設計:栽培盆也完成了初步的開發，
+現在我可以用這個SCRIPT來生成盆景用的盆子，
+大小和邊數都可以自由選擇，這些模型的結構都算簡單，
+因此要在JSCAD底下生成他們並不困難，
+難的地方在於細節的修飾，因為盆栽用的盆器通常需要一些裝飾來避免造型變得過於呆版。
+而且我藥製作的盆器由於是PLA塑料材質，整體的質感會偏向射出成型的量產品，
+我必須在一些關健的位置，例如盆腳和盆口的地方增加類似陶瓷盆器的結構，
+另外就是盆面的部分，我打算放上一些環狀的修飾，
+使用曲面變型來對盆面刻出圖案也是不錯的想法，
+不過這需要對3d建模還有矩陣運算更多的研究才辦得到，
+最好還是不要好高騖遠。
+
+我弄了一個THINGIVERSE的帳號，
+不過到現在都還沒去設定他，
+既然到目前為止我自己的宣傳成果等於零，
+不如把設計弄上去看看有沒有人會來光顧。
+
+--------------------------------------------------------------
+
+The desing of foldable basket was modified into a batter shape.
+With the help of accessories, its stability was also improved greatly.
+However, I was facing a potent cold front.
+Thge extremely cold temperature caused anormalies on the prints.
+Distorsion on base layer corners is the most obviouse one.
+I had no choice but to stop printing tests and focus on development of new models.
+
+I completed the initial stage of the second design of this month: the bonsai pot.
+Now I can generate pots in different sized and with different edge numbers.
+Since these pots have simple shapes, it's quite easy to generate tehm under JSCAD.
+The most difficult part is decorating.
+Bonsai pots usually needs detailed decorations to avoid being too rigid or inflexible.
+Besides, the pots will be made from PLA which resembles the texture of those mass-produced inject-mold products.
+I have to add some decorations on key points like pot edge or pot legs.
+And I want to put some belt shaped decorations on it.
+It will be great to carve decorative shapes on the curved pot wall.
+But this requires more knowledge in 3D and metric mathmatics.
+I'd better not to try things that are still far beyond my reach.
+
+I created an account on Thingiverse, but I havent done the settings and uploaded any design.
+Since my effort in promoting my website and designs had absolutely zero result, it won't hurt to put my design on the website.
+
+----------------------------------------------
+折り畳みバスケッツのデザインは私がもっと上質な状態に改修した。
+それに補助パーツのお陰で安定性も大幅上昇した。
+しかし強烈な寒波が来たせいでプリントした製品はさま様な異常が発生した。
+低層の歪曲が一番明らかな問題だ。
+これは関節とパーツの本来の機能を無効化する。
+私は暫くテストプリントを止めて、モデルの開発に専念する。
+
+今月の二番目のデザインー盆栽鉢の基本開発が完了した。
+私はこのScriptで盆栽用の鉢を生成できる。
+サイズと角の数は自由に設定できる。
+Jscadのしたでこんな簡単な構造を生成することは簡単だが、
+細かいところの飾りが難しいです。
+鉢を構成する素材はPLAプラスチックだから、全体のテクスチャは量産品に近い。
+私は鉢の重要な部位、例えば鉢口と足に陶器に似てる構造をつける。
+そして鉢の表面にベルト状の紋様をつける。
+曲面変形で鉢の表面を飾る方もいいですが、これは高度な３Dモデル設計関連の技量が必要だから、暫くしない方がいい。
+
+私はThingiverseのアカウントを作った。
+でも今までそれを設定しなかった。
+自分がこれまでの宣伝性かはゼロなら、このサイトに自分の作品を投稿しても損はないだろう。
