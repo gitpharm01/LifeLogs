@@ -1,0 +1,89 @@
+﻿列印機出了狀況，他的溫度探頭限露陰老化而斷裂了，
+這使得Helicone的列印測試被迫中斷，
+由於列印機的擠出頭組件都已經明顯老舊，我決定要更換它。
+
+過去我從未研究過這一塊，然而網路上豐富的資源讓我很快就知道該找哪一種零件，
+市面上大多的擠出頭組件都是由一家叫做E3D的廠商生產的，
+我用不到300NTD的價格買到了一組E3D V6的組件，
+成功組裝到了我的列印機上面，
+接下來只要測是列印的結果正常，
+我就可以繼續完成Helicone的開發了。
+
+從先前列印到一半的helicone模型上面，我有觀察到一些缺陷，
+針對這些問題我已經將Jscad的腳本進行了修正，
+希望新版本的結果會更好。
+
+這個月我計畫要製作的模型大致上都完成了，
+下個月的任務是以這三個設計為基礎來開發出另外三個改良版本的模型。
+首先是可折疊提籃的部分，我會修正他的外框的邊角，另外底座的穩定度也需要加強。
+
+第二個是栽培盆的部分，
+我會照之前的想法加上裝飾。
+
+第三個是Helicone，要改良的部分是它的外型，
+讓每一個旋轉單元的頂端造型可以變動，
+光是修正和列印出這些作品應該就會花上不少時間，
+另外在加上Youtube的專題影片的製作部分，
+二月這短短的二十幾天很快就會被我用完吧。
+
+------------------------------------------
+My printer got some problems last week.
+Its temprature sensor's wire broke due to deterioration.
+This forced me to stop the printing test of helicone.
+Since the extruder modle is seriously worn out, I decided to replace it with with a new one.
+
+I never studied this par, but the resources on the internet allowed me to soon find out what part to buy.
+Most of the extruder module on the market are developed by a company called E3D.
+I bouthgt a E3D v6 extruder module with a price lower than 300 NTD.
+And I installed it on my printer successfully.
+As long as the function test goes well, I can continue the development of helicone.
+
+From my half-done helicone test print, I discovered several flaws in the design.
+I've corrected the script and hope that the new version will work well.
+
+Generally speaking, I've completed most of my planned projects.
+My task in next month is to develop three improved designs based on works in this month.
+The first is collapsible basket, I will refine its corners, and its basestand should also be fortified.
+
+The second is bonsai pot, I will add decorations I previously planned.
+
+The third si helicone.
+The part to be improved is its tip shape of each spinning layers.
+I'll make several shapes for users to choose from.
+
+It would take me lots of time to make and design these things.
+Additionally, I'll have to make videos on YouTube which feature these designs.
+I guess the short Feburary days will pass swiftly this time.
+----------------------------
+
+私のプリンタに異常が発生した。
+温度センサーのワイヤは老化のせいで割れた。
+その故でHeliconeのプリント実験は中止された。
+Extruder moduleのパーツもボロボロになったから、
+私はこれを切り替わると決めた。
+
+このパーツを研究したことはないが、
+ネットで豊かな教学資源は私に欲しい情報ををくれた。
+市場にあるExtruder module は大半E3Dと言うメーカが生産している。
+私は３００NTD以下の値段で一セットを買った。
+そして無事にプリンタと組み合わせた。
+性能テストをパスしたら、Heliconeの開発を続行する。
+
+半分完成されたHelicone試作品で有る欠点を見つけた。
+それらに対してJscad　Scriptを修正した。
+新しいヴァージョンの品質を上昇させたい。
+
+今月予定のモデル開発作業を大体完成した。
+来月の仕事はこの三つのデザインを基にして、もう三つ改善版のモデルを作る。
+
+先ずは折り畳むバスケットです。
+私はそのフレームの角と台座を修正する。
+
+二つ目は盆栽鉢の方、私は前で言った飾りを加える。
+
+見つめはHelicone。
+改善する予定の部分はその外見です。
+回転ユニット先端の形を変動可能にする。
+
+これらの作品を改修するだけで大量な時間が掛かる。
+Youtubeの紹介ヴィデオを加えば、短い二月は一瞬に流れるだろう。
