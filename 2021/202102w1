@@ -1,0 +1,88 @@
+﻿Helicone的細節修正工作比我想像的還要複雜許多，
+這是因為Helicone是由多個平面單元層層堆疊起來的，
+我必須預留一定的空隙來避免他卡死，
+但如果空間預留太多的話又難以固定，，
+結果我到目前為止只完成了一個能夠發表的版本，
+
+我另外在Jscad完成了其它造型的尖端，有星星、月亮以及太陽三種，
+他們會讓Helicone的視覺效果變得更加多樣化，
+我先把第一版本的測試影片放上Youtube了，
+也有在Facebook社團分享，接下來就是在Thingiverse上面發表了。
+
+因為在不同的專案轉換所耗費的精力實在太大了，
+我決定還是先把開發的主軸放在Helicone上面，
+把所有可能的樣式都設計出來，並且都發表完成之後再開始進入其他專案。
+
+Helicone雖然原理和結構簡單，但是可以玩出許多不同的花樣，
+除了頂端的造型之外，我還可以嘗試讓原本每一層都是平面的結構變化成固定的傾斜角度。
+理論上這樣的改造不會太難，
+只是要考慮到3D列印時的列印件支撐問題。
+
+因為通往田中高鐵站的原本道路長期施工阻塞已達半年之久，
+我決定更換露限，在上周練車時走了另外一條路過去，
+所耗的時間和舊路線差不多。
+
+這兩三年我路過這一帶都覺得這裡很荒涼，
+沒有任何明顯的發展，
+這種在鄉下開設的車站其實真正的功能是把人送出去而不是送進來，
+只要沒有新產業興起，它就只會繼續荒涼下去，頂多就是被建商拿來蓋沒有人住的豪宅鬼屋罷了。
+
+---------------------------------------------
+Correcting the details of the helicone was way more complex than I anticipated.
+This was because that the structure is made from layers of basic units.
+I have to save up some wiggle room for each unit to let them move freely.
+But if I set the space too big, the structure will become shaky.
+In the end I only finished printing one model which can be published.
+
+I also completed several other shpes for the tip of helicone, including star, moon, and sun.
+This will enrich the visual effect of helicones.
+I uploaded a footage video on Youtube and share it on Facebook groups.
+The next step would be releasing model on Thingiverse.
+
+Because it takes too much energy to switch from different projects, I decided to focus on helicone only.
+I will develop all possible patterns and publish them.
+And then I'll move on to other projects.
+
+The helicones have simple mechanism and structure but it can have a variety of shapes.
+
+Besides the tip shape, I can also try altering the layers by turning them from flat planks to slopes.
+Theoretically, it won't be too difficult to do such modification.
+I just have to consider issues like printing supports.
+
+Because the old route I took to go high speed railway station has been under re-construction for over six months, I decided to change route and drive my way there last week when I was practicing driving.
+The new route tooke me the same amount of time as the old route did.
+In recent years, I found thjis area to be quite deserted and underdeveloped.
+This station in such country side actually sends people out rather than pulling people in.
+As long as there are no major industries rising, this place will just remain the same.
+At most, some land developers might turn it into a high-class ghost town.
+
+-----------------------------------------
+Heliconeの細部を修正する作業は想像より複雑だ。
+原因はその構造が複数の基本ユニットで組み立てたから、ユニットの間に空間を確保しないといけません。
+しかしこの空間が大きいすぎるとパーツの固定が悪くなる。
+結局私は今までたった一つだけのモデルを完成した。
+
+私はJscadで他の先端デザインを完成した。
+星、月、太陽の形がある。
+これらはHeliconeの視覚効果をもっと豊かになる。
+私は第一版のテストヴィデオをアップロードした。
+ちなみにFacebookでスレを作った。
+次はThingiverseで発表するのみ。
+
+複数のプロジェクトの間から転換することには精神と体力の加担が重すぎるだから、
+私はHeliconeに専念すると決めた。
+これからは全て可能のデザインを完成させる、そして発表する。
+その後で他のプロジェクトに入る。
+
+Heliconeの構造と原理は簡単ですが、
+様々な変化が可能だ。
+先端の形以外に、本来平たい状態から角度を持つ状態に変わるも可能です。
+こんな改造はあんまり難しくないと思う。
+ただプリントするときのサッポト問題を考えるだけだ。
+
+高速鉄路駅へ通じる路線は半年以上工事中になっていただから、
+私は他の路線を探すと決めた。
+先週で運転練習の時に新しいルートを沿って駅へ行った。
+この二、三年間で私は何時もこの地区が荒れていると思っていた。
+こんな田舎で建てられた駅は人をここに運ぶより他の場所へ運ぶ方だ。
+もし新しい産業が興らないと、ここはられて続けるだろう。
