@@ -1,0 +1,88 @@
+原本以為這次的農曆年假期間可以完成許多事情的，
+但是事與願違，我的執行成果可以說是慘不忍睹。
+
+之前我的3D列印成品漸漸出現擠出不足(Underextrusion)的狀況，
+原本我以為是新換的V6加熱端套件的問題，
+但是經過各式各樣的嘗試和調整都無法解決，問題只有更加惡化。
+我曾經試著使用Temp Tower來診斷是否是線材因受潮而出現熔點偏移的現象，
+但是所有的溫度下都呈現同樣的狀況，
+直接用電暖器去烘烤線材的結果也是徒勞無功。
+
+最後我把目標放在擠出機本身，終於發現了可能的故障原因，
+ABS材質的惰輪軸承支柱因為兩年間的磨損已經出現斷裂的現象，
+這使得擠出機對現材的抓力時好時壞，因而出現陣發性的擠出不足。
+
+我在年節前趕緊下了一張訂單，訂購了一組全金屬材質的擠出機零件，
+但是貨到時才發現我搞了烏龍，把應該是右手方向進料的套件看成了左手方向進料，
+第二次訂購的套件方向正確，但是作工明顯陽春許多，
+有很多細節都十分粗糙，不過總算是讓擠出不足的問題減輕了許多，
+列印成品的填滿狀況變得比較能夠接受了，但是它並沒有讓UnderExtrusion的問題完全解決，可能再擠出機馬達以及溫度方面還要再做一些調整。
+
+我在等待零件的空檔有進行額外的3D建模專案，
+這次的主題是把最近很紅的一個定格動畫角色模型進行改造，
+讓他能夠動起來，
+這個專案因為比較適合在Blender底下開發，
+因此我再次啟用了Blender2.9。
+
+--------------------------------------
+I thought I could have done many things in this lunar new year vacation.
+But things turned out tobe the opposite.
+My progress on projects was miserable.
+
+Early in this month, my printer started showing signs of under extrusion.
+In the beginning I thought it was due to the new V6 hotend.
+But after various attempts and adjustments, the problem was only getting worse.
+I tried to diagnose this problem with Temp tower and check if the filament's melting point was altered by moisture.
+But the temp tower show the same pattern on all layers/temperatures.
+My attempt on fixing  this by baking the filament with a heater was also futile.
+
+In the end I examed the extruder and finally found the possible cause of underextrusion.
+The ABS rod holding passive bearing was partially broken due to the force applied on it.
+This caused the extruder to have unstable grip on the filament and thus the underextrusion happened.
+
+I hurried and purchased a set of full-metal extruder.
+But it was after the cargo arrived did I realized that I got the direction of filament flow wrong.
+The second set have correct direction, but came with much lower quality.
+It has many flaws in its design and details.
+Anyway, the underextrusion was significantly improved.
+The filling of pints became much more acceptable.
+But the symptom was not totally releaved.
+I may have to make some adjustments on the temperature and extruder motor.
+
+While I was waiting for the parts to arrive, 
+I started an additional project of 3D model.
+This time the subject is the "molecar" from a popular stop-motion animation.
+I'm trying to give it a power source and make it mobile.
+This project is much more suitable for Blender and thus I restarted my journey in Blender 2.9.
+
+-------------------------------------------
+今年の新年ヴァカンスで色んなことが出来るだと思ったが、
+結果はその逆だ。
+私のプロジェクトの達成率は酷かった。
+
+少し前で私のプリンタはどんどんUnderextrusionの症状が出って来た。
+私はそれがV6　Hotendのせいと思った。
+しかし様々な調整を行った末に問題は解決したところか、悪化し続けた。
+私はTemp towerで問題を診断してFilamentの融点偏移を測定したかったが、
+結局全ての温度で同じ結果が出た。
+直接にヒータでFilament を焼いたが、無駄な努力でした。
+
+最後に私はExtruderに目をつけた。
+そしてとうとう問題の原因を発見した。
+ABS制のベアリング座は長期の消耗によって破裂した。
+これはExtruderがFilamentに与えるグリプの強さを不安定化する。
+故に偶発性のUnderextrusionが発生した。
+
+私は休暇の前に全金属製のExtruderパーツを一セット注文した。
+しかし荷物が届けた後私は間違った物を買ったと気づいた。
+右方向にFilamentを推進するパーツ筈だが、私は左方向の方を買った。
+次回で買ったパーツは正しい方向ですが、細部について大量な欠点がある。
+でもこれはやっとUnderextrusionを解決した。
+プリントしたものの充填率が納得できる状態になった。
+しかしUnderextrusionは完全に消失していません。
+おんどとExtruderMotorを調整する必要があるかもしれない。
+
+パーツを待っていた間に新しい３Dモデルを始めた。
+今回の本題は人気アニメ＜PUIPUIモルカー＞のキャラクタです。
+私はこのモデルを動かせるほど改造する。
+Blenderは一番相応しいだから、私はBlender２．９を再び使った。
