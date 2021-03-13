@@ -1,0 +1,83 @@
+第二版的Molcar試作品結果仍是不成功的，
+這一次的模型比初版是有改善很多，但還是無法達到可以運作的程度。
+
+首先有一些零件和車底盤的結合方式不夠牢固，
+這一點可以用Snap fit的構造來取代。
+我已經在第二版的部分結構驗證了他的可行性。
+
+第二個缺失是我只放了一個後輪的輪軸固定軸承，
+由於我這一個軸承的設計其實無法將輪軸的轉動方向控制在單一個，
+導致輪軸會發生嚴重的擺動與偏移，在下一版我會用兩個軸承來限制它的轉動。
+
+第三個是棘輪與齒輪之間的固定不足，容易導致系統傳動不良。
+第四個問題是齒輪比不足導致加速時間過短，
+這一點是我再比對其他的3D列印發條車機構時發覺到的，
+我設定的齒輪比只有五比一，發條釋放能量的時間不到零點五秒就停止，
+而且發條動力有個缺點是在能量釋放完之後會反過來抑制原本的轉動，
+這一個問題對於專精機構設計的人來說是顯而易見的。
+我找到了一個發條引擎的模型，它有非常緊密且低體積的結構，
+我接下來會參考這一個發條引擎來修正上述兩個問題。
+
+我在這個月初設定的目標: "每天十點半前就寢"的達成率幾乎等於零
+，
+脫炎睡眠時間的行為已經成了非常根深蒂固的壞習慣了，
+再這樣下去是會危及我的視力以及心血管健康的，
+為了增加誘因，
+在這個月剩下的二十天只要每天都達標，下個月就獎勵自己換一台預算五萬的新電腦。
+
+----------------------------------------------------
+The second version of Molcar test was still unsuccessful.
+It has many improvements but still far from workable.
+
+The first problem is unstable attachment between parts and the carplate.
+This can be solved by applying snap-fit structure.
+I've already tested its feasibility on some parts of this build.
+
+The sencond problem is that I put only one bearing for the wheel.
+This bearing design is not able to restrict the axle movement to single rigid direction.
+If having only one bearing, the axle will have sever wiggling and tilting problems.
+In the next version I will use a pair of bearings to restrict its movement.
+
+The third problem is insufficinet fitting between the ratchet and gear.
+This will cause bad power transduction.
+The fourth problem is low gear ratio.
+This made the acceleration time too short.
+I discovered this problem when I was making comparism between other spring car designs.
+I gave only 4:1 gear ratio to this model and thus the sring releases its energy in lesser than 0.5 second.
+Besides, the spring will supress the original movement when it returns to the unwinded state.
+This probelm is very obvious to those who expertise in engineering.
+I found a model of spring motor which have compact structure and low volume.
+I will take this as an reference to correct these two problems mentioned above.
+
+The goal I set for this month: go to sleep before 10:30 pm was absolutely not achieved.
+It has become a bad and deeply-rooted habit of me to delay bed time.
+If I let it unchanged, my health in eyes and cardiovascular system will be threatened.
+In order to increase my incetives, I'll give myself a fifty thousand NYD budget to purchase an e PC if I reach the goal in the remaining days of this month.
+
+---------------------------------------------------
+ ヴァージョン２モルカ試作品の結果は又失敗でした。
+今回のモデルは第一版と比べば改善された場所が多いが、正常作動の程度を出来なかった。
+
+第一の欠点は一部のパーツとシャーシとの接続が不安定だ。
+この問題はSnap fit機構で解決する。
+私は既にこのモデルの有る場所でこの機構を検証した。
+
+二つ目の欠点は私が後ろの車軸に一つだけのベアリングをつけた。
+このベアリングは車軸の運動を完全に一つの方向に制限できない。
+次のヴァージョンで私は二つのベアリングを使う。
+
+見つめの欠点はRatchet と歯車との固定が足りない。
+これは不良な動力転送を起こす。
+四つ目の問題はGear ratioの低下による短すぎる加速時間だ。
+この点は私が他のSpring carの構造と比べた後で気づいた。
+私が設定したGear rationは５：１だけ。
+Springが全ての動力を放出するまでの時間は０．５秒以下だ。
+それにSpring動力には欠点が有る。それは動力を全て放出した後、元の運動を抑止することだ。この問題は機械設計専門者にとっては明らかだ。
+私は一つSpringMotorのモデルを見つけた。
+それにはとてもコンパクトな、そして小さい体積の構造がある。
+私は次からこのSpringMotorを参考して前述の二つの欠点を修正する。
+
+今月の目標”午後十時半前で寝る”の達成率はゼロだ。
+私が睡眠時間を引き伸ばす行為は根深い問題だ。
+このままじゃ目と心臓の健康に脅威となる。
+動機を増やすため、わたしは”今月が残した二十日で目標を全て達成したら来月50000NTDのPC購入予算を作る”と設定した。
