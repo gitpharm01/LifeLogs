@@ -1,0 +1,86 @@
+﻿我總算讓Molcar動起來了，
+包括造型車殼在內的所有零件組裝在一起的完整版Molcar的策市影像被我錄下來發表在Facebook上面的3D列印社團裡，
+我順便連絡了原作者並且和他互相加入了好友名單，
+另外我加入了一個由這位原作者推件的社團，
+我在上面發表的貼文得到了目前為止最大量的關注，
+
+這一個版本的Molcar依然有動力不足的問題，
+特別是在車殼被組裝上去之後，
+重量大增導致車子跑不快，而且行走距離也過短，
+我已經健立了下一個版本，大幅度增加了PLA彈簧的強度，
+如果這個改版成功，我會進入下一個階段，
+讓Molcar像動畫裡面一樣用類似行走的方式來前進。
+
+我到目前為止已經一個多月沒碰OpenJscad了，
+從去年開始關注他的V2版本到現在，這個新版本的開發進度衣然緩慢到了極點。
+要等他發展到我可以使用的程度恐怕是遙遙無期，
+未來要繼續OpenJscad的開發的話，
+V1是比較可行的選擇。
+
+在MolCar開發告一段落後，
+我有兩個新的構想可以在Jscad上面開發，
+一個是針對3D列印最常見的測試物件，Benchy的改造，
+讓這個船型的測試物件可以產生在海上航行的視覺效果，
+這可以為我吸引到更多關注，
+另外一個構想是重新探索完全3D列印製作的音樂盒的可行性，
+原本就有人在Thingiverse上面放出試作品，
+但是音質和造型上都有問題，
+我打算重新檢視這個設計，看看能不能改善它。
+
+-----------------------------------
+I finally got the molecar model running.
+The footage video of fully assembled molcar was recorded and published on 3D printing groups on Facebook.
+I also contacted the original author and add him into mutual friend list.
+Besides, I joined a group which was recommended by that author.
+My post on that group got highest attention I've ever got.
+
+This version still suffers from insufficient power.
+This problem got worse agter the car cas is being assembled to the system.
+Such weight made it unable to move fast and shortened its travel distance.
+
+I've created next version, which significantly increases the strength of PLA spring.
+If this approach is successful, I will enter the next stage and test mechanisms to make the model "runs" like those molcar in the animation.
+It's been more than a month since last time I used OpenJscad.
+Its V2 version is still in slow development just like last year.
+It seems to take forever to see the complete version which I can make use of. 
+If I want to continue developing projects on Jscad, V1 would be the feasible choice.
+
+After finishing development of Molcar,
+I have tow new ideos to work on Jscad.
+One is a modification on the most popular test print object "Benchy".
+I can give this boat-shaped object some moving visual effects to make it looks like sailing on the ocean.
+This will gain more attention for me.
+Another idea is to re-discover possiblilty of fully 3D printed music box.
+There are already some people who made prototypes on Thingiverse.
+But these prototypes have bad sound quality and looks.
+I may be able to solve these problems.
+
+---------------------------------------------
+ようやくモルカのモデルを動かせた。
+モルカの外殻を含めて全てのパーツが組み合わせた完成版モルカの実験ヴィデオは私が録画してFacebookで発表した。
+ついでに原作者と連絡した。そしてお互いFriend listに加えた。
+ちなみに私はその原作者が薦めたグループをはいた。
+このグループで発表したスレは今まで一番高い注目を得た。
+
+このヴァージョンのモルかには動力不足の問題がある。
+特に車の外殻と組み合わせた後、大変増えた重量が車のスピードを検証した。それに移動できる距離も短い。
+
+私は既に次のヴァージョンを作った。
+今回はPLAばねの強さを大量上昇させた。
+もし今回の改造が成功したら、私は次の段階に入る。
+モデルの車軸の動きをアニメで観たもるかの”歩き方”にする。
+
+今まで私は一ヶ月いじょうJscadを使っていなかった。
+去年から私がこのプロジェクトのV2 を注目しているが、
+その開発進度は依然遅いです。
+これが私に使えられるようになる時はまだとおい。
+もしJscadの開発を続いたならV1は唯一の選択だ。
+
+モルカ開発が終わる後、私は二つの新しい構想がある。
+一つは３dプリントのテスト物件－Benchyに対する改造。
+このモデルに”海面上で波を乗っている”ような視覚効果を与える。
+これはもっとわたしの人気を増やす。
+もう一つの案は完全３Dプリント製作のオルゴールを実験すること。
+Thingiverseでは既に他の人の試作品が有る。
+しかしその音質と外見には問題がある。
+私はこの設計を改善できるかもしれない。
