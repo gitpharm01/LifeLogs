@@ -1,0 +1,93 @@
+我採納Facebook社團成員的建議修改了PLA發條彈簧的結構，
+讓線圈間的空隙增大，如此一來彈簧的可蓄力圈數就能增加，
+進而使發條車的行走距離大增，
+在後續的實際測試證明了這個做法是正確的，
+現在第三版的試作品的最常走行距離可達120cm，
+是第一版的三倍，行走速度也大幅度提升。
+總算是在三月的尾聲完成了Molcar的原型。
+
+在新加入的Facbook社團發表的文章確實引來了不少人的關注，
+有一些活躍的創作者也和我戶加了好友，
+這個社團的管理員是3D列印線材的製造商，
+他大方的表是要提供一捲強化PLA線材給我做測試，
+這一方面對它的商品也是很好的宣傳。
+
+三月的Molcar專案得到了很好的成果，
+但是它離完成還有一段距離。
+目前要解決的問題有一:發條的上緊結構強度不足，
+第二個問題是車輪的抓地力在動力上升之下再次出現不足，
+這一點可以用橡皮筋暫時解決。
+第三個問題是車輪和車軸之間的固定，
+我原本想用Snap-fit的卡榫結構來處理，但是效果不好，
+PLA的彈性和強度受到列印方向的影響實在太大了，
+我應該還是會回到最簡單的設計。
+
+我另外還打算在正式版的Molcar發表之後進行下一個版本的開發，
+採用PLA與羊毛氈的混盒結構，
+由羊毛氈來構成Molcar的外觀，內部的PLA骨架將可以大幅度的輕量化。
+
+虛擬貨幣的暴漲加上晶片的需求增加等因素使得GPU和CPU零件嚴重缺貨，短期之內我應該沒辦法換新PC。
+
+-----------------------------------------------
+I took advices from Facebook group members and modified PLA spring's structure, making more room for it to be winded up.
+This will increase number of windable circles and thus make the car travel further.
+In the subsequent experiment, this is proven to be a correct approach.
+Now the third version of Molcar pototype can go for 120 cm, which is three times longer than the first version.
+Its speed is also significantly increased too.
+I finally made a workable molcar model in the end of March.
+
+My new post on the Facebook group of latest achievement attracted plenty of attention.
+Many active creators added me to their friend list.
+The administrator of this group is infact a manufacturer of printable filaments.
+He generously offered me a roll of fortified PLA filament for testing.
+On the other hand, this is a good promotion for his goods.
+
+The Molcar project obtained great result in March.
+But it still is several steps away from completion.
+Some problems must be fixed.
+The first is durability of wind up mechanism.
+The second problem is insufficient friction of wheels,
+which emerged again after the power of motor got increased.
+I fixed this one temporarily with rubber bands.
+The third problem is fixation between wheels and axles.
+I tried snap-fit mechanisms, but failed.
+The strength and elasticity ofPLA is affected too much by printing orientation.
+I'll just go back to the simplist design.
+
+i'm also considering about making another version  after I pubulish the complete version of Molcar.
+The next version will be a mix between wool felt and PLA.
+The extrenal shape will be done by wool felt.
+And the inner PLA mechanical structure can significantly reduce its weight.
+
+The surge of cryptocurrency and demand on chips made the CPU and GPU shortage even worse.
+I think I won't be able to buy a new PC in several months.
+
+---------------------------------------
+私はFacbookグループのメンバーの勧めを従って、
+PLAバネの構造を修正した。
+バネのコイルの隙間を増大させた。
+こうしてバネが力をためられる回転数を増やせる、
+そして車の移動距離が増える。
+その後の実験でこの方法が正しいと証明した。
+今第三版の試作品の最大移動距離は１２０センチに達する。
+これは第一版の三倍。スピードも沢山上昇した。
+これで三月の末でやっとMolcarの成功な試作品が出来た。 
+
+最近入ったFacebookグループで発表した内容は多い人の注意を引いた。
+数人の活躍している３D創作者は私をFriend list に加えた。
+このグループの管理者は実際３D　プリントのFilamentのメーカです。
+彼は気前が良くて、私に一巻の強化PLA　Filamentを提供してくれると言った。
+彼にとって、これはいい宣伝の機会でしょ。
+
+三月のモルカ　プロジェクトはいい成果を得た。
+しかし正式発表するまでは少し時間が掛かる。
+一つ目の問題はWind up機構の構造の強度が不足。
+二つ目は車輪の摩擦が足りないこと。これは動力が上昇した後で現れた。この点に対してRubber band は一時的に問題を解決できる。
+見つめの問題は車輪と車軸との接続です。
+私はSnap-fit構造を使いったかたが、その効果は良くない。
+私はやはり一番簡単な構造を使う。
+
+正式版のモルカを発表する後、私はもう一つのヴァージョンを開発する予定です。
+次の設計はPLAと羊毛フェルトのコンビです。
+外見は羊毛フェルトで作る。
+こうれで中身のPLA機構は更に軽量化可能だ。
