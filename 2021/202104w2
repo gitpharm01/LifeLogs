@@ -1,0 +1,91 @@
+我在週末的時候收到了明耀的強化pla線材，
+使用TempTower測試的結果顯示220度的列印效果最好，
+它和我目前使用的仿木色PLA的列印溫度真的差距甚遠。
+
+使用強化PLA列印的彈簧展現了極佳的性能，
+最終版的molcar可以輕鬆的達到兩公尺的行走距離，
+而且經過多次修正的機械結構產生了非常穩定的運作結果，
+我已經將模型上傳到Thingiverse並且在3D列印社團發文宣傳這個作品。
+組裝的教學影片一旦完成便會放到Youtube上面。
+
+至於下一個專案，我已經在Blender建立了基本的模型，
+機械結構部分會延用之前的設計，
+只要針對車殼去做改造，去除了所有外表的特徵和附件，只剩下molcar最核心的輪廓，
+我還進行了打洞摟空的處理，讓這一個模型更加輕巧，
+減少所需的列印時間。
+
+這個將會由PLA與羊毛氈製成的作品是靠後者來構成外觀，
+在創作上的自由度會比寫死的stl檔案高出許多，
+一個基本結構可以擁有不同造型，
+但是製程也相對複雜許多。
+
+最近又有一些人發表了3D列印音樂盒的作品。
+但是我發覺這些作品的音質都不能算得上是可以接受的水準，
+音量也偏低，
+按照我之前研究木琴的發聲原理，
+要改善音質必須強化發音體的剛性和共振，
+最好是能夠提供一個共鳴的輔助結構。
+這些過去的作品都是沒有共鳴結構的，
+而我目前已經構思出一個可能可以改善共鳴條件的原型，
+在本周我會進行最初的測試來確認它的可行性。
+
+------------------------------------------------------------
+I received that roll of filament which is provided by that group manage on Facebook.
+The temp tower test showed tat it should be printed at 220 degree for best result.
+This is much higher than 180 degree which my current filament is printed at.
+
+The spring printed with the PLA plus had shown great performance.
+The final version of molcar can easily reach 2 meters long.
+Through numerous adjustments and correction, the meching system delivered very stable result.
+I've uploaded all models to Thingiverse and get the project published.
+I also made post about it on Facebook groups.
+The tutorial for assembling this toy car will be uploaded to Youtube when it's done.
+
+As for the next projcet, I've made a basic draft in Blender.
+The mechanical structure will remain the sme.
+The target to modify is its appearance.
+I removed all features on its surface and keep only its basic form.
+I also made some holes on it to reduce its weight and printing time.
+
+This combination of PLA and wool felt will need the later to form up its appearance.
+It will have more freedom when it comes to shape design.
+One basic form can generate multiple shapes of molcar.
+But this will also make the making process much more complicated.
+
+Recently some people released new design of music box.
+But I noticed that those works do not have good sound quality and their volume are weak.
+According to the references about marimba's mechanism which I studied last year, I should increase hardness of the sounding piece and better to provide a resonance structure.
+Those previous designs do not have such structure.
+I've constructed a structure which may improve resonance.
+I'll make a initial test and check if it works.
+
+----------------------------------------------
+日曜日の頃私はFacebookグループの管理者から提供した強化PLAを入手した。
+TempTowerの実験結果は220度でプリントする方が一番良い結果が出られる。
+この温度は今使っているもののピリント温度（180度）よりはるかに超えた。
+
+強化PLAで作ったばねは素晴らしい性能を示した。
+最終版のモルカーは簡単に二メートルの距離を届ける。
+そして幾度も修正された構造は安定な活動結果を作った。
+私はこのプロジェクトをThingiverseにアップロードした。
+そしてFacebookのグループでこの作品を宣伝した。
+組立ての教学が出来たらすぐにYoutubeで発表する。
+
+次のモルカー作品について、私はBlenderで基本的なモデルを作った。
+機械構造は前の設計をそのまま使う。
+改造する対象はその外殻だ。
+全ての特徴を排除して基本的な輪郭だけ残す。
+その上に外殻に穴をつけて軽量化を目指す。
+
+この作品は羊毛フェルトで外見を構成する。
+捜索の自由度は全3Dプリントの方より高い。
+一つのSTＬファイルで多彩な作品を作れる。
+しかし製作の複雑度はより高い。
+
+最近ある創作者たちは自分らのMusic box作品を発表した。
+しかし私はこれらの作品の音質と音量がな得できない。
+私が昔で研究したマリンバの発声原理によると、
+音の質と量を改善するには発音物体の剛性と共振を強化する必要がある。
+共鳴できる構造があるほうがいい。
+私は一つ可能なデザインを考えづいた。
+今週で最初の実験を行う。
