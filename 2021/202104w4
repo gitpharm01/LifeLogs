@@ -1,0 +1,88 @@
+在上個周末我已經把第一個版本的3d列印音樂盒的原型檔案件製作完成，
+並且把全部的靈件列印出來了。
+使用hERRINGBONE齒輪結構的樂譜外罩成功的運作，
+但是音梳產生的音質極差，然而這是意料之內的事情。
+我已經把這個試作品設計成可以抽換各個零件的樣式，
+所以只要再針對音梳進行改進就行了。
+
+我很快的完成了第二版的音梳模型，
+這一次的成品產生了有音階差別的聲音，
+在共鳴室的效果之下音量與音質都有大幅度改善，
+但是整個系統完全組裝完成之後，音質卻大幅度下降。
+
+對於這個結果，我決定要重新設計音梳與固定他的共鳴室。
+加強它的穩定度，並且給予音梳足夠的空間，
+我也有觀察到這一個版本的樂譜外罩的內部音符突出物不是用垂直的方式和音梳接觸。
+這應該也是表現不佳的另一個原因，
+下一個版本的樂譜外罩會進行修正。
+
+另外一個必須進行的重要任務是和一些創作者建立穩定的連繫，
+我目前有三個目標，一位是之前置作Molcar的橘子老師，
+預計會跟他聊建模軟體的使用和Jscad。
+第二位是一個職業級的機械設計師，他的作品包括藝術品與水下機器人，主要是向他詢問他的創作和製造手法。
+第三位是一個仍在學校的年輕人，他是三人之中最活躍的一個，
+似乎是以經營3D列印工作室為目標。
+
+-------------------------------------------------
+At last weekend I printed all parts of my first version of 3D printed music box.
+The note dome with herringbone gears successfully worked.
+But the comb can only generate ugly noises.
+This is predictable.
+I've made the whole system into swapable parts.
+Therefore I only had to modify the comb.
+
+I soon finished modeling the second version of comb.
+This version produced sounds with different pitch.
+Its volume and sound quality is greatly improved by the resonator.
+However, when the whole system got assembled, the quality of sound significantly degraded.
+
+In light of this result, I've decided to redesign the com and the resonator which combines and fixes the comb by increasing its stability and giving the comb more room to move.
+
+I also discovered that the not dome's bumps are incorrectly embedded.
+They didn't contact with the comb with right angle.
+This should be another reason why the sounds are bad.
+I will correct it in the next version.
+
+Another crucial task is to build up reqular contact with creators.
+I currently have 3 targets .
+One is "OrangeTeacher" who made the original molcar model.
+I'll talk with hime about 3D modeling software and JSCAD.
+
+The second target is a proffesional mechanical designer.
+His works include art and underwater robots.
+I'll ask him his manufacturing and prototyping method.
+
+The third one is a young man who's still a student.
+He is also the most active one.
+His goal seems to be starting a 3D printing workshop.
+
+--------------------------------------------------------------
+先週の土曜日で第一版の３Dプリントオルゴールのモデルを完成させた。
+そして全てのパーツをプリントした。
+Herringbone Gearを採用しているNote Domeは成功。
+しかしCombが作った音の音質はとても悪かった。
+これは予想内のことだ。
+
+私は既にこの試作品を複数の入れ替わる可能なパーツに設計した。
+Comb だけ修正すればいい。
+
+間もなく私はCombの改版を完成した。
+こんかいのCombは高低差が感じる音を出した。
+共鳴室の効果によって音の量と音質は大幅改善された。
+しかし全システムを完全に組み合わせた後、音質が急に落ちた。
+
+この結果に対して、私は改めてCombとCombを固定する共鳴室を修正すると決めた。
+その安定さを強化する、そしてCombに充分な空間を与える。
+ちなみに私はNoteDomeのNotが垂直ではない形でCombと接触した。
+これは音が良くなかった理由の一つと思う。
+次のヴァージョンはこれを修正する予定です。
+
+もう一つ重要な任務は創作者たちと関係を結びつくことだ。
+現在は三人の目標が居る。
+一人目はモルカーの原作者、OrangeTeacherです。
+彼と話すのはモデルソフトウェアの使用とJSCAD。
+二人目はプロ級のメカデザイナー。
+彼の作品はアートと水中ロボット。
+私は彼の創作と製造方法を聞く。
+三人目はまだ学校に居る若者。
+彼はこの三人の中で一番活躍している人、３Dプリント工房を目指してらしい。
