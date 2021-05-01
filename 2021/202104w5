@@ -1,0 +1,76 @@
+3D列印音樂盒的音梳宇共鳴室的設計得到了更進一步的改善，
+從一開始的噪音漸漸變得像是在撥動塑膠梳子的音色，
+我原本就不打算去模仿或追求金屬音樂盒的音色，
+那是鐵經過淬火強化硬度後才能得到的效果，
+我想要做的是讓純粹的PLA結構產生它自身最佳的特色音質，
+光是塑膠梳子的聲音其實就已經算得上是清脆悅耳的了。
+
+經過數次測試，悅浦外罩並沒有如我所預期的產生增輻與共鳴，
+無法實際改善音質與音量。
+他還有另一個問題，由於外罩和音梳處在同一個圓內，
+兩著的接觸方式注定會產生我上週所描述的問題，
+音梳被音符凸出物拖著走而不是被瞬間撥動。
+唯一的解決辦法是會富傳統的音樂盒配置，
+把音梳分離出來，並且讓樂譜的儲存結構切換成一般的圓筒狀。
+我會保留一部份之前的設計，使樂譜筒可以自由切換。
+
+另外音梳的共鳴室設計也是必須保留的，
+我另外還打算測試木琴的共鳴管來當作改善音質的手法，
+它會遠比單純的共鳴室來的複雜，不過值得一試。
+
+和橘子老師的對談意外的讓我認識到了另一位創作者，
+他專攻程式設計，在scad的開發方面堪稱大師級，
+我在這一個星期會在Facebook上面公開我的音樂盒專案，
+並且試著讓自己能夠有更多話題跟這些創作者分享。
+
+------------------------------------------
+The 3D printed comb and resonator are further improved from making random noices to something like plucking a plastic hair comb.
+From the begining I did not seek to create or resemble the sound properties of metal music box.
+That is created by quenched iron.
+What I seek is the unique sound of PLA structure and making the best use of it.
+In fact,  the sound produced by plucking plastic comb is already good.
+
+After several tests, the noteDome did not generate the amplifying and resonance effect I expected, which means it can't improve the volume and quality of the sound.
+It has another problem: since the combe and dome are in the same circle, it is doomed to cause contact problems that I described last week.
+The comb will be dragged by the bump istead of being transiently plucked.
+The only situation is going back to traditional music box settings.
+The comb must be separated and I have to use a cylinder to stor the notes.
+I'll keep some part of the design to make the cylinder switchable.
+
+Besides, the resonator chamber should also be preserved.
+I'm going to test resonator tube from the design of marimbas to improve its quality of shound.
+This may be more complex than a single resonator chamber, but it's worthy of trying.
+
+By talking with orangeteacher, I accidently go to know another 3D creator.
+He's a professional programmer and mastered the SCAD software.
+In this week I will introduce my music box project on Facebook and try to find more topics to talk with those creators.
+
+----------------------------------------
+3DプリントオルゴールのCombと共鳴室のデザインは更に改善された。
+最初のノイズからどんどん指でプラスチック櫛を引く音になった。
+私はもともと金属オルゴールの音を真似るつもりはない。
+それは焼きいれた鉄しか出来る音だ。
+私が欲しいのは純粋なPLAから作れた音。
+実はプラスチック櫛の音だけで耳に心地よいとはいえる。
+
+幾度のテストをした後、NoteDomeは私が欲しかった増幅と共鳴を生成されないことが判明した。
+つまり音質と音量を改善できない。
+それにもう一つの問題がある。
+CombはNoteDomeと同じ円の中で移動するから、
+この両者の間の接触は必ず先週で言った現象が起こる。
+Comb は瞬間にBumpに引かれるではなく、長期間それに引っ張られることになった。
+
+唯一の解決方法は伝統的なデザインにもドル。
+Combを分離して、ノートの保存構造を普通の円筒にします。
+私は前の設計の一部を保留する。
+Note Cylinderを自由転換できる機能を継承する。
+
+ちなみにCombの共鳴室も保留する。
+私は更にMarimbaの共鳴間を試してみる。
+これは単純なる共鳴室より複雑ですが、試す価値がある。
+
+Orangeteacherとの対話で偶然にもう一つ創作者を見つけた。
+彼は専門のプログランマー。
+SCADの開発についてマスター級とは言える。
+私は今週でFacebookに私のMusic boxプロジェクトを披露する。
+そして自分が創作者たちと話す話題を増やせる。
