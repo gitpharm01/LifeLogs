@@ -1,0 +1,84 @@
+﻿改版後的音樂盒系統完成了列印和組裝，
+他的樂譜捲軸和主要骨架之間有一些誤差，無法完美的貼合，
+但是系統整體還是成功運作了。
+齒輪組能夠將轉速降低，內齒輪軸心也能順暢的帶動樂譜捲軸，
+這個設計的成功意味著抽換不同曲目以及樂曲長度的樂譜捲軸是可行的，
+我的設計的第一個代表性特長得到了技術上的驗證。
+
+但最大的問題仍然存在，音梳的音色無法有進一步的突破。
+我設計了三四種音梳的樣式，但是只有一種能產生夠好的音質，
+和撥弄塑膠梳子的音色一模一樣，
+但是在音符凸出物的撥動之下產生的聲音卻近似噪音，
+只有些許的音階差異。
+
+
+這其中必然有一些聲學
+/震動學上的問題造成了這種落差現象，
+然而我對這個領域只有一知半解，
+或許在物理學的討論區發問可以為我找到一些線索，
+我會在Facebook上面尋找相關的社團。
+
+共鳴箱的設計其實也存在一些問題，
+他目前設計的開口位置其實是錯的，應該開在正對音梳的地方，
+就像小提琴與吉他一樣，
+卡林巴琴的開口雖然看似和我目前的設計相同，
+但是它其實也是對準了發聲金屬片被撥動的位置。
+
+我佑設計了數種的音梳，準備在找到更好的設計之後加上附屬的共鳴管組，直接對準音梳去進行增輻。
+
+-------------------------------------------------------
+Modified music box system was fully printed and assembled.
+Its not cylinder and main frame have some bias between each other and are unable to combine perfectly.
+But the system was still working properly.
+The gear set slowed down the rotation speed and the interal gear shaft smoothly drived the note cylinder.
+This means a music box system with swappable note cylinder of different length is feasible.
+The first key feature of my design got validated.
+
+However, the biggest problem remains.
+I still can't further improve the come.
+I've made four patterns of combs but still only one of them can generate good sound quality.
+It's identical to plucking plastic com and has distinct pitch differences.
+But when plucked by the note bumps, its sound became like noise with little pitch differences.
+
+There must be some acoustic/ vibration science issues behind this phenomenon.
+But I know too little in this area.
+Maybe asking questions on groups of physics and vibration science may give me some clues.
+I'll find related groups on Facebook.
+
+In fact, the resonance box also has some problems.
+Its opening's position is actually wrong.
+It should be right below the comb, just like how violins and guitars do.
+The kalimba's opening seems to resemble my design, but it actually aims at the metal sound pieces with an angle.
+
+I again designed several combs with different patterns.
+And I'm going to add corresponding resonance pipes after I find a better comb.
+-----------------------------------------------
+新しいヴァージョンのオルゴールはプリントされた、そして組み立てられた。
+そのNote CylinderとMainFrameとの間に少し誤差があるので、
+完璧な接続は出来ない。
+しかし全システムはなんとなく正常稼動した。
+歯車は回転速度を降ろす、そしてInternal gear shaftは順序にNoteCylinderを回した。
+このシステムの成功はNoteCylinderが切り替われることを意味する。
+私のデザインの第一の特徴的な性能が検証された。
+
+しかし一番大きい問題は健在。
+Combの音質は更に改善できない。
+私は四種類のCombを試したが、たった一つしか良い音質が出る。
+プラスチックの櫛を引く音とそっくりだ、音の高低差も有る。
+しかしNote Bumpに引かれた後、出た音は普通のノイズに近い、
+音の高低差も失った。
+
+この現象の背後にはきっと音科学、或いは振動学の問題がある。
+しかし私はこの領域に対しての知識は中途半端な程度だけ。
+物理学のグループで問題を提出したら、何らかのヒィントを手に入れるかもしれない。
+私はFacebookで関連のグループを探す。
+
+共鳴箱のデザインには問題がある。
+今の開け口の位置は間違っている。
+Combに当てる方こそが正しい。
+ギターやヴァイオリンなどの楽器はこんな設計です。
+Kalimbaのデザインは私が採用しているものと似ているが、
+実にそれは発声金属板が引かれる場所を狙っている。
+
+私は又数種類のCombを設計した、もっと良い設計を見つかる後、その対応のResonator tubeを作る。
+Combの音を直接に増幅させる。
