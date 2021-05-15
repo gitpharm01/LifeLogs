@@ -1,0 +1,92 @@
+﻿我在Facebook上面找到了由一位在台灣教聲學/震動學的老師設立的社團，
+在那裏我提出了之前碰到的問題，很幸運的是很快就有人回答了，
+音梳被樂譜捲軸撥動時發生的音質下降問題，
+原因其實來自音符剝齒的造型，
+當被撥動時音梳的梳齒高速回彈，
+碰上了剝齒，導致原本的高速震動被強制終止，
+只留下了塑料相互磨擦的噪音。
+
+另外還有一個因素也造成了音色不佳的結果，
+由於音梳的固定不夠完善，
+在某些角度下音梳仍然會和主支架之間發生鬆動，
+這使得震動的能量在中途流失並且產生了雜音。
+
+我很快的在原有的架構之下建立了新的音樂盒模型，
+首先將音箱的位置移動，並且把開口位置設在正對音梳的地方，
+音梳的設計也有所更動，增加了梳齒之間的間隙來預防彼此的干擾。
+另外就是強化音梳與主支架之間的固定，
+我設計了 一個擋版來迫緊音梳。
+
+新模型的主要結構目前只剩樂譜捲軸沒有被列印出來，
+大部分的零件都可以正常組裝，
+我觀察到這一個版本的音梳在共鳴箱的影響之下產生了完全不同的音色，
+變得有些近似吉他的效果，
+不過音量沒有隨著共鳴箱的尺寸放大而明顯增加，
+我會在Facebook上面發表結果，並且對音梳以及音箱作進一步的改進。
+
+只要掌握住PLA材質構成的結構之發聲性質，
+我就有機會發明出全新的樂器，並且以這個樂器為基礎創造一個商業模式，
+提供樂譜捲軸的自動線上建模系統，
+向想要製作音樂盒的3D列印工作是或是玩家收取費用。
+
+-------------------------------------------
+I've found a Facebook group about acoustic/ vibration science and I posted my question there.
+Luckily, I go my answer.
+The reason why sound quality deteriorated when plucked by note bump was actually related to the bump itself.
+After being plucked, the comb teeth rebounded and hit the bump.
+This forced the vibration on comb teeth to stop abruptly, leaving only noises of scratching plastic.
+
+Another issue also contributed to this problem, which is incomplete fixation of the comb.
+The comb can still wiggle in some directions.
+This weakens the energy transduction and generates unwanted noises.
+
+I soon created another model of music box under bases of previous version.
+The resonator chamber was moved and its opening is facing directly at the comb.
+I made changes on the comb and gave more space between each teeth, preventing tehm from interfere with each other.
+I also fortified the fixation between the comb and main frame whth a stopper plate.
+
+Most of the parts are printed besides the note cylinder, and they can be assembled normally.
+I discovered that this new layout of resonator has created a tone which is totally different from previous models.
+It resembles the tone of a quitar.
+But the sound volume was not significantly increased by a larger resonator chamber.
+I'll publish the result this week.
+
+I will keep improving the comb and sesonator chamber.
+Once I understand the acoustic properties of PLA structures,
+I may be able to invent a new type of musical instrument.
+I can create a business model based on this instrument.
+This will offer online sevices of automatically creating printable music box systems and charges users.
+The target users are work shops and 3D printing enthusiasts.
+
+-------------------------------------
+Facebookで一人の台湾の教師が作った音科学/振動学関連のグループを見つけた。
+そこで私の問題を提出した。
+そして答えを得た。
+CombがNote bumpに引かれたとき発声した音質劣化の原因はBump自身であった。
+Combの歯がBumpに引かれた瞬間、前者は反動の勢で逆方向へ動いた。
+そして歯は又Bumpと接触した、こうして元の振動が止まれた。
+プラスチック同士が触れ合いノイズしか残っていなかった。
+
+もう一つの原因も有る。
+それはCombの固定が完全ではないことだ。
+ある角度でCombはまだMainframeから少し外す出来る。
+この現象は振動エネルギーを消耗する、
+そして雑音を作る。
+
+私は直後現有のデザインを基にして、新しいモデルを作った。
+先ずは共鳴室の位置を移動した。
+その開け口をCombの位置に当てた。
+Combの設計も調整した。
+歯と歯の間の距離を増やして両者の間の干渉を防ぐ。
+最後はCombとMainframeとの固定を強化するため、
+私はCombの動きを抑える板をつけた。
+
+新しいモデルのパーツはNoteCylinder以外全てプリントされた。
+大部分のパーツは無事組み合わせた。
+この新しいCombは共鳴室の影響によって、全然聴いたことのない音を作った。
+少しギターの音とにって居る。
+でも音量は共鳴室のサイズと供に拡大されて居なかった。
+私はまたFacebookでせいかを発表する。
+そしてCombと共鳴室を更に改善する。
+
+PLA材料の構造と発声特性を掌握できるなら、私は新しい楽器を発明できる
