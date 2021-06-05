@@ -1,0 +1,85 @@
+音箱設計有了新的突破，
+我加深了音箱的高度並且把一些邊角的位置變成圓滑的弧形，
+結果音色得到了更進一步的改變，音量也顯著增加，
+再次超越了過去的表現。
+
+我研讀了一份介紹木琴發聲科學的文章，
+並且在yOUTUBE上看了一些樂器發聲學的影片，
+對聲學算是有了更深入的了解。
+這些免費的教學資源清一色都是英文寫成的，
+再年輕的時候價把英文能力打好基礎真的是十分有價值的投資。
+
+我從這些資料中得知音色和音階與樂器結構的關係，
+為了測出我的音樂盒音梳的發聲音階，
+我使用了Linux的Audacity應用程式來分析錄製好的音訊，
+Audacity是一個功能強大的音訊處理軟體，
+能夠用頻譜圖以及傅立葉轉換等方式來將聲音訊號視覺化，
+藉由Audacity的這些功能，我得以看出是作品的音訊特徵，
+目前的音梳其實已經能夠產生類似一般樂器的Harmonic序列，
+只是內部有不少的雜音，而且基音(Fundamental)也不夠明確，
+我製作了許多造型經過微調的音梳，試圖得到最佳的結果，
+如果能夠得到準確的Fundamental，
+我就可以計算出合適的共鳴管長度，
+進而製作出木琴士的共鳴管系統。
+
+這次在Facebook上的實驗報告吸引到了有在玩3D列印的音樂家的注目，
+3D列印的玩家族群其實比我想像的還要廣大，
+他們很明確的指出了基音不明確等問題，
+在下次發布新的成果的時候，我可以知會這些人，並且和他們建立聯繫。
+
+-------------------------------------
+I made some breakthrough on resonator.
+By increasing the depth of the resonator and smoothing some corners of it, 
+the timbre got improved further.
+And the volume is also increased.
+This result again supassed previous version.
+
+I've read a document which explains the science behind a marimba.
+I also watched some videos about acoustic and instruments on Youtube.
+Now I have better understanding in acoustics.
+All these tutorials are recorded in English.
+Building proficiency in English at my early days was an extremely valuable investment.
+
+From those materials I've learnt the relationship between instruments' shapes and their timbre.
+I order to measure the exact pitch of my music box, I used Audacity on Linux to analyze the recorded sound.
+Audacity is a powerful audio software which can turn audio signals into spectrums or vusualize them by Fourior transform.
+Witho these functions, I can detect the features of my test prototypes.
+The current comb can already form up a harmonic serie like common musical instruments.
+But it contains lots of noises and the fundamental is not clean enough.
+I've made many combs which are tweaked in different aspects.
+If I can get correct fundamentals,
+I will be able to calculate the corresponding length of a resonator tube.
+And a marimbe-styled resonator tube system can be made.
+
+I've posted my test results on Facebook groups.
+This time I attracted some musicians who are also into 3D printing.
+The range of 3D printing players is far wider tha I thought.
+---------------------------------------------
+共鳴室の設計について新しい突破が出来た。
+私は共鳴室の高さを増やした。
+そして一部分の角を円弧に変わる。
+その結果は音質がもう一度上昇した、そして音量も増大された。
+これた又前作の品質を超えた。
+
+私一つMarimbaの発声原理を説明する文章を読んだ。
+Youtube で若干の楽器の音科学に関するヴィデオを観た。
+音科学に対してもっと深い認識した。
+これらの教学資源は全て英語で構成されたもの。
+若い頃英語の基礎を作ったことはとても有利な投資と思う。
+
+私は教学から音質と楽器構造との間の関係を知った。
+私の試作品のCombのPitchを測定するため、LinuxのAudacityを使って録音したデータを分析した。
+Audacityは多彩な機能を持つ音データ分析アプリです。
+SpectrumやFourier transformなどの方法で音データを視覚かできる。
+Audacityの機能によって、私は試作品の音の特徴を見える。
+現在使っているCombは既に一般の楽器のようなHarmonic Serieを作れる。
+しかしその中には雑音が混ぜている。
+それにFundamental も明確ではない。
+最善の結果を追求するため、私は微調整されたCombを沢山作った。
+もし正しいFundamentalが出来たら、
+私は適当な共鳴管の長さを計算出来る。
+そしてMarimba式の共鳴管システムを作る。
+
+私はFacebookのグループでスレを作った。
+今回は３Dプリントを使っている音楽家の注意を引いた。
+３Dプリントの使用者の範囲は私の想像以上な広さを持つだな。
