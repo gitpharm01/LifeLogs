@@ -1,0 +1,92 @@
+在Audacity的輔助之下，我得以更有效率的改善音梳的音色與準度，
+有幾個音梳的細部結構可以去影響音的高低，
+我很幸運的找到了C大調的幾個音，
+而且我發現當每個梳齒的音越來越準確的時候，
+他們之間會產生共鳴，產生更加和諧的音色，
+現在的聲音已經更進一步脫離塑膠感了。
+
+至於木琴式的共鳴管系統，我是得到了初步的成果，
+不過中間波折不斷。
+首先我預設音梳會發出C大調的音，並且從中推算出了各個共鳴管的長度，
+但是最長的一管:C4的波長的四分之一的長度高達32公分，
+不可能用3D印表機印出來，
+就算印出來了，整個音樂盒也會變得過度巨大且笨重，
+我決定採用效果較弱的八分之一波長作為管的長度。
+
+接下來我又碰上了一些麻煩，因為我一方面要避免音梳撞上管口，
+另一方面又須要讓管口盡可能的接近音梳，
+距離的拿捏變得十分困難，
+好不容易建好了3D模型，在列印的時候又碰上了擠出不足的情況，
+這次的問題仍然出再擠出機，它的惰輪軸承有汙損的情形，
+在清理之後我成功製作了第一個版本的共鳴管系統。
+
+但是它對音量以及音色的轉變並沒有我想像的那麼大，
+在Audacity的分析結果顯示共鳴管真的能針對特定波長進行強化，
+造成了音訊頻譜圖的平移現象，
+但是這個二分之一長度的共鳴管系統很明顯的存在誤差值，
+我打算先在沒有共鳴管的狀態下測試並建立一個準確的c大調音梳，
+接下來再調整共鳴管。
+
+----------------------------------------------
+Under the assistance of Audacity, I can adjust the tone and timbre of the comb much more efficiently.
+There are several structural details which can control the pitch of a note.
+Luckily, I've found several several notes from C major scale which are accurate enough.
+I also discovered that when more notes of the comb become accurate, they will facilitate the resonance of each other and create more harmonic sound.
+The plastic traits in the timbre is now even lesser.
+
+When it come to the marimba-styled resonator tube system, I've achieved some initial results.
+But I had faced many obstacles.
+First I set the notes in Cmajor scale, and calculated corresponding wavelengths for those tubes.
+But the longest tube, which is for C4, is 32 centimeters long.
+It's impossible to print it with my printer.
+It will also make the music box bulky and heavy.
+I decided to use the shorter version of these tubes.
+
+After that, another problem showed up.
+On one hand I have to prevent the teeth of comb from hitting the tubes. On the other hand I have to get the opening as close as possible to the teeth.
+It became very difficult to decide these distances.
+When the 3D model was finally done, the printer again had some under-extrusion problems.
+The problem is caused by the extruder's passive gear bearing.
+That bearing got dirty and partially stucked by leaked grease oil.
+After cleaning the bearing, I finally got the resonator tube system printed.
+
+However, its effect on timbre and volume was not as good as I've imagined.
+The sound analysis under audacity showed that it can amplify specific wave lengths and caused shifting in spectrum.
+But this half-sized resonator tube system apparently hve some bias.
+I'm planning to make an accurate comb in C major scale.
+And then adjust the tube system.
+
+----------------------------------------------------
+
+Audacityの分析機能を頼って、私はCombのTimbreについての改善をもっと効率的な形で行われた。
+Combの音の高さを決める細部構造を複数見つけた。
+幸運とはいえることは私が既にC　Major　Scaleの中にあるNoteを若干作った。
+それにCombのNoteがだんだん正しくなると、その間にも共鳴が出る。
+そしてもっと調和が取れた音が出られる。
+今の音には更にプラスチックのようなノイズが排除された。
+
+Marimba式の共鳴管システムについて、最初の成果を出来た。
+しかしその過程は順序ではなかった。
+先ず私は全ての音をCmajorに設定した、
+そして相応しい波長から共鳴管の長さを計算した。
+しかし一番長いの一本、C4の長さは３２cmぐらい。
+私のプリンターで作ることは不可能だ。
+たとえ作れるでも、オルゴールはオーヴァサイズの状態になる。
+私はその長さの半分を使うと決めた。
+
+そして又面倒なことがあった。
+一方で私はCombの歯を共鳴管の開け口にぶつからない様にしなければならない。
+もう一方で開け口をできる限りCombに近づけさせたい。
+距離を決めることは大変難しくなった。
+
+ようやく３Dモデルを完成させたのに、プリントの最中Under-Extrusionが又現れた。
+今回の原因は同じくExtruderにあっだ。
+Passive gearのベアリングに汚れがあった。
+清潔したあと、第一版の共鳴管システムを完成した。
+
+だが音量とTimbreに対する効果が予想とは違っていた。
+Audacityの分析によると、共鳴管は特定の波長を強化できるが、
+五冊が有る。
+それに音量の増幅が小さすぎる。
+私は先ず一本の完璧なC major scale　Combを作る。
+そして共鳴管を調整する。
