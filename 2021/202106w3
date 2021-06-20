@@ -1,0 +1,91 @@
+﻿C大調的音梳已經越來越準了，
+而且我似乎抓到了微調音色的一部分訣竅，
+但是有一些高音的部分不論怎麼調都調不準，
+在基音與泛音間的比例也十分怪異，
+至今我已製作了數十種的音梳，希望能快點找出最準確的比例。
+
+最近幾個版本的音梳在使用樂譜捲軸演奏時已經有不錯的表現，
+音色和最初的版本相比可說是天差地遠，
+前兩個月的試作品的表現都遠不如Thingiverse上的版本，
+花了三個月的時間開發這個作品算是有一定程度的收穫了。
+
+目前有三個目標要達成，
+首先是把C大調的音梳完成，第二是製作完整版的supermario樂譜捲軸，
+在這一方面我打算要採用Openjscad來製作，
+jscad的v2終於正式上線了，但是他的語法和V1相差甚遠，
+我必須花一些時間適應它。
+然而建立一個能夠自動完成樂譜卷軸的系統有其必要性，
+我之前製作的版本都是在Blender底下手工製作的，
+光是要完成三、四個小節就要花上大量時間，
+如果自動樂譜軸生成系統成功的話，將會在未來省下大量的時間。
+
+第三個目標是製作完整長度的木琴式共鳴管系統，
+之前的二分之一長度的共鳴管完全沒有微調的空間，
+無法調整到最有效的長度，效力遠不如預期，
+我正在測試一個能在兩公分範圍內為調管身長度的機構，
+並藉此把完整長度的共鳴管系統拆分成可以輕鬆列印的大小。
+-----------------------------------
+
+
+My music box comb for C major scale is becomming more and more accurate.
+I seems to have found some tricks for fine tuning its timbre.
+However, there are several high-pitched notes that could not be tuned to the right place.
+They also present weird fundamental/ overtone ratio.
+Till now, I've made dozens of different combs.
+I hope I can find the most accurate design as soon as possible.
+
+When played with the note cylinder, recent music box versions were performing well.
+Their timbre have distinct difference between my early works.
+Those test prints were far worse than existing models on Thingiverse.
+I finally got some results from this three-month-long development.
+
+There are three goals that I want to achieve.
+The first is to complete the comb in C major space.
+The second is to make a complete note cylinder for Super Mario's theme.
+I'm considering of using openJscad V2, which is finally released, on this project.
+
+But its symtax have some difference between V1.
+I need some time to get used to it.
+Yet it's necessary to establish an automatic system which is capable of generating note cylinders.
+I had manually crafted all my note cylinders.
+It tooke me lots of time for only three to four measures of beats.
+If the system succeeded, I can save plenty of time in the future.
+
+The third goal is to make a full-length marimba-styled resonator tube system.
+The previous version which has only half of the length can't be tuned to the most effective length.
+And thus it failed to produce significant result.
+I'm testing a structure which is capable of changing length in a range of two centimeters.
+I will separate the tube system with this new structure and make the parts easily printable.
+----------------------------------------------
+
+CMajorのCombの音は益々正しくなっている。
+それに私はすこしTimbreを調整するコツを掌握したようだ。
+しかし有る高い音の部分はどうしても正確になれない。
+FundamentalとOvertoneとの頻率比も変だ。
+今まで私は数十種のCombを作った。
+一刻も早く一番正しいCombを作りだい。
+
+最近作ったCombはNoteCylinderで演奏した際は良いパフォーマンスを出た。
+Timbreは最初のヴァーションと比べれば全然違うものとはいえる。
+最初の二ヶ月間で作った試作品はThingiverseにあるモデルすら及ばない。
+三ヶ月の時間を掛けて、ようやく成果を得た。
+
+今は三つの目標がある。
+その一はC MajorのCombを完成させること。
+二つ目は完全版のSupermario のNoteCylinderを作ること。
+私はOpenjscadを使うと思う。
+JscadのV2は遂に実装された。
+しかしその文法はV1と違っている。
+けれど自動的にNoteCylinderを生成できるシステムが必要だ。
+私が製作したNote Cylinderは全てBlenderで人力で作ったものだ。
+四つのMeasureを完成するには大量な時間が掛かる。
+もし自動化出来るなら、未来で数え切れない時間を節約できる。
+
+見つめの目標は完全な長さを持つMarimba式共鳴管システムを作ることだ。
+前の試作品は半分だけの長さを持つ、
+そして一番有効な長さになれない。
+その故に効果は予想より低い。
+私はある構造を試している。
+それは管の長さを二センチメータルの範囲内で調整できる。
+これを使って共鳴管の長さを微調整出来る。
+もし成功すれば、共鳴管を複数のパーツに分解して、楽でプリントできるサイズに変えろう。
