@@ -1,0 +1,90 @@
+再開始列印之前，我抓到了共鳴管3D模型的一些破圖和缺失，
+並且及時修正過來，
+它的主要管身花了約六小時才列印完成，
+這次的列印品質算得上是良好的，
+但這個共鳴管系統還需要仔細的調校才能發揮駐波的威力，
+目前他的效果還遠不如原本的音箱。
+
+我另外印了一個新的音箱，
+箱體內部增加的支架構造成功的避免了音未懸空列印導致的不平整現象，
+平滑的音箱內部讓音樂盒的音色表現更加清澈響亮。
+
+C大調音梳的開發也有進展，現在一些高音部位的音也開始變準了，
+聽起來真的沒有多少塑膠的成分，
+但它還需要更多的調整才能達到最完美的狀態。
+
+我已經漸漸熟悉JSCAD V2了，
+它的語法遠較V1來得嚴謹，而且增加了更多的建模功能，
+目前我完成了樂譜捲軸的基礎結構，接下來要作的內齒輪會有些難度，
+因為我在Blender底下建模的時候都是依靠o.t.Vinta網站的自動生成腳本，
+這回要完全靠自己寫出正確的齒輪腳本會花上不少工夫，
+不過我有找到scad的腳本作為範例。
+
+完成內齒輪的話，就只剩下解析樂譜並且添加音符撥齒的功能了，
+這是重複性十分高的作業，利用迴圈結構應該就可以解決，
+主要的問題是如何去決定撥齒的間距，
+太過於密集的話是會讓連貫的短音因為重複撞上撥齒而產生不諧和的噪音的。
+
+-------------------------------------------
+Befor the printing started, I found several flaws and broken faces in th 3D model of resonator tube set.
+And I corrected them in time.
+It took 6 hours to print.
+The quality of this print is good.
+But it requires detailed tuning to gain the power of standing waves.
+Until now, its effectiveness is still far lesser than the original resonance chamber.
+
+Additionally, I printed a new resonance chamber.
+Its interior surfaces were fortified with supportive structure.
+And this desing successfully prevented hanged surfaces from becomming rough or broken.
+The smooth internal surfaces created more clear and vivid sound.
+
+The comb in C major space also got some improvement.
+Now several notes on high pitch also became accurate.
+The plastic feeling in the timbre is now scarce.
+But it requires more adjustments to reach the best condition.
+
+I'm getting more used to Jscad V2.
+Its symtax is much more rigorous and have more modeling functions.
+I've completed the script for basic shape of a note cylinder.
+The next part will be a bit more difficult though.
+It is becouse that I rely on scripts from O.T.Vinta.com to generate all my gears.
+This time I have to write a script for a correct internal gear set all by myself.
+This will take some time and effort.
+But I've found a scad script for referance.
+
+When the internal gears are done, the remaining job is to naalyze a sheet music and add note bumps on to the cylinder.
+This is a repeating job and can be handled with a loop.
+The biggest challenge lies in the shortest distance between two bumps.
+If the bumps get too closed to each other, the combs teeth will hit the bump while oscillating and cause noises.
+
+--------------------------------------------------------
+共鳴管をプリント始めた前で私はモデルの中に潜んでいた破損を見つけた。
+そして直ぐにそれを修正した。
+今回のプリント品質は良好とは言える。
+しかしこの共鳴管システムには丁寧な調整がないと、
+Standing Waveの威力が出ない。
+今回のシステムの効果はまだ共鳴室より弱かった。
+
+新しい共鳴室をプリントした。
+箱内部に加えたサッポト構造は宙に浮く平面の破損を防いだ。
+平滑な内部はオルゴールのTimbreをもっと清らかになる。
+
+Combの開発について、進展もある。
+今なら高音の部分もだんだん正しくなった。
+プラスチックのような音はとても薄くなった。
+しかし一番ただしいい音を出るためには更に調整する必要がある。
+
+Jscad V2を少し馴染んだ。
+このヴァージョンのSymtaxはV1より厳しい。
+しかも新しいモデル機能も搭載されている。
+現在はCylinderの基本構造を完成した。
+次からの作業は少し難しくなる。
+前のCylinderは全てBlenderでO.T.VintaのScriptを頼って作っただから、
+自力で正しいInternal gearを生成するScriptを作るには時間がかかるだろう。
+でも私はScadのsc利pとぉ見つけた。
+これは参考になりそう。
+
+Internal gearを完成すれば、後はSheet musicの解析とノートをCylinderにつけることだけ。
+これは同じことを繰り返すだけの作業だから、Loopで解決できるだろう。
+問題になるのはノートとノートとの間の距離だ。
+短すぎるとCombの歯は次のノートを打つかって、異音が出る。
