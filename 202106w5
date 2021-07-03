@@ -1,0 +1,85 @@
+經過實裝測試之後，我決定要放棄共鳴管系統，
+因為它的效果還是太弱了，而且調音方面也十分困難，
+最關鍵的因素在於共鳴管的開口面積太小了，
+只有一小部分的音波能夠進入。
+
+c大調音梳的開發已經進入最終階段，
+13個音當中只剩下3個左右的音需要再調整，
+當音準的問題解決之後，下一個目標是製作雙重音梳系統，
+讓音樂盒能同時擁有同音階的兩個梳齒，
+這樣子的設計能夠解決短促的重複音變成噪音的問題，
+只要在生成樂譜軸的JSCAD腳本設定好就能實現這個設計。
+他還有另一個好處，就是可以大幅度增加一個樂譜捲軸可收錄的樂譜長度，
+因為梳齒之間所隔的角度可以變得更小。
+
+在樂譜捲軸的JSCAD腳本開發方面，我則是吃了不少苦頭，
+首先我在翻譯SCAD腳本時碰上了大量的問題，
+因為齒輪腳本設計部只需要程式設計的知識，
+更需要物理與工業設計方面的訓練，
+我不只一次碰上完全無法理解的工程數學算式，
+就連從JSCAD V1的腳本進行移植都無法完成，
+最後我退而求其次，改成IMPORT讀取已經建模完成的空捲軸檔，
+但是在使用純JSCAD腳本讀取STL檔的時候又碰上了途徑上的問題，
+經過思考以後，我放棄一次就把系統做到位，
+先用FOLDER PROJECT的方式來進行開發，
+我已經以這個方式完成了音符撥齒的自動建模腳本，
+接下來搭配齒輪的STL檔案，樂譜捲軸生成系統的初版就算大功告成。
+
+------------------------------------------
+After the experiment was finished, I decided to abandon the resonator tube system since its effect was too weak.
+Besides, it's difficult to tune.
+The most crucial problem was that its openings of tubes are too small.
+Only a small fraction of sound wave can enter the tubes.
+
+Development of C major comb is in its final stage.
+Within 13 notes, only 3 notes need to be tuned further.
+When all the notes are correct.
+The next goal is to create a dual-comb system.
+This will allow the music box  to possess two teeth of one specific note.
+Such design can solve the colliding problem between the comb tooth and note bump.
+once the jscad script for generating note cylinders is done, this feature can be implemented.
+This design has another advantage, which is reducing the required cylinder size for one song by allowing smaller bump intervals.
+
+I faced a ton of difficulties when I was developing the script of note cylinder.
+First I got repeatedly stucked while translating scad script into jscad.
+This is because it takes not only knowledge in programming but also physics and industrial design.
+I got stopped by uncomprehensible mathmatical problems again and again.
+Even when I find a jscad script for V1, I was unable to translate it for V2.
+
+In the end I gave up and tried to work around this problem by importing existing STL files for empty cylinders.
+But I faced some path errors while importing these files.
+Eventually I decided to give up the idea of completeing the online system in the begining and develop the script with folder project.
+I've done the automatic bump-adding script.
+If the gears can be attached to the cylinder, the prototype will be ready.
+----------------------------------------
+
+実験の後、共鳴管システムを放棄することをきめた。
+それは共鳴管の効果が小さい過ぎるだから。
+長音の方も難しい。
+一番重大な原因は管の開け口の面積が小さ過ぎるだから。
+ほんの少しな音波だけしか管に入れる。
+
+C major scale のCombの開発は最終段階に入った。
+十三本の音の中で三本ぐらいの音だけは調整が必要なる。
+音の正しさを確保したら、次の目標は二重Combシステムだ。
+オルゴールに同じ音を出す歯を二つ与える。
+こうすると、短すぎる音が異音になる問題を解決できる。
+Cylinderを生成するJscadScriptを設定すればこの設計が実現できる。
+この設計にはもう一つのメリットがある。
+それは同じサイズのCylinderに収録できる曲の長さを増大することだ。
+原因は二つのNote bumpの間の距離が短くなるだから。
+
+Note CylinderのJscad script開発について大変なことは一杯有った。
+先ずScadScriptを通訳した途端問題がでって来た。
+ギアを生成するScriptにはプログランの知識だけではなく、
+物理と工程設計の知識も必要だ。
+私は何度も理解できない数学演算式にともれた。
+Jscad V1のScriptからV2への移植もうまくいかない。
+
+最後私は次善の策をとった。
+ImportでCylinderのSTLファイルを読み込もうとしていた。
+しかし完全にScript でファイルを読み込むときの又Path errorが発生した。
+考え直した後、私は完全なScriptを作ることを諦めた。
+FolderProjectの形で開発を行う。
+私は既にこの方法でNoteBumpをつけるScriptを完成した。
+後はギアを付けたら、第一版のシステムは完成だ。
