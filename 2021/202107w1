@@ -1,0 +1,85 @@
+最初版的樂譜捲軸生成腳本完成了，
+他能夠控制捲軸的尺寸以及音符撥齒的間距，
+並且生成正確的模型檔，
+不過要從STL檔讀取齒輪結構並且和撥齒進行布林運算所需的資源驚人，
+有時要花上一分鐘以上的時間才能完成，
+如果要在正式商業運轉時保持Jscad在用戶端完成模型運算的特性，
+勢必要提高用戶端的電腦設備需求。
+
+從腳本生成的STL檔案順利的完成切片並且由印表機印出，
+原本我以為半徑40mm的捲軸會花上我大半天才能印完，
+但是實際上只花了三小時左右就完工了，
+它和音樂盒組裝並進行演奏的小果也符合預期，
+這證明這個設計確實能夠實現不同尺寸樂譜捲軸之間的切換。
+
+然而這次的實驗結果也顯示出了一些問題，
+最明顯的是音色的問題，
+之前我在測試的時候就有意識到，
+當我把記錄的音訊用較低音量撥放時，原本明確的音階會瞬間消失，
+只剩下單調的敲擊聲，
+這意味著音梳的特色音頻訊號必須得到更進一部的強化，
+關於這一點我打算從改進共鳴箱的結構和更改撥齒與梳齒間的夾角著手。
+
+這次在facebook社團的發表得到了不錯的反應，
+有的版友建議我朝著Wintergram的創作方向去發展，
+不過我還是打算按照原訂計畫，
+先健立一個線上自助建模平台，以音樂盒為中心用最小規模開始做起，
+找到一群對這個服務有高度需求且忠誠度高的顧客，
+接下來充分的和這些核心客群溝通，
+找出未來的業務拓展方向。
+
+----------------------------------------
+The initial prototype script for Note cylinder is done.
+It can generate cylinders with customizable size and bump distances.
+The generated cylinder model had right sizes.
+But it costs enormously when it comes to computational cost for boolean operations between the loaded gear model and the note bumps.
+Sometimes it took more than one minute to finish.
+In order to keep this Jscad feature of generating models on client side, the clients must have high spec computers.
+
+The generated STL files were sliced with no significant error and printed by my delta printer.
+I thought it might take a lot of time to print a cylinder with 40mm radius.
+But it actually took only three hours.
+Its performance while being played with the music box met what I had expected.
+This prooves that my design can indeed play songs with different lengths.
+
+However, this experiment also revealed some problems,
+The most obvious one is the timbre.
+I've noticed this problem in early experiments.
+When the recorded sound was played with lower volume, the distinctive pitch of sounds will instantly fad and leaves only knocking noises of plastics.
+This means the characteristc sound signals of the comb must be fortified further.
+I'm Planning to achieve this by improving the resonace chamber and changing the contact angle of the teeth and bumps.
+
+My post on Facebook was an success.
+Some people suggested me to develop this project like a famous creator called Wintergram.
+But I still decided to follow the original plan of building an online modeling platform.
+I'll start from the smallest scale and find a group of customers who are enthusiastic to my services.
+And I have to communicate with them to find the direction for future development.
+
+---------------------------------------
+第一版のNoteCylinder生成用JscadScriptは完成した。
+これは生成されたCylinderのサイズとBumpとBumpとの間の距離を調整できる。
+Scriptから生成されたモデルのサイズとスペックは正しい。
+しかしSTLファイルからギアのモデルを読み込むとBumpとのBoolean Operationは大量な計算資源が掛かる。
+たまには一分間以上掛けてモデルを生成する。
+もし正式運営の時”ClientSideでモデル生成する”と言うJscadの特性を維持するなら、Client Sideのコンピューターの必要なスペックは高くなります。
+
+STLファイルは順序にCuraにSliceされて、私のDelta printerにプリントされた。
+私は半径40CMのCylinderがきっと半日ぐらいかかると思ったが、
+実際は三時間で完成させた。
+演奏した頃の効果も予想と違っていなかった・
+これは違いサイズのCylinderから自由に転換する機能を証明した。
+
+しかし今回の実験結果は一つの問題を示した。
+それはTimbreに関する問題だ。
+この問題は前の実験で私は少し気づいた。
+記録された音を弱い音量で再生するとき、明確だった音の高低差は瞬間消える。
+残したのは単調なノイズだけ。
+これはCombの特徴波長に更に強化する必要があると意味す。
+この点について、私は共鳴室の構造改善とBumpとCombとの間の角度を変わること、この二つの方法で解決すると思う。
+
+今回の実験結果はFacebook groupでいい反応がでって来た。
+ある人はWintergram見たいなプロジェクトを参考すると助言した。
+しかし私はやはり元の計画を維持する方がいい。
+オルゴールを中心として一番小規模なモデル生成サイトを作る。
+そしてこのサービスに高い忠誠度を持つ使用者を探し出す。
+この様な使用者たちと対話し、サーヴィスの範囲を拡大する。
