@@ -1,0 +1,87 @@
+我嘗試了數種造型的共鳴室設計，將整體造型變得更加接近圓弧狀，
+週邊的外壁也修改成弧形，這樣子的共鳴室似乎能讓聲響變得更加持久，
+我另外製作了一個擴音器造型的集音裝置，
+雖然用人耳聽不出明顯差異，但是在Audacity底下明顯的延長了聲音的持續時間，
+並且稍微的增加了音量的最大值。
+
+但我也碰上了一個新問題:共鳴室自身的共振頻率，
+這個問題在一開始我採用共鳴室結構的時候就存在了，
+只是當時我沒有注意到而已，
+當共鳴室的共振頻率與音梳的音頻接近時，
+音梳的音會被大幅度的轉化，
+偏向共鳴室的頻率。
+這個現象在Audacity的頻譜途分析之下變得顯而易見，
+我設計的數種共鳴室都有他們自己特殊的共鳴頻率，
+造成了不同區段的音被轉化，
+在Audacity底下顯示出很明顯的強大波峰訊號。
+
+但是這個問題是可以被解決的，
+因為我可以透過Helmholtz共振的公式來調整共鳴室的頻率，
+共鳴室的體積與開口大小都能夠左右共振頻率。
+我的目標是把共振頻率壓低到接近A2~A3的範圍，
+小提琴和吉他的共鳴室共振頻率也是偏低的。
+
+在研究共鳴室結構的過程中，我還有一些意外的收穫，
+共鳴室開口的設計其實可以讓樂器有更加強大的音響效果，
+小提琴的F型開口就是一種累積數百年改良後的結果，
+我準備在接下來的試驗加入這一個設計，
+看看能否得出更佳的音色。
+
+--------------------------------------------------
+I've designed and made several new shapes of resonance chambers.
+Their shapes become ovaler and have curved rim walls.
+Such design seems to make the sound lasts longer.
+I also made a cone-shaped device to concentrate the sound.
+Though I can't detect distinctive difference, the visualized audio signal under Audacity shown that prolonged sound was produced.
+The maximum volume was also increased slightly.
+
+But I also got into a new problem: the frequency of resonance chambers.
+This problem already existed when I started using resonance chambers.
+I just didn't know its presence.
+When the tones of the comb teeth are close to the chamber's frequencies, they will be significantly shifted towards the chamber's frequencies.
+This phenomenon is evident when comparing spectrums of different chamber designs.
+All of my designs have their own unique frequencies and caused deviation on different frequency interval of the spectrum.
+Such deviation is shown in Audacity with a strong peak signal.
+
+But this problem is possible to be solved.
+With equations from Helmholtz resonance, I can adjust the chamber's frequency by changing its volume and opening sizes.
+My goal is to lower chamber's frequency to A2~A3.
+The guitars and violins have chambers with low frequencies , too.
+
+When I was studying resonance chambers, I got something even more valuable.
+The shapes of the chamber's opening can also determine the characteristics of it.
+The f-shaped holes of violins are in fact a product which has evolved for several hundred years.
+I'm going to add this design into next chamber model and see if I can get even better Timbre.
+
+------------------------------------------
+新しい共鳴室の設計を幾つ作った。
+その造形は前より丸いなった。
+周辺の外壁もアークのようなった。
+このデザインは音の続く時間を長く延びれるようだ。
+
+ちなみに円錐状の構造を作った。
+これはCombから出た音波を集中できる。
+私の耳で区別できないが、
+Audacityの分析により、音の続く時間が長くなった。
+そして音量の最大値も少し増えた。
+
+しかし私は新しい問題を見つけた：共鳴室自身の共振頻率による音の干渉。
+この問題は私が共鳴室を採用したごろから存在していた。
+私はそれを気づいたことがなかっただけだ。
+共鳴室の頻率とCombの音の頻率が近くなると、
+Combのおとは深刻な偏移が起こる。
+この現象はAudacityのSpectrum分析で明らかに見える。
+私が設計した共鳴室はそれぞれの共振頻率を持っている。
+そして違い区域の音に影響を与えた。
+AudacityのSpectrumで同じ頻率の強い信号が見える。
+
+だがこの問題は解決できる。
+Holmholtz共振の公式で共鳴室の共振頻率を調整できる。
+共鳴室の体積と開け口の面積は共振頻率を変える。
+私の目標はそれをA2~A3位の位置へ降りる。
+Violinとギターの共鳴室の共振頻率も低いんだ。
+
+共鳴室の構造を研究した過程で私は予想外の収穫を得た。
+共鳴室の開け口の設計は楽器にもっと強い音声効果を与えられる。
+ViolinのF型開け口は数百年間改良された結果だ。
+私はこれから実験作にこの構造を加える。
